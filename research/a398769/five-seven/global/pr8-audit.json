@@ -1,0 +1,94 @@
+{
+  "base_commit": "7b0151105c481b227b26c6198186500ba63a2bd9",
+  "reviewer": "independent certificate_audit agent",
+  "finite_coverage": {
+    "all_lengths_inclusive": [
+      1,
+      10000000
+    ],
+    "residual_odd_lengths": [
+      5,
+      9999999
+    ],
+    "residual_odd_length_count": 4999998,
+    "extension_beyond_10000000": false
+  },
+  "reproduction": [
+    {
+      "command": "python3 research/a398769/five-seven/settlement/verify.py --output /tmp/a398769-audit-lifting.json",
+      "exit_code": 0,
+      "recorded_elapsed_seconds": 2.571,
+      "deterministic_receipt_matches_merged": true
+    },
+    {
+      "command": "python3 research/a398769/five-seven/settlement/verify_fixed.py --output /tmp/a398769-audit-independent.json",
+      "exit_code": 0,
+      "receipt_matches_merged": true
+    },
+    {
+      "command": "python3 research/a398769/five-seven/certificates.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 research/a398769/five-seven/log_bounds.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 -O research/a398769/five-seven/settlement/verify.py --max-length 301 --output /tmp/a398769-audit-small-optimized.json",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 research/a398769/five-seven/settlement/verify_fixed.py --limit 23 --exponent 2 --direct-limit 23 --output /tmp/a398769-audit-control.json",
+      "exit_code": 0,
+      "expected_truncated_survivors": [
+        [
+          9,
+          3
+        ],
+        [
+          15,
+          3
+        ],
+        [
+          17,
+          15
+        ],
+        [
+          21,
+          3
+        ],
+        [
+          23,
+          15
+        ]
+      ]
+    }
+  ],
+  "sources_sha256": {
+    "lift_sieve.cpp": "57e3f0decf99e649c0e69fc5d01bb24896cc08659682c5c65a3f4be2a2ed27b2",
+    "verify.py": "10aa5a72e469eb105d7dfb30e0c3efab8bbc81491df26f1cabc07c5331a7a472",
+    "verify_fixed.py": "4f90a31b258898a442eb66f8ad625ab84cb37cc3b6e8480b89a9e2bff8d44512"
+  },
+  "findings": [],
+  "scope": "Exact finite arithmetic and ordinary proof/code review; no new global cutoff and no Lean claim.",
+  "quotient_positive_controls": [
+    {
+      "L": 7,
+      "i": 3,
+      "synthetic_A": 311031,
+      "K": 400,
+      "exact_q": 9,
+      "q1": 9,
+      "q2": 329
+    },
+    {
+      "L": 11,
+      "i": 9,
+      "synthetic_A": 433015873,
+      "K": 40000,
+      "exact_q": 63,
+      "q1": 64,
+      "q2": 63
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "all_length_exclusion": false,
+  "direct_odd_lengths_5_through_301": 149,
+  "direct_residual_pairs": 3775,
+  "fixed_modulus_controls": 386,
+  "fixed_modulus_controls_sha256": "c017ad3ff1dd624ea52f2f808f9aa71b5e20137e24a5dc187cf31ec13e9ca0ff",
+  "full_witnesses": [],
+  "global_cutoff": null,
+  "large_fixed_modulus_examples": [
+    {
+      "L": 15015,
+      "M": 1483241760000,
+      "T": 2058,
+      "gcd_PS_M": 60025,
+      "i": 6219,
+      "q_mod_M_over_gcd": 30373
+    },
+    {
+      "L": 18703685,
+      "M": 130925795,
+      "T": 42,
+      "gcd_PS_M": 245,
+      "i": 6234579,
+      "q_mod_M_over_gcd": 461067
+    }
+  ],
+  "large_sum_only_control": {
+    "F_residues": {
+      "343": 245,
+      "49": 0,
+      "7625597484987": 0
+    },
+    "L": 121041229921,
+    "S": 847288609443,
+    "certifies_entire_length_exclusion": false,
+    "i": 40582608819,
+    "n_mod_343_from_digit_blocks": 294,
+    "n_mod_S_from_digit_blocks": 0,
+    "original_problem_witness": false,
+    "v7_F": 2
+  },
+  "new_certified_interval_above_10000000": null,
+  "regression_F_23_15": {
+    "mod343": 245,
+    "mod49": 0
+  },
+  "schema": 1,
+  "script_sha256": "9b231637afc214795afdb58f6cc0a397cdf11f6b45b47caead46cea34a192021",
+  "sum_only_control": {
+    "L": 1225,
+    "S": 8571,
+    "S_remainder": 0,
+    "full_remainder_zero": false,
+    "i": 417,
+    "v7_F": 3
+  },
+  "sum_only_pairs_through_301": 35,
+  "synthetic_positive_controls": [
+    {
+      "L": 7,
+      "i": 3,
+      "original_problem_witness": false,
+      "q": 9,
+      "q1": 9,
+      "q2": 329,
+      "synthetic_A": 311031
+    },
+    {
+      "L": 11,
+      "i": 9,
+      "original_problem_witness": false,
+      "q": 63,
+      "q1": 64,
+      "q2": 63,
+      "synthetic_A": 433015873
+    }
+  ],
+  "two_quotient_matches_direct": true
+}

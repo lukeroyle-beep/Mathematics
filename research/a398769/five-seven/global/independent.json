@@ -1,0 +1,57 @@
+{
+  "block_comparisons": 18120,
+  "direct_digit_pairs": 3020,
+  "filtered_lengths_through_301": 119,
+  "full_witnesses": [],
+  "global_cutoff": null,
+  "large_sum_only_control": {
+    "L": 121041229921,
+    "S": 847288609443,
+    "i": 40582608819,
+    "n_residues": {
+      "343": 294,
+      "49": 0,
+      "847288609443": 0
+    },
+    "original_problem_witness": false,
+    "whole_length_exclusion": false
+  },
+  "method": "independent exact division and decimal-block composition",
+  "new_interval_above_10000000": null,
+  "script_sha256": "237819e4edce946d4a42d4ec40c054b4d537582cdde012e6c9b16c8d811cda15",
+  "synthetic_positive_controls": [
+    {
+      "L": 7,
+      "candidates": [
+        9,
+        329
+      ],
+      "exact_q": 9,
+      "i": 3,
+      "original_problem_witness": false,
+      "synthetic_A": 311031
+    },
+    {
+      "L": 11,
+      "candidates": [
+        64,
+        63
+      ],
+      "exact_q": 63,
+      "i": 9,
+      "original_problem_witness": false,
+      "synthetic_A": 433015873
+    },
+    {
+      "L": 17,
+      "candidates": [
+        50,
+        49
+      ],
+      "exact_q": 49,
+      "i": 15,
+      "original_problem_witness": false,
+      "synthetic_A": 556734693877551
+    }
+  ]
+}
