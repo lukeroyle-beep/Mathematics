@@ -5,3 +5,5 @@ Lean proofs use the pinned toolchain and Mathlib dependency at the repository ro
 The [Stage 2 counterexample restrictions](research/a398769/stage2/README.md) apply to all decimal digit lengths. The [Stage 4 reduction](research/a398769/stage4/README.md) treats numbers whose digits are all 3 or 9.
 
 The [Stage 5 checkpoint](research/a398769/stage5/README.md) proves that a counterexample without a 7 uses only 3 and 9, and independently extends the finite search bound to `n < 10^24`.
+
+The [two-five audit](research/a398769/five-seven/README.md) excludes position `i=3` at every length and proves that only finitely many `{5,7}` candidates remain. These analytic deductions are ordinary proofs; Lean checks the preserved at-most-two-fives and no-single-five restrictions. No numerical cutoff or complete `{5,7}` exclusion is claimed.

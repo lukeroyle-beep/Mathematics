@@ -1,0 +1,26 @@
+{
+  "observed_at": "2026-11-24T20:09:32.649859+00:00",
+  "stage5_commit": "da3c28701e44b30b801ffd27a13a88f83472ebf3",
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "../five-seven-follow-up/FiveSeven.lean"
+  ],
+  "exit_code": 0,
+  "seconds": 1.327,
+  "source_sha256": "e9981c96e509cf964df8348097a3bee0ddd128d5e3225a5417bf30bc528636f6",
+  "output": "'A398769.FiveSeven.atMostTwoFives' depends on axioms: [propext, Classical.choice, Quot.sound]\n'A398769.FiveSeven.notExactlyOneFiveWithSeven' depends on axioms: [propext, Classical.choice, Quot.sound]\n'A398769.FiveSeven.notExactlyOneFive' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "formalized": [
+    "atMostTwoFives",
+    "notExactlyOneFiveWithSeven",
+    "notExactlyOneFive"
+  ],
+  "ordinary_proof_only": [
+    "zero fives exclusion",
+    "exactly two fives and positional restrictions",
+    "exact residual divisibility",
+    "fixed-power-of-seven obstruction limitation"
+  ],
+  "full_five_seven_exclusion_proved": false
+}
