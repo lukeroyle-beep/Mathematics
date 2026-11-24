@@ -80,11 +80,17 @@ Mac GMP 6.3.0 is already under `/opt/homebrew`; no package installation is done
 by these scripts. `GMP_PREFIX` overrides that prefix, `CXX` the compiler, and
 `A398769_BUILD` the temporary build directory (default
 `/private/tmp/a398769-stage4-build`). Run from the repository root, without
-Python's `-O` option:
+Python's `-O` option. To repeat the computation, create an empty directory for the
+new build, checkpoints and audit records. Keep this shell open for the commands
+below. The published checkpoints in this checkout are already complete.
 
 ```sh
-python3 research/a398769/stage4/search/search.py build
-python3 research/a398769/stage4/search/search.py validate --output research/a398769/stage4/search/validation.json
+search_dir=research/a398769/stage4/search
+run_dir=$(mktemp -d)
+export A398769_BUILD="$run_dir/build"
+cp "$search_dir/search.py" "$search_dir/search.cpp" "$search_dir/audit_results.py" "$run_dir/"
+python3 "$run_dir/search.py" build
+python3 "$run_dir/search.py" validate --output "$run_dir/validation.json"
 ```
 
 Validation enumerates **all 131,070 words over {3,9} at lengths 1 through 16**
@@ -104,15 +110,14 @@ to satisfy the original P(n)S(n) condition. An always-zero implementation fails
 the controls. Node and time limits must produce `limited`, and a second run
 over completed checkpoint files must preserve them byte for byte.
 
-**Commit and push the validated implementation and these commands before the
-following benchmarks or large runs.** Record that remote commit in the result
-report. Representative bounded benchmarks include the middle count L=75,b=39
-and the much larger L=75,b=12 and b=21 traversals:
+The optional benchmark includes L=75,b=39 and the larger L=75,b=12 and b=21
+traversals. The full run and audit use the same directory as validation.
 
 ```sh
-python3 research/a398769/stage4/search/search.py benchmark --seconds 3 --output research/a398769/stage4/search/benchmarks.json
-python3 research/a398769/stage4/search/search.py run --case-seconds 120 --total-seconds 1800
-python3 research/a398769/stage4/search/search.py summarize --output research/a398769/stage4/search/coverage.json
+python3 "$run_dir/search.py" benchmark --seconds 3 --output "$run_dir/benchmarks.json"
+python3 "$run_dir/search.py" run --case-seconds 120 --total-seconds 1800
+python3 "$run_dir/search.py" summarize --output "$run_dir/coverage.json"
+python3 "$run_dir/audit_results.py" "$run_dir" --output "$run_dir/independent-audit.json"
 ```
 
 Repeat `run` to skip all completed cases and retry only unfinished ones.
@@ -120,8 +125,8 @@ Optional case limits bound resources and never certify exhaustion. Increase
 the limit after checking timings, or use zero (the default) for no limit:
 
 ```sh
-python3 research/a398769/stage4/search/search.py run --only-length 75 --b 12 --case-seconds 600
-python3 research/a398769/stage4/search/search.py run
+python3 "$run_dir/search.py" run --only-length 75 --b 12 --case-seconds 600
+python3 "$run_dir/search.py" run
 ```
 
 `--results PATH` selects a separate result directory. Each
@@ -145,7 +150,7 @@ witness is recorded.
 The generic engine can also be invoked directly:
 
 ```sh
-/private/tmp/a398769-stage4-build/search 9 3 17
+"$A398769_BUILD/search" 9 3 17
 ```
 
 Its arguments are `L B ODD_DIVISOR [MAX_NODES] [MAX_MILLISECONDS]`; omitted or
@@ -156,11 +161,11 @@ digits 5 or 7 and not the unrestricted A398769 conjecture.
 
 ## Audit retained results independently
 
-After reproducing the completed run, verify every count case, every exclusion
-and every traversal count without importing the search driver:
+To audit the published Mac records in place, run this from the repository root.
+It reads the committed validation record, checkpoints and coverage report.
 
 ```sh
-python3 research/a398769/stage4/search/audit_results.py --output /private/tmp/a398769-independent-audit.json
+python3 research/a398769/stage4/search/audit_results.py
 ```
 
 The auditor uses a separate level-by-level count calculation and checks source
