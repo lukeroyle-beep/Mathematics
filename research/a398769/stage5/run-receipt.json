@@ -1,0 +1,194 @@
+{
+  "observed_at": "2026-11-24T20:02:16.430919+00:00",
+  "base_commit": "0c13017980679832e6f03b31e6a304da7749dc4f",
+  "platform": {
+    "system": "Darwin",
+    "machine": "arm64",
+    "macos": "26.6.2",
+    "python": "3.14.4 (main, Apr  7 2026, 13:13:20) [Clang 21.0.0 (clang-2100.0.123.102)]",
+    "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin25.6.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin\n"
+  },
+  "archive_sha256": "e7e70d5e84f8bd334d5460a8918ed799064c60f5a677eb53da6b7ea7970f44c6",
+  "archive_member_sha256": {
+    "README.md": "77915fb3e51a35f2a74703c1ce8267b8536444f2c9128669eb68d42583a4eec7",
+    "NoSeven.lean": "6141ee45ca8a1f0543335c5a671c78cf4972529552e858a8d824292a8da5e7e5",
+    "prefix23.cpp": "dc2363c060cac6a9415bc14ba6399de1c1ac82061a0b907f01c9d5304ca2da65",
+    "quotient23.py": "1f6e10ea96bfa176a946d9e8ff7479b4f5d9920839575095103ffef30eff2246"
+  },
+  "tested_source_sha256": {
+    "A398769.lean": "6572338fbef6db7f1d556dadbe903a3297e8ebb1c670c34597e8223a55fc500c",
+    "A398769/Stage5.lean": "6141ee45ca8a1f0543335c5a671c78cf4972529552e858a8d824292a8da5e7e5",
+    "research/a398769/stage5/prefix23.cpp": "b8b2cbd075bada2941a0233a68ab2783812c5d347dd10d810dd20a72ac821939",
+    "research/a398769/stage5/quotient23.py": "11feff2e6b21d000bf94a4526746bd05456f0e6b92afb015860d6e0ecb1b9b59",
+    "research/a398769/stage5/check_controls.py": "9df649322e9f4545737ffaa47612031b002e2172476f19ea81c659efb94921a7",
+    "lean-toolchain": "42779d67b81608af8a12aa4328d2ab47ca201925b3b2bd68369587b5340bb434",
+    "lake-manifest.json": "eba9381ea5def2dd365fcf7b9a14d251ea3557b2418de6e38ee38f9d7a649b25"
+  },
+  "lean_no_seven_byte_identical_to_archive": true,
+  "lean_runs": [
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--version"
+      ],
+      "returncode": 0,
+      "seconds": 8.012,
+      "output": "Lean (version 4.24.0, arm64-apple-darwin23.6.0, commit 797c613eb9b6d4ec95db23e3e00af9ac6657f24b, Release)\n"
+    },
+    {
+      "command": [
+        "lake",
+        "clean",
+        "mathematics"
+      ],
+      "returncode": 0,
+      "seconds": 0.427,
+      "output": ""
+    },
+    {
+      "command": [
+        "lake",
+        "build"
+      ],
+      "returncode": 0,
+      "seconds": 12.072,
+      "output": "\u2714 [787/806] Built Mathlib.Algebra.Group.Nat.Units (4.4s)\n\u2714 [788/806] Built Mathlib.Data.List.Pairwise (4.5s)\n\u2714 [789/806] Built Mathlib.Data.List.Flatten (4.8s)\n\u2714 [790/806] Built Mathlib.Data.List.ProdSigma (4.8s)\n\u2139 [791/806] Built A398769.Stage4 (5.0s)\ninfo: A398769/Stage4.lean:113:0: 'A398769.digit_formulas_of_three_or_nine' depends on axioms: [propext, Classical.choice, Quot.sound]\ninfo: A398769/Stage4.lean:114:0: 'A398769.three_dvd_of_three_or_nine' depends on axioms: [propext, Classical.choice, Quot.sound]\ninfo: A398769/Stage4.lean:115:0: 'A398769.stage4_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]\n\u2714 [792/806] Built Mathlib.Data.List.Nodup (5.2s)\n\u2714 [793/806] Built Mathlib.Data.List.Lattice (5.2s)\n\u2714 [794/806] Built Mathlib.Data.List.Induction (5.2s)\n\u2714 [795/806] Built Mathlib.Data.List.Lex (5.2s)\n\u2714 [796/806] Built Mathlib.Algebra.Group.Int.Units (1.2s)\n\u2714 [797/806] Built Mathlib.Data.List.Dedup (977ms)\n\u2714 [798/806] Built Mathlib.Data.List.Infix (1.1s)\n\u2714 [799/806] Built Mathlib.Data.List.Chain (1.9s)\n\u2714 [800/806] Built Mathlib.Data.List.Rotate (1.0s)\n\u2714 [801/806] Built Mathlib.Data.List.Range (702ms)\n\u2714 [802/806] Built Mathlib.Algebra.BigOperators.Group.List.Lemmas (924ms)\n\u2139 [803/806] Built A398769.Stage2 (1.2s)\ninfo: A398769/Stage2.lean:143:0: 'A398769.counterexample_restrictions' depends on axioms: [propext, Classical.choice, Quot.sound]\n\u2139 [804/806] Built A398769.Stage5 (876ms)\ninfo: A398769/Stage5.lean:89:0: 'A398769.Stage5.digitsThreeOrNine_of_noSeven' depends on axioms: [propext, Classical.choice, Quot.sound]\n\u2714 [805/806] Built A398769 (701ms)\nBuild completed successfully (806 jobs).\n"
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "A398769/Stage5.lean"
+      ],
+      "returncode": 0,
+      "seconds": 1.31,
+      "output": "'A398769.Stage5.digitsThreeOrNine_of_noSeven' depends on axioms: [propext, Classical.choice, Quot.sound]\n"
+    }
+  ],
+  "original_python_runs": [
+    {
+      "command": [
+        "python3",
+        "research/a398769/stage5/quotient23.py",
+        "23",
+        "5",
+        "--run"
+      ],
+      "returncode": 0,
+      "seconds": 1.364,
+      "output": "23 5 2600 5115601 []\n"
+    },
+    {
+      "command": [
+        "python3",
+        "research/a398769/stage5/quotient23.py",
+        "23",
+        "21",
+        "--multiset=11111111111111111111133",
+        "--run"
+      ],
+      "returncode": 0,
+      "seconds": 0.017,
+      "output": "23 21 1 27 [11111111111113131111111, 11111111111131113111111, 11111111113111111131111, 11111111131111111113111, 11111111311311111111111, 11111113111111111111131, 11111131111111111111113, 11111311111111311111111, 11311111111111111311111, 33111111111111111111111]\n"
+    }
+  ],
+  "final_search_runs": [
+    {
+      "command": [
+        "c++",
+        "-O3",
+        "-std=c++17",
+        "-Wall",
+        "-Wextra",
+        "-pedantic",
+        "research/a398769/stage5/prefix23.cpp",
+        "-o",
+        "/tmp/a398769-stage5-prefix"
+      ],
+      "exit_code": 0,
+      "seconds": 0.351,
+      "output": ""
+    },
+    {
+      "command": [
+        "/tmp/a398769-stage5-prefix",
+        "23"
+      ],
+      "exit_code": 0,
+      "seconds": 0.243,
+      "output": "length=23 multisets=2600 viable_multisets=2546 prefixes=3161494 tails_in_range=1001382 hits=0\n"
+    },
+    {
+      "command": [
+        "python3",
+        "research/a398769/stage5/quotient23.py",
+        "23",
+        "5",
+        "--run"
+      ],
+      "exit_code": 0,
+      "seconds": 1.276,
+      "output": "23 5 2600 5115601 []\n"
+    },
+    {
+      "command": [
+        "/tmp/a398769-stage5-prefix",
+        "23",
+        "--multiset",
+        "11111111111111111111133"
+      ],
+      "exit_code": 0,
+      "seconds": 0.003,
+      "output": "hit 11111111111113131111111 sum=27 product=9 quotient=45724737082770086877\nhit 11111111111131113111111 sum=27 product=9 quotient=45724737082844086877\nhit 11111111113111111131111 sum=27 product=9 quotient=45724737090992226877\nhit 11111111131111111113111 sum=27 product=9 quotient=45724737165066300877\nhit 11111111311311111111111 sum=27 product=9 quotient=45724737906630086877\nhit 11111113111111111111131 sum=27 product=9 quotient=45724745313214449017\nhit 11111131111111111111113 sum=27 product=9 quotient=45724819387288523091\nhit 11111311111111311111111 sum=27 product=9 quotient=45725560128030086877\nhit 11311111111111111311111 sum=27 product=9 quotient=46547782350251486877\nhit 33111111111111111111111 sum=27 product=9 quotient=136259716506630086877\nlength=23 multisets=1 viable_multisets=1 prefixes=232 tails_in_range=96 hits=10\n"
+    },
+    {
+      "command": [
+        "python3",
+        "research/a398769/stage5/quotient23.py",
+        "23",
+        "21",
+        "--multiset=11111111111111111111133",
+        "--run"
+      ],
+      "exit_code": 0,
+      "seconds": 0.026,
+      "output": "23 21 1 27 [11111111111113131111111, 11111111111131113111111, 11111111113111111131111, 11111111131111111113111, 11111111311311111111111, 11111113111111111111131, 11111131111111111111113, 11111311111111311111111, 11311111111111111311111, 33111111111111111111111]\n"
+    },
+    {
+      "command": [
+        "python3",
+        "research/a398769/stage5/check_controls.py",
+        "/tmp/a398769-stage5-prefix"
+      ],
+      "exit_code": 0,
+      "seconds": 0.817,
+      "output": "Full {3,5,7,9} alphabet agrees with direct enumeration at lengths 1 through 7.\nAll 251 odd-digit multisets at lengths 1 through 5 agree, at multiple suffix widths.\n23-digit control: all 253 placements checked; both searches give the same ten exact hits.\nPassed 259 prefix checks, 711 quotient checks, 18 invalid-command checks, and the count-only CLI check.\n"
+    }
+  ],
+  "stage3_controls": {
+    "command": [
+      "python3",
+      "research/a398769/stage3/check_controls.py",
+      "/tmp/a398769-stage5-prefix"
+    ],
+    "exit_code": 0,
+    "output": "Small controls agree for both alphabets at lengths 1 through 9.\n21-digit positive control: all three exact hits and quotients agree.\n",
+    "note": "Run before the documentation-only C++ header correction; executable code unchanged."
+  },
+  "conclusions": {
+    "length23_hits": 0,
+    "control23_hits": 10,
+    "full_counterexample_bound": "0 < n < 10^24, composed with retained earlier finite bound and parity theorem",
+    "no_seven_reduction": "All lengths; remaining digits are 3 or 9",
+    "no_seven_finite_bound": "Through 75 digits, composed with retained Stage 4 search",
+    "full_conjecture_proved": false
+  },
+  "limitations": [
+    "Upstream Lean dependency artifacts reused; project build products cleaned",
+    "Earlier Stage 3 and Stage 4 complete searches not rerun",
+    "Search outputs are computational evidence, not Lean kernel certificates"
+  ]
+}
