@@ -1,0 +1,162 @@
+{
+  "observed_at": "2026-11-24T20:29:33.336652+00:00",
+  "base_commit": "214cd49e660f31aaee0aaecd48d36a8ec3624653",
+  "branch": "research/a398769-five-seven-audit",
+  "platform": {
+    "system": "Darwin",
+    "machine": "arm64",
+    "python": "3.14.4"
+  },
+  "dependency_artifacts": "Copied existing pinned upstream .lake/packages artifacts; own project cleaned and rebuilt in isolated checkout.",
+  "original_notes_sha256": {
+    "FiveSeven.lean": "e9981c96e509cf964df8348097a3bee0ddd128d5e3225a5417bf30bc528636f6",
+    "README.md": "89cf2755fc88c66bf829e2e79099abd4770faeb6be5e8142934593f6aa63a4eb",
+    "REVIEW.md": "40f45e7339c8ca87c07d97e916bb61db8ffb0743b2fc3ce5b54c4d630e13a1a5",
+    "axioms.txt": "a86f315ed919a51526d4e08a535c2cf068c96261f4ec189b76c77c8c8b92f6b3",
+    "verification.json": "f8de89cefebfa5172e064aaab5180aef678c0fad438a13d4c6bdb19ae97b1274"
+  },
+  "original_notes_preserved": true,
+  "integrated_lean_byte_identical": true,
+  "runs": [
+    {
+      "command": [
+        "python3",
+        "research/a398769/five-seven/certificates.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.017,
+      "stdout": "{\n  \"exponent_lifts\": [\n    {\n      \"k\": 1,\n      \"modulus\": 7,\n      \"period\": 6,\n      \"least_exponent\": 3,\n      \"order_witnesses\": {\n        \"2\": 6,\n        \"3\": 2\n      }\n    },\n    {\n      \"k\": 2,\n      \"modulus\": 49,\n      \"period\": 42,\n      \"least_exponent\": 39,\n      \"order_witnesses\": {\n        \"2\": 48,\n        \"3\": 30,\n        \"7\": 8\n      }\n    },\n    {\n      \"k\": 3,\n      \"modulus\": 343,\n      \"period\": 294,\n      \"least_exponent\": 81,\n      \"order_witnesses\": {\n        \"2\": 342,\n        \"3\": 324,\n        \"7\": 50\n      }\n    },\n    {\n      \"k\": 4,\n      \"modulus\": 2401,\n      \"period\": 2058,\n      \"least_exponent\": 1551,\n      \"order_witnesses\": {\n        \"2\": 2400,\n        \"3\": 1353,\n        \"7\": 344\n      }\n    },\n    {\n      \"k\": 5,\n      \"modulus\": 16807,\n      \"period\": 14406,\n      \"least_exponent\": 1551,\n      \"order_witnesses\": {\n        \"2\": 16806,\n        \"3\": 1353,\n        \"7\": 2402\n      }\n    },\n    {\n      \"k\": 6,\n      \"modulus\": 117649,\n      \"period\": 100842,\n      \"least_exponent\": 30363,\n      \"order_witnesses\": {\n        \"2\": 117648,\n        \"3\": 34967,\n        \"7\": 16808\n      }\n    },\n    {\n      \"k\": 7,\n      \"modulus\": 823543,\n      \"period\": 705894,\n      \"least_exponent\": 30363,\n      \"order_witnesses\": {\n        \"2\": 823542,\n        \"3\": 740861,\n        \"7\": 117650\n      }\n    },\n    {\n      \"k\": 8,\n      \"modulus\": 5764801,\n      \"period\": 4941258,\n      \"least_exponent\": 2853939,\n      \"order_witnesses\": {\n        \"2\": 5764800,\n        \"3\": 2387947,\n        \"7\": 823544\n      }\n    }\n  ],\n  \"modulo_49_pairs\": [\n    [\n      1,\n      39\n    ],\n    [\n      3,\n      3\n    ],\n    [\n      5,\n      15\n    ]\n  ],\n  \"lengths_passing_49_below_cutoff\": 2381,\n  \"survivors_below_cutoff\": [],\n  \"next_position_permitted_modulo_49\": 15\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "research/a398769/five-seven/log_bounds.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.016,
+      "stdout": "PASS: exact rational log intervals and prefactor < 212\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--version"
+      ],
+      "exit_code": 0,
+      "seconds": 6.728,
+      "stdout": "Lean (version 4.24.0, arm64-apple-darwin23.6.0, commit 797c613eb9b6d4ec95db23e3e00af9ac6657f24b, Release)\n",
+      "stderr": "warning: batteries: repository '/Users/lukesmacminim41/Documents/ChatGPT/Mathematics/five-seven-audit/.lake/packages/batteries' has local changes\n"
+    },
+    {
+      "command": [
+        "lake",
+        "clean",
+        "mathematics"
+      ],
+      "exit_code": 0,
+      "seconds": 0.428,
+      "stdout": "",
+      "stderr": "warning: batteries: repository '/Users/lukesmacminim41/Documents/ChatGPT/Mathematics/five-seven-audit/.lake/packages/batteries' has local changes\n"
+    },
+    {
+      "command": [
+        "lake",
+        "build"
+      ],
+      "exit_code": 0,
+      "seconds": 9.954,
+      "stdout": "\u2139 [802/807] Built A398769.Stage4 (5.6s)\ninfo: A398769/Stage4.lean:113:0: 'A398769.digit_formulas_of_three_or_nine' depends on axioms: [propext, Classical.choice, Quot.sound]\ninfo: A398769/Stage4.lean:114:0: 'A398769.three_dvd_of_three_or_nine' depends on axioms: [propext, Classical.choice, Quot.sound]\ninfo: A398769/Stage4.lean:115:0: 'A398769.stage4_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]\n\u2139 [803/807] Built A398769.Stage2 (1.3s)\ninfo: A398769/Stage2.lean:143:0: 'A398769.counterexample_restrictions' depends on axioms: [propext, Classical.choice, Quot.sound]\n\u2139 [804/807] Built A398769.Stage5 (867ms)\ninfo: A398769/Stage5.lean:89:0: 'A398769.Stage5.digitsThreeOrNine_of_noSeven' depends on axioms: [propext, Classical.choice, Quot.sound]\n\u2139 [805/807] Built A398769.FiveSeven (879ms)\ninfo: A398769/FiveSeven.lean:47:0: 'A398769.FiveSeven.atMostTwoFives' depends on axioms: [propext, Classical.choice, Quot.sound]\ninfo: A398769/FiveSeven.lean:98:0: 'A398769.FiveSeven.notExactlyOneFiveWithSeven' depends on axioms: [propext, Classical.choice, Quot.sound]\ninfo: A398769/FiveSeven.lean:134:0: 'A398769.FiveSeven.notExactlyOneFive' depends on axioms: [propext, Classical.choice, Quot.sound]\n\u2714 [806/807] Built A398769 (732ms)\nBuild completed successfully (807 jobs).\n",
+      "stderr": "warning: batteries: repository '/Users/lukesmacminim41/Documents/ChatGPT/Mathematics/five-seven-audit/.lake/packages/batteries' has local changes\n"
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "A398769/FiveSeven.lean"
+      ],
+      "exit_code": 0,
+      "seconds": 1.517,
+      "stdout": "'A398769.FiveSeven.atMostTwoFives' depends on axioms: [propext, Classical.choice, Quot.sound]\n'A398769.FiveSeven.notExactlyOneFiveWithSeven' depends on axioms: [propext, Classical.choice, Quot.sound]\n'A398769.FiveSeven.notExactlyOneFive' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+      "stderr": "warning: batteries: repository '/Users/lukesmacminim41/Documents/ChatGPT/Mathematics/five-seven-audit/.lake/packages/batteries' has local changes\n"
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "seconds": 0.012,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "lake",
+        "clean",
+        "mathematics"
+      ],
+      "exit_code": 0,
+      "seconds": 0.446,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "lake",
+        "build"
+      ],
+      "exit_code": 0,
+      "seconds": 5.228,
+      "stdout": "\u2139 [802/807] Built A398769.Stage4 (860ms)\ninfo: A398769/Stage4.lean:113:0: 'A398769.digit_formulas_of_three_or_nine' depends on axioms: [propext, Classical.choice, Quot.sound]\ninfo: A398769/Stage4.lean:114:0: 'A398769.three_dvd_of_three_or_nine' depends on axioms: [propext, Classical.choice, Quot.sound]\ninfo: A398769/Stage4.lean:115:0: 'A398769.stage4_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]\n\u2139 [803/807] Built A398769.Stage2 (1.2s)\ninfo: A398769/Stage2.lean:143:0: 'A398769.counterexample_restrictions' depends on axioms: [propext, Classical.choice, Quot.sound]\n\u2139 [804/807] Built A398769.Stage5 (874ms)\ninfo: A398769/Stage5.lean:89:0: 'A398769.Stage5.digitsThreeOrNine_of_noSeven' depends on axioms: [propext, Classical.choice, Quot.sound]\n\u2139 [805/807] Built A398769.FiveSeven (880ms)\ninfo: A398769/FiveSeven.lean:47:0: 'A398769.FiveSeven.atMostTwoFives' depends on axioms: [propext, Classical.choice, Quot.sound]\ninfo: A398769/FiveSeven.lean:98:0: 'A398769.FiveSeven.notExactlyOneFiveWithSeven' depends on axioms: [propext, Classical.choice, Quot.sound]\ninfo: A398769/FiveSeven.lean:134:0: 'A398769.FiveSeven.notExactlyOneFive' depends on axioms: [propext, Classical.choice, Quot.sound]\n\u2714 [806/807] Built A398769 (701ms)\nBuild completed successfully (807 jobs).\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "A398769/FiveSeven.lean"
+      ],
+      "exit_code": 0,
+      "seconds": 1.309,
+      "stdout": "'A398769.FiveSeven.atMostTwoFives' depends on axioms: [propext, Classical.choice, Quot.sound]\n'A398769.FiveSeven.notExactlyOneFiveWithSeven' depends on axioms: [propext, Classical.choice, Quot.sound]\n'A398769.FiveSeven.notExactlyOneFive' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+      "stderr": ""
+    }
+  ],
+  "analytic_proofs_lean_checked": false,
+  "full_five_seven_exclusion_proved": false,
+  "numerical_maximum_length_proved": false,
+  "previous_exhaustive_searches_rerun": false,
+  "dependency_copy_note": "Initial copy dereferenced batteries/docs/README.md symlink, causing a documentation-only dirty warning. Restored all original symlinks in isolated dependency copy, verified all package Git statuses clean, and repeated clean project build and axiom check. Original packages untouched.",
+  "tested_source_sha256": {
+    "A398769.lean": "f00faa35b30f18653d7c39f29c3c8534d13c6c3c770ac6fa0d30f2576752af2e",
+    "A398769/FiveSeven.lean": "e9981c96e509cf964df8348097a3bee0ddd128d5e3225a5417bf30bc528636f6",
+    "README.md": "3c7577b75cfd0681210407b227730247beeb88a27e17da2ec06e84c35dcde2b7",
+    "research/a398769/five-seven/FINITE_PAIRS.md": "11bc9880c261263af4f961647c3fcf525ad60ee0d5b06366d068d4233e66c2fe",
+    "research/a398769/five-seven/FIXED_POSITION.md": "4307a08a99b09d129c44638d9f0954feea75a8f4101fe343f33537918a633764",
+    "research/a398769/five-seven/README.md": "5593a65de93ef78da40d0e1ce1bf216c22abc25628608ee3b7d3f62ffcbcafe5",
+    "research/a398769/five-seven/REVIEW.md": "05d56f51f04b81a8a38e2416a099e994990b665f11014ce206682d39e1c5a119",
+    "research/a398769/five-seven/certificates.py": "1f2d190bfe1a7b83a7bff9437b9befb02db36df43713edb64afd952e9317c670",
+    "research/a398769/five-seven/log_bounds.py": "c88a66e5c6d2fbd661bc3ad63983fa3f9c55ac8c1cfa84ed19f7ca4fb6ce53a1",
+    "research/a398769/five-seven/prior-notes/FiveSeven.lean": "e9981c96e509cf964df8348097a3bee0ddd128d5e3225a5417bf30bc528636f6",
+    "research/a398769/five-seven/prior-notes/README.md": "89cf2755fc88c66bf829e2e79099abd4770faeb6be5e8142934593f6aa63a4eb",
+    "research/a398769/five-seven/prior-notes/REVIEW.md": "40f45e7339c8ca87c07d97e916bb61db8ffb0743b2fc3ce5b54c4d630e13a1a5",
+    "research/a398769/five-seven/prior-notes/axioms.txt": "a86f315ed919a51526d4e08a535c2cf068c96261f4ec189b76c77c8c8b92f6b3",
+    "research/a398769/five-seven/prior-notes/verification.json": "f8de89cefebfa5172e064aaab5180aef678c0fad438a13d4c6bdb19ae97b1274",
+    "lean-toolchain": "42779d67b81608af8a12aa4328d2ab47ca201925b3b2bd68369587b5340bb434",
+    "lake-manifest.json": "eba9381ea5def2dd365fcf7b9a14d251ea3557b2418de6e38ee38f9d7a649b25"
+  },
+  "final_validation": {
+    "independent_review": "Three reviewers; two analytic cross-reviews; no unresolved findings",
+    "staged_diff_check": "passed",
+    "current_report_local_links": "passed",
+    "original_note_hashes_rechecked": "passed",
+    "final_dependency_statuses": "clean",
+    "final_build_warnings": false
+  }
+}
