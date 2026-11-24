@@ -1,0 +1,1047 @@
+{
+  "audit_sha256": "e96d9a4fc09d0bc97a3986a296b005d16093ebd34bd8ea7f142c0bad25da3927",
+  "audited_at": "2026-11-24T19:12:52.190477+00:00",
+  "binary_check": "All completed records match validation build hash; no local executable required",
+  "claim": "Finite computational coverage of all {3,9} integers with 1 through 75 digits; no witnesses",
+  "largest_fully_verified_length": 75,
+  "length_75_cases": [
+    {
+      "b": 3,
+      "candidates_tested": 488,
+      "elapsed_seconds": 0.000602416,
+      "leaves": 7176,
+      "nodes": 14351,
+      "status": "complete",
+      "witnesses": []
+    },
+    {
+      "b": 12,
+      "candidates_tested": 52673860,
+      "elapsed_seconds": 19.303198,
+      "leaves": 301766029,
+      "nodes": 603532057,
+      "status": "complete",
+      "witnesses": []
+    },
+    {
+      "b": 21,
+      "candidates_tested": 19956109,
+      "elapsed_seconds": 8.8737855,
+      "leaves": 134116144,
+      "nodes": 268232287,
+      "status": "complete",
+      "witnesses": []
+    },
+    {
+      "b": 39,
+      "candidates_tested": 77224,
+      "elapsed_seconds": 0.015549416,
+      "leaves": 262144,
+      "nodes": 524287,
+      "status": "complete",
+      "witnesses": []
+    },
+    {
+      "b": 48,
+      "candidates_tested": 2183,
+      "elapsed_seconds": 0.000942542,
+      "leaves": 16384,
+      "nodes": 32767,
+      "status": "complete",
+      "witnesses": []
+    },
+    {
+      "b": 57,
+      "candidates_tested": 322,
+      "elapsed_seconds": 0.000168125,
+      "leaves": 512,
+      "nodes": 1023,
+      "status": "complete",
+      "witnesses": []
+    },
+    {
+      "b": 66,
+      "candidates_tested": 16,
+      "elapsed_seconds": 0.000141083,
+      "leaves": 32,
+      "nodes": 63,
+      "status": "complete",
+      "witnesses": []
+    }
+  ],
+  "lengths": [
+    {
+      "complete": 0,
+      "completed_digit_counts": [],
+      "excluded": 2,
+      "exclusion_reasons": {
+        "digit_sum_mod_9_or_3": 2
+      },
+      "fully_verified": true,
+      "length": 1
+    },
+    {
+      "complete": 0,
+      "completed_digit_counts": [],
+      "excluded": 3,
+      "exclusion_reasons": {
+        "even_length": 3
+      },
+      "fully_verified": true,
+      "length": 2
+    },
+    {
+      "complete": 0,
+      "completed_digit_counts": [],
+      "excluded": 4,
+      "exclusion_reasons": {
+        "digit_sum_mod_9_or_3": 3,
+        "divisor_above_maximum": 1
+      },
+      "fully_verified": true,
+      "length": 3
+    },
+    {
+      "complete": 0,
+      "completed_digit_counts": [],
+      "excluded": 5,
+      "exclusion_reasons": {
+        "even_length": 5
+      },
+      "fully_verified": true,
+      "length": 4
+    },
+    {
+      "complete": 1,
+      "completed_digit_counts": [
+        2
+      ],
+      "excluded": 5,
+      "exclusion_reasons": {
+        "digit_sum_mod_9_or_3": 5
+      },
+      "fully_verified": true,
+      "length": 5
+    },
+    {
+      "complete": 0,
+      "completed_digit_counts": [],
+      "excluded": 7,
+      "exclusion_reasons": {
+        "even_length": 7
+      },
+      "fully_verified": true,
+      "length": 6
+    },
+    {
+      "complete": 1,
+      "completed_digit_counts": [
+        1
+      ],
+      "excluded": 7,
+      "exclusion_reasons": {
+        "digit_sum_mod_9_or_3": 7
+      },
+      "fully_verified": true,
+      "length": 7
+    },
+    {
+      "complete": 0,
+      "completed_digit_counts": [],
+      "excluded": 9,
+      "exclusion_reasons": {
+        "even_length": 9
+      },
+      "fully_verified": true,
+      "length": 8
+    },
+    {
+      "complete": 1,
+      "completed_digit_counts": [
+        0
+      ],
+      "excluded": 9,
+      "exclusion_reasons": {
+        "digit_sum_mod_9_or_3": 8,
+        "divisor_above_maximum": 1
+      },
+      "fully_verified": true,
+      "length": 9
+    },
+    {
+      "complete": 0,
+      "completed_digit_counts": [],
+      "excluded": 11,
+      "exclusion_reasons": {
+        "even_length": 11
+      },
+      "fully_verified": true,
+      "length": 10
+    },
+    {
+      "complete": 1,
+      "completed_digit_counts": [
+        8
+      ],
+      "excluded": 11,
+      "exclusion_reasons": {
+        "digit_sum_mod_9_or_3": 11
+      },
+      "fully_verified": true,
+      "length": 11
+    },
+    {
+      "complete": 0,
+      "completed_digit_counts": [],
+      "excluded": 13,
+      "exclusion_reasons": {
+        "even_length": 13
+      },
+      "fully_verified": true,
+      "length": 12
+    },
+    {
+      "complete": 1,
+      "completed_digit_counts": [
+        7
+      ],
+      "excluded": 13,
+      "exclusion_reasons": {
+        "digit_sum_mod_9_or_3": 13
+      },
+      "fully_verified": true,
+      "length": 13
+    },
+    {
+      "complete": 0,
+      "completed_digit_counts": [],
+      "excluded": 15,
+      "exclusion_reasons": {
+        "even_length": 15
+      },
+      "fully_verified": true,
+      "length": 14
+    },
+    {
+      "complete": 1,
+      "completed_digit_counts": [
+        6
+      ],
+      "excluded": 15,
+      "exclusion_reasons": {
+        "digit_sum_mod_9_or_3": 14,
+        "factor_5": 1
+      },
+      "fully_verified": true,
+      "length": 15
+    },
+    {
+      "complete": 0,
+      "completed_digit_counts": [],
+      "excluded": 17,
+      "exclusion_reasons": {
+        "even_length": 17
+      },
+      "fully_verified": true,
+      "length": 16
+    },
+    {
+      "complete": 1,
+      "completed_digit_counts": [
+        5
+      ],
+      "excluded": 17,
+      "exclusion_reasons": {
+        "digit_sum_mod_9_or_3": 16,
+        "factor_5": 1
+      },
+      "fully_verified": true,
+      "length": 17
+    },
+    {
+      "complete": 0,
+      "completed_digit_counts": [],
+      "excluded": 19,
+      "exclusion_reasons": {
+        "even_length": 19
+      },
+      "fully_verified": true,
+      "length": 18
+    },
+    {
+      "complete": 1,
+      "completed_digit_counts": [
+        4
+      ],
+      "excluded": 19,
+      "exclusion_reasons": {
+        "digit_sum_mod_9_or_3": 18,
+        "factor_5": 1
+      },
+      "fully_verified": true,
+      "length": 19
+    },
+    {
+      "complete": 0,
+      "completed_digit_counts": [],
+      "excluded": 21,
+      "exclusion_reasons": {
+        "even_length": 21
+      },
+      "fully_verified": true,
+      "length": 20
+    },
+    {
+      "complete": 1,
+      "completed_digit_counts": [
+        3
+      ],
+      "excluded": 21,
+      "exclusion_reasons": {
+        "digit_sum_mod_9_or_3": 19,
+        "divisor_above_maximum": 1,
+        "factor_5": 1
+      },
+      "fully_verified": true,
+      "length": 21
+    },
+    {
+      "complete": 0,
+      "completed_digit_counts": [],
+      "excluded": 23,
+      "exclusion_reasons": {
+        "even_length": 23
+      },
+      "fully_verified": true,
+      "length": 22
+    },
+    {
+      "complete": 2,
+      "completed_digit_counts": [
+        2,
+        20
+      ],
+      "excluded": 22,
+      "exclusion_reasons": {
+        "digit_sum_mod_9_or_3": 21,
+        "factor_5": 1
+      },
+      "fully_verified": true,
+      "length": 23
+    },
+    {
+      "complete": 0,
+      "completed_digit_counts": [],
+      "excluded": 25,
+      "exclusion_reasons": {
+        "even_length": 25
+      },
+      "fully_verified": true,
+      "length": 24
+    },
+    {
+      "complete": 2,
+      "completed_digit_counts": [
+        1,
+        19
+      ],
+      "excluded": 24,
+      "exclusion_reasons": {
+        "digit_sum_mod_9_or_3": 23,
+        "factor_5": 1
+      },
+      "fully_verified": true,
+      "length": 25
+    },
+    {
+      "complete": 0,
+      "completed_digit_counts": [],
+      "excluded": 27,
+      "exclusion_reasons": {
+        "even_length": 27
+      },
+      "fully_verified": true,
+      "length": 26
+    },
+    {
+      "complete": 2,
+      "completed_digit_counts": [
+        0,
+        18
+      ],
+      "excluded": 26,
+      "exclusion_reasons": {
+        "digit_sum_mod_9_or_3": 24,
+        "divisor_above_maximum": 1,
+        "factor_5": 1
+      },
+      "fully_verified": true,
+      "length": 27
+    },
+    {
+      "complete": 0,
+      "completed_digit_counts": [],
+      "excluded": 29,
+      "exclusion_reasons": {
+        "even_length": 29
+      },
+      "fully_verified": true,
+      "length": 28
+    },
+    {
+      "complete": 2,
+      "completed_digit_counts": [
+        17,
+        26
+      ],
+      "excluded": 28,
+      "exclusion_reasons": {
+        "digit_sum_mod_9_or_3": 27,
+        "factor_5": 1
+      },
+      "fully_verified": true,
+      "length": 29
+    },
+    {
+      "complete": 0,
+      "completed_digit_counts": [],
+      "excluded": 31,
+      "exclusion_reasons": {
+        "even_length": 31
+      },
+      "fully_verified": true,
+      "length": 30
+    },
+    {
+      "complete": 2,
+      "completed_digit_counts": [
+        16,
+        25
+      ],
+      "excluded": 30,
+      "exclusion_reasons": {
+        "digit_sum_mod_9_or_3": 29,
+        "factor_5": 1
+      },
+      "fully_verified": true,
+      "length": 31
+    },
+    {
+      "complete": 0,
+      "completed_digit_counts": [],
+      "excluded": 33,
+      "exclusion_reasons": {
+        "even_length": 33
+      },
+      "fully_verified": true,
+      "length": 32
+    },
+    {
+      "complete": 2,
+      "completed_digit_counts": [
+        15,
+        24
+      ],
+      "excluded": 32,
+      "exclusion_reasons": {
+        "digit_sum_mod_9_or_3": 30,
+        "divisor_above_maximum": 1,
+        "factor_5": 1
+      },
+      "fully_verified": true,
+      "length": 33
+    },
+    {
+      "complete": 0,
+      "completed_digit_counts": [],
+      "excluded": 35,
+      "exclusion_reasons": {
+        "even_length": 35
+      },
+      "fully_verified": true,
+      "length": 34
+    },
+    {
+      "complete": 3,
+      "completed_digit_counts": [
+        14,
+        23,
+        32
+      ],
+      "excluded": 33,
+      "exclusion_reasons": {
+        "digit_sum_mod_9_or_3": 32,
+        "factor_5": 1
+      },
+      "fully_verified": true,
+      "length": 35
+    },
+    {
+      "complete": 0,
+      "completed_digit_counts": [],
+      "excluded": 37,
+      "exclusion_reasons": {
+        "even_length": 37
+      },
+      "fully_verified": true,
+      "length": 36
+    },
+    {
+      "complete": 3,
+      "completed_digit_counts": [
+        13,
+        22,
+        31
+      ],
+      "excluded": 35,
+      "exclusion_reasons": {
+        "digit_sum_mod_9_or_3": 34,
+        "factor_5": 1
+      },
+      "fully_verified": true,
+      "length": 37
+    },
+    {
+      "complete": 0,
+      "completed_digit_counts": [],
+      "excluded": 39,
+      "exclusion_reasons": {
+        "even_length": 39
+      },
+      "fully_verified": true,
+      "length": 38
+    },
+    {
+      "complete": 3,
+      "completed_digit_counts": [
+        12,
+        21,
+        30
+      ],
+      "excluded": 37,
+      "exclusion_reasons": {
+        "digit_sum_mod_9_or_3": 35,
+        "divisor_above_maximum": 1,
+        "factor_5": 1
+      },
+      "fully_verified": true,
+      "length": 39
+    },
+    {
+      "complete": 0,
+      "completed_digit_counts": [],
+      "excluded": 41,
+      "exclusion_reasons": {
+        "even_length": 41
+      },
+      "fully_verified": true,
+      "length": 40
+    },
+    {
+      "complete": 4,
+      "completed_digit_counts": [
+        11,
+        20,
+        29,
+        38
+      ],
+      "excluded": 38,
+      "exclusion_reasons": {
+        "digit_sum_mod_9_or_3": 37,
+        "factor_5": 1
+      },
+      "fully_verified": true,
+      "length": 41
+    },
+    {
+      "complete": 0,
+      "completed_digit_counts": [],
+      "excluded": 43,
+      "exclusion_reasons": {
+        "even_length": 43
+      },
+      "fully_verified": true,
+      "length": 42
+    },
+    {
+      "complete": 4,
+      "completed_digit_counts": [
+        10,
+        19,
+        28,
+        37
+      ],
+      "excluded": 40,
+      "exclusion_reasons": {
+        "digit_sum_mod_9_or_3": 39,
+        "factor_5": 1
+      },
+      "fully_verified": true,
+      "length": 43
+    },
+    {
+      "complete": 0,
+      "completed_digit_counts": [],
+      "excluded": 45,
+      "exclusion_reasons": {
+        "even_length": 45
+      },
+      "fully_verified": true,
+      "length": 44
+    },
+    {
+      "complete": 4,
+      "completed_digit_counts": [
+        9,
+        18,
+        27,
+        36
+      ],
+      "excluded": 42,
+      "exclusion_reasons": {
+        "digit_sum_mod_9_or_3": 40,
+        "factor_5": 2
+      },
+      "fully_verified": true,
+      "length": 45
+    },
+    {
+      "complete": 0,
+      "completed_digit_counts": [],
+      "excluded": 47,
+      "exclusion_reasons": {
+        "even_length": 47
+      },
+      "fully_verified": true,
+      "length": 46
+    },
+    {
+      "complete": 4,
+      "completed_digit_counts": [
+        8,
+        17,
+        26,
+        35
+      ],
+      "excluded": 44,
+      "exclusion_reasons": {
+        "digit_sum_mod_9_or_3": 43,
+        "factor_5": 1
+      },
+      "fully_verified": true,
+      "length": 47
+    },
+    {
+      "complete": 0,
+      "completed_digit_counts": [],
+      "excluded": 49,
+      "exclusion_reasons": {
+        "even_length": 49
+      },
+      "fully_verified": true,
+      "length": 48
+    },
+    {
+      "complete": 4,
+      "completed_digit_counts": [
+        7,
+        16,
+        25,
+        34
+      ],
+      "excluded": 46,
+      "exclusion_reasons": {
+        "digit_sum_mod_9_or_3": 45,
+        "factor_5": 1
+      },
+      "fully_verified": true,
+      "length": 49
+    },
+    {
+      "complete": 0,
+      "completed_digit_counts": [],
+      "excluded": 51,
+      "exclusion_reasons": {
+        "even_length": 51
+      },
+      "fully_verified": true,
+      "length": 50
+    },
+    {
+      "complete": 4,
+      "completed_digit_counts": [
+        6,
+        15,
+        24,
+        33
+      ],
+      "excluded": 48,
+      "exclusion_reasons": {
+        "digit_sum_mod_9_or_3": 46,
+        "divisor_above_maximum": 1,
+        "factor_5": 1
+      },
+      "fully_verified": true,
+      "length": 51
+    },
+    {
+      "complete": 0,
+      "completed_digit_counts": [],
+      "excluded": 53,
+      "exclusion_reasons": {
+        "even_length": 53
+      },
+      "fully_verified": true,
+      "length": 52
+    },
+    {
+      "complete": 5,
+      "completed_digit_counts": [
+        5,
+        14,
+        23,
+        32,
+        50
+      ],
+      "excluded": 49,
+      "exclusion_reasons": {
+        "digit_sum_mod_9_or_3": 48,
+        "factor_5": 1
+      },
+      "fully_verified": true,
+      "length": 53
+    },
+    {
+      "complete": 0,
+      "completed_digit_counts": [],
+      "excluded": 55,
+      "exclusion_reasons": {
+        "even_length": 55
+      },
+      "fully_verified": true,
+      "length": 54
+    },
+    {
+      "complete": 5,
+      "completed_digit_counts": [
+        4,
+        13,
+        22,
+        31,
+        49
+      ],
+      "excluded": 51,
+      "exclusion_reasons": {
+        "digit_sum_mod_9_or_3": 50,
+        "factor_5": 1
+      },
+      "fully_verified": true,
+      "length": 55
+    },
+    {
+      "complete": 0,
+      "completed_digit_counts": [],
+      "excluded": 57,
+      "exclusion_reasons": {
+        "even_length": 57
+      },
+      "fully_verified": true,
+      "length": 56
+    },
+    {
+      "complete": 5,
+      "completed_digit_counts": [
+        3,
+        12,
+        21,
+        30,
+        48
+      ],
+      "excluded": 53,
+      "exclusion_reasons": {
+        "digit_sum_mod_9_or_3": 51,
+        "divisor_above_maximum": 1,
+        "factor_5": 1
+      },
+      "fully_verified": true,
+      "length": 57
+    },
+    {
+      "complete": 0,
+      "completed_digit_counts": [],
+      "excluded": 59,
+      "exclusion_reasons": {
+        "even_length": 59
+      },
+      "fully_verified": true,
+      "length": 58
+    },
+    {
+      "complete": 6,
+      "completed_digit_counts": [
+        2,
+        11,
+        20,
+        29,
+        47,
+        56
+      ],
+      "excluded": 54,
+      "exclusion_reasons": {
+        "digit_sum_mod_9_or_3": 53,
+        "factor_5": 1
+      },
+      "fully_verified": true,
+      "length": 59
+    },
+    {
+      "complete": 0,
+      "completed_digit_counts": [],
+      "excluded": 61,
+      "exclusion_reasons": {
+        "even_length": 61
+      },
+      "fully_verified": true,
+      "length": 60
+    },
+    {
+      "complete": 6,
+      "completed_digit_counts": [
+        1,
+        10,
+        19,
+        28,
+        46,
+        55
+      ],
+      "excluded": 56,
+      "exclusion_reasons": {
+        "digit_sum_mod_9_or_3": 55,
+        "factor_5": 1
+      },
+      "fully_verified": true,
+      "length": 61
+    },
+    {
+      "complete": 0,
+      "completed_digit_counts": [],
+      "excluded": 63,
+      "exclusion_reasons": {
+        "even_length": 63
+      },
+      "fully_verified": true,
+      "length": 62
+    },
+    {
+      "complete": 7,
+      "completed_digit_counts": [
+        0,
+        9,
+        18,
+        27,
+        45,
+        54,
+        63
+      ],
+      "excluded": 57,
+      "exclusion_reasons": {
+        "digit_sum_mod_9_or_3": 56,
+        "factor_5": 1
+      },
+      "fully_verified": true,
+      "length": 63
+    },
+    {
+      "complete": 0,
+      "completed_digit_counts": [],
+      "excluded": 65,
+      "exclusion_reasons": {
+        "even_length": 65
+      },
+      "fully_verified": true,
+      "length": 64
+    },
+    {
+      "complete": 6,
+      "completed_digit_counts": [
+        8,
+        17,
+        26,
+        44,
+        53,
+        62
+      ],
+      "excluded": 60,
+      "exclusion_reasons": {
+        "digit_sum_mod_9_or_3": 59,
+        "factor_5": 1
+      },
+      "fully_verified": true,
+      "length": 65
+    },
+    {
+      "complete": 0,
+      "completed_digit_counts": [],
+      "excluded": 67,
+      "exclusion_reasons": {
+        "even_length": 67
+      },
+      "fully_verified": true,
+      "length": 66
+    },
+    {
+      "complete": 6,
+      "completed_digit_counts": [
+        7,
+        16,
+        25,
+        43,
+        52,
+        61
+      ],
+      "excluded": 62,
+      "exclusion_reasons": {
+        "digit_sum_mod_9_or_3": 61,
+        "factor_5": 1
+      },
+      "fully_verified": true,
+      "length": 67
+    },
+    {
+      "complete": 0,
+      "completed_digit_counts": [],
+      "excluded": 69,
+      "exclusion_reasons": {
+        "even_length": 69
+      },
+      "fully_verified": true,
+      "length": 68
+    },
+    {
+      "complete": 7,
+      "completed_digit_counts": [
+        6,
+        15,
+        24,
+        42,
+        51,
+        60,
+        69
+      ],
+      "excluded": 63,
+      "exclusion_reasons": {
+        "digit_sum_mod_9_or_3": 62,
+        "factor_5": 1
+      },
+      "fully_verified": true,
+      "length": 69
+    },
+    {
+      "complete": 0,
+      "completed_digit_counts": [],
+      "excluded": 71,
+      "exclusion_reasons": {
+        "even_length": 71
+      },
+      "fully_verified": true,
+      "length": 70
+    },
+    {
+      "complete": 7,
+      "completed_digit_counts": [
+        5,
+        14,
+        23,
+        41,
+        50,
+        59,
+        68
+      ],
+      "excluded": 65,
+      "exclusion_reasons": {
+        "digit_sum_mod_9_or_3": 64,
+        "factor_5": 1
+      },
+      "fully_verified": true,
+      "length": 71
+    },
+    {
+      "complete": 0,
+      "completed_digit_counts": [],
+      "excluded": 73,
+      "exclusion_reasons": {
+        "even_length": 73
+      },
+      "fully_verified": true,
+      "length": 72
+    },
+    {
+      "complete": 7,
+      "completed_digit_counts": [
+        4,
+        13,
+        22,
+        40,
+        49,
+        58,
+        67
+      ],
+      "excluded": 67,
+      "exclusion_reasons": {
+        "digit_sum_mod_9_or_3": 66,
+        "factor_5": 1
+      },
+      "fully_verified": true,
+      "length": 73
+    },
+    {
+      "complete": 0,
+      "completed_digit_counts": [],
+      "excluded": 75,
+      "exclusion_reasons": {
+        "even_length": 75
+      },
+      "fully_verified": true,
+      "length": 74
+    },
+    {
+      "complete": 7,
+      "completed_digit_counts": [
+        3,
+        12,
+        21,
+        39,
+        48,
+        57,
+        66
+      ],
+      "excluded": 69,
+      "exclusion_reasons": {
+        "digit_sum_mod_9_or_3": 67,
+        "factor_5": 2
+      },
+      "fully_verified": true,
+      "length": 75
+    }
+  ],
+  "limitation": "Audits retained execution records and source binding; does not rerun searches or supply a Lean proof",
+  "method": "Direct arithmetic exclusions and independent level-by-level traversal counts",
+  "recorded_binary_sha256": "867808d5c9bfaf05a5436cad727d0bc1db514d9647856ae9f9dcf1243f1fb1c2",
+  "source_sha256": "27539604b5c9962debac71aeb5a7c650f1d4dee555698a26d457bd0374fbe20a",
+  "status": "passed",
+  "summed_engine_seconds": 69.117761479,
+  "totals": {
+    "candidates_tested": 256817010,
+    "cases": 2925,
+    "complete": 128,
+    "digit_sum_mod_9_or_3": 1313,
+    "divisor_above_maximum": 8,
+    "even_length": 1443,
+    "excluded": 2797,
+    "factor_5": 33,
+    "leaves": 1042886332,
+    "nodes": 2085772536
+  },
+  "unfinished_cases": [],
+  "witnesses": []
+}

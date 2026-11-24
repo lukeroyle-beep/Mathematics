@@ -1,0 +1,863 @@
+{
+  "cases": {
+    "0": {
+      "b": 0,
+      "build": {
+        "binary_sha256": "867808d5c9bfaf05a5436cad727d0bc1db514d9647856ae9f9dcf1243f1fb1c2",
+        "built_at": "2026-11-24T19:07:33.707552+00:00",
+        "command": [
+          "c++",
+          "-O3",
+          "-std=c++17",
+          "-Wall",
+          "-Wextra",
+          "-Werror",
+          "-isystem",
+          "/opt/homebrew/include",
+          "-L/opt/homebrew/lib",
+          "/Users/lukesmacminim41/Projects/Mathematics/research/a398769/stage4/search/search.cpp",
+          "-lgmpxx",
+          "-lgmp",
+          "-o",
+          "/private/tmp/a398769-stage4-build/search"
+        ],
+        "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin25.6.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin",
+        "machine": "arm64",
+        "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+        "source_sha256": "27539604b5c9962debac71aeb5a7c650f1d4dee555698a26d457bd0374fbe20a"
+      },
+      "divisor": "72107360226142762177814830874901",
+      "length": 63,
+      "recorded_at": "2026-11-24T19:08:32.270622+00:00",
+      "search": {
+        "b": 0,
+        "candidates_tested": 0,
+        "divisor": "72107360226142762177814830874901",
+        "elapsed_seconds": 0.00010625,
+        "engine": "stage4-prefix-v1",
+        "expected_complete_leaves": 1,
+        "expected_complete_nodes": 1,
+        "leaves": 1,
+        "length": 63,
+        "max_milliseconds": 120000,
+        "max_nodes": 0,
+        "nodes": 1,
+        "status": "complete",
+        "termination_reason": "exhausted",
+        "witnesses": []
+      },
+      "status": "complete",
+      "witnesses": []
+    },
+    "1": {
+      "b": 1,
+      "divisor": "223189448319013311502760190803265",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.273287+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "10": {
+      "b": 10,
+      "divisor": "5609571486689854428548196820818387609",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.597153+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "11": {
+      "b": 11,
+      "divisor": "17234225651878468425057713124201070365",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.597430+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "12": {
+      "b": 12,
+      "divisor": "52919210531062120693412507357840933709",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.597694+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "13": {
+      "b": 13,
+      "divisor": "162407232319466508334955626029235968969",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.597970+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "14": {
+      "b": 14,
+      "divisor": "498170499137239963769021189954847410433",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.598224+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "15": {
+      "b": 15,
+      "divisor": "1527357903948241207599526505465960741877",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.598448+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "16": {
+      "b": 16,
+      "divisor": "4680612931454287571675968323202137757365",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.598723+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "17": {
+      "b": 17,
+      "divisor": "14337456453191554561660071390019179867297",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.599027+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "18": {
+      "b": 18,
+      "build": {
+        "binary_sha256": "867808d5c9bfaf05a5436cad727d0bc1db514d9647856ae9f9dcf1243f1fb1c2",
+        "built_at": "2026-11-24T19:07:33.707552+00:00",
+        "command": [
+          "c++",
+          "-O3",
+          "-std=c++17",
+          "-Wall",
+          "-Wextra",
+          "-Werror",
+          "-isystem",
+          "/opt/homebrew/include",
+          "-L/opt/homebrew/lib",
+          "/Users/lukesmacminim41/Projects/Mathematics/research/a398769/stage4/search/search.cpp",
+          "-lgmpxx",
+          "-lgmp",
+          "-o",
+          "/private/tmp/a398769-stage4-build/search"
+        ],
+        "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin25.6.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin",
+        "machine": "arm64",
+        "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+        "source_sha256": "27539604b5c9962debac71aeb5a7c650f1d4dee555698a26d457bd0374fbe20a"
+      },
+      "divisor": "43899222336060739224876713431295839387497",
+      "length": 63,
+      "recorded_at": "2026-11-24T19:08:32.599535+00:00",
+      "search": {
+        "b": 18,
+        "candidates_tested": 1058291,
+        "divisor": "43899222336060739224876713431295839387497",
+        "elapsed_seconds": 0.277241417,
+        "engine": "stage4-prefix-v1",
+        "expected_complete_leaves": 4192510,
+        "expected_complete_nodes": 8385019,
+        "leaves": 4192510,
+        "length": 63,
+        "max_milliseconds": 120000,
+        "max_nodes": 0,
+        "nodes": 8385019,
+        "status": "complete",
+        "termination_reason": "exhausted",
+        "witnesses": []
+      },
+      "status": "complete",
+      "witnesses": []
+    },
+    "19": {
+      "b": 19,
+      "divisor": "134358225937640444294319638077602417519309",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.880510+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "2": {
+      "b": 2,
+      "divisor": "690170447878795009416227666945481",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.273449+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "20": {
+      "b": 20,
+      "divisor": "411056354601296012742027407583951950628381",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.880851+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "21": {
+      "b": 21,
+      "divisor": "1257114094169012077803287702805289946096505",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.881170+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "22": {
+      "b": 22,
+      "divisor": "3843177373602408352141479548576172120923601",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.881474+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "23": {
+      "b": 23,
+      "divisor": "11745037394093341412619287966209423210673061",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.881782+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "24": {
+      "b": 24,
+      "divisor": "35881628002138373306442411860070990175725957",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.882164+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "25": {
+      "b": 25,
+      "divisor": "109584431465990167125080879464541132158298193",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.882497+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "26": {
+      "b": 26,
+      "divisor": "334571936776695642992503570046607881368255545",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.882842+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "27": {
+      "b": 27,
+      "build": {
+        "binary_sha256": "867808d5c9bfaf05a5436cad727d0bc1db514d9647856ae9f9dcf1243f1fb1c2",
+        "built_at": "2026-11-24T19:07:33.707552+00:00",
+        "command": [
+          "c++",
+          "-O3",
+          "-std=c++17",
+          "-Wall",
+          "-Wextra",
+          "-Werror",
+          "-isystem",
+          "/opt/homebrew/include",
+          "-L/opt/homebrew/lib",
+          "/Users/lukesmacminim41/Projects/Mathematics/research/a398769/stage4/search/search.cpp",
+          "-lgmpxx",
+          "-lgmp",
+          "-o",
+          "/private/tmp/a398769-stage4-build/search"
+        ],
+        "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin25.6.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin",
+        "machine": "arm64",
+        "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+        "source_sha256": "27539604b5c9962debac71aeb5a7c650f1d4dee555698a26d457bd0374fbe20a"
+      },
+      "divisor": "1021171737466262353829293505098777098784849533",
+      "length": 63,
+      "recorded_at": "2026-11-24T19:08:32.883218+00:00",
+      "search": {
+        "b": 27,
+        "candidates_tested": 28557,
+        "divisor": "1021171737466262353829293505098777098784849533",
+        "elapsed_seconds": 0.013101417,
+        "engine": "stage4-prefix-v1",
+        "expected_complete_leaves": 262144,
+        "expected_complete_nodes": 524287,
+        "leaves": 262144,
+        "length": 63,
+        "max_milliseconds": 120000,
+        "max_nodes": 0,
+        "nodes": 524287,
+        "status": "complete",
+        "termination_reason": "exhausted",
+        "witnesses": []
+      },
+      "status": "complete",
+      "witnesses": []
+    },
+    "28": {
+      "b": 28,
+      "divisor": "3115882993807313336043228900173191660394797293",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.899348+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "29": {
+      "b": 29,
+      "divisor": "9504752325647518831795731855150156073305137961",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.899669+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "3": {
+      "b": 3,
+      "divisor": "2132317652401650252972524284443501",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.273618+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "30": {
+      "b": 30,
+      "divisor": "28985567009619292966385331029342211496277652129",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.899984+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "31": {
+      "b": 31,
+      "divisor": "88370631126888088312150399479701864317919671125",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.900297+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "32": {
+      "b": 32,
+      "divisor": "269353683674754893175434417614131282441019157589",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.900604+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "33": {
+      "b": 33,
+      "divisor": "820786421906536564243252910367470915784837905409",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.900971+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "34": {
+      "b": 34,
+      "divisor": "2500535378366425346880607703677643952739855014153",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.901315+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "35": {
+      "b": 35,
+      "divisor": "7616134473039723003094370028758625474375588936237",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.901666+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "36": {
+      "b": 36,
+      "divisor": "23191988432940509896640750839452957271594838490045",
+      "length": 63,
+      "reason": "factor_5",
+      "recorded_at": "2026-11-24T19:08:32.902016+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "37": {
+      "b": 37,
+      "divisor": "70606720340285552351995174777890114360188730514137",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.902388+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "38": {
+      "b": 38,
+      "divisor": "214912426145248725042204291112264070716778836674417",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.902782+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "39": {
+      "b": 39,
+      "divisor": "654014073808922379085269173672573395058974445419269",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.903148+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "4": {
+      "b": 4,
+      "divisor": "6582371883500746433089096704151677",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.273782+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "40": {
+      "b": 40,
+      "divisor": "1989872607546295749131776422025063733902837142445861",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.903488+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "41": {
+      "b": 41,
+      "divisor": "6053108980997473083023235969097221847886252845901745",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.903827+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "42": {
+      "b": 42,
+      "divisor": "18409800418068176755953428016357757482191982793397721",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.904300+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "43": {
+      "b": 43,
+      "divisor": "55980821679431802788511444376271548262175621147270621",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.904704+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "44": {
+      "b": 44,
+      "divisor": "170196726313977225927487814110409472233325881743044237",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.905076+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "45": {
+      "b": 45,
+      "build": {
+        "binary_sha256": "867808d5c9bfaf05a5436cad727d0bc1db514d9647856ae9f9dcf1243f1fb1c2",
+        "built_at": "2026-11-24T19:07:33.707552+00:00",
+        "command": [
+          "c++",
+          "-O3",
+          "-std=c++17",
+          "-Wall",
+          "-Wextra",
+          "-Werror",
+          "-isystem",
+          "/opt/homebrew/include",
+          "-L/opt/homebrew/lib",
+          "/Users/lukesmacminim41/Projects/Mathematics/research/a398769/stage4/search/search.cpp",
+          "-lgmpxx",
+          "-lgmp",
+          "-o",
+          "/private/tmp/a398769-stage4-build/search"
+        ],
+        "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin25.6.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin",
+        "machine": "arm64",
+        "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+        "source_sha256": "27539604b5c9962debac71aeb5a7c650f1d4dee555698a26d457bd0374fbe20a"
+      },
+      "divisor": "517352962768977130468323885276012899040374700132829833",
+      "length": 63,
+      "recorded_at": "2026-11-24T19:08:32.905428+00:00",
+      "search": {
+        "b": 45,
+        "candidates_tested": 113,
+        "divisor": "517352962768977130468323885276012899040374700132829833",
+        "elapsed_seconds": 0.000132167,
+        "engine": "stage4-prefix-v1",
+        "expected_complete_leaves": 512,
+        "expected_complete_nodes": 1023,
+        "leaves": 512,
+        "length": 63,
+        "max_milliseconds": 120000,
+        "max_nodes": 0,
+        "nodes": 1023,
+        "status": "complete",
+        "termination_reason": "exhausted",
+        "witnesses": []
+      },
+      "status": "complete",
+      "witnesses": []
+    },
+    "46": {
+      "b": 46,
+      "divisor": "1572347239788067749462552984662392144142315265109580865",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.908351+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "47": {
+      "b": 47,
+      "divisor": "4777906773807612322560402940490236773490519289462016693",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.908741+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "48": {
+      "b": 48,
+      "divisor": "14516315484753064190199440780979891343662278350785872373",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.909120+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "49": {
+      "b": 49,
+      "divisor": "44096731944249874238153018221467217100558996499557084001",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.909506+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "5": {
+      "b": 5,
+      "divisor": "20303372429389626321781861664918553",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.273971+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "50": {
+      "b": 50,
+      "divisor": "133933552302721667717123142299984280510393473840269652649",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.909902+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "51": {
+      "b": 51,
+      "divisor": "406730726318081138159361689806700729157329874545604159885",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.910320+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "52": {
+      "b": 52,
+      "divisor": "1234982387183991819502061858140345850350437982711198085469",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.910747+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "53": {
+      "b": 53,
+      "divisor": "3749317786241220673578115940581768539686659025356751073849",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.911146+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "54": {
+      "b": 54,
+      "build": {
+        "binary_sha256": "867808d5c9bfaf05a5436cad727d0bc1db514d9647856ae9f9dcf1243f1fb1c2",
+        "built_at": "2026-11-24T19:07:33.707552+00:00",
+        "command": [
+          "c++",
+          "-O3",
+          "-std=c++17",
+          "-Wall",
+          "-Wextra",
+          "-Werror",
+          "-isystem",
+          "/opt/homebrew/include",
+          "-L/opt/homebrew/lib",
+          "/Users/lukesmacminim41/Projects/Mathematics/research/a398769/stage4/search/search.cpp",
+          "-lgmpxx",
+          "-lgmp",
+          "-o",
+          "/private/tmp/a398769-stage4-build/search"
+        ],
+        "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin25.6.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin",
+        "machine": "arm64",
+        "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+        "source_sha256": "27539604b5c9962debac71aeb5a7c650f1d4dee555698a26d457bd0374fbe20a"
+      },
+      "divisor": "11381065232791397665950138920227498584966012307739723673873",
+      "length": 63,
+      "recorded_at": "2026-11-24T19:08:32.911572+00:00",
+      "search": {
+        "b": 54,
+        "candidates_tested": 16,
+        "divisor": "11381065232791397665950138920227498584966012307739723673873",
+        "elapsed_seconds": 0.000103833,
+        "engine": "stage4-prefix-v1",
+        "expected_complete_leaves": 16,
+        "expected_complete_nodes": 31,
+        "leaves": 16,
+        "length": 63,
+        "max_milliseconds": 120000,
+        "max_nodes": 0,
+        "nodes": 31,
+        "status": "complete",
+        "termination_reason": "exhausted",
+        "witnesses": []
+      },
+      "status": "complete",
+      "witnesses": []
+    },
+    "55": {
+      "b": 55,
+      "divisor": "34542531320577399933497790056129074652616142618227582378597",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.914368+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "56": {
+      "b": 56,
+      "divisor": "104825600828341820607435490054726960651002744939707981206725",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.914785+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "57": {
+      "b": 57,
+      "divisor": "318070823084854324243132829823200092032471186074199645832977",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.915200+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "58": {
+      "b": 58,
+      "divisor": "964994531054049559991877568446657906335802411987826044137337",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.915687+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "59": {
+      "b": 59,
+      "divisor": "2927329778560608441763069942271146609722573797259159452327229",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.916173+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "6": {
+      "b": 6,
+      "divisor": "62578887624831040032889299652146225",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.274167+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "60": {
+      "b": 60,
+      "divisor": "8879027891877204610651521537606958501313221075664522316727341",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.916623+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "61": {
+      "b": 61,
+      "divisor": "26928199344217751688041499745201431520376162278654698829418985",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.917079+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "62": {
+      "b": 62,
+      "divisor": "81657945038411668632385304632745962610437983990947492125967841",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.917547+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "63": {
+      "b": 63,
+      "build": {
+        "binary_sha256": "867808d5c9bfaf05a5436cad727d0bc1db514d9647856ae9f9dcf1243f1fb1c2",
+        "built_at": "2026-11-24T19:07:33.707552+00:00",
+        "command": [
+          "c++",
+          "-O3",
+          "-std=c++17",
+          "-Wall",
+          "-Wextra",
+          "-Werror",
+          "-isystem",
+          "/opt/homebrew/include",
+          "-L/opt/homebrew/lib",
+          "/Users/lukesmacminim41/Projects/Mathematics/research/a398769/stage4/search/search.cpp",
+          "-lgmpxx",
+          "-lgmp",
+          "-o",
+          "/private/tmp/a398769-stage4-build/search"
+        ],
+        "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin25.6.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin",
+        "machine": "arm64",
+        "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+        "source_sha256": "27539604b5c9962debac71aeb5a7c650f1d4dee555698a26d457bd0374fbe20a"
+      },
+      "divisor": "247593876132510246601938330089662891979242443437792663291036181",
+      "length": 63,
+      "recorded_at": "2026-11-24T19:08:32.918038+00:00",
+      "search": {
+        "b": 63,
+        "candidates_tested": 0,
+        "divisor": "247593876132510246601938330089662891979242443437792663291036181",
+        "elapsed_seconds": 0.00010075,
+        "engine": "stage4-prefix-v1",
+        "expected_complete_leaves": 1,
+        "expected_complete_nodes": 1,
+        "leaves": 1,
+        "length": 63,
+        "max_milliseconds": 120000,
+        "max_nodes": 0,
+        "nodes": 1,
+        "status": "complete",
+        "termination_reason": "exhausted",
+        "witnesses": []
+      },
+      "status": "complete",
+      "witnesses": []
+    },
+    "7": {
+      "b": 7,
+      "divisor": "192742973884479603301299042928610373",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.274359+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "8": {
+      "b": 8,
+      "divisor": "593247854683398259511790560702346213",
+      "length": 63,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:32.274533+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "9": {
+      "b": 9,
+      "build": {
+        "binary_sha256": "867808d5c9bfaf05a5436cad727d0bc1db514d9647856ae9f9dcf1243f1fb1c2",
+        "built_at": "2026-11-24T19:07:33.707552+00:00",
+        "command": [
+          "c++",
+          "-O3",
+          "-std=c++17",
+          "-Wall",
+          "-Wextra",
+          "-Werror",
+          "-isystem",
+          "/opt/homebrew/include",
+          "-L/opt/homebrew/lib",
+          "/Users/lukesmacminim41/Projects/Mathematics/research/a398769/stage4/search/search.cpp",
+          "-lgmpxx",
+          "-lgmp",
+          "-o",
+          "/private/tmp/a398769-stage4-build/search"
+        ],
+        "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin25.6.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin",
+        "machine": "arm64",
+        "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+        "source_sha256": "27539604b5c9962debac71aeb5a7c650f1d4dee555698a26d457bd0374fbe20a"
+      },
+      "divisor": "1824800363140073127359051977856583921",
+      "length": 63,
+      "recorded_at": "2026-11-24T19:08:32.274730+00:00",
+      "search": {
+        "b": 9,
+        "candidates_tested": 1443455,
+        "divisor": "1824800363140073127359051977856583921",
+        "elapsed_seconds": 0.318866,
+        "engine": "stage4-prefix-v1",
+        "expected_complete_leaves": 5658537,
+        "expected_complete_nodes": 11317073,
+        "leaves": 5658537,
+        "length": 63,
+        "max_milliseconds": 120000,
+        "max_nodes": 0,
+        "nodes": 11317073,
+        "status": "complete",
+        "termination_reason": "exhausted",
+        "witnesses": []
+      },
+      "status": "complete",
+      "witnesses": []
+    }
+  },
+  "length": 63,
+  "schema": 1,
+  "source_sha256": "27539604b5c9962debac71aeb5a7c650f1d4dee555698a26d457bd0374fbe20a"
+}

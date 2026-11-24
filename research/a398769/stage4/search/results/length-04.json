@@ -1,0 +1,52 @@
+{
+  "cases": {
+    "0": {
+      "b": 0,
+      "divisor": "324",
+      "length": 4,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.487193+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "1": {
+      "b": 1,
+      "divisor": "1458",
+      "length": 4,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.487326+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "2": {
+      "b": 2,
+      "divisor": "5832",
+      "length": 4,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.487563+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "3": {
+      "b": 3,
+      "divisor": "21870",
+      "length": 4,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.487804+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "4": {
+      "b": 4,
+      "divisor": "78732",
+      "length": 4,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.487979+00:00",
+      "status": "excluded",
+      "witnesses": []
+    }
+  },
+  "length": 4,
+  "schema": 1,
+  "source_sha256": "27539604b5c9962debac71aeb5a7c650f1d4dee555698a26d457bd0374fbe20a"
+}
