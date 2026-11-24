@@ -21,3 +21,19 @@ Operational findings were addressed before the initial push:
 An independently derived work recurrence also predicts the exact node and leaf
 counts for each complete search. The runner checks these counts both on new
 results and when loading saved results.
+
+## Final result audit
+
+The reviewer rebuilt final source hash
+`27539604b5c9962debac71aeb5a7c650f1d4dee555698a26d457bd0374fbe20a`
+in a separate temporary build directory and reproduced the complete validation
+suite; see [review-validation.json](review-validation.json).
+
+After the full run, an independent audit accounted for every one of the 2,925
+length/count pairs. It recomputed the exclusion reasons and used a separate
+level-by-level state calculation to check all 128 complete traversal counts.
+All matched, with no missing or limited cases and no witnesses. The exclusions
+were 1,443 even-length cases, 1,313 modulo-9/3 cases, 33 factor-5 cases and
+8 cases whose divisor exceeds the maximum arrangement. All seven length-75
+cases completed. The source files remained identical to the implementation
+commit pushed before the full run.

@@ -1,0 +1,34 @@
+{
+  "cases": {
+    "0": {
+      "b": 0,
+      "divisor": "18",
+      "length": 2,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.485911+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "1": {
+      "b": 1,
+      "divisor": "108",
+      "length": 2,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.486115+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "2": {
+      "b": 2,
+      "divisor": "486",
+      "length": 2,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.486289+00:00",
+      "status": "excluded",
+      "witnesses": []
+    }
+  },
+  "length": 2,
+  "schema": 1,
+  "source_sha256": "27539604b5c9962debac71aeb5a7c650f1d4dee555698a26d457bd0374fbe20a"
+}

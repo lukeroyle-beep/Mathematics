@@ -1,0 +1,394 @@
+{
+  "cases": {
+    "0": {
+      "b": 0,
+      "divisor": "4595597543523519086778",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.778369+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "1": {
+      "b": 1,
+      "divisor": "14443306565359631415588",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.778481+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "10": {
+      "b": 10,
+      "divisor": "400587077132053744533798942",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.779982+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "11": {
+      "b": 11,
+      "divisor": "1240527722731521273394990272",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.780158+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "12": {
+      "b": 12,
+      "divisor": "3837882642200643939565751154",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.780372+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "13": {
+      "b": 13,
+      "divisor": "11862546348620172176839594476",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.780577+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "14": {
+      "b": 14,
+      "divisor": "36634334311915237604945806470",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.780758+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "15": {
+      "b": 15,
+      "divisor": "113043088733909876038118488536",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.780945+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "16": {
+      "b": 16,
+      "divisor": "348549523596222117784198672986",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.781136+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "17": {
+      "b": 17,
+      "divisor": "1073909342972143822362125641092",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.781515+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "18": {
+      "b": 18,
+      "divisor": "3306510345466863874114965789678",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.781815+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "19": {
+      "b": 19,
+      "divisor": "10173877986051888843430663968240",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.782067+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "2": {
+      "b": 2,
+      "divisor": "45299461500446116712526",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.778628+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "20": {
+      "b": 20,
+      "divisor": "31284674807109558193549291702338",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.782317+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "21": {
+      "b": 21,
+      "divisor": "96143146968190349570419774499868",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.782575+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "22": {
+      "b": 22,
+      "divisor": "295296808545156073680575021678166",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.782818+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "23": {
+      "b": 23,
+      "divisor": "906492528557223295949672159570184",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.783048+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "24": {
+      "b": 24,
+      "divisor": "2781283894436935112572857762317610",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.783260+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "25": {
+      "b": 25,
+      "divisor": "8529270609606601011890097137774004",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.783514+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "26": {
+      "b": 26,
+      "divisor": "26144068607707190058184862965785534",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.783756+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "27": {
+      "b": 27,
+      "divisor": "80100976159783731242098303554747168",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.783990+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "28": {
+      "b": 28,
+      "divisor": "245309239489337676928926054636413202",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.784462+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "29": {
+      "b": 29,
+      "divisor": "750946651497972480394671595825754700",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.784747+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "3": {
+      "b": 3,
+      "divisor": "141807009914440017534864",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.778772+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "30": {
+      "b": 30,
+      "divisor": "2297896753583795790007695083226809382",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.785034+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "31": {
+      "b": 31,
+      "divisor": "7028860658021022416494126136929063992",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.785291+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "32": {
+      "b": 32,
+      "divisor": "21492093165871972388895501072533099514",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.785530+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "33": {
+      "b": 33,
+      "divisor": "65692813073042632584925871202837021156",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.785769+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "34": {
+      "b": 34,
+      "divisor": "200728039945408044009495717564224231310",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.786031+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "35": {
+      "b": 35,
+      "divisor": "613132922015064570792641464559812197456",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.786308+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "36": {
+      "b": 36,
+      "divisor": "1872245172581715028670387329280855102946",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.786588+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "37": {
+      "b": 37,
+      "divisor": "5715274737354709034888550794646820840572",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.786852+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "38": {
+      "b": 38,
+      "divisor": "17441441870892818951297818804353229116918",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.787109+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "39": {
+      "b": 39,
+      "divisor": "53211178589164532393789955674297987136360",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.787463+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "4": {
+      "b": 4,
+      "divisor": "443146905982625054796450",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.778958+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "40": {
+      "b": 40,
+      "divisor": "162294094696951823801059364806608860765898",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.787793+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "41": {
+      "b": 41,
+      "divisor": "494863960879230151262246587770971280368148",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.788083+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "42": {
+      "b": 42,
+      "divisor": "1508536913002814493363945243366347935315806",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.788355+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "5": {
+      "b": 5,
+      "divisor": "1382618346665790170964924",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.779111+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "6": {
+      "b": 6,
+      "divisor": "4307387926151115532621494",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.779267+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "7": {
+      "b": 7,
+      "divisor": "13400762436914581657044648",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.779425+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "8": {
+      "b": 8,
+      "divisor": "41638083286127450148674442",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.779621+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "9": {
+      "b": 9,
+      "divisor": "129221637784533465978644820",
+      "length": 42,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.779811+00:00",
+      "status": "excluded",
+      "witnesses": []
+    }
+  },
+  "length": 42,
+  "schema": 1,
+  "source_sha256": "27539604b5c9962debac71aeb5a7c650f1d4dee555698a26d457bd0374fbe20a"
+}

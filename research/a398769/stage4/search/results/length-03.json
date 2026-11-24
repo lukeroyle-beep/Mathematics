@@ -1,0 +1,43 @@
+{
+  "cases": {
+    "0": {
+      "b": 0,
+      "divisor": "81",
+      "length": 3,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:30.486478+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "1": {
+      "b": 1,
+      "divisor": "405",
+      "length": 3,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:30.486609+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "2": {
+      "b": 2,
+      "divisor": "1701",
+      "length": 3,
+      "reason": "digit_sum_mod_9_or_3",
+      "recorded_at": "2026-11-24T19:08:30.486805+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "3": {
+      "b": 3,
+      "divisor": "6561",
+      "length": 3,
+      "reason": "divisor_above_maximum",
+      "recorded_at": "2026-11-24T19:08:30.486991+00:00",
+      "status": "excluded",
+      "witnesses": []
+    }
+  },
+  "length": 3,
+  "schema": 1,
+  "source_sha256": "27539604b5c9962debac71aeb5a7c650f1d4dee555698a26d457bd0374fbe20a"
+}

@@ -1,5 +1,8 @@
 # Independent exact {3,9} search through 75 digits
 
+The [completed result and every-length coverage table](RESULTS.md) report zero
+witnesses, with all cases through 75 digits exhausted or excluded.
+
 This search starts from proof commit
 `7c7e44ff8fe622c40b8c5a27a86641b90fe2c797`, on the separate branch
 `research/a398769-stage4-search`. No earlier cloud search result is an input,
@@ -150,3 +153,17 @@ zero limits mean unlimited. It prints one JSON record. Timing extrapolations
 are feasibility estimates; only exhausted cases establish the finite result.
 The search addresses the {3,9} subclass through 75 digits, not numbers with
 digits 5 or 7 and not the unrestricted A398769 conjecture.
+
+## Audit retained results independently
+
+After reproducing the completed run, verify every count case, every exclusion
+and every traversal count without importing the search driver:
+
+```sh
+python3 research/a398769/stage4/search/audit_results.py --output /private/tmp/a398769-independent-audit.json
+```
+
+The auditor uses a separate level-by-level count calculation and checks source
+and recorded build hashes. It rejects missing, limited, extra or witness-bearing
+cases; it is specifically an audit of this completed zero-witness result. The
+retained receipt is [independent-audit.json](independent-audit.json).

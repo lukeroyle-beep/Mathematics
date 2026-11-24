@@ -1,0 +1,24 @@
+{
+  "proof_commit": "7c7e44ff8fe622c40b8c5a27a86641b90fe2c797",
+  "implementation_commit_pushed_before_benchmarks": "501989af60a1a8139df346d22f5bbab1792e6c1a",
+  "initial_remote_hash_verified": "501989af60a1a8139df346d22f5bbab1792e6c1a",
+  "branch": "research/a398769-stage4-search",
+  "source_sha256": "27539604b5c9962debac71aeb5a7c650f1d4dee555698a26d457bd0374fbe20a",
+  "hardware": {
+    "cpu": "Apple M4",
+    "logical_cpus": 10,
+    "memory_bytes": 17179869184
+  },
+  "run_command": "python3 research/a398769/stage4/search/search.py run --case-seconds 120 --total-seconds 1800",
+  "mathematical_pairs": 2925,
+  "excluded_pairs": 2797,
+  "completed_search_pairs": 128,
+  "limited_or_missing_pairs": 0,
+  "witnesses": [],
+  "nodes": 2085772536,
+  "leaves": 1042886332,
+  "interval_candidates_checked": 256817010,
+  "sum_engine_elapsed_seconds": 69.117761479,
+  "resume_check": "All 75 saved length files byte-identical after running the same driver again",
+  "earlier_cloud_result_used": false
+}

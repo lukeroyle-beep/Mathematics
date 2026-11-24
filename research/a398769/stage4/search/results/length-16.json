@@ -1,0 +1,160 @@
+{
+  "cases": {
+    "0": {
+      "b": 0,
+      "divisor": "688747536",
+      "length": 16,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.528340+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "1": {
+      "b": 1,
+      "divisor": "2324522934",
+      "length": 16,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.528471+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "10": {
+      "b": 10,
+      "divisor": "91507169819844",
+      "length": 16,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.530047+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "11": {
+      "b": 11,
+      "divisor": "289772704429506",
+      "length": 16,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.530239+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "12": {
+      "b": 12,
+      "divisor": "915071698198440",
+      "length": 16,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.530425+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "13": {
+      "b": 13,
+      "divisor": "2882475849325086",
+      "length": 16,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.530585+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "14": {
+      "b": 14,
+      "divisor": "9059209812164556",
+      "length": 16,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.530777+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "15": {
+      "b": 15,
+      "divisor": "28412976229061562",
+      "length": 16,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.531008+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "16": {
+      "b": 16,
+      "divisor": "88944969064888368",
+      "length": 16,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.531261+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "2": {
+      "b": 2,
+      "divisor": "7748409780",
+      "length": 16,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.528618+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "3": {
+      "b": 3,
+      "divisor": "25569752274",
+      "length": 16,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.528759+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "4": {
+      "b": 4,
+      "divisor": "83682825624",
+      "length": 16,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.528914+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "5": {
+      "b": 5,
+      "divisor": "271969183278",
+      "length": 16,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.529087+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "6": {
+      "b": 6,
+      "divisor": "878669669052",
+      "length": 16,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.529262+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "7": {
+      "b": 7,
+      "divisor": "2824295364810",
+      "length": 16,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.529446+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "8": {
+      "b": 8,
+      "divisor": "9037745167392",
+      "length": 16,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.529642+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "9": {
+      "b": 9,
+      "divisor": "28807812721062",
+      "length": 16,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.529840+00:00",
+      "status": "excluded",
+      "witnesses": []
+    }
+  },
+  "length": 16,
+  "schema": 1,
+  "source_sha256": "27539604b5c9962debac71aeb5a7c650f1d4dee555698a26d457bd0374fbe20a"
+}

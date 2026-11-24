@@ -1,0 +1,88 @@
+{
+  "cases": {
+    "0": {
+      "b": 0,
+      "divisor": "52488",
+      "length": 8,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.498049+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "1": {
+      "b": 1,
+      "divisor": "196830",
+      "length": 8,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.498218+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "2": {
+      "b": 2,
+      "divisor": "708588",
+      "length": 8,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.498403+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "3": {
+      "b": 3,
+      "divisor": "2480058",
+      "length": 8,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.498572+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "4": {
+      "b": 4,
+      "divisor": "8503056",
+      "length": 8,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.498736+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "5": {
+      "b": 5,
+      "divisor": "28697814",
+      "length": 8,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.498913+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "6": {
+      "b": 6,
+      "divisor": "95659380",
+      "length": 8,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.499105+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "7": {
+      "b": 7,
+      "divisor": "315675954",
+      "length": 8,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.499305+00:00",
+      "status": "excluded",
+      "witnesses": []
+    },
+    "8": {
+      "b": 8,
+      "divisor": "1033121304",
+      "length": 8,
+      "reason": "even_length",
+      "recorded_at": "2026-11-24T19:08:30.499478+00:00",
+      "status": "excluded",
+      "witnesses": []
+    }
+  },
+  "length": 8,
+  "schema": 1,
+  "source_sha256": "27539604b5c9962debac71aeb5a7c650f1d4dee555698a26d457bd0374fbe20a"
+}

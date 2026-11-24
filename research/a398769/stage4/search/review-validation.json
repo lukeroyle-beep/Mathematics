@@ -1,0 +1,47 @@
+{
+  "build": {
+    "binary_sha256": "867808d5c9bfaf05a5436cad727d0bc1db514d9647856ae9f9dcf1243f1fb1c2",
+    "built_at": "2026-11-24T19:08:00.137644+00:00",
+    "command": [
+      "c++",
+      "-O3",
+      "-std=c++17",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-isystem",
+      "/opt/homebrew/include",
+      "-L/opt/homebrew/lib",
+      "/Users/lukesmacminim41/Projects/Mathematics/research/a398769/stage4/search/search.cpp",
+      "-lgmpxx",
+      "-lgmp",
+      "-o",
+      "/private/tmp/a398769-stage4-review-build/search"
+    ],
+    "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin25.6.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin",
+    "machine": "arm64",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "source_sha256": "27539604b5c9962debac71aeb5a7c650f1d4dee555698a26d457bd0374fbe20a"
+  },
+  "elapsed_seconds": 0.7429653750732541,
+  "generic_control_cases": 176,
+  "generic_control_hits": 654,
+  "incomplete_control": "missing and limited cases remain unfinished",
+  "known_control": [
+    "111133131",
+    "111331113",
+    "113131311",
+    "133113111",
+    "311113311"
+  ],
+  "large_integer_controls": "three divisors at L=75,b=1, compared with all 75 words",
+  "limit_control": "max_nodes=3 correctly returns limited",
+  "original_condition_cases": 72,
+  "original_condition_max_length": 16,
+  "original_condition_words": 131070,
+  "resume_control": "completed cases unchanged on second run; exact coverage through 8",
+  "source_sha256": "27539604b5c9962debac71aeb5a7c650f1d4dee555698a26d457bd0374fbe20a",
+  "status": "passed",
+  "time_limit_control": "1 ms L=75,b=12 probe correctly returns limited",
+  "validated_at": "2026-11-24T19:08:00.881072+00:00"
+}
