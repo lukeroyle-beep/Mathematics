@@ -1,0 +1,80 @@
+{
+  "analytic_constant_checks": {
+    "cutoff_length": 10000000,
+    "edge_parameter_max": 395,
+    "plateau_bound": 9979200,
+    "prefactor_strictly_below": 63
+  },
+  "arithmetic": "exact integers; no Lean checking",
+  "base_commit": "66f9135254ec4f4dc58acfc6287170fff23e098a",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)",
+  "elapsed_seconds": 2.32,
+  "full_candidate_tests": [],
+  "python": "3.14.4",
+  "search": {
+    "max_length_inclusive": 10000000,
+    "method": "successive_unique_exponent_lifting",
+    "mode": "bounded_sieve",
+    "modulus": 79792266297612001,
+    "odd_lengths_checked": 4999998,
+    "power_cap": 20,
+    "rejected_at_power": {
+      "10": 618821,
+      "11": 88758,
+      "12": 12717,
+      "13": 1781,
+      "14": 267,
+      "15": 30,
+      "16": 4,
+      "17": 2,
+      "18": 1,
+      "2": 8,
+      "3": 63,
+      "4": 441,
+      "5": 3087,
+      "6": 21609,
+      "7": 151263,
+      "8": 1058841,
+      "9": 3042305
+    },
+    "truncated_7_power_survivors": []
+  },
+  "small_checks": {
+    "all_original_words_through_15": 43690,
+    "decimal_pairs_through_301": 3775,
+    "full_divisor_survivors": [],
+    "modular_length_power_comparisons": 745,
+    "position_45_modulo_49_control": [
+      51,
+      45
+    ],
+    "prime_filter_F_residues": {
+      "101": [
+        23,
+        28,
+        67,
+        85
+      ],
+      "11": [
+        8
+      ],
+      "13": [
+        8,
+        11,
+        12
+      ],
+      "37": [
+        1,
+        27,
+        28
+      ]
+    },
+    "regression_23_15_F_mod_343": 245,
+    "regression_23_15_F_mod_49": 0
+  },
+  "source_sha256": {
+    "lift_sieve.cpp": "57e3f0decf99e649c0e69fc5d01bb24896cc08659682c5c65a3f4be2a2ed27b2",
+    "verify.py": "10aa5a72e469eb105d7dfb30e0c3efab8bbc81491df26f1cabc07c5331a7a472"
+  },
+  "verdict": "no candidates in the claimed finite range"
+}

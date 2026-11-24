@@ -1,5 +1,11 @@
 # A398769: independent audit of the two-five family
 
+**Subsequent investigation:** [the review follow-up](settlement/README.md)
+excludes every residual pair through 10,000,000 digits, proves all-length
+exclusions for position `i <= 395` or gap `L-i <= 395`, and adds two
+digit-sum filters. The complete subclass remains open. The merged audit
+below is retained as the starting point and historical verification record.
+
 Audited 24 November 2026, starting from main at
 `214cd49e660f31aaee0aaecd48d36a8ec3624653`, the merge commit of
 [PR #6](https://github.com/lukeroyle-beep/Mathematics/pull/6).

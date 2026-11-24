@@ -1,0 +1,40 @@
+{
+  "all_length_exclusion": false,
+  "direct_decimal_crosscheck": {
+    "full_survivors": [],
+    "max_length": 199,
+    "pair_count": 9900,
+    "regression_23_15": {
+      "mod343": 245,
+      "mod49": 0
+    },
+    "weak_survivors": []
+  },
+  "excluded_entire_bounded_weak_domain": true,
+  "exponent": 20,
+  "fixed_modulus": {
+    "first_length": 23,
+    "length_count": 4999989,
+    "position_count": 1666667,
+    "survivors": []
+  },
+  "largest_odd_length": 9999999,
+  "limit_inclusive": 10000000,
+  "lower_direct": {
+    "first_length": 5,
+    "last_length": 21,
+    "pair_count": 18,
+    "weak_survivors": []
+  },
+  "method": "independent fixed-modulus position lookup",
+  "modulus": 79792266297612001,
+  "order_witnesses": {
+    "2": 79792266297612000,
+    "3": 22143577275619760,
+    "7": 11398895185373144
+  },
+  "period": 68393371112238858,
+  "position_domain": "3 <= i < L; i = 3 (mod 6), including i=3 and i=45",
+  "schema": 1,
+  "script_sha256": "4f90a31b258898a442eb66f8ad625ab84cb37cc3b6e8480b89a9e2bff8d44512"
+}
