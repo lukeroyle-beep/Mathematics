@@ -1,0 +1,89 @@
+{
+  "all_claimed_strips_finite_bridge_complete": true,
+  "complete_length_coverage_inclusive": [
+    1,
+    10000000
+  ],
+  "date": "2026-11-25",
+  "full_witness": null,
+  "global_cutoff": null,
+  "mathematical_problem_status": "OPEN",
+  "merge_authority": "owner only; draft PR requested",
+  "new_lean_formalization": false,
+  "review_kind": "Independent assistant-agent mathematical and arithmetic review",
+  "reviewed_sha256": {
+    "AUDIT.md": "abbe55701616a1b981fef57e184ae4b40f3a69dded8b03566f2cca5d5eb52735",
+    "COVERAGE.md": "1fb27cdcac45979e855ae5d90be8b16da5457c78875a3de8a55c3c9d0d4b5e9b",
+    "README.md": "cff0ae6796d2afc9b005cda1c6b7f10a25b81ba5bc17e86affc0450271ee6fa0",
+    "REVIEW.md": "d98071d0f9db94cb3fc1179322506d488e99de67ab313ce65f87def4a4e930d4",
+    "checks.json": "aa5081fa149da595f9067ca84a1d4fa7dcecea189e4894ee17056954441c7f66",
+    "checks.py": "e7848aa66dc3455cd6208bbbe1cd0b98885558c62b49af66fa83c5dcc25ce26b",
+    "independent_checks.json": "88de118b6b225a6fcd30b576afd7bf3f75c503d7152963c4de79b87c57388c16",
+    "independent_checks.py": "465c6535303e22913b3fb2ea9f3e3e8f0d5d671cb15fa5cc503b43737e429d79",
+    "verification.json": "40e397cba98195dfd2bab73f48472be26c3d9284d6e036d70ee57d903ecf121d"
+  },
+  "reviews": [
+    {
+      "authored": [
+        "AUDIT.md"
+      ],
+      "independent_scope": [
+        "submitted five inequalities",
+        "primary theorem and denominator",
+        "heights and local/global degrees",
+        "cubic signed offsets and dependence",
+        "midpoint165 and new179"
+      ],
+      "role": "Five-inequality auditor",
+      "verdict": "PASS"
+    },
+    {
+      "authored": [
+        "COVERAGE.md"
+      ],
+      "independent_scope": [
+        "AUDIT.md",
+        "README.md",
+        "checks.py",
+        "independent_checks.py"
+      ],
+      "role": "Rational-coverage investigator",
+      "verdict": "PASS"
+    },
+    {
+      "authored": [
+        "independent_checks.py"
+      ],
+      "independent_scope": [
+        "final AUDIT.md",
+        "final COVERAGE.md",
+        "final README.md",
+        "checks.py",
+        "verification.json and all receipt comparisons",
+        "complete inherited certificate reruns"
+      ],
+      "role": "Independent arithmetic reviewer",
+      "verdict": "PASS"
+    },
+    {
+      "authored": [
+        "README.md",
+        "checks.py",
+        "REVIEW.md",
+        "review.json",
+        "verification.json"
+      ],
+      "independent_scope": [
+        "AUDIT.md",
+        "COVERAGE.md",
+        "independent_checks.py",
+        "receipt reconciliation and starting-main verification"
+      ],
+      "role": "Primary investigator",
+      "verdict": "PASS"
+    }
+  ],
+  "starting_main": "2aea8ff77232225a68f5ebe694b812bc3a9438b8",
+  "status": "PASS",
+  "unresolved_defects": []
+}

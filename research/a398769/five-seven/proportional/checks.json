@@ -1,0 +1,75 @@
+{
+  "status": "PASS",
+  "N": 10000000,
+  "affine_margins_at_N": {
+    "edges": "1574965/4",
+    "midpoint": "11212478/25",
+    "thirds": "1345310"
+  },
+  "fifths_slope": "74529/80000",
+  "midpoint_fixed_strip": 179,
+  "midpoint_fixed_margin": "11896376/625",
+  "open_ratio_intervals": [
+    [
+      "1/25000",
+      "299999/900000"
+    ],
+    [
+      "300001/900000",
+      "3999999/10000000"
+    ],
+    [
+      "4000001/10000000",
+      "59999/120000"
+    ],
+    [
+      "60001/120000",
+      "5999999/10000000"
+    ],
+    [
+      "6000001/10000000",
+      "599999/900000"
+    ],
+    [
+      "600001/900000",
+      "24999/25000"
+    ]
+  ],
+  "polynomial_identities": 9800,
+  "signed_s_counts": {
+    "negative": 4466,
+    "zero": 190,
+    "positive": 5144
+  },
+  "positive_mod7_controls": 1700,
+  "hensel_comparisons": 8500,
+  "gap_family_controls": [
+    {
+      "L": 16031731,
+      "i": 6640575
+    },
+    {
+      "L": 32063461,
+      "i": 13281111
+    },
+    {
+      "L": 48095191,
+      "i": 19921689
+    },
+    {
+      "L": 160317301,
+      "i": 66405609
+    },
+    {
+      "L": 1603173001,
+      "i": 664055991
+    },
+    {
+      "L": 160317300001,
+      "i": 66405599943
+    }
+  ],
+  "complete_length_coverage_changed": false,
+  "new_lean_formalization": false,
+  "scope": "Finite arithmetic controls and rigorous constants; no new exhaustive length interval or witness."
+}

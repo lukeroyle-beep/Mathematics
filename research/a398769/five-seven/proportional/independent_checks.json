@@ -1,0 +1,198 @@
+{
+  "constants": {
+    "affine_comparisons": {
+      "ends": {
+        "intercept": "95827/4",
+        "margin_at_N": "1574965/4",
+        "slope": "95823/100000"
+      },
+      "fifths": {
+        "intercept": "0",
+        "margin_at_N": "683873",
+        "slope": "74529/80000"
+      },
+      "midpoint": {
+        "intercept": "2831472/25",
+        "margin_at_N": "11212478/25",
+        "slope": "58989/62500"
+      },
+      "thirds": {
+        "intercept": "489888",
+        "margin_at_N": "1345310",
+        "slope": "5103/6250"
+      }
+    },
+    "first_entries_strictly_below": {
+      "ends": "11",
+      "fifths": "13",
+      "midpoint": "53/5",
+      "thirds": "12"
+    },
+    "fixed_midpoint_strip": {
+      "absolute_offset_at_most": 179,
+      "derivative_upper_bound": "5963769/31250000",
+      "height_parameter": 181,
+      "maximum_at_N": "523/50",
+      "strict_margin_at_N": "11896376/625",
+      "valuation_envelope_at_N": "6238102374/625"
+    },
+    "log_terms": 32
+  },
+  "gap_family": {
+    "denominators_checked": "2 through 100 when 12600*b^3 < L",
+    "period": 16031730,
+    "rational_centres_compared": 4146,
+    "sample_pairs": [
+      {
+        "length": 16031731,
+        "position": 6640575
+      },
+      {
+        "length": 32063461,
+        "position": 13281111
+      },
+      {
+        "length": 48095191,
+        "position": 19921689
+      },
+      {
+        "length": 160317301,
+        "position": 66405609
+      },
+      {
+        "length": 1603173001,
+        "position": 664055991
+      },
+      {
+        "length": 160317300001,
+        "position": 66405599943
+      }
+    ],
+    "scope": "congruence and majorant controls only; full divisibility not asserted"
+  },
+  "intervals": {
+    "original_open_complement": [
+      [
+        "1/25000",
+        "299999/900000"
+      ],
+      [
+        "300001/900000",
+        "59999/120000"
+      ],
+      [
+        "60001/120000",
+        "599999/900000"
+      ],
+      [
+        "600001/900000",
+        "24999/25000"
+      ]
+    ],
+    "specific_surviving_open_interval": [
+      "41/100",
+      "49/100"
+    ],
+    "with_fifths_open_complement": [
+      [
+        "1/25000",
+        "299999/900000"
+      ],
+      [
+        "300001/900000",
+        "3999999/10000000"
+      ],
+      [
+        "4000001/10000000",
+        "59999/120000"
+      ],
+      [
+        "60001/120000",
+        "5999999/10000000"
+      ],
+      [
+        "6000001/10000000",
+        "599999/900000"
+      ],
+      [
+        "600001/900000",
+        "24999/25000"
+      ]
+    ]
+  },
+  "polynomials": {
+    "decimal_pairs": 3540,
+    "factor9_negative_control": [
+      313,
+      51
+    ],
+    "lengths": "odd 5 through 121 inclusive",
+    "nonsquare_midpoint_discriminants": 180,
+    "offset_signs": {
+      "2_fifths": {
+        "negative": 1334,
+        "positive": 2195,
+        "zero": 11
+      },
+      "3_fifths": {
+        "negative": 2077,
+        "positive": 1451,
+        "zero": 12
+      },
+      "midpoint": {
+        "negative": 1829,
+        "positive": 1711
+      },
+      "one_third": {
+        "negative": 2438,
+        "positive": 1083,
+        "zero": 19
+      },
+      "two_thirds": {
+        "negative": 2321,
+        "positive": 1200,
+        "zero": 19
+      }
+    },
+    "polynomial_identities": {
+      "2_fifths": 3540,
+      "3_fifths": 3540,
+      "midpoint": 3540,
+      "one_third": 3540,
+      "two_thirds": 3540
+    },
+    "positions": "every 3 <= i < L",
+    "positive_mod7_controls": {
+      "2_fifths": 610,
+      "3_fifths": 610,
+      "midpoint": 610,
+      "one_third": 610,
+      "two_thirds": 610
+    },
+    "regression_23_15_mod49_mod343": [
+      0,
+      245
+    ],
+    "root_distance_comparisons_powers_1_through_6": {
+      "2_fifths": 3660,
+      "3_fifths": 3660,
+      "midpoint": 3660,
+      "one_third": 3660,
+      "two_thirds": 3660
+    },
+    "sum_only_control": [
+      7,
+      3
+    ],
+    "valuation_histogram": {
+      "0": 2930,
+      "1": 520,
+      "2": 78,
+      "3": 11,
+      "4": 1
+    }
+  },
+  "scope": "independent finite controls; no new exhaustive lengths",
+  "source_sha256": "465c6535303e22913b3fb2ea9f3e3e8f0d5d671cb15fa5cc503b43737e429d79",
+  "status": "PASS"
+}
