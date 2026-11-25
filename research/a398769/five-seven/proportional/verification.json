@@ -1,0 +1,62 @@
+{
+  "analytic_threshold_inclusive": 10000000,
+  "attachment_sha256": "ce4ad044c09668df52e79546ce562c984327185afe09edd40b69eddc93f24b3c",
+  "branch": "research/a398769-proportional-position-bounds",
+  "certificate_reruns": [
+    {
+      "certificate": "lifting",
+      "comparison": "all deterministic fields match",
+      "differing_top_level_fields": [
+        "elapsed_seconds"
+      ],
+      "rerun_elapsed_seconds": 2.578,
+      "rerun_sha256": "c0d41506e2f2488d7422f64d0c25c939c71263e470556473435518347ecf2fdb",
+      "retained_receipt": "research/a398769/five-seven/settlement/lifting.json",
+      "retained_sha256": "8d8295bcc154060a53ca59d6a48ce6367c1775401c42b2131743af9b1a10fdf3"
+    },
+    {
+      "certificate": "independent",
+      "comparison": "all deterministic fields match",
+      "differing_top_level_fields": [],
+      "rerun_elapsed_seconds": null,
+      "rerun_sha256": "3c225040caaee6cb8895aa838ddff37aa599c90fa262e2a36dff1f9eed60a686",
+      "retained_receipt": "research/a398769/five-seven/settlement/independent.json",
+      "retained_sha256": "3c225040caaee6cb8895aa838ddff37aa599c90fa262e2a36dff1f9eed60a686"
+    }
+  ],
+  "commands": [
+    "python3 research/a398769/five-seven/proportional/checks.py",
+    "python3 -O research/a398769/five-seven/proportional/checks.py",
+    "python3 research/a398769/five-seven/proportional/independent_checks.py",
+    "python3 -O research/a398769/five-seven/proportional/independent_checks.py",
+    "python3 research/a398769/five-seven/settlement/verify.py --output /tmp/a398769-proportional-lifting.json",
+    "python3 research/a398769/five-seven/settlement/verify_fixed.py --output /tmp/a398769-proportional-independent.json",
+    "git diff --check"
+  ],
+  "complete_length_coverage_inclusive": [
+    1,
+    10000000
+  ],
+  "full_witness": null,
+  "global_effective_cutoff": null,
+  "merged_pr": 10,
+  "new_checks_optimization_mode": "normal and -O output byte-identical",
+  "new_exhaustive_interval": null,
+  "new_lean_build": false,
+  "new_lean_formalization": false,
+  "observed_date": "2026-11-25",
+  "primary_source": {
+    "scope": "Definitions printed pages2-3 and Corollary1 printed page4 checked directly; hash from retained local PDF bytes",
+    "sha256": "554bb384df62538fa11fcf6ab74976e772156c9d3ca4022e2128d48e3632128d",
+    "url": "https://irma.math.unistra.fr/~bugeaud/travaux/logpadicdef.pdf"
+  },
+  "source_and_receipt_sha256": {
+    "checks.json": "aa5081fa149da595f9067ca84a1d4fa7dcecea189e4894ee17056954441c7f66",
+    "checks.py": "e7848aa66dc3455cd6208bbbe1cd0b98885558c62b49af66fa83c5dcc25ce26b",
+    "independent_checks.json": "88de118b6b225a6fcd30b576afd7bf3f75c503d7152963c4de79b87c57388c16",
+    "independent_checks.py": "465c6535303e22913b3fb2ea9f3e3e8f0d5d671cb15fa5cc503b43737e429d79"
+  },
+  "starting_main": "2aea8ff77232225a68f5ebe694b812bc3a9438b8",
+  "status": "PASS",
+  "unverified_finite_bridge_for_claimed_strips": null
+}
