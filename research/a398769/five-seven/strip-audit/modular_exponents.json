@@ -1,0 +1,408 @@
+{
+  "controls": {
+    "explicit_failure_exercised": true,
+    "next_period_residue": 0,
+    "perturbed_exponent_residue": 187638593,
+    "representative_F_mod7_to11": 282475249,
+    "representative_exact_depth": 10,
+    "u5_F_mod49": 7
+  },
+  "lifts": [
+    {
+      "candidates_tested": 6,
+      "depth": 1,
+      "evaluated": [
+        {
+          "F_modulus": 2,
+          "u": 0
+        },
+        {
+          "F_modulus": 5,
+          "u": 1
+        },
+        {
+          "F_modulus": 6,
+          "u": 2
+        },
+        {
+          "F_modulus": 4,
+          "u": 3
+        },
+        {
+          "F_modulus": 1,
+          "u": 4
+        },
+        {
+          "F_modulus": 0,
+          "u": 5
+        }
+      ],
+      "modulus": 7,
+      "period": 6,
+      "surviving_classes": [
+        5
+      ]
+    },
+    {
+      "candidates_tested": 7,
+      "depth": 2,
+      "evaluated": [
+        {
+          "F_modulus": 7,
+          "u": 5
+        },
+        {
+          "F_modulus": 0,
+          "u": 11
+        },
+        {
+          "F_modulus": 42,
+          "u": 17
+        },
+        {
+          "F_modulus": 35,
+          "u": 23
+        },
+        {
+          "F_modulus": 28,
+          "u": 29
+        },
+        {
+          "F_modulus": 21,
+          "u": 35
+        },
+        {
+          "F_modulus": 14,
+          "u": 41
+        }
+      ],
+      "modulus": 49,
+      "period": 42,
+      "surviving_classes": [
+        11
+      ]
+    },
+    {
+      "candidates_tested": 7,
+      "depth": 3,
+      "evaluated": [
+        {
+          "F_modulus": 294,
+          "u": 11
+        },
+        {
+          "F_modulus": 245,
+          "u": 53
+        },
+        {
+          "F_modulus": 196,
+          "u": 95
+        },
+        {
+          "F_modulus": 147,
+          "u": 137
+        },
+        {
+          "F_modulus": 98,
+          "u": 179
+        },
+        {
+          "F_modulus": 49,
+          "u": 221
+        },
+        {
+          "F_modulus": 0,
+          "u": 263
+        }
+      ],
+      "modulus": 343,
+      "period": 294,
+      "surviving_classes": [
+        263
+      ]
+    },
+    {
+      "candidates_tested": 7,
+      "depth": 4,
+      "evaluated": [
+        {
+          "F_modulus": 0,
+          "u": 263
+        },
+        {
+          "F_modulus": 2058,
+          "u": 557
+        },
+        {
+          "F_modulus": 1715,
+          "u": 851
+        },
+        {
+          "F_modulus": 1372,
+          "u": 1145
+        },
+        {
+          "F_modulus": 1029,
+          "u": 1439
+        },
+        {
+          "F_modulus": 686,
+          "u": 1733
+        },
+        {
+          "F_modulus": 343,
+          "u": 2027
+        }
+      ],
+      "modulus": 2401,
+      "period": 2058,
+      "surviving_classes": [
+        263
+      ]
+    },
+    {
+      "candidates_tested": 7,
+      "depth": 5,
+      "evaluated": [
+        {
+          "F_modulus": 7203,
+          "u": 263
+        },
+        {
+          "F_modulus": 4802,
+          "u": 2321
+        },
+        {
+          "F_modulus": 2401,
+          "u": 4379
+        },
+        {
+          "F_modulus": 0,
+          "u": 6437
+        },
+        {
+          "F_modulus": 14406,
+          "u": 8495
+        },
+        {
+          "F_modulus": 12005,
+          "u": 10553
+        },
+        {
+          "F_modulus": 9604,
+          "u": 12611
+        }
+      ],
+      "modulus": 16807,
+      "period": 14406,
+      "surviving_classes": [
+        6437
+      ]
+    },
+    {
+      "candidates_tested": 7,
+      "depth": 6,
+      "evaluated": [
+        {
+          "F_modulus": 33614,
+          "u": 6437
+        },
+        {
+          "F_modulus": 16807,
+          "u": 20843
+        },
+        {
+          "F_modulus": 0,
+          "u": 35249
+        },
+        {
+          "F_modulus": 100842,
+          "u": 49655
+        },
+        {
+          "F_modulus": 84035,
+          "u": 64061
+        },
+        {
+          "F_modulus": 67228,
+          "u": 78467
+        },
+        {
+          "F_modulus": 50421,
+          "u": 92873
+        }
+      ],
+      "modulus": 117649,
+      "period": 100842,
+      "surviving_classes": [
+        35249
+      ]
+    },
+    {
+      "candidates_tested": 7,
+      "depth": 7,
+      "evaluated": [
+        {
+          "F_modulus": 352947,
+          "u": 35249
+        },
+        {
+          "F_modulus": 235298,
+          "u": 136091
+        },
+        {
+          "F_modulus": 117649,
+          "u": 236933
+        },
+        {
+          "F_modulus": 0,
+          "u": 337775
+        },
+        {
+          "F_modulus": 705894,
+          "u": 438617
+        },
+        {
+          "F_modulus": 588245,
+          "u": 539459
+        },
+        {
+          "F_modulus": 470596,
+          "u": 640301
+        }
+      ],
+      "modulus": 823543,
+      "period": 705894,
+      "surviving_classes": [
+        337775
+      ]
+    },
+    {
+      "candidates_tested": 7,
+      "depth": 8,
+      "evaluated": [
+        {
+          "F_modulus": 3294172,
+          "u": 337775
+        },
+        {
+          "F_modulus": 2470629,
+          "u": 1043669
+        },
+        {
+          "F_modulus": 1647086,
+          "u": 1749563
+        },
+        {
+          "F_modulus": 823543,
+          "u": 2455457
+        },
+        {
+          "F_modulus": 0,
+          "u": 3161351
+        },
+        {
+          "F_modulus": 4941258,
+          "u": 3867245
+        },
+        {
+          "F_modulus": 4117715,
+          "u": 4573139
+        }
+      ],
+      "modulus": 5764801,
+      "period": 4941258,
+      "surviving_classes": [
+        3161351
+      ]
+    },
+    {
+      "candidates_tested": 7,
+      "depth": 9,
+      "evaluated": [
+        {
+          "F_modulus": 11529602,
+          "u": 3161351
+        },
+        {
+          "F_modulus": 5764801,
+          "u": 8102609
+        },
+        {
+          "F_modulus": 0,
+          "u": 13043867
+        },
+        {
+          "F_modulus": 34588806,
+          "u": 17985125
+        },
+        {
+          "F_modulus": 28824005,
+          "u": 22926383
+        },
+        {
+          "F_modulus": 23059204,
+          "u": 27867641
+        },
+        {
+          "F_modulus": 17294403,
+          "u": 32808899
+        }
+      ],
+      "modulus": 40353607,
+      "period": 34588806,
+      "surviving_classes": [
+        13043867
+      ]
+    },
+    {
+      "candidates_tested": 7,
+      "depth": 10,
+      "evaluated": [
+        {
+          "F_modulus": 201768035,
+          "u": 13043867
+        },
+        {
+          "F_modulus": 161414428,
+          "u": 47632673
+        },
+        {
+          "F_modulus": 121060821,
+          "u": 82221479
+        },
+        {
+          "F_modulus": 80707214,
+          "u": 116810285
+        },
+        {
+          "F_modulus": 40353607,
+          "u": 151399091
+        },
+        {
+          "F_modulus": 0,
+          "u": 185987897
+        },
+        {
+          "F_modulus": 242121642,
+          "u": 220576703
+        }
+      ],
+      "modulus": 282475249,
+      "period": 242121642,
+      "surviving_classes": [
+        185987897
+      ]
+    }
+  ],
+  "method": "all six initial classes; original-F exponent lifting",
+  "observed": {
+    "least_possible_length": 2231854769,
+    "modulus": 282475249,
+    "order": 242121642,
+    "power_residue": 213654628,
+    "representative": 185987897
+  },
+  "source_sha256": "f65f013d43b043e84cd6306800b003a26d432c26443f25790014e39d263b592a",
+  "status": "PASS"
+}
