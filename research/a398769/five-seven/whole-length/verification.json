@@ -1,0 +1,147 @@
+{
+  "audited_at_utc": "2026-11-25T16:00:34.139201+00:00",
+  "branch": "research/a398769-whole-length-audit",
+  "checker_runs": {
+    "checks.py": {
+      "normal_exit_code": 0,
+      "normal_optimized_saved_receipt_byte_equal": true,
+      "optimized_exit_code": 0,
+      "receipt_sha256": "2f9d5b93180e5e5960e52f750775587dc77059071bf5a49c4d3ef78b20ad7ca7"
+    },
+    "independent_blocks.py": {
+      "normal_exit_code": 0,
+      "normal_optimized_saved_receipt_byte_equal": true,
+      "optimized_exit_code": 0,
+      "receipt_sha256": "e7b5849b43c24b438adecfa94f2969fa9c6fcbe85bbe0fd9fb6293df542a94c9"
+    }
+  },
+  "coverage": {
+    "appendix_lengths": [
+      {
+        "expression": "(3^164*17^41+4)/7",
+        "maximum": 4
+      },
+      {
+        "expression": "(3^103*898129^21+4)/7",
+        "maximum": 7
+      }
+    ],
+    "consecutive_extension": false,
+    "consecutive_inclusive": [
+      1,
+      10000000
+    ],
+    "earlier_isolated_expression": "(898129*3^193+4)/7",
+    "earlier_isolated_maximum": 6,
+    "infinite_family": "For every fixed k>=1 and nonempty open I in (0,1), infinitely many odd L>k+2 have maximum depth exactly k over all compatible actual positions, attained in I."
+  },
+  "cross_path_all_common_fields_and_signed_endpoints": "passed",
+  "fresh_inherited_reruns": {
+    "fixed": {
+      "byte_identical": true,
+      "reference": "depth/baseline_independent_rerun.json",
+      "sha256": "3c225040caaee6cb8895aa838ddff37aa599c90fa262e2a36dff1f9eed60a686"
+    },
+    "isolated": {
+      "byte_identical": true,
+      "reference": "depth/depth_samples.json",
+      "sha256": "e3a496801f211cc652ea6c36f62972554e4f15dd79ed95df21efbfaaf5527000"
+    },
+    "lifting": {
+      "different_fields": [
+        "elapsed_seconds"
+      ],
+      "reference": "depth/baseline_lifting_rerun.json",
+      "semantic_match_except_elapsed_seconds": true,
+      "sha256": "0acea7b76c2b8504b7fc21071b59a2096a2256d03a68fff7e5c1f296576b1cb4"
+    }
+  },
+  "git_diff_check": "passed",
+  "limits": [
+    "All-length five-seven subclass unresolved",
+    "Full digit-1 conjecture unresolved",
+    "No new Lean formalization or Lean build",
+    "Independent agent reviews are not external human peer review"
+  ],
+  "literal_checks": {
+    "independent_blocks": {
+      "literal_block_comparisons": 6240,
+      "literal_spacing_lengths": 199,
+      "literal_spacing_lengths_upper_bound": 501,
+      "literal_sum_compatible_positions": 62,
+      "literal_three_factor_lengths_with_positions": 22
+    },
+    "primary": {
+      "filter": "gcd(7L-4,10)=1",
+      "literal_pairs": 31840,
+      "literal_pairs_with_3_dividing_S": 10348,
+      "nonempty_joint_classes_k_1_to_4": 11,
+      "nonempty_sum_classes": 33,
+      "odd_lengths_inclusive": [
+        5,
+        401
+      ],
+      "positions": "all 3 <= i < L",
+      "three_divisible_positive_control": {
+        "L": 13,
+        "S": 87,
+        "d": 28,
+        "positions": [
+          12
+        ]
+      }
+    }
+  },
+  "position_depth_sha256": [
+    "b46ab68670fb74efb0d891b655f08c34f93f48d405e6b4212ba9b7780eaed867",
+    "04c25b18c52358c9f400fb9c3666c97ffb37cadb1a6e24c91222679e3a5c0b6d"
+  ],
+  "pr13_merge_commit_verified": true,
+  "python_version": "3.14.4",
+  "repository": "lukeroyle-beep/Mathematics",
+  "reviews": [
+    {
+      "context": "spacing_family",
+      "later_change": "documentation sentence corrected to identify which receipt serializes margins; proof unchanged",
+      "reviewed_proof_sha256": "ecabd2696c4545013148b958753e37fe9a8c6096c81500d7061e27152b2c8e8c",
+      "scope": "independent proof and integrated proof/checker; fresh normal and optimized primary runs",
+      "verdict": "PASS"
+    },
+    {
+      "context": "arithmetic_audit",
+      "reviewed_proof_sha256": "c91794b296be8cd3d61bdd9bf65a3e425afaa08a0f91637db666780b45de5bd6",
+      "reviewed_readme_sha256": "b3a27cc40c99f110ab989923e050e79591149a1ecd23678aab16ff77a1b8e13c",
+      "scope": "third independent enumeration; both delivered checkers and receipts; final corrected proof and README scope review",
+      "verdict": "PASS"
+    },
+    {
+      "context": "decimal_enumeration",
+      "scope": "independent decimal-block implementation, all positions, literal controls, normal and optimized runs",
+      "verdict": "PASS"
+    }
+  ],
+  "source_sha256": {
+    "README.md": "32ef7563bbf671026ced0e47c64344245f6fc159ceb378d579176251817b94ee",
+    "research/a398769/five-seven/fixed-depth/PROOF.md": "270d03d76a083c98e168a9f96db7507563eb5576e3ce2e13cfd8701a15b0bee8",
+    "research/a398769/five-seven/fixed-depth/SUBMISSION.txt": "7e77aef5b8b5b3e4b7fff5357c1ef035571e447147f6381082f44909cd9e85ca",
+    "research/a398769/five-seven/whole-length/PROOF.md": "c91794b296be8cd3d61bdd9bf65a3e425afaa08a0f91637db666780b45de5bd6",
+    "research/a398769/five-seven/whole-length/README.md": "b3a27cc40c99f110ab989923e050e79591149a1ecd23678aab16ff77a1b8e13c",
+    "research/a398769/five-seven/whole-length/REVIEW.md": "f4b57264c6724596369a6285f8449090e351aeff2d9d99fbe49a5db06ccf0d06",
+    "research/a398769/five-seven/whole-length/blocks.json": "e7b5849b43c24b438adecfa94f2969fa9c6fcbe85bbe0fd9fb6293df542a94c9",
+    "research/a398769/five-seven/whole-length/checks.json": "2f9d5b93180e5e5960e52f750775587dc77059071bf5a49c4d3ef78b20ad7ca7",
+    "research/a398769/five-seven/whole-length/checks.py": "f5288a35fce6fe8afc280dc3c4b4792e8921a881dce28371308c06704dac992e",
+    "research/a398769/five-seven/whole-length/independent_blocks.py": "3e15701380099da70cbcb426a164be42d4cc2943b3599a409025eb753013a140"
+  },
+  "starting_commit": "022e8120d0af98030b60bdda117b45fbfdba0543",
+  "starting_commit_parents": [
+    "2505f83c98fff9d11971c83f6a833740f7afadf6",
+    "a6ec9cf084e7cd1388ad396b7098bc6a910a2dbc"
+  ],
+  "verdicts": {
+    "appendix_17": "whole length excluded; maximum 4",
+    "appendix_898129": "whole length excluded; maximum 7",
+    "infinite_family_k1": "verified using e=9 and all neighbours",
+    "infinite_family_k_ge_2": "verified",
+    "spacing": "verified"
+  }
+}
