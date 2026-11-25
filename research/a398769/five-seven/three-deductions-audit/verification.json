@@ -1,0 +1,145 @@
+{
+  "all_length_five_seven_subclass": "OPEN",
+  "audited_head": "54081b0a43beead5686aa205cce41a0b5135c03c",
+  "audited_head_is_ancestor": true,
+  "baseline_tracked_files": 267,
+  "broad_E_odd_length_coverage_unchanged": [
+    5,
+    9999999
+  ],
+  "checks": {
+    "depth_exponents": {
+      "byte_identical": true,
+      "normal": "PASS",
+      "optimized": "PASS",
+      "receipt_sha256": "2674ae6090b9adfe86aa2296e4e18cf7f459f6260df16449fd04dd3b48bf8ce1",
+      "source_sha256": "fd2b2a5da40f56f586c24ad72e47230c95125e9a64916b74f826acb79758691b"
+    },
+    "depth_roots": {
+      "byte_identical": true,
+      "normal": "PASS",
+      "optimized": "PASS",
+      "receipt_sha256": "7ca94a613f0e4d233936a68ef2a3d80655fa8a953147627938e4d858ca8c04f2",
+      "source_sha256": "152dcfc96ae59fff7df708988c97171dd0f129fea556c3292ff9be6c6f8eb2ca"
+    },
+    "opposite": {
+      "byte_identical": true,
+      "normal": "PASS",
+      "optimized": "PASS",
+      "receipt_sha256": "99555f43be4e16d6d0f828b46886da706d5ee532a2d626ff0b03f7e01afa4513",
+      "source_sha256": "a9a754b85655a1c3568f698bed508848e843720607ff1084c5aa170eee3a7493"
+    },
+    "review_check": {
+      "byte_identical": true,
+      "normal": "PASS",
+      "optimized": "PASS",
+      "receipt_sha256": "62e08292fbe55ca947348b4c072adb1821ddefade20fa1cc0a21c409bcf8380c",
+      "source_sha256": "a3503b88c46b13cbb4519c8d63b03f10744df003ed894d7921d5c5dfd8bca744"
+    },
+    "seven_twelfths": {
+      "byte_identical": true,
+      "normal": "PASS",
+      "optimized": "PASS",
+      "receipt_sha256": "c920c94ffac208a183ade1e4b9c6d3eba7baad9ce2351a53c634ddfaf37e550e",
+      "source_sha256": "7ec0dcb6ef4da148d1182558ed965e5f5c6e6fdb40ec86a0b9f369e31be6a75d"
+    }
+  },
+  "consecutive_whole_length_exclusion_unchanged": [
+    1,
+    10000000
+  ],
+  "exceptions": [
+    {
+      "F_mod_7_to_k_plus_1": 45860101895827728581295557307830479203,
+      "F_mod_9S": 220492367892872959611320275821615897912,
+      "K": 44,
+      "L": 3955567925893426973231046645818352161,
+      "S": 27688975481253988812617326520728465123,
+      "S_mod_5": 3,
+      "gcd_F_S": 1,
+      "i": 1648153302455594572179602769090980067,
+      "k": 44,
+      "next_residue_coefficient": 3,
+      "u": 329630660491118914435920553818196013,
+      "v7_F": 44
+    },
+    {
+      "F_mod_7_to_k_plus_1": 634762841407276174913188085363036028870180580803,
+      "F_mod_9S": 6766599739258291813673376749798612223120139953867,
+      "K": 56,
+      "L": 119370568731057982371060322997782242271333208681,
+      "S": 835593981117405876597422260984475695899332460763,
+      "S_mod_5": 3,
+      "gcd_F_S": 1,
+      "i": 49737736971274159321275134582409267613055503617,
+      "k": 56,
+      "next_residue_coefficient": 3,
+      "u": 9947547394254831864255026916481853522611100723,
+      "v7_F": 56
+    },
+    {
+      "F_mod_7_to_k_plus_1": 681292175541205709486531011694243236571309860372760091522256581907552807,
+      "F_mod_9S": 12881779930935013054243266666806881518960753192538652081634179239021153557,
+      "K": 85,
+      "L": 232355213189479324642841163179368518745758138259880936147570942319340913,
+      "S": 1626486492326355272499888142255579631220306967819166553032996596235386387,
+      "S_mod_5": 2,
+      "gcd_F_S": 1,
+      "i": 96814672162283051934517151324736882810732557608283723394821225966392047,
+      "k": 85,
+      "next_residue_coefficient": 1,
+      "u": 19362934432456610386903430264947376562146511521656744678964245193278409,
+      "v7_F": 85
+    },
+    {
+      "F_mod_7_to_k_plus_1": 561073402121731173607666208963712157775646236340963964052513752233891761335201,
+      "F_mod_9S": 13675329978772134956853163278653705038321395119698943504984110850274533615577786,
+      "K": 92,
+      "L": 371682098545327426599885149975293409551010717126756268211295464073101642711793,
+      "S": 2601774689817291986199196049827053866857075019887293877479068248511711498982547,
+      "S_mod_5": 2,
+      "gcd_F_S": 1,
+      "i": 154867541060553094416618812489705587312921132136148445088039776697125684463247,
+      "k": 92,
+      "next_residue_coefficient": 1,
+      "u": 30973508212110618883323762497941117462584226427229689017607955339425136892649,
+      "v7_F": 92
+    }
+  ],
+  "full_witness_fixed_gap": "abs(12i-5L)>=3",
+  "independent_depth_rows_agree": 100,
+  "independent_review": {
+    "direct_depth5_classes_per_line": 14406,
+    "method": "Newton doubling and principal-unit coefficient discrete log",
+    "verdict": "PASS"
+  },
+  "inherited_files_byte_identical": 266,
+  "inherited_verifier": {
+    "blocks_compared": 100,
+    "byte_identical": true,
+    "fresh_full_runs": [],
+    "large_search_rerun": false,
+    "normal": "PASS",
+    "optimized": "PASS",
+    "receipt_sha256": "ad47f9f606267ce7711494c69b1e408ea0b665c9230480a7b91c3e5da539d180"
+  },
+  "new_Lean_theorem_or_build_claimed": false,
+  "new_closed_ratio_strip": [
+    "2333333333/4000000000",
+    "7000000001/12000000000"
+  ],
+  "new_opposite_line_full_witness_exclusion": "every integer u>=0",
+  "new_whole_length_exclusion_claimed": false,
+  "pr18_merge_commit": "8677446ad39f3a8d72f3a2123c6012c012f2d271",
+  "preserved_path_tab_sha256_lf_manifest_sha256": "e1ed51149acd4f3d3eeddf4a005a59a79013721ab6d4b5f28f7b2fb0ce625239",
+  "restricted_minus_line_E": {
+    "L_exclusive": 2772408436821221135438269516371614409306174170489678915086195998335735536831652622858,
+    "all_positions_at_length": false
+  },
+  "sole_inherited_edit": "README.md navigation",
+  "source_sha256": "38f02774aefd292a1f107e4c9606fd02c74e4524126f2e29be399f9af9331755",
+  "starting_main_commit": "8677446ad39f3a8d72f3a2123c6012c012f2d271",
+  "starting_main_tree_equals_audited_head": true,
+  "status": "PASS",
+  "wider_digit_1_conjecture": "OPEN"
+}

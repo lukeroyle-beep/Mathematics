@@ -1,0 +1,88 @@
+{
+  "LTE_checks": 44,
+  "arithmetic": "exact integers and rational enclosures",
+  "control_odd_L": [
+    5,
+    241
+  ],
+  "control_position_domain": "every 3<=i<L",
+  "dependent_size_induction_start": 6,
+  "dependent_valuation_formula": "t=2+v7(D*q-j)-v7(D)",
+  "depth_histogram": {
+    "0": 11860,
+    "1": 2068,
+    "2": 302,
+    "3": 38,
+    "4": 11,
+    "5": 1
+  },
+  "first_maximum_entry_upper": "15.830999390874",
+  "height_margin_at_N": "11/12",
+  "independent_additive_loss": 1,
+  "independent_slope": "47628/78125",
+  "independent_slope_decimal": "0.6096384",
+  "log10_interval": [
+    "2.302585092994",
+    "2.302585092995"
+  ],
+  "log7_interval": [
+    "1.945910149055",
+    "1.945910149056"
+  ],
+  "maximum_strict_upper": 20,
+  "negative_controls_rejected": 5,
+  "offset_signs": {
+    "negative": 7775,
+    "positive": 6390,
+    "zero": 115
+  },
+  "polynomial_and_derivative_identities": 14280,
+  "positive_controls": [
+    {
+      "F_mod_next_power": 343,
+      "L": 17,
+      "i": 15,
+      "root_distance": 2,
+      "s": 8,
+      "v7_F": 3,
+      "v7_Qprime": 1
+    },
+    {
+      "F_mod_next_power": 12005,
+      "L": 81,
+      "i": 3,
+      "root_distance": 3,
+      "s": -39,
+      "v7_F": 4,
+      "v7_Qprime": 1
+    },
+    {
+      "F_mod_next_power": 84035,
+      "L": 233,
+      "i": 183,
+      "root_distance": 4,
+      "s": 50,
+      "v7_F": 5,
+      "v7_Qprime": 1
+    }
+  ],
+  "positive_depth_cases": 2420,
+  "positive_depth_signs": {
+    "negative": 1343,
+    "positive": 1059,
+    "zero": 18
+  },
+  "prefactor_strict_upper": 63,
+  "scope": "exact constants and bounded controls supporting the proof, not length exhaustion",
+  "source_sha256": "7ec0dcb6ef4da148d1182558ed965e5f5c6e6fdb40ec86a0b9f369e31be6a75d",
+  "span_controls": 2412,
+  "strict_margin_at_N": 390361597,
+  "strong_Hensel_cases": 50,
+  "strong_Hensel_signs": {
+    "negative": 29,
+    "positive": 21,
+    "zero": 0
+  },
+  "transformed_root_comparisons": 300,
+  "verdict": "PASS"
+}
