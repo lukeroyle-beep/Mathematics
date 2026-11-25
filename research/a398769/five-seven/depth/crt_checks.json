@@ -1,0 +1,14 @@
+{
+  "decimal_positions": 17880,
+  "depths": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "length_depth_interval_comparisons": 952,
+  "lengths": "odd 5..301 excluding L=2 mod5",
+  "new_complete_length_interval": null,
+  "nonempty_comparisons": 8,
+  "status": "PASS"
+}

@@ -1,0 +1,77 @@
+{
+  "additional_isolated_length_excluded": "15582704697570091495948156638491914590405161120787807516829906317314612303918977615165179656913553",
+  "attachment_name": "1-Codex-prompt-for-A398769-after-pull-request-11.pages",
+  "attachment_sha256": "a42a9dafe0c9703bd905779d812dd7c1d15f70a251c43ca956a07e8257d8adf6",
+  "branch": "research/a398769-digit-sum-depth",
+  "certificate_reruns": [
+    {
+      "all_deterministic_fields_match": true,
+      "certificate": "lifting",
+      "differing_top_level_fields": [
+        "elapsed_seconds"
+      ],
+      "rerun_receipt": "baseline_lifting_rerun.json",
+      "retained_receipt": "research/a398769/five-seven/settlement/lifting.json",
+      "retained_sha256": "8d8295bcc154060a53ca59d6a48ce6367c1775401c42b2131743af9b1a10fdf3"
+    },
+    {
+      "all_deterministic_fields_match": true,
+      "certificate": "independent",
+      "differing_top_level_fields": [],
+      "rerun_receipt": "baseline_independent_rerun.json",
+      "retained_receipt": "research/a398769/five-seven/settlement/independent.json",
+      "retained_sha256": "3c225040caaee6cb8895aa838ddff37aa599c90fa262e2a36dff1f9eed60a686"
+    }
+  ],
+  "commands": [
+    "python3 research/a398769/five-seven/depth/checks_family.py",
+    "python3 research/a398769/five-seven/depth/independent_checks.py",
+    "python3 research/a398769/five-seven/depth/checks_crt.py",
+    "python3 research/a398769/five-seven/depth/checks_depth_samples.py",
+    "python3 -O research/a398769/five-seven/depth/checks_family.py",
+    "python3 -O research/a398769/five-seven/depth/independent_checks.py",
+    "python3 -O research/a398769/five-seven/depth/checks_crt.py",
+    "python3 -O research/a398769/five-seven/depth/checks_depth_samples.py",
+    "python3 research/a398769/five-seven/settlement/verify.py --output /tmp/a398769-depth-lifting.json",
+    "python3 research/a398769/five-seven/settlement/verify_fixed.py --output /tmp/a398769-depth-fixed.json",
+    "git diff --check"
+  ],
+  "complete_consecutive_length_coverage_inclusive": [
+    1,
+    10000000
+  ],
+  "full_witness": null,
+  "global_effective_cutoff": null,
+  "isolated_length_full_sum_positions": 14997,
+  "isolated_length_max_v7": 6,
+  "new_checks_normal_and_optimized_outputs": "byte-identical",
+  "new_exhaustive_consecutive_interval": null,
+  "new_lean_build": false,
+  "new_lean_formalization": false,
+  "observed_date": "2026-11-25",
+  "required_merge_is_ancestor": true,
+  "required_merge_pr": 11,
+  "source_and_receipt_sha256": {
+    "baseline_independent_rerun.json": "3c225040caaee6cb8895aa838ddff37aa599c90fa262e2a36dff1f9eed60a686",
+    "baseline_lifting_rerun.json": "d88e77635b387d016aebcefa471b93383c75ff187f18ddaefaa86b22c0c9c60b",
+    "checks_crt.py": "6cd1fdfc9cb089c694ed2e204b69359e0a0f5b6bdbd0f019458e9e680df332b4",
+    "checks_depth_samples.py": "241f1e9700f9b20421275a0df58c5f910337b83d48f8f39fa90476f63c18bfb6",
+    "checks_family.py": "7db2b64045b75f9755e3a5a6fa56efcddb2d5e985ec9e5543b6c081013174c51",
+    "crt_checks.json": "216f10823e3aa0abbd7c4f17e31a1b72e7a6786168e0389234210e8ac7dab1d1",
+    "depth_samples.json": "e3a496801f211cc652ea6c36f62972554e4f15dd79ed95df21efbfaaf5527000",
+    "family_checks.json": "679f4d8aace2f264bb151c65492d22e5c616528d33090d44d711cc0d2f5dfc1f",
+    "independent_checks.json": "9e6374cde84ebbee56d876b7cb9cfca0aaa9d185563394f3062fea840198e321",
+    "independent_checks.py": "5dafb71578175a0e00d5907859aee520cef0362e79e8ecd4300615c39a16b7b9"
+  },
+  "starting_main": "5f262828091f50039da1605f660a98b85c121f5c",
+  "status": "PASS",
+  "target_interval_at_isolated_length": {
+    "full_sum_positions": 150,
+    "max_v7": 4
+  },
+  "unproved": [
+    "existence in target interval for every fixed k>=4",
+    "uniform regional rejection at k=L-2",
+    "global effective cutoff"
+  ]
+}
