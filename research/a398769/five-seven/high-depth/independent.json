@@ -1,0 +1,109 @@
+{
+  "actual_by_K": {
+    "1": 1,
+    "2": 11,
+    "3": 72,
+    "4": 501,
+    "5": 3521,
+    "6": 24265
+  },
+  "actual_representatives": 28371,
+  "actual_with_5_not_dividing_S": 22713,
+  "by_K": {
+    "1": 1,
+    "2": 18,
+    "3": 126,
+    "4": 882,
+    "5": 6174,
+    "6": 42798
+  },
+  "controls": [
+    {
+      "F_mod_9S": 8424,
+      "L": 151,
+      "S": 1053,
+      "depth": 0,
+      "i": 8,
+      "n_mod_S": 936
+    },
+    {
+      "F_mod_9S": 17496,
+      "L": 313,
+      "S": 2187,
+      "depth": 1,
+      "i": 51,
+      "n_mod_S": 1944
+    },
+    {
+      "F_mod_9S": 0,
+      "L": 13,
+      "S": 87,
+      "depth": 0,
+      "i": 12,
+      "n_mod_S": 0
+    },
+    {
+      "F_mod_9S": 855,
+      "L": 17,
+      "S": 115,
+      "depth": 3,
+      "i": 15,
+      "n_mod_S": 95
+    },
+    {
+      "F_mod_9S": 815265,
+      "L": 97127,
+      "S": 679885,
+      "depth": 12,
+      "i": 89265,
+      "n_mod_S": 90585
+    },
+    {
+      "F_mod_9S": 2218743,
+      "L": 69489,
+      "S": 486419,
+      "depth": 11,
+      "i": 40323,
+      "n_mod_S": 246527
+    }
+  ],
+  "full_sum_survivors": [],
+  "limit": 100001,
+  "literal_pairs": 2450,
+  "method": "complete unit-cycle tables plus decimal blocks",
+  "odd_lengths": 49999,
+  "order_controls": [
+    {
+      "K": 2,
+      "L": 13,
+      "S": 87,
+      "d": 28,
+      "e": 1
+    },
+    {
+      "K": 3,
+      "L": 85,
+      "S": 591,
+      "d": 98,
+      "e": 2
+    },
+    {
+      "K": 4,
+      "L": 589,
+      "S": 4119,
+      "d": 686,
+      "e": 3
+    }
+  ],
+  "ordered_sha256": "a54ad76ea69a6db88927613cfab5da3db41189fbeb5b7b81ebbef6d62247eab7",
+  "scope": "bounded reduction audit only; no new excluded length interval",
+  "zero_run_histogram": {
+    "0": 24334,
+    "1": 3450,
+    "2": 500,
+    "3": 73,
+    "4": 10,
+    "5": 3,
+    "6": 1
+  }
+}

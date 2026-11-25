@@ -1,0 +1,105 @@
+{
+  "baseline_commit": "b6db8703afd3d32211fd75de9ce1e34440dddfe8",
+  "independent_comparisons": [
+    "ordered_digest",
+    "odd_lengths",
+    "K_counts",
+    "actual_representatives",
+    "five_free_actual",
+    "zero_runs",
+    "full_sum_survivors"
+  ],
+  "inherited_unchanged_sha256": {
+    "research/a398769/five-seven/README.md": "2ba5ecac7ad4c9dd74acb39f4b3ed663d4068112e3547db150dbb4d664836813",
+    "research/a398769/five-seven/depth/BOUNDED_DEPTH.md": "149b3e2b062c53100757ee1e7e5c4b19bb1b5da8282c9d4537d467f90e53cedf",
+    "research/a398769/five-seven/depth/PRIME_FILTERS.md": "683b722686c181815c2bd295cc6b233a38a9ff15394207d61f9aae79976c3a2f",
+    "research/a398769/five-seven/depth/README.md": "3172b25316c283f3555282f714dc8e957463614bd4f830f4d3c65d053f6d1a46",
+    "research/a398769/five-seven/depth/REVIEW.md": "f9fb8f64273e06043c5a758ee80607c4839dfb79c9a6d3a955934fafb7e0d6d8",
+    "research/a398769/five-seven/depth/depth_samples.json": "e3a496801f211cc652ea6c36f62972554e4f15dd79ed95df21efbfaaf5527000",
+    "research/a398769/five-seven/effective/CUTOFF.md": "7f0d6f8e19f6f27aeeece1d00c610d70eb55c1964bfeb650239014cebcdcc45f",
+    "research/a398769/five-seven/effective/QUALITATIVE.md": "879e6e0ed6ae8585b8f2c0b814d8995206a40ce27190dc9028c99f837eba2ca0",
+    "research/a398769/five-seven/effective/README.md": "39ba072eaf68040079c3dc5e6aea5cb076ae7049c083768733982617c2f5044e",
+    "research/a398769/five-seven/effective/ROUTE_A.md": "98b0f8380911832b918ceea18221ead51b839a661bd105227d7a774f15d16d94",
+    "research/a398769/five-seven/effective/ROUTE_B.md": "0b2ada9b58f4053583458139c51a535e45d63448e8c48d3e3044645dacec84e1",
+    "research/a398769/five-seven/fixed-depth/PROOF.md": "270d03d76a083c98e168a9f96db7507563eb5576e3ce2e13cfd8701a15b0bee8",
+    "research/a398769/five-seven/fixed-depth/README.md": "e89ae3aa7e2ac9a6d7ee0450352d1ab01f25b6358df3505bfd5693043d380146",
+    "research/a398769/five-seven/fixed-depth/REVIEW.md": "9a376b3fd95597e7fddd362bc3a6a5f0165b196a4f217fe684627efa45c8b877",
+    "research/a398769/five-seven/global/FIXED_MODULUS.md": "fc1e97439fa60bd358a2866b3f3b0ecdb2fa0693441a23adc4000f456f4d623d",
+    "research/a398769/five-seven/global/GROWING_POWER.md": "e3e0646c97d221d36918714a7879dbce0e265af0bd28d14095401ad445a12562",
+    "research/a398769/five-seven/global/README.md": "40a4cb0b7ad3835444c6f8763d57c25bc969f2ccec033b338033edba9f9bdea6",
+    "research/a398769/five-seven/global/TWO_QUOTIENTS.md": "162a21a05d8ef19449598f661e946787e5169c6702d35698315995ad344b3e96",
+    "research/a398769/five-seven/proportional/AUDIT.md": "abbe55701616a1b981fef57e184ae4b40f3a69dded8b03566f2cca5d5eb52735",
+    "research/a398769/five-seven/proportional/COVERAGE.md": "1fb27cdcac45979e855ae5d90be8b16da5457c78875a3de8a55c3c9d0d4b5e9b",
+    "research/a398769/five-seven/proportional/README.md": "cff0ae6796d2afc9b005cda1c6b7f10a25b81ba5bc17e86affc0450271ee6fa0",
+    "research/a398769/five-seven/settlement/EDGE_BOUNDS.md": "890d6d1402c10f1e0f7dead42a86386287be61aeb5fc06210fe27af4ed12ec50",
+    "research/a398769/five-seven/settlement/FULL_DIVISOR.md": "a4984f201517c54e7492dd4da8999e191b980a67534b9048cc26bed4e1a8689e",
+    "research/a398769/five-seven/settlement/README.md": "9cbf86f6cd626eeb6f508011a64a0e650396c4ff802e90366333d08e070e958d",
+    "research/a398769/five-seven/settlement/independent.json": "3c225040caaee6cb8895aa838ddff37aa599c90fa262e2a36dff1f9eed60a686",
+    "research/a398769/five-seven/settlement/lift_sieve.cpp": "57e3f0decf99e649c0e69fc5d01bb24896cc08659682c5c65a3f4be2a2ed27b2",
+    "research/a398769/five-seven/settlement/lifting.json": "8d8295bcc154060a53ca59d6a48ce6367c1775401c42b2131743af9b1a10fdf3",
+    "research/a398769/five-seven/settlement/verify.py": "10aa5a72e469eb105d7dfb30e0c3efab8bbc81491df26f1cabc07c5331a7a472",
+    "research/a398769/five-seven/settlement/verify_fixed.py": "4f90a31b258898a442eb66f8ad625ab84cb37cc3b6e8480b89a9e2bff8d44512",
+    "research/a398769/five-seven/whole-length/PROOF.md": "c91794b296be8cd3d61bdd9bf65a3e425afaa08a0f91637db666780b45de5bd6",
+    "research/a398769/five-seven/whole-length/README.md": "b3a27cc40c99f110ab989923e050e79591149a1ecd23678aab16ff77a1b8e13c",
+    "research/a398769/five-seven/whole-length/REVIEW.md": "f4b57264c6724596369a6285f8449090e351aeff2d9d99fbe49a5db06ccf0d06",
+    "research/a398769/five-seven/whole-length/blocks.json": "e7b5849b43c24b438adecfa94f2969fa9c6fcbe85bbe0fd9fb6293df542a94c9",
+    "research/a398769/five-seven/whole-length/checks.json": "2f9d5b93180e5e5960e52f750775587dc77059071bf5a49c4d3ef78b20ad7ca7",
+    "research/a398769/five-seven/whole-length/verification.json": "419eb8edb8a157d27a727b883299ec9169d8eb69b330e34f9db3865a5824919e"
+  },
+  "invalid_input_controls": [
+    {
+      "optimized": false,
+      "rejected": true
+    },
+    {
+      "optimized": true,
+      "rejected": true
+    }
+  ],
+  "large_certificates_rerun": false,
+  "new_lean_formalization": false,
+  "new_length_coverage": null,
+  "ordered_sha256": "a54ad76ea69a6db88927613cfab5da3db41189fbeb5b7b81ebbef6d62247eab7",
+  "pr14_audited_commit": "22ef46d55fa903b54e0b288a1b38ba0a6fa0659a",
+  "pr14_merge_commit": "b6db8703afd3d32211fd75de9ce1e34440dddfe8",
+  "runs": [
+    {
+      "exit_code": 0,
+      "optimized": false,
+      "source": "checks.py",
+      "stdout_sha256": "1e8abf692ab6b66dab450255da66d91f3cce94914e9385e6faef55905b3910c5"
+    },
+    {
+      "exit_code": 0,
+      "optimized": true,
+      "source": "checks.py",
+      "stdout_sha256": "1e8abf692ab6b66dab450255da66d91f3cce94914e9385e6faef55905b3910c5"
+    },
+    {
+      "exit_code": 0,
+      "optimized": false,
+      "source": "independent_blocks.py",
+      "stdout_sha256": "036096211034d9ae1a60a4a1fd3afc6fa5cbf96592b34f23e5f4fdfe5e8d9e7a"
+    },
+    {
+      "exit_code": 0,
+      "optimized": true,
+      "source": "independent_blocks.py",
+      "stdout_sha256": "036096211034d9ae1a60a4a1fd3afc6fa5cbf96592b34f23e5f4fdfe5e8d9e7a"
+    }
+  ],
+  "source_sha256": {
+    "COMPUTATION.md": "78f26927b65555a03c55e83565df33629b13edf548a017f366796d3eda7060e2",
+    "PROOF.md": "0c1e4de375d6e2be587d03038045096847cab6c3a6f0064dda302fe62cdeafe7",
+    "README.md": "606231a08b362a64ce05202862d0f155a19d391aed2690b7e2714bcbbf6a808e",
+    "REVIEW.md": "3aa6d43b358f3df98eaf3bdd5451f854a97fcce5c534a630c40e610fd5e1cb48",
+    "ROUTES.md": "dfd25dd42aded53fda3eaccceda9dff1e997dcd2372a3af1ab0711cbb92a90ea",
+    "checks.json": "1e8abf692ab6b66dab450255da66d91f3cce94914e9385e6faef55905b3910c5",
+    "checks.py": "f2b0c47bbdf179f6b7fed8522ce8e348be26edbcb859bc89ab5f591942144438",
+    "independent.json": "036096211034d9ae1a60a4a1fd3afc6fa5cbf96592b34f23e5f4fdfe5e8d9e7a",
+    "independent_blocks.py": "dfeda79ba2c4fc25860c8242606c3e1630c7ce24fd4a1c753ac1602446f3d491",
+    "verify.py": "a5419242cb3c9b9cc64053328d4539c2987eefe5f2987ef90e3350ebeb19d77b"
+  },
+  "status": "PASS: bounded checks and preservation; subclass remains open",
+  "verdict": 4
+}
