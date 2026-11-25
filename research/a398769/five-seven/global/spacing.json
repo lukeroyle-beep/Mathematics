@@ -1,0 +1,106 @@
+{
+  "checks": [
+    {
+      "both_high_valuations": 10443,
+      "congruence_pairs": 854,
+      "equal_low_valuations": 103847,
+      "examples": {
+        "both_high_valuations": [
+          [
+            17,
+            15
+          ],
+          [
+            311,
+            309
+          ],
+          4,
+          3
+        ],
+        "equal_low_valuations": [
+          [
+            17,
+            15
+          ],
+          [
+            71,
+            57
+          ],
+          2,
+          2
+        ]
+      },
+      "exponent": 3,
+      "limit": 1001,
+      "same_gap": 582,
+      "same_length": 582,
+      "same_position": 6375
+    },
+    {
+      "both_high_valuations": 0,
+      "congruence_pairs": 121,
+      "equal_low_valuations": 2303,
+      "examples": {
+        "equal_low_valuations": [
+          [
+            81,
+            3
+          ],
+          [
+            171,
+            87
+          ],
+          2,
+          2
+        ]
+      },
+      "exponent": 4,
+      "limit": 1001,
+      "same_gap": 0,
+      "same_length": 0,
+      "same_position": 81
+    },
+    {
+      "both_high_valuations": 0,
+      "congruence_pairs": 16,
+      "equal_low_valuations": 36,
+      "examples": {
+        "equal_low_valuations": [
+          [
+            233,
+            183
+          ],
+          [
+            413,
+            225
+          ],
+          2,
+          2
+        ]
+      },
+      "exponent": 5,
+      "limit": 1001,
+      "same_gap": 0,
+      "same_length": 0,
+      "same_position": 0
+    }
+  ],
+  "controls": {
+    "incompatible_differences_rejected": [
+      6,
+      6
+    ],
+    "unequal_high_differences_accepted": [
+      294,
+      294
+    ],
+    "unshifted_valuation_equality_rejected": [
+      54,
+      42
+    ]
+  },
+  "excludes_new_length_interval": false,
+  "global_cutoff": null,
+  "method": "independent fixed-power enumeration and pairwise arithmetic",
+  "script_sha256": "6e3e5e622045372a47e5e85f23d09571d228054b6755ace20440a3dfe11cafd3"
+}

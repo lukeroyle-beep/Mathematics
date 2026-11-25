@@ -1,0 +1,112 @@
+{
+  "assessment": "partial results supported; subclass still open",
+  "base_commit": "7b0151105c481b227b26c6198186500ba63a2bd9",
+  "builder_context": "root-and-specialist-proof-agents",
+  "fresh_Lean_build": false,
+  "full_length_certificate_inclusive": [
+    1,
+    10000000
+  ],
+  "full_witness": null,
+  "global_effective_cutoff": null,
+  "huge_sum_only_control": {
+    "L": 121041229921,
+    "S": 847288609443,
+    "i": 40582608819,
+    "n_mod_343": 294,
+    "n_mod_49": 0,
+    "n_mod_S": 0,
+    "v7_F": 2,
+    "whole_length_exclusion": false
+  },
+  "must_fix_findings": [],
+  "new_Lean_theorem": false,
+  "new_exhaustive_odd_length_interval_above_10000000": null,
+  "primary_source_check": {
+    "printed_pages": [
+      4,
+      5
+    ],
+    "result": "Theorem1.2 interval endpoints not effective",
+    "url": "https://math.leidenuniv.nl/reports/files/2010-17.pdf"
+  },
+  "receipt_comparisons": {
+    "PR8_fixed": "identical",
+    "PR8_lifting": "identical except elapsed_seconds",
+    "independent_normal_and_optimized": "identical to independent.json",
+    "primary_normal_and_optimized": "identical to checks.json",
+    "spacing_normal_and_optimized": "identical to spacing.json"
+  },
+  "review_date": "2026-11-24",
+  "reviewed_sha256": {
+    "README.md": "5fe79f4fb0d346f04e81ac0d169e63d02b535f444ccfa3ecc3101b695662d795",
+    "research/a398769/five-seven/global/FIXED_MODULUS.md": "fc1e97439fa60bd358a2866b3f3b0ecdb2fa0693441a23adc4000f456f4d623d",
+    "research/a398769/five-seven/global/GROWING_POWER.md": "e3e0646c97d221d36918714a7879dbce0e265af0bd28d14095401ad445a12562",
+    "research/a398769/five-seven/global/README.md": "40a4cb0b7ad3835444c6f8763d57c25bc969f2ccec033b338033edba9f9bdea6",
+    "research/a398769/five-seven/global/TWO_QUOTIENTS.md": "162a21a05d8ef19449598f661e946787e5169c6702d35698315995ad344b3e96",
+    "research/a398769/five-seven/global/check_spacing.py": "6e3e5e622045372a47e5e85f23d09571d228054b6755ace20440a3dfe11cafd3",
+    "research/a398769/five-seven/global/checks.json": "8b4d20c02eebc3e53e31a57127e5bd5c103f45666d43804d554032f4635f1fed",
+    "research/a398769/five-seven/global/checks.py": "9b231637afc214795afdb58f6cc0a397cdf11f6b45b47caead46cea34a192021",
+    "research/a398769/five-seven/global/independent.json": "6e85c220d46fb70f326aa9230a733c60d0deae82c9dbdd42796670286983d643",
+    "research/a398769/five-seven/global/independent_checks.py": "237819e4edce946d4a42d4ec40c054b4d537582cdde012e6c9b16c8d811cda15",
+    "research/a398769/five-seven/global/pr8-audit.json": "df720e1cc4aa63679f47ca0469657340c9214bec305098b92d1502a69fce2134",
+    "research/a398769/five-seven/global/spacing.json": "7c5b0f44740d18d754530d2fab13951cf5f2e2205955012e52590cd11155436d"
+  },
+  "reviewer_context": "independent-certificate-audit-agent",
+  "schema": 1,
+  "unresolved": "Uniform failure of both quotient candidates at all remaining lengths, or another global contradiction or effective cutoff with finite verification.",
+  "validation": [
+    {
+      "command": "python3 research/a398769/five-seven/certificates.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 research/a398769/five-seven/log_bounds.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 research/a398769/five-seven/settlement/verify.py --output /tmp/a398769-audit-lifting.json",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 research/a398769/five-seven/settlement/verify_fixed.py --output /tmp/a398769-audit-independent.json",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 -O research/a398769/five-seven/settlement/verify.py --max-length 301 --output /tmp/a398769-audit-small-optimized.json",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 research/a398769/five-seven/settlement/verify_fixed.py --limit 23 --exponent 2 --direct-limit 23 --output /tmp/a398769-audit-control.json",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 research/a398769/five-seven/global/checks.py --output /tmp/a398769-review-primary.json",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 -O research/a398769/five-seven/global/checks.py --output /tmp/a398769-audit-final-checks.json",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 research/a398769/five-seven/global/check_spacing.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 -O research/a398769/five-seven/global/check_spacing.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 research/a398769/five-seven/global/independent_checks.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 -O research/a398769/five-seven/global/independent_checks.py",
+      "exit_code": 0
+    },
+    {
+      "command": "git diff --check",
+      "exit_code": 0
+    }
+  ]
+}
