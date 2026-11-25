@@ -1,0 +1,27 @@
+{
+  "BL_coefficient_upper_rational": "1425663859200/22898045041",
+  "depth_ten_observed": {
+    "least_possible_length": 2231854769,
+    "modulus": 282475249,
+    "order": 242121642,
+    "power_residue": 213654628,
+    "representative": 185987897
+  },
+  "explicit_failure_exercised": true,
+  "full_scan_depth": 5,
+  "full_scan_exponent_classes": 14406,
+  "full_scan_exponent_roots": [
+    6437
+  ],
+  "full_scan_polynomial_residues": 16807,
+  "full_scan_polynomial_roots": [
+    4044
+  ],
+  "normal_and_optimized_receipts_agree": true,
+  "scope": "Arithmetic review and finite controls; analytic proof reviewed separately.",
+  "source_sha256": "c54fc3476038c8a423282c47219afbd174b9c9b1dbca636e53397a616741a0a9",
+  "span_finite_controls": 2412,
+  "status": "PASS",
+  "strip_multiplier": "47628/78125",
+  "threshold_strict_margin": 390361598
+}

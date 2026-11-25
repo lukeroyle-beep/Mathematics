@@ -1,0 +1,50 @@
+{
+  "T": 20,
+  "arithmetic": "exact integers and fractions; no floating point",
+  "control_length_range": [
+    5,
+    241
+  ],
+  "control_lengths": "odd, all positions 3<=i<L",
+  "first_maximum_entry_upper_below": 16,
+  "first_maximum_entry_upper_rounded_outward": "15.830999390874",
+  "height_margin_at_threshold": "11/12",
+  "hensel_comparisons_through_depth_6": 12100,
+  "log10_interval": [
+    "2.302585092994",
+    "2.302585092995"
+  ],
+  "log7_interval": [
+    "1.945910149055",
+    "1.945910149056"
+  ],
+  "lte_checks_including_D7_and_negative_exponents": 42,
+  "negative_controls_rejected": 4,
+  "nonzero_control": {
+    "F_mod343": 245,
+    "L": 23,
+    "i": 15,
+    "v7_F": 2
+  },
+  "polynomial_identities": 14280,
+  "positive_depth_cases": 2420,
+  "positive_depth_s_signs": {
+    "negative": 959,
+    "positive": 1443,
+    "zero": 18
+  },
+  "prefactor_upper_below": 63,
+  "q_over_H_upper": "125000000/21",
+  "s_signs": {
+    "negative": 5455,
+    "positive": 8710,
+    "zero": 115
+  },
+  "scope": "arithmetic and bounded controls, not an all-length computation",
+  "slope": "47628/78125",
+  "slope_exact_decimal": "0.6096384",
+  "source_sha256": "657c30e922d15e56f10f4f423b5ea68b178c951d0e07c716dc3517bf171d28c3",
+  "strict_margin_at_threshold": "390361598",
+  "ten_log7_upper_below": 20,
+  "verdict": "PASS"
+}

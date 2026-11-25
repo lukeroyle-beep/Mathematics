@@ -1,6 +1,12 @@
 # Mathematics
 Repository for mathematical conjectures. Solutions are verified in Lean.
 
+The [five-twelfths strip audit](research/a398769/five-seven/strip-audit/README.md)
+excludes `abs(12i-5L)<=L/10^9` from full `{5,7}` witnesses and, with an
+independently reproduced modular certificate, excludes every admissible
+position on `12i-5L=-1` without a Fermat hypothesis. Complete length and
+broad (E) coverage are unchanged; the wider conjectures remain open.
+
 Lean proofs use the pinned toolchain and Mathlib dependency at the repository root.
 The [Stage 2 counterexample restrictions](research/a398769/stage2/README.md) apply to all decimal digit lengths. The [Stage 4 reduction](research/a398769/stage4/README.md) treats numbers whose digits are all 3 or 9.
 
