@@ -1,0 +1,53 @@
+{
+  "CRT_comparisons_powers_1_through_4": 12080,
+  "CRT_positive_controls": 13,
+  "S_divides_F_but_not_n_controls": 0,
+  "actual_sum_only_control": {
+    "L": 1225,
+    "d": 408,
+    "i": 417,
+    "original_problem_witness": false,
+    "r_S": 9,
+    "v7_F": 3
+  },
+  "direct_digit_pairs": 3020,
+  "factor_nine_negative_control": {
+    "F_mod_S": 0,
+    "L": 313,
+    "S": 2187,
+    "i": 51,
+    "n_mod_S": 1944
+  },
+  "filtered_odd_lengths_5_through_301": 119,
+  "full_power_stabilization_checks": 119,
+  "scope": "targeted reduction checks, no new search interval",
+  "source_sha256": {
+    "research/a398769/five-seven/effective/ROUTE_B.md": "0b2ada9b58f4053583458139c51a535e45d63448e8c48d3e3044645dacec84e1",
+    "research/a398769/five-seven/effective/route_b_checks.py": "1025dd028d39db31606579f4a704e1f42b0cbe882d8668bf8d4f10ab00c64e98",
+    "research/a398769/five-seven/global/FIXED_MODULUS.md": "fc1e97439fa60bd358a2866b3f3b0ecdb2fa0693441a23adc4000f456f4d623d",
+    "research/a398769/five-seven/global/TWO_QUOTIENTS.md": "162a21a05d8ef19449598f661e946787e5169c6702d35698315995ad344b3e96",
+    "research/a398769/five-seven/settlement/FULL_DIVISOR.md": "a4984f201517c54e7492dd4da8999e191b980a67534b9048cc26bed4e1a8689e"
+  },
+  "synthetic_controls": [
+    {
+      "length": 7,
+      "original_problem_witness": false,
+      "position": 3,
+      "q": 9,
+      "q1": 9,
+      "q2": 27129,
+      "split": 6,
+      "synthetic_A": 311031
+    },
+    {
+      "length": 11,
+      "original_problem_witness": false,
+      "position": 9,
+      "q": 63,
+      "q1": 64,
+      "q2": 63,
+      "split": 9,
+      "synthetic_A": 433015873
+    }
+  ]
+}
