@@ -1,0 +1,97 @@
+Independent proof audit for A398769
+Work in lukeroyle-beep/Mathematics. Independently audit the submitted proof reproduced in full below. Treat its assertions and numerical receipts as claims to test. Start from the current default branch, verify that it contains the merge of pull request 12 at 2505f83c98fff9d11971c83f6a833740f7afadf6, and record the actual revision audited. Use a separate research branch. Read the repository’s applicable instructions, the merged bounded-depth note and the original sequence conjecture. Pull request 12 · Merged bounded-depth note · Original sequence entry
+Claim under audit
+For every integer $k\ge1$ and every nonempty open interval $I\subset(0,1)$, there are infinitely many distinct odd lengths $L$ for which some integer $3\le i<L$ satisfies simultaneously
+$$
+i/L\in I,\qquad 225(7L-4)\mid F(L,i),\qquad v_7(F(L,i))=k,
+\quad F(L,i)=7\cdot10^L-18\cdot10^i-25.
+$$
+The submitted construction uses $7L-4=3^a17^b$. The example involving 898129 is a separate numerical check. Reconstruct the proof in your own notation and actively seek a counterexample or an invalid inference before giving a verdict.
+Mathematical audit
+1. Decimal reduction. Reconstruct the number $n$ from its digit blocks with the units place numbered zero. Derive $9n=F$, the digit sum $S=7L-4$, the digit product $25\cdot7^{L-2}$, and the full witness test. Check every subsequent division and coprimality claim, especially the factor of 9 when $3\mid S$.
+2. Length grid and exact depth. Derive the seed and the periods that freeze $L$. Independently establish the orders of 10 modulo the required powers of 3, 17 and 7, including membership of each target in the appropriate subgroup. For each $k$, including $k=1$, check that exactly one of seven lifts survives to the next depth and that a single choice of any of the other six works across the entire grid. Recompute all overlaps in the generalized Chinese remainder theorem and the combined period $W$.
+3. Compatibility and the two-index limit. Prove the reduction of representatives along each axis. Starting from the intersection of the closures of joint tails, prove nonemptiness, closedness, invariance and the claimed surjectivity for both circle maps. Check that both indices can tend to infinity. Test the directions of the shift identities explicitly.
+4. Try hardest to break the finite-set contradiction. If the joint limit set were finite, justify the common denominator, uniform proximity throughout a whole tail quadrant, and the subsequent choice of one fixed row. Derive the exact signed-error recurrence, the integrality and constancy of $C$, and the existence of unbounded $a$ with the same $D,C$. Re-derive both polynomials, allowing $C<0$ and $C=0$. Check why common roots modulo unbounded powers of 3 force a common complex root even when the modular roots vary. Verify irreducibility, the field-degree argument and the strict comparison of the absolute values at conjugate roots.
+5. Density and actual digit positions. Locate and cite the precise published closed-set version of Furstenberg’s topological circle theorem, including its hypotheses. Check them on the set just constructed. Derive $W/L$, handle the choice of representative on the circle and prove that an actual integer position lies strictly inside any prescribed interval for infinitely many distinct lengths. Address intervals arbitrarily close to either endpoint, as well as $I=(41/100,42/100)$. Explain why taking $k$ fixed matters here. Density of a set of residues by itself is insufficient.
+Independent numerical checks
+Write a reproducible exact checker. Recompute the four depth-one grid representatives and all four adjacent reductions in the submitted example. For each of the two large positions in the appendix, use integer inequalities for the strict interval and verify both divisibility at depth $k$ and failure at $k+1$. Cross-check by concatenating the decimal blocks modulo the relevant divisors without calling the formula for $F$ on that independent path. Use small literal decimal words to validate the block routine. Record commands, exact residues and any discrepancies. Ensure the checks still execute with Python optimisation enabled if using Python. Give separate verdicts on the mathematical argument and the numerical examples.
+Verdict and repository deliverable
+Give the submitted theorem one of four verdicts: verified as written, verified after a specified repair, unresolved because of an identified gap, or disproved by a counterexample. A failed inference alone establishes a gap. For any gap, identify the earliest unsupported step, try a justified local repair, and state the strongest claim actually established. A corrected example and a repaired proof should each be labelled accordingly.
+Record the proof or obstruction, independent checks, sources and reproduction commands in a focused draft pull request for owner review. Leave merging to the owner. In the final response, state what the audit establishes about fixed depth, the all-length ${5,7}$ subclass, and the full digit-1 conjecture. Explain explicitly why the witness threshold is $v_7(F)\ge L-2$ at the same length. Give the inherited coverage separately: all lengths 1 through 10,000,000 inclusive for the ${5,7}$ subclass, plus the one isolated length from pull request 12. Identify the verification method accurately, including any Lean formalization only if actually completed.
+
+Submitted proof to audit
+A398769 | Arbitrary fixed seven-adic depth
+Proof proposed for independent repository audit, 25 November 2026.
+Let $L$ be the number of decimal digits and $i$ the position of the nonterminal five, counting the units digit as position zero. The other five is at position zero and every other digit is seven. Write
+$$
+S=7L-4,\qquad F(L,i)=7\cdot10^L-18\cdot10^i-25,\qquad n=F(L,i)/9.
+$$
+Theorem. For every fixed integer $k\ge1$ and every nonempty open interval $I\subset(0,1)$, infinitely many distinct odd lengths $L$ admit an integer $3\le i<L$ for which
+$$
+i/L\in I,\qquad 225S\mid F(L,i),\qquad v_7(F(L,i))=k.
+$$
+Here $v_7(F)$ is the largest exponent $e$ for which $7^e\mid F$. Thus the full digit sum divides the decimal number and the seven-adic depth can be prescribed exactly. Taking $I=(41/100,42/100)$ answers the fixed-depth question left open in pull request 12. Taking other intervals also works, including intervals where an earlier theorem rules out full witnesses. The original witness condition requires $225S7^{L-2}\mid F$. The construction first fixes $k$ and then allows $L$ to grow arbitrarily large.
+1. Two independently varying exponents
+Fix $k\ge1$ throughout. Write $T_j=6\cdot7^{j-1}$ for $j\ge1$. This is the order of 10 modulo $7^j$, since 10 has order six modulo 7 and $7\mid10^6-1$ exactly once. In particular, 10 generates all units modulo $7^j$.
+Set $H=7\operatorname{lcm}(16,T_{k+1})$. Its factor of 3 is exactly 3. Choose positive integers $A,B$ with $3^A\equiv1\pmod{H/3}$ and $17^B\equiv1\pmod H$. They exist by coprimality. For independent nonnegative integers $m,j$, set
+$$
+a=12+Am,\qquad b=1+Bj,\qquad S=3^a17^b,\qquad L=(S+4)/7.
+$$
+The seed has $S_0=9{,}034{,}497$ and $L_0=1{,}290{,}643$. On the whole grid, $S\equiv S_0\pmod H$. Indeed the residues agree modulo $H/3$, and both vanish modulo 3. Hence $L$ is an odd integer and $L\equiv L_0\pmod{\operatorname{lcm}(16,T_{k+1})}$. Also $L\equiv16\pmod{27}$, by $7L=4+S$.
+2. The three congruences on the position
+Power of 3. Put $u=((7\cdot10^L-25)/9),2^{-1}\pmod{3^a}$. The division by 9 is in the integers. Then $3^{a+2}\mid F(L,i)$ exactly when $10^i\equiv u\pmod{3^a}$. The order of 10 modulo $3^a$ is $3^{a-2}$ for $a\ge2$, from $v_3(10^h-1)=2+v_3(h)$ for positive $h$. Its powers are all residues congruent to 1 modulo 9. In fact $u\equiv1\pmod{27}$. To check this, the order of 10 modulo 243 is 27, $10^{16}\equiv145\pmod{243}$, and $7\cdot145-43=4\cdot243$. Consequently there is one exponent class modulo $3^{a-2}$, and it is 0 modulo 3.
+Power of 17. Since $L\equiv3\pmod{16}$, we have $10^L\equiv14\pmod{17}$. Also $10^7\equiv5\pmod{17}$ and $7\cdot14-18\cdot5-25=-17$. Thus the target $(7\cdot10^L-25)/18$, with division modulo $17^b$, reduces to $10^7\pmod{17}$. The order of 10 modulo 17 is 16, since $10^8\equiv-1\pmod{17}$. Also $10^{16}\equiv137=1+8\cdot17\pmod{17^2}$. The binomial expansion lifts the order to $16\cdot17^{b-1}$, the full number of units modulo $17^b$. There is one exponent class giving $17^b\mid F(L,i)$. It is 7 modulo 16, in particular odd.
+Exact power of 7. For the fixed length residue of this grid, there is a unique exponent class modulo $T_k$ giving $7^k\mid F$. All its members are 3 modulo 6, because $10^i\equiv-1\pmod7$. Of its seven lifts modulo $T_{k+1}$, precisely one gives divisibility by $7^{k+1}$. Fix any one of the other six, writing it $e\pmod{T_{k+1}}$. The frozen length congruence makes the same $e$ give valuation exactly $k$ at every grid point.
+The first and second exponent periods are coprime. The third shares 3 with the first and 2 with the second. The residues agree at those overlaps by the preceding calculations. The Chinese remainder theorem gives a single class of exponents satisfying our three chosen conditions. Denote its least nonnegative representative by $r_{mj}$. Its period is
+$$
+W_{mj}=\operatorname{lcm}(3^{a-2},16\cdot17^{b-1},T_{k+1})
+=16\cdot7^k\cdot3^{a-2}17^{b-1}.
+$$
+Here the period specifies our chosen one of the six exact-depth lifts. The other five are unnecessary.
+3. Compatibility and a closed set on the circle
+Increasing either grid index preserves the older residue class. To see this, use primes to denote parameters at the higher grid point. The integer $L’-L=(S’-S)/7$ is divisible by $3^a$ and $17^b$, and also by 16 and $T_{k+1}$ from the fixed length congruence. Therefore $10^{L’}\equiv10^L$ modulo $3^{a+2}$ and modulo $17^b$, by their multiplicative orders. The chosen exponent class at 7 stays fixed as well. Thus any exponent satisfying the higher conditions satisfies the older ones. Uniqueness gives $r’\equiv r\pmod W$.
+Let $U=3^A$, $V=17^B$, and let $x_{mj}=r_{mj}/W_{mj}$ as a point of the circle $\mathbb R/\mathbb Z$. The periods multiply by $U$ and $V$ respectively on increasing their indices. Consequently
+$$
+U x_{m+1,j}=x_{mj},\qquad V x_{m,j+1}=x_{mj}\quad(\bmod 1).
+$$
+Let $E$ be the intersection, over $N\ge0$, of the closures of the sets of points $x_{mj}$ with $m,j\ge N$. This is a nonempty compact set. Both circle maps, multiplication by $U$ and by $V$, take $E$ onto itself. For example, a sequence with both indices tending to infinity can be shifted down one index to prove forward invariance. Shifting it up and taking a convergent subsequence provides a preimage in $E$.
+4. The accumulation set is infinite
+Suppose $E$ were finite. Multiplication by $U$ would permute its points. Each would satisfy $(U^h-1)x=0\pmod1$ for some $h>0$, so a positive integer $D$ clears every denominator in $E$.
+Fix $0<\varepsilon<1/(U+1)$, also smaller than $1/2$. For some $N$, every $D x_{mj}$ with $m,j\ge N$ lies within $\varepsilon$ of zero modulo 1. Otherwise a subsequence violating the condition with both indices tending to infinity would have a limit in $E$. Fix $j=N$ and let $z_m\in(-\varepsilon,\varepsilon)$ be the signed representative of $D x_{mN}$. Since $U z_{m+1}-z_m$ is an integer of absolute value less than one, $z_m=U z_{m+1}$ exactly. Thus $W_{mN} z_m=C$ is constant on this row. It is an integer since $Wz_m\equiv Dr\pmod W$. In particular
+$$
+D r_{mN}\equiv C\pmod{3^{a-2}}
+$$
+for arbitrarily large $a$, with $D>0$ and the same possibly negative integer $C$.
+Here is an elementary contradiction. Write $X=10^L$ at each point of that row and $C_+=\max(C,0)$, $C_-=\max(-C,0)$. The order of 10 gives $10^{Dr_{mN}}\equiv10^C\pmod{3^a}$, with negative powers interpreted by inversion. The full power-of-three condition gives $7X-25\equiv18\cdot10^{r_{mN}}\pmod{3^a}$. Also $X^7=10^{4+S}\equiv10^4\pmod{3^a}$. It follows that the fixed integer polynomials
+$$
+P(X)=X^7-10^4,\qquad Q(X)=10^{C_-}(7X-25)^D-18^D10^{C_+}
+$$
+have a common root modulo $3^a$ for arbitrarily large $a$. They must have a common complex root. Indeed, if they were coprime over the rationals, the polynomial Bézout identity, after clearing denominators, would express a fixed nonzero integer as an integer-polynomial combination of $P$ and $Q$. Arbitrarily large powers of 3 would divide that integer.
+The polynomial $P$ is irreducible over the rationals. For its positive root $t=10^{4/7}$, the number $t^2/10=10^{1/7}$ has degree 7 by Eisenstein’s criterion at 2 applied to $X^7-10$. Thus $t$ also has degree 7. If $P$ and $Q$ shared a root, $P$ would divide $Q$. At every root $x$ of $P$ one would then have $(7x-25)^D=18^D10^C$. But for a primitive seventh root of unity $\zeta$,
+$$
+|7t\zeta-25|^2-|7t-25|^2=350t(1-\operatorname{Re}\zeta)>0 .
+$$
+Their $D$-th powers cannot have the same absolute value. This proves that $E$ is infinite.
+5. Recovering an actual position
+Furstenberg’s topological theorem says that an infinite closed subset of the circle invariant under multiplication by two multiplicatively independent integers greater than one is the entire circle. Its hypotheses hold for $E$, $U=3^A$, and $V=17^B$. Hence every open arc contains points $x_{mj}$ with both indices arbitrarily large. The closed-set statement in Bourgain, Lindenstrauss, Michel and Venkatesh, section 1.1 · Furstenberg’s original paper, part IV
+The ratio of the period to the length tends to a finite positive constant at this fixed depth:
+$$
+\frac{W_{mj}}{L}=\frac{112\cdot7^k}{153}\frac{S}{S+4}\longrightarrow\lambda_k=\frac{112\cdot7^k}{153}.
+$$
+Choose $t\in I$ so that $t/\lambda_k$ is not an integer and set $h=\lfloor t/\lambda_k\rfloor$. Use tail density to take a sequence $x_{mj}\to t/\lambda_k-h\in(0,1)$, with both indices tending to infinity. The actual integers $i=r_{mj}+hW_{mj}$ satisfy
+$$
+i/L=(h+x_{mj})W_{mj}/L\longrightarrow t.
+$$
+Hence $i/L\in I$ and $3\le i<L$ eventually, at infinitely many distinct lengths. The three congruences give $9S\mid F$ and $v_7(F)=k$. Both power-of-ten terms in $F$ are divisible by 25, and 25 is coprime to $9S$, so $225S\mid F$. This proves the theorem.
+Finite checks
+At depth one, $A=84$, $B=42$ and $e=3$ give a small check of the grid itself. I computed the least representative at each of the four index pairs in ${0,1}^2$ by lifting the powers of three and 17 one digit at a time. Each representative satisfies $9S7\mid F$ and $49\nmid F$. Each of the four reductions from a higher index pair to an adjacent lower one agrees with its independently computed representative.
+The prime 17 at depth four. Take $a=164$, $b=41$, $S=3^a17^b$ and $L=(S+4)/7$. The position below lies strictly in the target interval and gives $i/L$ approximately $0.4197478293$.
+29797646892464056624268591626989332218493609302055791170288646673932530782127511687718026773577250507078587659132819768544988583
+Direct powers give $9S\mid F$ and $F\bmod 7^5=2401=7^4$. Decimal-block evaluation gives $n\bmod(25S7^4)=0$. This tests the decimal construction with the prime 17. Its exponents can be checked directly without belonging to the particular grid chosen in the proof.
+The prime 898129 at depth seven.
+This separate example uses the prime from pull request 12. Put $S=3^{103}\cdot898129^{21}$ and $L=(S+4)/7$. The following $i$ gives $i/L\approx0.4131241683$, within the original target interval.
+86017122942511516807707332588165157266373006397583734585619228280233127932633372984011721996070412372434397726333358456530637617765175106696400810420249953681152142379039119
+Direct modular powers give $F\equiv0\pmod{225S7^7}$ and $F\equiv1{,}647{,}086=2\cdot7^7\pmod{7^8}$. Reconstructing the decimal number from its two blocks of sevens and two fives also gives $n\equiv0\pmod{25S7^7}$. This verifies one pair at depth seven. The theorem for every depth rests on the preceding proof.
+Next repository audit
+Independently try to falsify the exact-depth theorem. Check the three exponent periods and their overlaps, the reduction of higher-grid representatives to lower ones, and especially the passage from a finite joint accumulation set to one fixed congruence on an entire row. Verify the polynomial contradiction, the exact hypotheses of the circle theorem, and the last conversion from circle points to integer positions in a strict interval. Reconstruct the numerical example directly from its decimal blocks. Record the fixed-depth result separately from the growing target $k=L-2$ and from the certified consecutive length range.
+Merged pull request 12 · The bounded-position criterion and its open question at the merge commit
