@@ -4,8 +4,8 @@ Repository for mathematical conjectures. Solutions are verified in Lean.
 The [uniform-bound investigation](research/a398769/five-seven/uniform-bound/README.md)
 proves the proposed quadratic valuation bound would close the `{5,7}`
 subclass, gives uniform derivative control and a general Hensel reduction,
-and quantifies why the available rational-centre estimates do not cover
-all remaining positions. General position thresholds retain their earlier
+and quantifies the limits of specified degree-and-span rational-centre
+estimates. General position thresholds retain their earlier
 finite obligations. The valuation target remains unproved; all conjecture
 statuses and whole-length coverage are unchanged. These are
 ordinary proofs and exact checks, not new Lean formalizations.
