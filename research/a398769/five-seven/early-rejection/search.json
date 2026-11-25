@@ -1,0 +1,42 @@
+{
+  "beyond_audit_distinct_lengths": 2721,
+  "controls": {
+    "complete_cycle_lengths": 19,
+    "literal_lengths": 19
+  },
+  "counterexamples": [],
+  "distinct_lengths_total": 2768,
+  "families": {
+    "complete_cycle_gcd": {
+      "beyond_audit_generators": [],
+      "candidate_lengths": 37,
+      "counts": {
+        "excluded_five": 0,
+        "fail": 14,
+        "outside": 23,
+        "pass": 0
+      },
+      "generated_sums_with_duplicates": 14493882,
+      "maximum_L": 14731,
+      "minimum_L": 9,
+      "ordered_results_sha256": "2d761092e2f7e8e431fda90d155aa5a849273a0244778fabe070040dc3940ae5",
+      "raw_exponent_pairs": 4636840
+    },
+    "smooth_sum_powers": {
+      "candidate_lengths": 2731,
+      "counts": {
+        "excluded_five": 0,
+        "fail": 1193,
+        "outside": 1538,
+        "pass": 0
+      },
+      "maximum_L": 172020591729487596434469151906518986720347339827764151426927789230123908694964912375635875054404078101448849359509060484917182446003200784852498306365419136021791012542313074982496392865044042654503763877211797625877551989521562579780335441655234284695015998916454943337296815456600801991492143143464616134390727214306289562068525753,
+      "minimum_L": 313,
+      "ordered_results_sha256": "e5f6a9e7c6d2b1276ac71c5b560709f6000d2193ce12557062e368b79d763d2a",
+      "raw_parameter_pairs": 16482
+    }
+  },
+  "scope_complete": true,
+  "scope_sha256": "123d9f103395f3027490ab630c979edb167d2673eb60dc3e96e8bb2c178bc03f",
+  "source_sha256": "19719f7470cc831c7098fe649d64fe42f894978f6cedde151b7e39947914d052"
+}

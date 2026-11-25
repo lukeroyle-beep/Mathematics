@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "recorded_before_execution": true,
+  "families": [
+    {
+      "name": "smooth_sum_powers",
+      "S": "3^a*p^b",
+      "p": [
+        17,
+        898129
+      ],
+      "a_inclusive": [
+        0,
+        200
+      ],
+      "b_inclusive": [
+        0,
+        40
+      ],
+      "exclude_S_below": 31,
+      "domain": "S=3 mod 7; L=(S+4)/7 odd; S%5!=0",
+      "method": "exact least representative lifts followed by 9S residue; no full-witness filters"
+    },
+    {
+      "name": "complete_cycle_gcd",
+      "d_inclusive": [
+        1,
+        240
+      ],
+      "a": "0<=a<d",
+      "b": "0<=b<d",
+      "generation": "G=gcd(7*10^a-18*10^b-25,10^d-1); remove all powers of 7; use G/3^j for every 0<=j<=v_3(G)",
+      "candidate_domain": "S>=31, S=3 mod7, L=(S+4)/7 odd, S%5!=0, L mod d=a",
+      "method": "all generated candidate sums; recover r_K and evaluate full 9S residue directly"
+    }
+  ],
+  "stopping_rule": "Complete exactly these finite ranges; no scan enlargement prompted by absence of a counterexample. No factorization or discrete logarithm beyond linearized 7-adic lifts is needed.",
+  "scope_rationale": "Smooth sums test tractable inherited exponent families across growing K. Cycle-gcd sums deliberately seek small full-sum exponent periods relative to S, improving on blind length extension; only maximal gcds with variable three-parts are claimed, not every divisor."
+}

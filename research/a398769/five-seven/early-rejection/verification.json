@@ -1,0 +1,314 @@
+{
+  "baseline_commit": "de64c6da6d616455b69eb9bcf33646ce4e798279",
+  "blocks_compared": 100,
+  "fresh_full_runs": [
+    {
+      "exit_code": 0,
+      "optimized": false,
+      "source": "checker_a.py",
+      "stdout_sha256": "9421d96ff050ae1c345c2c31fb8f8d1b62a3cb81ce3b343f34f7a9e77ee99b4d"
+    },
+    {
+      "exit_code": 0,
+      "optimized": true,
+      "source": "checker_a.py",
+      "stdout_sha256": "9421d96ff050ae1c345c2c31fb8f8d1b62a3cb81ce3b343f34f7a9e77ee99b4d"
+    },
+    {
+      "exit_code": 0,
+      "optimized": false,
+      "source": "checker_b.py",
+      "stdout_sha256": "53ee36e6170a3a0cd64cb36f7fe4469184ba70d10361fa76c83c41cde306c71c"
+    },
+    {
+      "exit_code": 0,
+      "optimized": true,
+      "source": "checker_b.py",
+      "stdout_sha256": "53ee36e6170a3a0cd64cb36f7fe4469184ba70d10361fa76c83c41cde306c71c"
+    }
+  ],
+  "inherited_unchanged_sha256": {
+    "A398769.lean": "f00faa35b30f18653d7c39f29c3c8534d13c6c3c770ac6fa0d30f2576752af2e",
+    "A398769/FiveSeven.lean": "e9981c96e509cf964df8348097a3bee0ddd128d5e3225a5417bf30bc528636f6",
+    "A398769/Stage2.lean": "729564e33fd19e298613b51e766f96e2fcd8c1f8d07f6801d8444b10e03a45b7",
+    "A398769/Stage4.lean": "a8271270237930d3ddee7dffd3465517a86f3394cf9bde243c6a9571664e9cb4",
+    "A398769/Stage5.lean": "6141ee45ca8a1f0543335c5a671c78cf4972529552e858a8d824292a8da5e7e5",
+    "lake-manifest.json": "eba9381ea5def2dd365fcf7b9a14d251ea3557b2418de6e38ee38f9d7a649b25",
+    "lakefile.toml": "8b1f22007097a470cfc3bf0099b077462818ce2446da00001b4e46b98d095ffb",
+    "lean-toolchain": "42779d67b81608af8a12aa4328d2ab47ca201925b3b2bd68369587b5340bb434",
+    "research/a398769/five-seven/FINITE_PAIRS.md": "11bc9880c261263af4f961647c3fcf525ad60ee0d5b06366d068d4233e66c2fe",
+    "research/a398769/five-seven/FIXED_POSITION.md": "4307a08a99b09d129c44638d9f0954feea75a8f4101fe343f33537918a633764",
+    "research/a398769/five-seven/README.md": "2ba5ecac7ad4c9dd74acb39f4b3ed663d4068112e3547db150dbb4d664836813",
+    "research/a398769/five-seven/REVIEW.md": "05d56f51f04b81a8a38e2416a099e994990b665f11014ce206682d39e1c5a119",
+    "research/a398769/five-seven/certificates.py": "1f2d190bfe1a7b83a7bff9437b9befb02db36df43713edb64afd952e9317c670",
+    "research/a398769/five-seven/depth/BOUNDED_DEPTH.md": "149b3e2b062c53100757ee1e7e5c4b19bb1b5da8282c9d4537d467f90e53cedf",
+    "research/a398769/five-seven/depth/FAMILY.md": "95e4d18ffbc181488375d93c83ac9419741afaa6f757cc1dfaf4026fb501702a",
+    "research/a398769/five-seven/depth/PRIME_FILTERS.md": "683b722686c181815c2bd295cc6b233a38a9ff15394207d61f9aae79976c3a2f",
+    "research/a398769/five-seven/depth/README.md": "3172b25316c283f3555282f714dc8e957463614bd4f830f4d3c65d053f6d1a46",
+    "research/a398769/five-seven/depth/REVIEW.md": "f9fb8f64273e06043c5a758ee80607c4839dfb79c9a6d3a955934fafb7e0d6d8",
+    "research/a398769/five-seven/depth/baseline_independent_rerun.json": "3c225040caaee6cb8895aa838ddff37aa599c90fa262e2a36dff1f9eed60a686",
+    "research/a398769/five-seven/depth/baseline_lifting_rerun.json": "d88e77635b387d016aebcefa471b93383c75ff187f18ddaefaa86b22c0c9c60b",
+    "research/a398769/five-seven/depth/checks_crt.py": "6cd1fdfc9cb089c694ed2e204b69359e0a0f5b6bdbd0f019458e9e680df332b4",
+    "research/a398769/five-seven/depth/checks_depth_samples.py": "241f1e9700f9b20421275a0df58c5f910337b83d48f8f39fa90476f63c18bfb6",
+    "research/a398769/five-seven/depth/checks_family.py": "7db2b64045b75f9755e3a5a6fa56efcddb2d5e985ec9e5543b6c081013174c51",
+    "research/a398769/five-seven/depth/crt_checks.json": "216f10823e3aa0abbd7c4f17e31a1b72e7a6786168e0389234210e8ac7dab1d1",
+    "research/a398769/five-seven/depth/depth_samples.json": "e3a496801f211cc652ea6c36f62972554e4f15dd79ed95df21efbfaaf5527000",
+    "research/a398769/five-seven/depth/family_checks.json": "679f4d8aace2f264bb151c65492d22e5c616528d33090d44d711cc0d2f5dfc1f",
+    "research/a398769/five-seven/depth/independent_checks.json": "9e6374cde84ebbee56d876b7cb9cfca0aaa9d185563394f3062fea840198e321",
+    "research/a398769/five-seven/depth/independent_checks.py": "5dafb71578175a0e00d5907859aee520cef0362e79e8ecd4300615c39a16b7b9",
+    "research/a398769/five-seven/depth/review.json": "746b51e83f8fb4ddbdd94c49db9c804034ffda91d4445d41b60d363b1a3741ca",
+    "research/a398769/five-seven/depth/verification.json": "bb9ce1cc2a6801229c75eab37273e204c762ee93833737a80ed27636363d0d36",
+    "research/a398769/five-seven/effective/CUTOFF.md": "7f0d6f8e19f6f27aeeece1d00c610d70eb55c1964bfeb650239014cebcdcc45f",
+    "research/a398769/five-seven/effective/QUALITATIVE.md": "879e6e0ed6ae8585b8f2c0b814d8995206a40ce27190dc9028c99f837eba2ca0",
+    "research/a398769/five-seven/effective/README.md": "39ba072eaf68040079c3dc5e6aea5cb076ae7049c083768733982617c2f5044e",
+    "research/a398769/five-seven/effective/REVIEW.md": "2a3de3d00514ef7aa76ed7a3943a921e3dc584e14830a72699859a0bcc704b2e",
+    "research/a398769/five-seven/effective/ROUTE_A.md": "98b0f8380911832b918ceea18221ead51b839a661bd105227d7a774f15d16d94",
+    "research/a398769/five-seven/effective/ROUTE_B.md": "0b2ada9b58f4053583458139c51a535e45d63448e8c48d3e3044645dacec84e1",
+    "research/a398769/five-seven/effective/independent.json": "33574612a65a08611ce075e184f4a6ea0ca6101e56a742c3813d6b1ef1883e6f",
+    "research/a398769/five-seven/effective/independent_checks.py": "cea395c27f7c67d74bb7a9dbc227d6bf10c6c2f07e339d829721a7add2620b14",
+    "research/a398769/five-seven/effective/review.json": "09a6539b004e4f4cec03b3d3a8ca05d5ed00a624246b58433689c4882ed05389",
+    "research/a398769/five-seven/effective/route_b_checks.json": "c9a46bcc982e86e81e7e2101e6f9f7cd3a72256032f9e5b125ef5d5ae4cf77c9",
+    "research/a398769/five-seven/effective/route_b_checks.py": "1025dd028d39db31606579f4a704e1f42b0cbe882d8668bf8d4f10ab00c64e98",
+    "research/a398769/five-seven/effective/verification.json": "075bf7d6a9f459cb4822c3107e084553c6d48aae8eae39619c3900ff38914258",
+    "research/a398769/five-seven/fixed-depth/PROOF.md": "270d03d76a083c98e168a9f96db7507563eb5576e3ce2e13cfd8701a15b0bee8",
+    "research/a398769/five-seven/fixed-depth/README.md": "e89ae3aa7e2ac9a6d7ee0450352d1ab01f25b6358df3505bfd5693043d380146",
+    "research/a398769/five-seven/fixed-depth/REVIEW.md": "9a376b3fd95597e7fddd362bc3a6a5f0165b196a4f217fe684627efa45c8b877",
+    "research/a398769/five-seven/fixed-depth/SUBMISSION.txt": "7e77aef5b8b5b3e4b7fff5357c1ef035571e447147f6381082f44909cd9e85ca",
+    "research/a398769/five-seven/fixed-depth/checks.json": "eed221cf4d2170ebdb08364d3af0b3bd7d5c0e398c9fe942f0ecc28b1b8ce3d3",
+    "research/a398769/five-seven/fixed-depth/checks.py": "159e37bdbe39bba3e75d33c38098dc6154aefbc29623ad5cff5c09a8810127b9",
+    "research/a398769/five-seven/fixed-depth/independent_checks.json": "327fd8ec656450eea54ba2caeb9d454f20c180fcbed83f500f59a01a17c5bef4",
+    "research/a398769/five-seven/fixed-depth/independent_checks.py": "70f70ece4fc67059b72047f9e740440ab2fe2ffbfa4028529a49e321e8b9429b",
+    "research/a398769/five-seven/fixed-depth/verification.json": "94c286bdb91c29aede4ec1f88180fb13494ae11819308aeb8361ccd838e649b3",
+    "research/a398769/five-seven/global/FIXED_MODULUS.md": "fc1e97439fa60bd358a2866b3f3b0ecdb2fa0693441a23adc4000f456f4d623d",
+    "research/a398769/five-seven/global/GROWING_POWER.md": "e3e0646c97d221d36918714a7879dbce0e265af0bd28d14095401ad445a12562",
+    "research/a398769/five-seven/global/README.md": "40a4cb0b7ad3835444c6f8763d57c25bc969f2ccec033b338033edba9f9bdea6",
+    "research/a398769/five-seven/global/REVIEW.md": "dce55f42e0d2b97322241a4649cf3b550f8237104e31fb4b67259b772710f190",
+    "research/a398769/five-seven/global/TWO_QUOTIENTS.md": "162a21a05d8ef19449598f661e946787e5169c6702d35698315995ad344b3e96",
+    "research/a398769/five-seven/global/check_spacing.py": "6e3e5e622045372a47e5e85f23d09571d228054b6755ace20440a3dfe11cafd3",
+    "research/a398769/five-seven/global/checks.json": "8b4d20c02eebc3e53e31a57127e5bd5c103f45666d43804d554032f4635f1fed",
+    "research/a398769/five-seven/global/checks.py": "9b231637afc214795afdb58f6cc0a397cdf11f6b45b47caead46cea34a192021",
+    "research/a398769/five-seven/global/independent.json": "6e85c220d46fb70f326aa9230a733c60d0deae82c9dbdd42796670286983d643",
+    "research/a398769/five-seven/global/independent_checks.py": "237819e4edce946d4a42d4ec40c054b4d537582cdde012e6c9b16c8d811cda15",
+    "research/a398769/five-seven/global/pr8-audit.json": "df720e1cc4aa63679f47ca0469657340c9214bec305098b92d1502a69fce2134",
+    "research/a398769/five-seven/global/review.json": "a1606ce01def9b18652946a04f793d8f6b41627be6c70384f62b2bb11c4e6d4a",
+    "research/a398769/five-seven/global/spacing.json": "7c5b0f44740d18d754530d2fab13951cf5f2e2205955012e52590cd11155436d",
+    "research/a398769/five-seven/high-depth/COMPUTATION.md": "78f26927b65555a03c55e83565df33629b13edf548a017f366796d3eda7060e2",
+    "research/a398769/five-seven/high-depth/PROOF.md": "0c1e4de375d6e2be587d03038045096847cab6c3a6f0064dda302fe62cdeafe7",
+    "research/a398769/five-seven/high-depth/README.md": "606231a08b362a64ce05202862d0f155a19d391aed2690b7e2714bcbbf6a808e",
+    "research/a398769/five-seven/high-depth/REVIEW.md": "3aa6d43b358f3df98eaf3bdd5451f854a97fcce5c534a630c40e610fd5e1cb48",
+    "research/a398769/five-seven/high-depth/ROUTES.md": "dfd25dd42aded53fda3eaccceda9dff1e997dcd2372a3af1ab0711cbb92a90ea",
+    "research/a398769/five-seven/high-depth/checks.json": "1e8abf692ab6b66dab450255da66d91f3cce94914e9385e6faef55905b3910c5",
+    "research/a398769/five-seven/high-depth/checks.py": "f2b0c47bbdf179f6b7fed8522ce8e348be26edbcb859bc89ab5f591942144438",
+    "research/a398769/five-seven/high-depth/independent.json": "036096211034d9ae1a60a4a1fd3afc6fa5cbf96592b34f23e5f4fdfe5e8d9e7a",
+    "research/a398769/five-seven/high-depth/independent_blocks.py": "dfeda79ba2c4fc25860c8242606c3e1630c7ce24fd4a1c753ac1602446f3d491",
+    "research/a398769/five-seven/high-depth/verification.json": "e74bc9f89746e18b13efbd5f798de1a54674aa4e0d894b7744c2d8bde976fbf0",
+    "research/a398769/five-seven/high-depth/verify.py": "a5419242cb3c9b9cc64053328d4539c2987eefe5f2987ef90e3350ebeb19d77b",
+    "research/a398769/five-seven/log_bounds.py": "c88a66e5c6d2fbd661bc3ad63983fa3f9c55ac8c1cfa84ed19f7ca4fb6ce53a1",
+    "research/a398769/five-seven/prior-notes/FiveSeven.lean": "e9981c96e509cf964df8348097a3bee0ddd128d5e3225a5417bf30bc528636f6",
+    "research/a398769/five-seven/prior-notes/README.md": "89cf2755fc88c66bf829e2e79099abd4770faeb6be5e8142934593f6aa63a4eb",
+    "research/a398769/five-seven/prior-notes/REVIEW.md": "40f45e7339c8ca87c07d97e916bb61db8ffb0743b2fc3ce5b54c4d630e13a1a5",
+    "research/a398769/five-seven/prior-notes/axioms.txt": "a86f315ed919a51526d4e08a535c2cf068c96261f4ec189b76c77c8c8b92f6b3",
+    "research/a398769/five-seven/prior-notes/verification.json": "f8de89cefebfa5172e064aaab5180aef678c0fad438a13d4c6bdb19ae97b1274",
+    "research/a398769/five-seven/proportional/AUDIT.md": "abbe55701616a1b981fef57e184ae4b40f3a69dded8b03566f2cca5d5eb52735",
+    "research/a398769/five-seven/proportional/COVERAGE.md": "1fb27cdcac45979e855ae5d90be8b16da5457c78875a3de8a55c3c9d0d4b5e9b",
+    "research/a398769/five-seven/proportional/README.md": "cff0ae6796d2afc9b005cda1c6b7f10a25b81ba5bc17e86affc0450271ee6fa0",
+    "research/a398769/five-seven/proportional/REVIEW.md": "d98071d0f9db94cb3fc1179322506d488e99de67ab313ce65f87def4a4e930d4",
+    "research/a398769/five-seven/proportional/checks.json": "aa5081fa149da595f9067ca84a1d4fa7dcecea189e4894ee17056954441c7f66",
+    "research/a398769/five-seven/proportional/checks.py": "e7848aa66dc3455cd6208bbbe1cd0b98885558c62b49af66fa83c5dcc25ce26b",
+    "research/a398769/five-seven/proportional/independent_checks.json": "88de118b6b225a6fcd30b576afd7bf3f75c503d7152963c4de79b87c57388c16",
+    "research/a398769/five-seven/proportional/independent_checks.py": "465c6535303e22913b3fb2ea9f3e3e8f0d5d671cb15fa5cc503b43737e429d79",
+    "research/a398769/five-seven/proportional/review.json": "3fe1b2a9d5fa48410ac386c2c765fe9ebf1c17c3ee0f2b60e654b0bcaf797b4e",
+    "research/a398769/five-seven/proportional/verification.json": "40e397cba98195dfd2bab73f48472be26c3d9284d6e036d70ee57d903ecf121d",
+    "research/a398769/five-seven/settlement/EDGE_BOUNDS.md": "890d6d1402c10f1e0f7dead42a86386287be61aeb5fc06210fe27af4ed12ec50",
+    "research/a398769/five-seven/settlement/FULL_DIVISOR.md": "a4984f201517c54e7492dd4da8999e191b980a67534b9048cc26bed4e1a8689e",
+    "research/a398769/five-seven/settlement/OBSTRUCTION.md": "6faf9e2d0baa2f514095730c3343bb3a42c4f1c98bf882e56dd3f538b1e4bd93",
+    "research/a398769/five-seven/settlement/README.md": "9cbf86f6cd626eeb6f508011a64a0e650396c4ff802e90366333d08e070e958d",
+    "research/a398769/five-seven/settlement/REVIEW.md": "7daf97bbc5fac50bae1f7348ebc168bbabfb401551d4013f1ae222de08138eae",
+    "research/a398769/five-seven/settlement/independent.json": "3c225040caaee6cb8895aa838ddff37aa599c90fa262e2a36dff1f9eed60a686",
+    "research/a398769/five-seven/settlement/lift_sieve.cpp": "57e3f0decf99e649c0e69fc5d01bb24896cc08659682c5c65a3f4be2a2ed27b2",
+    "research/a398769/five-seven/settlement/lifting.json": "8d8295bcc154060a53ca59d6a48ce6367c1775401c42b2131743af9b1a10fdf3",
+    "research/a398769/five-seven/settlement/verify.py": "10aa5a72e469eb105d7dfb30e0c3efab8bbc81491df26f1cabc07c5331a7a472",
+    "research/a398769/five-seven/settlement/verify_fixed.py": "4f90a31b258898a442eb66f8ad625ab84cb37cc3b6e8480b89a9e2bff8d44512",
+    "research/a398769/five-seven/verification.json": "35352ba9b634ea069a137a8500a8283220a58e29e57d061428005e0fb1f1636b",
+    "research/a398769/five-seven/whole-length/PROOF.md": "c91794b296be8cd3d61bdd9bf65a3e425afaa08a0f91637db666780b45de5bd6",
+    "research/a398769/five-seven/whole-length/README.md": "b3a27cc40c99f110ab989923e050e79591149a1ecd23678aab16ff77a1b8e13c",
+    "research/a398769/five-seven/whole-length/REVIEW.md": "f4b57264c6724596369a6285f8449090e351aeff2d9d99fbe49a5db06ccf0d06",
+    "research/a398769/five-seven/whole-length/blocks.json": "e7b5849b43c24b438adecfa94f2969fa9c6fcbe85bbe0fd9fb6293df542a94c9",
+    "research/a398769/five-seven/whole-length/checks.json": "2f9d5b93180e5e5960e52f750775587dc77059071bf5a49c4d3ef78b20ad7ca7",
+    "research/a398769/five-seven/whole-length/checks.py": "f5288a35fce6fe8afc280dc3c4b4792e8921a881dce28371308c06704dac992e",
+    "research/a398769/five-seven/whole-length/independent_blocks.py": "3e15701380099da70cbcb426a164be42d4cc2943b3599a409025eb753013a140",
+    "research/a398769/five-seven/whole-length/verification.json": "419eb8edb8a157d27a727b883299ec9169d8eb69b330e34f9db3865a5824919e"
+  },
+  "large_inherited_certificates_rerun": false,
+  "main_interval": [
+    5,
+    9999999
+  ],
+  "new_lean_formalization": false,
+  "odd_lengths": 4999998,
+  "ordered_sha256": "037a7a03e48eceea6893641af0459885380975e2234aa11b6820a0d2a6c5f08f",
+  "partition": [
+    3041861,
+    392074,
+    1566063,
+    0
+  ],
+  "pr15_audited_head": "cd4df1843e8a17655115275e5df956cf985a5819",
+  "prefix_sha256": "26f81c8c6d9f43786390b9aea1974965afe5906b280d30225a658bdb2e28c374",
+  "receipt_sha256": {
+    "receipt_a.json": "9421d96ff050ae1c345c2c31fb8f8d1b62a3cb81ce3b343f34f7a9e77ee99b4d",
+    "receipt_b.json": "53ee36e6170a3a0cd64cb36f7fe4469184ba70d10361fa76c83c41cde306c71c"
+  },
+  "source_sha256": {
+    "checker_a.py": "ca74c198c634347eca2a719bd2d31ab8fc3a43e038df95ebf3d734fdeea440e8",
+    "checker_b.py": "8e697625fa29102dee4a4edc8d900e0aa810825c32f8f1b4a8298d0474e98125",
+    "verify.py": "c440ce5523eda0f94dadaa9ae3f6310c285c7d10fec64f5c17b399cb92ee17a9"
+  },
+  "status": "PASS",
+  "unsupported_input_controls": [
+    {
+      "endpoints": [
+        4,
+        101
+      ],
+      "optimized": false,
+      "rejected": true,
+      "source": "checker_a.py"
+    },
+    {
+      "endpoints": [
+        5,
+        100
+      ],
+      "optimized": false,
+      "rejected": true,
+      "source": "checker_a.py"
+    },
+    {
+      "endpoints": [
+        103,
+        101
+      ],
+      "optimized": false,
+      "rejected": true,
+      "source": "checker_a.py"
+    },
+    {
+      "endpoints": [
+        5,
+        40000001
+      ],
+      "optimized": false,
+      "rejected": true,
+      "source": "checker_a.py"
+    },
+    {
+      "endpoints": [
+        4,
+        101
+      ],
+      "optimized": true,
+      "rejected": true,
+      "source": "checker_a.py"
+    },
+    {
+      "endpoints": [
+        5,
+        100
+      ],
+      "optimized": true,
+      "rejected": true,
+      "source": "checker_a.py"
+    },
+    {
+      "endpoints": [
+        103,
+        101
+      ],
+      "optimized": true,
+      "rejected": true,
+      "source": "checker_a.py"
+    },
+    {
+      "endpoints": [
+        5,
+        40000001
+      ],
+      "optimized": true,
+      "rejected": true,
+      "source": "checker_a.py"
+    },
+    {
+      "endpoints": [
+        4,
+        101
+      ],
+      "optimized": false,
+      "rejected": true,
+      "source": "checker_b.py"
+    },
+    {
+      "endpoints": [
+        5,
+        100
+      ],
+      "optimized": false,
+      "rejected": true,
+      "source": "checker_b.py"
+    },
+    {
+      "endpoints": [
+        103,
+        101
+      ],
+      "optimized": false,
+      "rejected": true,
+      "source": "checker_b.py"
+    },
+    {
+      "endpoints": [
+        5,
+        40000001
+      ],
+      "optimized": false,
+      "rejected": true,
+      "source": "checker_b.py"
+    },
+    {
+      "endpoints": [
+        4,
+        101
+      ],
+      "optimized": true,
+      "rejected": true,
+      "source": "checker_b.py"
+    },
+    {
+      "endpoints": [
+        5,
+        100
+      ],
+      "optimized": true,
+      "rejected": true,
+      "source": "checker_b.py"
+    },
+    {
+      "endpoints": [
+        103,
+        101
+      ],
+      "optimized": true,
+      "rejected": true,
+      "source": "checker_b.py"
+    },
+    {
+      "endpoints": [
+        5,
+        40000001
+      ],
+      "optimized": true,
+      "rejected": true,
+      "source": "checker_b.py"
+    }
+  ]
+}
