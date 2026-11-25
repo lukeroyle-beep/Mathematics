@@ -1,6 +1,12 @@
 # Mathematics
 Repository for mathematical conjectures. Solutions are verified in Lean.
 
+The [three-deduction audit](research/a398769/five-seven/three-deductions-audit/README.md)
+certifies the first depth-44 exception and restricted minus-line (E) through
+`L<6*7^99`, excludes the closed strip `abs(12i-7L)<=L/10^9`, and excludes
+the opposite line `12i-5L=+1`. These are position results; complete length
+coverage and the open status of both conjectures are unchanged.
+
 The [five-twelfths strip audit](research/a398769/five-seven/strip-audit/README.md)
 excludes `abs(12i-5L)<=L/10^9` from full `{5,7}` witnesses and, with an
 independently reproduced modular certificate, excludes every admissible
