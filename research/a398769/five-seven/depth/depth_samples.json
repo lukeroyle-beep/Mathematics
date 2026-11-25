@@ -1,0 +1,63 @@
+{
+  "a": 193,
+  "additional_isolated_length_excluded": "15582704697570091495948156638491914590405161120787807516829906317314612303918977615165179656913553",
+  "admissible_i_3_mod_6_histogram": {
+    "2": 6427,
+    "3": 918,
+    "4": 131,
+    "5": 19,
+    "6": 3
+  },
+  "c": 898129,
+  "complete_length_coverage_unchanged": [
+    1,
+    10000000
+  ],
+  "control_valuation": 4,
+  "full_digit_sum_exponent_class": {
+    "count": 14997,
+    "exact_order_mod_c": 56133,
+    "first_position": "459107703750733762283914013778910174260425385341260440758213028222484649209148973668172076902",
+    "last_position": "15582552693186735500176757434520736633219590604283547699798270366685499652957212008606450619291026",
+    "least_residue": "459107703750733762283914013778910174260425385341260440758213028222484649209148973668172076902",
+    "proper_divisor_power_controls": {
+      "11": 615263,
+      "3": 66723,
+      "7": 631165
+    },
+    "spacing": "1039083327919644222887068119532339138639992676640317847383136313260687994685783066126485892719"
+  },
+  "independent_word_modulus_exponent": 7,
+  "independent_word_positions_checked": 14997,
+  "length": "15582704697570091495948156638491914590405161120787807516829906317314612303918977615165179656913553",
+  "limits": [
+    "No all-t bound is claimed.",
+    "No complete interval above ten million is certified.",
+    "No Lean theorem or build is claimed."
+  ],
+  "maximal_positions": [
+    "4644122500176640765844591340203802520756387697290921720395994396990237132899973671492933626638113",
+    "9633800640846772324148292450198095064505632530517728023529814973268060883381103955032318883474751",
+    "14623478781516903882451993560192387608254877363744534326663635549545884633862234238571704140311389"
+  ],
+  "maximum_valuation": 6,
+  "open_ratio_41_100_to_42_100_histogram": {
+    "0": 75,
+    "2": 64,
+    "3": 10,
+    "4": 1
+  },
+  "ordered_position_depth_sha256": "697ecc1e378272821827916d926ac2151e651245363747e0643e6769b6fdc18f",
+  "scope": "all residual positions 3<=i<L at the single displayed length",
+  "small_direct_word_comparisons": 2639,
+  "status": "passed",
+  "valuation_histogram": {
+    "0": 7499,
+    "2": 6427,
+    "3": 918,
+    "4": 131,
+    "5": 19,
+    "6": 3
+  },
+  "valuation_modulus_exponent": 10
+}

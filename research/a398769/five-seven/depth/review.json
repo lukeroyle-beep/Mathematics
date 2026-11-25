@@ -1,0 +1,118 @@
+{
+  "must_fix_findings": [],
+  "reviews": [
+    {
+      "baseline_receipt_review": {
+        "baseline_independent_rerun.json": {
+          "deterministic_match": true,
+          "differing_top_level_fields": [],
+          "retained_receipt": "independent.json",
+          "reviewer_rerun": false
+        },
+        "baseline_lifting_rerun.json": {
+          "deterministic_match": true,
+          "differing_top_level_fields": [
+            "elapsed_seconds"
+          ],
+          "retained_receipt": "lifting.json",
+          "reviewer_rerun": false
+        }
+      },
+      "corrected_findings": [
+        "Regional-only enumeration wording was corrected before final review. Final whole-length claim is supported by a separate complete 14997-position enumeration."
+      ],
+      "mathematical_limits": [
+        "The for-every-fixed-k construction remains unproved.",
+        "No uniform regional or global contradiction or effective cutoff is claimed.",
+        "The supplied sample entire length is excluded because all full-sum positions have valuation at most6.",
+        "Complete consecutive coverage remains lengths1 through10000000 inclusive.",
+        "No new Lean formalization or build is claimed."
+      ],
+      "must_fix_findings": [],
+      "reviewer": "independent prime/filter and proof reviewer",
+      "reviewer_checks": {
+        "checks_crt.py": {
+          "normal": "PASS",
+          "optimized": "PASS",
+          "outputs_match_each_other_and_retained_receipt": true
+        },
+        "checks_depth_samples.py": {
+          "normal": "PASS",
+          "optimized": "PASS",
+          "outputs_match_each_other_and_retained_receipt": true
+        },
+        "checks_family.py": {
+          "normal": "PASS",
+          "optimized": "PASS",
+          "outputs_match_each_other_and_retained_receipt": true
+        },
+        "independent_checks.py": {
+          "normal": "PASS",
+          "optimized": "PASS",
+          "outputs_match_each_other_and_retained_receipt": true
+        }
+      },
+      "scope": [
+        "Root README, depth proof notes, all four checker sources and retained JSON receipts, including verification hashes and baseline receipt comparison.",
+        "Both submitted deductions independently audited. Ordinary proofs, finite computations, isolated length exclusion and unchanged consecutive coverage are accurately separated."
+      ],
+      "sha256": {
+        "README.md": "5d153e12504f6d03b3c002b530743b3750cfb5756a6224b6b7715b8c6d34ffc0",
+        "research/a398769/five-seven/depth/BOUNDED_DEPTH.md": "149b3e2b062c53100757ee1e7e5c4b19bb1b5da8282c9d4537d467f90e53cedf",
+        "research/a398769/five-seven/depth/FAMILY.md": "95e4d18ffbc181488375d93c83ac9419741afaa6f757cc1dfaf4026fb501702a",
+        "research/a398769/five-seven/depth/PRIME_FILTERS.md": "683b722686c181815c2bd295cc6b233a38a9ff15394207d61f9aae79976c3a2f",
+        "research/a398769/five-seven/depth/README.md": "3172b25316c283f3555282f714dc8e957463614bd4f830f4d3c65d053f6d1a46",
+        "research/a398769/five-seven/depth/baseline_independent_rerun.json": "3c225040caaee6cb8895aa838ddff37aa599c90fa262e2a36dff1f9eed60a686",
+        "research/a398769/five-seven/depth/baseline_lifting_rerun.json": "d88e77635b387d016aebcefa471b93383c75ff187f18ddaefaa86b22c0c9c60b",
+        "research/a398769/five-seven/depth/checks_crt.py": "6cd1fdfc9cb089c694ed2e204b69359e0a0f5b6bdbd0f019458e9e680df332b4",
+        "research/a398769/five-seven/depth/checks_depth_samples.py": "241f1e9700f9b20421275a0df58c5f910337b83d48f8f39fa90476f63c18bfb6",
+        "research/a398769/five-seven/depth/checks_family.py": "7db2b64045b75f9755e3a5a6fa56efcddb2d5e985ec9e5543b6c081013174c51",
+        "research/a398769/five-seven/depth/crt_checks.json": "216f10823e3aa0abbd7c4f17e31a1b72e7a6786168e0389234210e8ac7dab1d1",
+        "research/a398769/five-seven/depth/depth_samples.json": "e3a496801f211cc652ea6c36f62972554e4f15dd79ed95df21efbfaaf5527000",
+        "research/a398769/five-seven/depth/family_checks.json": "679f4d8aace2f264bb151c65492d22e5c616528d33090d44d711cc0d2f5dfc1f",
+        "research/a398769/five-seven/depth/independent_checks.json": "9e6374cde84ebbee56d876b7cb9cfca0aaa9d185563394f3062fea840198e321",
+        "research/a398769/five-seven/depth/independent_checks.py": "5dafb71578175a0e00d5907859aee520cef0362e79e8ecd4300615c39a16b7b9",
+        "research/a398769/five-seven/depth/verification.json": "bb9ce1cc2a6801229c75eab37273e204c762ee93833737a80ed27636363d0d36"
+      },
+      "status": "PASS"
+    },
+    {
+      "assessment": [
+        "All21 gcd rows, exact factorization and deterministic primality checks support the stated eight new prime filters.",
+        "The explicit progression avoids all13 forbidden factors without claiming sum or growing-power divisibility.",
+        "The isolated-length enumeration exhausts the unique full-sum exponent class for all3<=i<L and independently checks every position by decimal blocks.",
+        "Maximal valuation6 at the single specified length excludes the whole residual family there; maximum4 only applies to its target interval.",
+        "Uniform fixed-k existence, an effective regional or global cutoff, and additional consecutive length coverage remain unproved.",
+        "Root README added summary accurately distinguishes audited deductions, uniform gap, and unchanged consecutive coverage."
+      ],
+      "files_sha256": {
+        "README.md": "5d153e12504f6d03b3c002b530743b3750cfb5756a6224b6b7715b8c6d34ffc0",
+        "research/a398769/five-seven/depth/BOUNDED_DEPTH.md": "149b3e2b062c53100757ee1e7e5c4b19bb1b5da8282c9d4537d467f90e53cedf",
+        "research/a398769/five-seven/depth/PRIME_FILTERS.md": "683b722686c181815c2bd295cc6b233a38a9ff15394207d61f9aae79976c3a2f",
+        "research/a398769/five-seven/depth/README.md": "3172b25316c283f3555282f714dc8e957463614bd4f830f4d3c65d053f6d1a46",
+        "research/a398769/five-seven/depth/checks_depth_samples.py": "241f1e9700f9b20421275a0df58c5f910337b83d48f8f39fa90476f63c18bfb6",
+        "research/a398769/five-seven/depth/depth_samples.json": "e3a496801f211cc652ea6c36f62972554e4f15dd79ed95df21efbfaaf5527000",
+        "research/a398769/five-seven/depth/independent_checks.py": "5dafb71578175a0e00d5907859aee520cef0362e79e8ecd4300615c39a16b7b9"
+      },
+      "findings": [],
+      "reviewer": "family_audit",
+      "scope": "Independent cross-review of files authored by other agents, including proof scope and complete one-length enumeration",
+      "status": "NO_MUST_FIX_FINDINGS",
+      "validation": [
+        {
+          "command": "python3 research/a398769/five-seven/depth/independent_checks.py",
+          "outcome": "PASS"
+        },
+        {
+          "command": "python3 -O research/a398769/five-seven/depth/independent_checks.py",
+          "outcome": "PASS; byte-identical to normal output"
+        },
+        {
+          "command": "python3 -O research/a398769/five-seven/depth/checks_depth_samples.py",
+          "outcome": "PASS; byte-identical to retained depth_samples.json"
+        }
+      ]
+    }
+  ],
+  "status": "PASS"
+}
