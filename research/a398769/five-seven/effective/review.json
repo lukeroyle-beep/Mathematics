@@ -1,0 +1,118 @@
+{
+  "assessment": "PASS for stated partial results; full subclass unresolved",
+  "base_commit": "4dc97536a57d1b216f79e4856c333ea2c8e6d1ae",
+  "complete_length_interval_inclusive": [
+    1,
+    10000000
+  ],
+  "date": "2026-11-25",
+  "established_scope": [
+    "Uniform qualitative v7(F)=o(L) for all L>=5 and 3<=i<L, without effective threshold",
+    "For all odd L>=5 and 3<=i<L: v7(F)<=504*(abs(L-2i)+2)*max(log L+2,20)^2",
+    "No full witness at any length in abs(L-2i)<=47; restricted finite verification complete",
+    "Adjustable exact quotient split and digit-sum exponent CRT; no uniform rejection"
+  ],
+  "full_witness": null,
+  "global_effective_cutoff": null,
+  "new_Lean_formalization": false,
+  "outcome_category": 4,
+  "primary_sources_checked": [
+    {
+      "locations": "printed pp226-227 visually inspected; effectivity proof pp231-235 checked",
+      "sha256": "5b02e0e31c546f7f8c6c34071b2caa4d7137be24f16d11d483cdcc65377b2f6d",
+      "url": "https://www.numdam.org/item/CM_1984__53_2_225_0.pdf"
+    },
+    {
+      "locations": "printed pp2-4 definitions and Corollary1; p4 visually inspected",
+      "sha256": "554bb384df62538fa11fcf6ab74976e772156c9d3ca4022e2128d48e3632128d",
+      "url": "https://irma.math.unistra.fr/~bugeaud/travaux/logpadicdef.pdf"
+    },
+    {
+      "locations": "Theorem1.2 printed p4 and recurrence assumptions",
+      "sha256": "a8116b4af8d9fee7c508ab6c905620f8b540b5285b516beb990c1affa63e4860",
+      "url": "https://pub.math.leidenuniv.nl/~evertsejh/16-LinRecBuEv.pdf"
+    },
+    {
+      "locations": "digit definition p2 and Theorem1.2 p3",
+      "sha256": "eb88ba3dcecf7e56066a11124368f8f2013ee6def488785729b6fdef85212ab7",
+      "url": "https://arxiv.org/pdf/1609.07926"
+    },
+    {
+      "locations": "Theorem1 printed p2, fixed S-unit and place-count hypotheses",
+      "sha256": "be15d92f9e0edd914b2525f4c9c888e3d83859028a03ccba3596b8feba9b91be",
+      "url": "https://arxiv.org/pdf/2308.05162"
+    }
+  ],
+  "review_manifest_self_hash_omitted": true,
+  "reviewed_sha256": {
+    "README.md": "cb9bcca7d6e12531bb7bfd0f945fce9abb6015f25910d5a20321dd445eee2719",
+    "research/a398769/five-seven/effective/CUTOFF.md": "7f0d6f8e19f6f27aeeece1d00c610d70eb55c1964bfeb650239014cebcdcc45f",
+    "research/a398769/five-seven/effective/QUALITATIVE.md": "879e6e0ed6ae8585b8f2c0b814d8995206a40ce27190dc9028c99f837eba2ca0",
+    "research/a398769/five-seven/effective/README.md": "39ba072eaf68040079c3dc5e6aea5cb076ae7049c083768733982617c2f5044e",
+    "research/a398769/five-seven/effective/REVIEW.md": "2a3de3d00514ef7aa76ed7a3943a921e3dc584e14830a72699859a0bcc704b2e",
+    "research/a398769/five-seven/effective/ROUTE_A.md": "98b0f8380911832b918ceea18221ead51b839a661bd105227d7a774f15d16d94",
+    "research/a398769/five-seven/effective/ROUTE_B.md": "0b2ada9b58f4053583458139c51a535e45d63448e8c48d3e3044645dacec84e1",
+    "research/a398769/five-seven/effective/independent.json": "33574612a65a08611ce075e184f4a6ea0ca6101e56a742c3813d6b1ef1883e6f",
+    "research/a398769/five-seven/effective/independent_checks.py": "cea395c27f7c67d74bb7a9dbc227d6bf10c6c2f07e339d829721a7add2620b14",
+    "research/a398769/five-seven/effective/route_b_checks.json": "c9a46bcc982e86e81e7e2101e6f9f7cd3a72256032f9e5b125ef5d5ae4cf77c9",
+    "research/a398769/five-seven/effective/route_b_checks.py": "1025dd028d39db31606579f4a704e1f42b0cbe882d8668bf8d4f10ab00c64e98",
+    "research/a398769/five-seven/effective/verification.json": "075bf7d6a9f459cb4822c3107e084553c6d48aae8eae39619c3900ff38914258"
+  },
+  "reviewer": "independent_review",
+  "reviewer_executed_checks": [
+    {
+      "command": "python3 research/a398769/five-seven/effective/independent_checks.py",
+      "result": "PASS; output matches independent.json"
+    },
+    {
+      "command": "python3 -O research/a398769/five-seven/effective/independent_checks.py",
+      "result": "PASS; output matches independent.json"
+    },
+    {
+      "command": "python3 -O research/a398769/five-seven/effective/route_b_checks.py",
+      "result": "PASS; output matches route_b_checks.json"
+    },
+    {
+      "command": "python3 -O research/a398769/five-seven/global/checks.py",
+      "result": "PASS; output matches global/checks.json"
+    },
+    {
+      "command": "python3 -O research/a398769/five-seven/global/independent_checks.py",
+      "result": "PASS; output matches global/independent.json"
+    },
+    {
+      "command": "python3 research/a398769/five-seven/certificates.py",
+      "result": "PASS"
+    },
+    {
+      "command": "python3 research/a398769/five-seven/log_bounds.py",
+      "result": "PASS"
+    },
+    {
+      "command": "Execute the exact Python certificate block in effective/ROUTE_A.md",
+      "result": "48 discriminants and 24 modular nonsquare certificates passed"
+    },
+    {
+      "command": "git diff --check",
+      "result": "PASS"
+    }
+  ],
+  "root_run_receipts_independently_compared": [
+    {
+      "comparison": "equal after omitting only elapsed_seconds",
+      "execution_owner": "root",
+      "merged_receipt": "research/a398769/five-seven/settlement/lifting.json",
+      "path_at_review": "/tmp/a398769-effective-lifting.json",
+      "sha256": "c25099171c76e5b202293a295f71134b8f606c8f9669287d8088290d7bd4faa8"
+    },
+    {
+      "comparison": "exact equality",
+      "execution_owner": "root",
+      "merged_receipt": "research/a398769/five-seven/settlement/independent.json",
+      "path_at_review": "/tmp/a398769-effective-fixed.json",
+      "sha256": "3c225040caaee6cb8895aa838ddff37aa599c90fa262e2a36dff1f9eed60a686"
+    }
+  ],
+  "schema": 1,
+  "unresolved_findings": []
+}

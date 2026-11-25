@@ -1,0 +1,59 @@
+{
+  "base_PR9_verified_merged": true,
+  "base_main_commit": "4dc97536a57d1b216f79e4856c333ea2c8e6d1ae",
+  "complete_length_interval_inclusive": [
+    1,
+    10000000
+  ],
+  "date": "2026-11-25",
+  "finite_recheck_purpose": "Reproduce unchanged certified interval used to complete the new central-strip effective cutoff; no length extension.",
+  "fresh_Lean_build": false,
+  "full_witness": null,
+  "global_effective_cutoff": null,
+  "independent_review": "REVIEW.md and review.json identify independently audited mathematics, source hypotheses, arithmetic controls and reviewed file hashes.",
+  "inherited_sha256": {
+    "research/a398769/five-seven/FINITE_PAIRS.md": "11bc9880c261263af4f961647c3fcf525ad60ee0d5b06366d068d4233e66c2fe",
+    "research/a398769/five-seven/global/FIXED_MODULUS.md": "fc1e97439fa60bd358a2866b3f3b0ecdb2fa0693441a23adc4000f456f4d623d",
+    "research/a398769/five-seven/global/GROWING_POWER.md": "e3e0646c97d221d36918714a7879dbce0e265af0bd28d14095401ad445a12562",
+    "research/a398769/five-seven/global/README.md": "40a4cb0b7ad3835444c6f8763d57c25bc969f2ccec033b338033edba9f9bdea6",
+    "research/a398769/five-seven/global/REVIEW.md": "dce55f42e0d2b97322241a4649cf3b550f8237104e31fb4b67259b772710f190",
+    "research/a398769/five-seven/global/TWO_QUOTIENTS.md": "162a21a05d8ef19449598f661e946787e5169c6702d35698315995ad344b3e96",
+    "research/a398769/five-seven/settlement/EDGE_BOUNDS.md": "890d6d1402c10f1e0f7dead42a86386287be61aeb5fc06210fe27af4ed12ec50",
+    "research/a398769/five-seven/settlement/FULL_DIVISOR.md": "a4984f201517c54e7492dd4da8999e191b980a67534b9048cc26bed4e1a8689e",
+    "research/a398769/five-seven/settlement/README.md": "9cbf86f6cd626eeb6f508011a64a0e650396c4ff802e90366333d08e070e958d",
+    "research/a398769/five-seven/settlement/independent.json": "3c225040caaee6cb8895aa838ddff37aa599c90fa262e2a36dff1f9eed60a686",
+    "research/a398769/five-seven/settlement/lift_sieve.cpp": "57e3f0decf99e649c0e69fc5d01bb24896cc08659682c5c65a3f4be2a2ed27b2",
+    "research/a398769/five-seven/settlement/lifting.json": "8d8295bcc154060a53ca59d6a48ce6367c1775401c42b2131743af9b1a10fdf3",
+    "research/a398769/five-seven/settlement/verify.py": "10aa5a72e469eb105d7dfb30e0c3efab8bbc81491df26f1cabc07c5331a7a472",
+    "research/a398769/five-seven/settlement/verify_fixed.py": "4f90a31b258898a442eb66f8ad625ab84cb37cc3b6e8480b89a9e2bff8d44512"
+  },
+  "isolated_clone": true,
+  "new_Lean_formalization": false,
+  "new_exhaustive_length_interval": null,
+  "root_executed_checks": [
+    {
+      "command": "python3 research/a398769/five-seven/settlement/verify.py --output /tmp/a398769-effective-lifting.json",
+      "exit_code": 0,
+      "observed_elapsed_seconds": 2.637,
+      "receipt_comparison": "matches settlement/lifting.json except elapsed_seconds"
+    },
+    {
+      "command": "python3 research/a398769/five-seven/settlement/verify_fixed.py --output /tmp/a398769-effective-fixed.json",
+      "exit_code": 0,
+      "receipt_comparison": "matches settlement/independent.json exactly"
+    },
+    {
+      "command": "python3 research/a398769/five-seven/effective/route_b_checks.py > /tmp/a398769-root-route-b.json",
+      "exit_code": 0,
+      "receipt_comparison": "matches route_b_checks.json and primary agent normal/-O receipt"
+    },
+    {
+      "command": "python3 research/a398769/five-seven/effective/independent_checks.py > /tmp/a398769-root-independent.json",
+      "exit_code": 0,
+      "receipt_comparison": "matches independent.json"
+    }
+  ],
+  "schema": 1,
+  "unrelated_checkouts_modified": false,
+  "working_branch": "research/a398769-five-seven-effective"
+}
