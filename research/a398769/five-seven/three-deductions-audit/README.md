@@ -20,7 +20,9 @@ GitHub identifies it as the merge of
 Git ancestry and the merge's second parent independently confirm that it
 contains audited head `54081b0a43beead5686aa205cce41a0b5135c03c`.
 The starting main tree is identical to that audited head: no later
-relevant file changes exist at startup. Existing checkouts are untouched.
+relevant file changes exist at startup. A fresh GitHub comparison before
+publication still selected the same main commit, with zero intervening
+commits or changed files. Existing checkouts are untouched.
 No applicable `AGENTS.md` or GitHub Actions workflows were found.
 
 Before using inherited conclusions, the audit read the pinned
@@ -152,7 +154,8 @@ wider digit-1 conjecture all remain open.**
 
 ## Reproduction and review
 
-From the repository root, using standard-library Python 3:
+From the repository root, using standard-library Python 3 (observed
+CPython 3.14.4 on Darwin arm64):
 
 ```sh
 python3 research/a398769/five-seven/three-deductions-audit/verify.py > /tmp/three-deductions.json
@@ -162,7 +165,8 @@ cmp /tmp/three-deductions.json research/a398769/five-seven/three-deductions-audi
 git diff --check
 ```
 
-The aggregate runs all four new checkers in both modes, compares their
+The aggregate runs the four audit checkers and the independent review
+checker in both modes, compares their
 complete outputs to committed receipts, compares all 100 independently
 recovered exponent classes and all four exception records, checks source
 hashes and inherited-file preservation, and reruns the inherited receipt

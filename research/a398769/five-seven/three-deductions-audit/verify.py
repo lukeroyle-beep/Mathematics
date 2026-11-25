@@ -47,8 +47,12 @@ def main():
         preserved.append(path + '\t' + digest(actual) + '\n')
 
     reports, checks = {}, {}
-    for name in ['depth_exponents', 'depth_roots', 'seven_twelfths', 'opposite']:
-        source, receipt = HERE / f'{name}.py', HERE / f'{name}.json'
+    for name, receipt_name in [('depth_exponents', 'depth_exponents'),
+                               ('depth_roots', 'depth_roots'),
+                               ('seven_twelfths', 'seven_twelfths'),
+                               ('opposite', 'opposite'),
+                               ('review_check', 'review_results')]:
+        source, receipt = HERE / f'{name}.py', HERE / f'{receipt_name}.json'
         ordinary = run([sys.executable, str(source)])
         optimized = run([sys.executable, '-O', str(source)])
         require(ordinary == optimized, f'normal/-O mismatch: {name}')
@@ -98,6 +102,10 @@ def main():
     require(opposite['u'] == 313281594 and opposite['period'] == 1694851494 and
             opposite['least_permitted_L'] == 3759379135 > 10**9,
             'opposite modular/analytic overlap')
+    review = reports['review_check']
+    require(review['minus_depths_checked'] == 100 and
+            review['strip']['strict_margin_at_N'] == strip['strict_margin_at_N'] and
+            review['opposite_u'] == opposite['u'], 'independent review disagreement')
 
     inherited_path = HERE.parent / 'strip-audit' / 'verify.py'
     inherited = run([sys.executable, str(inherited_path)])
@@ -120,6 +128,10 @@ def main():
         'sole_inherited_edit': 'README.md navigation',
         'preserved_path_tab_sha256_lf_manifest_sha256': digest(''.join(preserved).encode()),
         'checks': checks, 'independent_depth_rows_agree': 100,
+        'independent_review': {'verdict': review['verdict'],
+                               'method': review['discovery'],
+                               'direct_depth5_classes_per_line':
+                                   review['direct_exhaustive_depth5_classes_per_line']},
         'exceptions': left['exceptions'],
         'restricted_minus_line_E': {'L_exclusive': 6*7**99, 'all_positions_at_length': False},
         'new_closed_ratio_strip': [str(lower), str(upper)],

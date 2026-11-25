@@ -29,6 +29,13 @@
       "receipt_sha256": "99555f43be4e16d6d0f828b46886da706d5ee532a2d626ff0b03f7e01afa4513",
       "source_sha256": "a9a754b85655a1c3568f698bed508848e843720607ff1084c5aa170eee3a7493"
     },
+    "review_check": {
+      "byte_identical": true,
+      "normal": "PASS",
+      "optimized": "PASS",
+      "receipt_sha256": "62e08292fbe55ca947348b4c072adb1821ddefade20fa1cc0a21c409bcf8380c",
+      "source_sha256": "a3503b88c46b13cbb4519c8d63b03f10744df003ed894d7921d5c5dfd8bca744"
+    },
     "seven_twelfths": {
       "byte_identical": true,
       "normal": "PASS",
@@ -101,6 +108,11 @@
   ],
   "full_witness_fixed_gap": "abs(12i-5L)>=3",
   "independent_depth_rows_agree": 100,
+  "independent_review": {
+    "direct_depth5_classes_per_line": 14406,
+    "method": "Newton doubling and principal-unit coefficient discrete log",
+    "verdict": "PASS"
+  },
   "inherited_files_byte_identical": 266,
   "inherited_verifier": {
     "blocks_compared": 100,
@@ -125,7 +137,7 @@
     "all_positions_at_length": false
   },
   "sole_inherited_edit": "README.md navigation",
-  "source_sha256": "ffbc6d12cb274c6e42e2c1edb2f6e12f02a0b61bb42e4ba521bec6f36ae06b8d",
+  "source_sha256": "38f02774aefd292a1f107e4c9606fd02c74e4524126f2e29be399f9af9331755",
   "starting_main_commit": "8677446ad39f3a8d72f3a2123c6012c012f2d271",
   "starting_main_tree_equals_audited_head": true,
   "status": "PASS",
