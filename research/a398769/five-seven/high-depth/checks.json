@@ -1,0 +1,321 @@
+{
+  "base_commit": "b6db8703afd3d32211fd75de9ce1e34440dddfe8",
+  "boundary_checks": [
+    {
+      "K_at_T": 2,
+      "K_at_T_minus_1": 1,
+      "K_at_T_plus_1": 2,
+      "T": 6,
+      "k": 1
+    },
+    {
+      "K_at_T": 3,
+      "K_at_T_minus_1": 2,
+      "K_at_T_plus_1": 3,
+      "T": 42,
+      "k": 2
+    },
+    {
+      "K_at_T": 4,
+      "K_at_T_minus_1": 3,
+      "K_at_T_plus_1": 4,
+      "T": 294,
+      "k": 3
+    },
+    {
+      "K_at_T": 5,
+      "K_at_T_minus_1": 4,
+      "K_at_T_plus_1": 5,
+      "T": 2058,
+      "k": 4
+    },
+    {
+      "K_at_T": 6,
+      "K_at_T_minus_1": 5,
+      "K_at_T_plus_1": 6,
+      "T": 14406,
+      "k": 5
+    },
+    {
+      "K_at_T": 7,
+      "K_at_T_minus_1": 6,
+      "K_at_T_plus_1": 7,
+      "T": 100842,
+      "k": 6
+    },
+    {
+      "K_at_T": 8,
+      "K_at_T_minus_1": 7,
+      "K_at_T_plus_1": 8,
+      "T": 705894,
+      "k": 7
+    },
+    {
+      "K_at_T": 9,
+      "K_at_T_minus_1": 8,
+      "K_at_T_plus_1": 9,
+      "T": 4941258,
+      "k": 8
+    }
+  ],
+  "bounded_experiment": {
+    "all_actual_depth_histogram": {
+      "1": 1,
+      "2": 9,
+      "3": 60,
+      "4": 434,
+      "5": 3075,
+      "6": 21297,
+      "7": 2985,
+      "8": 428,
+      "9": 68,
+      "10": 10,
+      "11": 3,
+      "12": 1
+    },
+    "all_actual_zero_run_histogram": {
+      "0": 24334,
+      "1": 3450,
+      "2": 500,
+      "3": 73,
+      "4": 10,
+      "5": 3,
+      "6": 1
+    },
+    "counts": {
+      "actual_5_free_failing_full_sum": 22713,
+      "actual_5_free_passing_full_sum": 0,
+      "actual_representatives": 28371,
+      "actual_with_5_dividing_S": 5658,
+      "odd_lengths": 49999,
+      "outside_actual_interval": 21628
+    },
+    "digest_format": "ASCII L:K:r_K:T_K:depth:F_mod_9S\\n; last two fields - outside actual interval",
+    "full_sum_survivors": [],
+    "lengths_by_K": {
+      "1": 1,
+      "2": 18,
+      "3": 126,
+      "4": 882,
+      "5": 6174,
+      "6": 42798
+    },
+    "longest_5_free_zero_run_control": {
+      "F_mod_7_to_depth_plus_1": 9886633715,
+      "F_mod_9S": 2218743,
+      "K": 6,
+      "L": 69489,
+      "T_K": 100842,
+      "depth": 11,
+      "escaped_representative": 6779446299,
+      "first_nonzero_lift_digit": 4,
+      "first_nonzero_lift_index": 11,
+      "i": 40323,
+      "zero_lifts_after_K": 5
+    },
+    "longest_zero_run_control": {
+      "F_mod_7_to_depth_plus_1": 83047723206,
+      "F_mod_9S": 815265,
+      "K": 6,
+      "L": 97127,
+      "T_K": 100842,
+      "depth": 12,
+      "escaped_representative": 23728010181,
+      "first_nonzero_lift_digit": 2,
+      "first_nonzero_lift_index": 12,
+      "i": 89265,
+      "zero_lifts_after_K": 6
+    },
+    "odd_lengths_inclusive": [
+      5,
+      100001
+    ],
+    "ordered_length_representative_sha256": "a54ad76ea69a6db88927613cfab5da3db41189fbeb5b7b81ebbef6d62247eab7",
+    "scope": "bounded diagnostic inside inherited coverage; no extension or all-length inference"
+  },
+  "literal_checks": {
+    "all_positions": "3 <= i < L",
+    "depth_class_comparisons": 39598,
+    "full_sum_pairs": 74,
+    "largest_sum_order_seven_part_control": {
+      "K": 3,
+      "L": 85,
+      "S": 591,
+      "order_S": 98,
+      "v7_order": 2
+    },
+    "literal_pairs": 9900,
+    "loss_of_nine_negative": {
+      "F_mod_9S": 8424,
+      "F_mod_S": 0,
+      "L": 151,
+      "S": 1053,
+      "i": 8
+    },
+    "odd_lengths_inclusive": [
+      5,
+      201
+    ],
+    "sum_order_saturation_histogram": {
+      "0": 62,
+      "1": 16,
+      "2": 1
+    },
+    "sum_order_saturation_lengths": 79,
+    "three_divisible_positive": {
+      "F_mod_9S": 0,
+      "L": 13,
+      "S": 87,
+      "i": 12
+    }
+  },
+  "order_checks": [
+    {
+      "T": 6,
+      "k": 1,
+      "proper_prime_divisor_residues": {
+        "2": 6,
+        "3": 2
+      }
+    },
+    {
+      "T": 42,
+      "k": 2,
+      "proper_prime_divisor_residues": {
+        "2": 48,
+        "3": 30,
+        "7": 8
+      }
+    },
+    {
+      "T": 294,
+      "k": 3,
+      "proper_prime_divisor_residues": {
+        "2": 342,
+        "3": 324,
+        "7": 50
+      }
+    },
+    {
+      "T": 2058,
+      "k": 4,
+      "proper_prime_divisor_residues": {
+        "2": 2400,
+        "3": 1353,
+        "7": 344
+      }
+    },
+    {
+      "T": 14406,
+      "k": 5,
+      "proper_prime_divisor_residues": {
+        "2": 16806,
+        "3": 1353,
+        "7": 2402
+      }
+    },
+    {
+      "T": 100842,
+      "k": 6,
+      "proper_prime_divisor_residues": {
+        "2": 117648,
+        "3": 34967,
+        "7": 16808
+      }
+    },
+    {
+      "T": 705894,
+      "k": 7,
+      "proper_prime_divisor_residues": {
+        "2": 823542,
+        "3": 740861,
+        "7": 117650
+      }
+    },
+    {
+      "T": 4941258,
+      "k": 8,
+      "proper_prime_divisor_residues": {
+        "2": 5764800,
+        "3": 2387947,
+        "7": 823544
+      }
+    },
+    {
+      "T": 34588806,
+      "k": 9,
+      "proper_prime_divisor_residues": {
+        "2": 40353606,
+        "3": 25447151,
+        "7": 5764802
+      }
+    },
+    {
+      "T": 242121642,
+      "k": 10,
+      "proper_prime_divisor_residues": {
+        "2": 282475248,
+        "3": 146507972,
+        "7": 40353608
+      }
+    },
+    {
+      "T": 1694851494,
+      "k": 11,
+      "proper_prime_divisor_residues": {
+        "2": 1977326742,
+        "3": 1276408968,
+        "7": 282475250
+      }
+    },
+    {
+      "T": 11863960458,
+      "k": 12,
+      "proper_prime_divisor_residues": {
+        "2": 13841287200,
+        "3": 9185715940,
+        "7": 1977326744
+      }
+    },
+    {
+      "T": 83047723206,
+      "k": 13,
+      "proper_prime_divisor_residues": {
+        "2": 96889010406,
+        "3": 78392151945,
+        "7": 13841287202
+      }
+    }
+  ],
+  "saturation_controls": [
+    {
+      "K": 2,
+      "L": 13,
+      "S": 87,
+      "T_K": 42,
+      "attains_e_equals_K_minus_1": true,
+      "order_S": 28,
+      "v7_order": 1
+    },
+    {
+      "K": 3,
+      "L": 85,
+      "S": 591,
+      "T_K": 294,
+      "attains_e_equals_K_minus_1": true,
+      "order_S": 98,
+      "v7_order": 2
+    },
+    {
+      "K": 4,
+      "L": 589,
+      "S": 4119,
+      "T_K": 2058,
+      "attains_e_equals_K_minus_1": true,
+      "order_S": 686,
+      "v7_order": 3
+    }
+  ],
+  "source_sha256": "f2b0c47bbdf179f6b7fed8522ce8e348be26edbcb859bc89ab5f591942144438",
+  "status": "passed"
+}
