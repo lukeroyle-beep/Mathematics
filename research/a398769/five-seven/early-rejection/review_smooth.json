@@ -1,0 +1,15 @@
+{
+  "counts": {
+    "excluded_five": 0,
+    "fail": 1193,
+    "outside": 1538,
+    "pass": 0
+  },
+  "lengths": 2731,
+  "method": "trial all seven lift digits; repunit via exact division of10^Lmod9S minus1",
+  "ordered_results_sha256": "e5f6a9e7c6d2b1276ac71c5b560709f6000d2193ce12557062e368b79d763d2a",
+  "search_scope_sha256": "123d9f103395f3027490ab630c979edb167d2673eb60dc3e96e8bb2c178bc03f",
+  "search_source_sha256": "19719f7470cc831c7098fe649d64fe42f894978f6cedde151b7e39947914d052",
+  "source_sha256": "8edade557aaa5d8c066e132f8723c3883d024333bec933711a56faf1fd20260b",
+  "status": "PASS"
+}

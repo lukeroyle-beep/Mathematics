@@ -1,0 +1,39 @@
+{
+  "baseline_commit": "de64c6da6d616455b69eb9bcf33646ce4e798279",
+  "branch": "research/a398769-early-rejection",
+  "fresh_checks": {
+    "audit": "verify.py --recompute: both sources normally and -O, four byte-identical receipt reproductions",
+    "independent_search": "review_smooth.py normally and -O: both byte-identical to review_smooth.json",
+    "inherited_files_unchanged": 110,
+    "large_inherited_certificates_rerun": false,
+    "new_lean_build": false,
+    "optimized_verifier": "python3 -O verify.py: PASS",
+    "search": "search.py normally and -O: both byte-identical to search.json"
+  },
+  "platform": "Darwin arm64",
+  "pr15_audited_head": "cd4df1843e8a17655115275e5df956cf985a5819",
+  "python": "3.14.4",
+  "sha256": {
+    "README.md": "613ee459c6de34850d1fb34f42d6b8fd1d62124213225a69d923bc8175c1cecf",
+    "research/a398769/five-seven/early-rejection/.gitignore": "32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b",
+    "research/a398769/five-seven/early-rejection/ADVERSARIAL_REVIEW.md": "3cb5ebfdf980ece9f66e30091e7f41bf3f2fb62e5e9d81be1f7059e6df21e549",
+    "research/a398769/five-seven/early-rejection/COMPUTATION.md": "f47cb096d2bd539c8a7b8664638799b32ff79b5c12e6e8691c81d095349357af",
+    "research/a398769/five-seven/early-rejection/COMPUTATIONAL_REVIEW_A.md": "52c29e58881e0a4b021d0df0446d177937cec877d91fa0da36b9eeafb11ce261",
+    "research/a398769/five-seven/early-rejection/COMPUTATIONAL_REVIEW_B.md": "88d7453872a2c52a41c91a19ff7c2efef051a73ee564623a068aff51882f846f",
+    "research/a398769/five-seven/early-rejection/PROOF.md": "5cfd56a04e4d52ae06246be5e11dca21dabbbf0bb36290b3d8b415beb86f0a97",
+    "research/a398769/five-seven/early-rejection/README.md": "d35ac3b6e6666eec448e2a2e4373aaafcc3ab79c73578c8b4345304f0dcd9943",
+    "research/a398769/five-seven/early-rejection/REVIEW.md": "cce8d24235c6218c2d72df1dc8ef94bb88d1ef87d391b5e0da2cb7f7e477e9de",
+    "research/a398769/five-seven/early-rejection/ROUTES.md": "2e6f997c3263a2c7cf7da3f87e7751ebef14e12833f1923a0eb46181c6c09746",
+    "research/a398769/five-seven/early-rejection/checker_a.py": "ca74c198c634347eca2a719bd2d31ab8fc3a43e038df95ebf3d734fdeea440e8",
+    "research/a398769/five-seven/early-rejection/checker_b.py": "8e697625fa29102dee4a4edc8d900e0aa810825c32f8f1b4a8298d0474e98125",
+    "research/a398769/five-seven/early-rejection/receipt_a.json": "9421d96ff050ae1c345c2c31fb8f8d1b62a3cb81ce3b343f34f7a9e77ee99b4d",
+    "research/a398769/five-seven/early-rejection/receipt_b.json": "53ee36e6170a3a0cd64cb36f7fe4469184ba70d10361fa76c83c41cde306c71c",
+    "research/a398769/five-seven/early-rejection/review_smooth.json": "094e005ea4c653fcf4bae27051d6fc49befc66cdf1316e1db505a97c5bc19805",
+    "research/a398769/five-seven/early-rejection/review_smooth.py": "8edade557aaa5d8c066e132f8723c3883d024333bec933711a56faf1fd20260b",
+    "research/a398769/five-seven/early-rejection/search.json": "8808890827416329952c6db547154ead46c509b711463a11590988570263aaaa",
+    "research/a398769/five-seven/early-rejection/search.py": "19719f7470cc831c7098fe649d64fe42f894978f6cedde151b7e39947914d052",
+    "research/a398769/five-seven/early-rejection/search_scope.json": "123d9f103395f3027490ab630c979edb167d2673eb60dc3e96e8bb2c178bc03f",
+    "research/a398769/five-seven/early-rejection/verification.json": "43f733ce2b13fa134dde38f38f72eec11906619294ff64f7c4ec15fd05db84c4",
+    "research/a398769/five-seven/early-rejection/verify.py": "c440ce5523eda0f94dadaa9ae3f6310c285c7d10fec64f5c17b399cb92ee17a9"
+  }
+}
