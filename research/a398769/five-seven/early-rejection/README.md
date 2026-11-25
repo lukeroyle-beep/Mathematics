@@ -1,5 +1,10 @@
 # Early rejection for the two-five family
 
+**Subsequent audit:** the [prime-factor obstruction audit](../prime-factor-audit/README.md)
+proves a general resultant bound and an all-length conditional exclusion of
+one position on `12i-5L=-1`. It leaves the broad all-length statement below
+open and does not extend consecutive finite coverage.
+
 25 November 2026. **Primary verdict: no structural advance; finite evidence
 audited.** Both reported count rows reproduce independently, with agreement
 on ordered per-length results. The declared structured search found no
