@@ -1,0 +1,106 @@
+{
+  "audited_at_utc": "2026-11-25T15:27:42.166697+00:00",
+  "base_commit": "2505f83c98fff9d11971c83f6a833740f7afadf6",
+  "branch": "research/a398769-arbitrary-fixed-depth-audit",
+  "coverage": {
+    "appendix_lengths_not_fully_excluded": true,
+    "consecutive_lengths_inclusive": [
+      1,
+      10000000
+    ],
+    "isolated_length": "15582704697570091495948156638491914590405161120787807516829906317314612303918977615165179656913553",
+    "isolated_length_expression": "(898129*3^193+4)/7",
+    "new_consecutive_coverage": false
+  },
+  "default_branch": "main",
+  "git_diff_check": "passed",
+  "independent_reviews": [
+    {
+      "context": "/root/proof_arithmetic",
+      "scope": "submission arithmetic and primary checker, independently recomputed via different algorithms; final proof wording readback",
+      "verdict": "PASS"
+    },
+    {
+      "context": "/root/proof_topology",
+      "final_proof_sha256": "270d03d76a083c98e168a9f96db7507563eb5576e3ce2e13cfd8701a15b0bee8",
+      "scope": "submission and final proof, precise published theorem, actual position and scope; wording corrections read back",
+      "verdict": "PASS"
+    }
+  ],
+  "inherited_reruns": {
+    "fixed_modulus": {
+      "byte_identical": true,
+      "command": "python3 research/a398769/five-seven/settlement/verify_fixed.py --output /tmp/fixed-depth-fixed.json",
+      "receipt_sha256": "3c225040caaee6cb8895aa838ddff37aa599c90fa262e2a36dff1f9eed60a686",
+      "retained_reference": "../depth/baseline_independent_rerun.json"
+    },
+    "isolated_length": {
+      "byte_identical": true,
+      "command": "python3 research/a398769/five-seven/depth/checks_depth_samples.py > /tmp/fixed-depth-isolated.json",
+      "maximum_valuation": 6,
+      "positions": 14997,
+      "receipt_sha256": "e3a496801f211cc652ea6c36f62972554e4f15dd79ed95df21efbfaaf5527000",
+      "retained_reference": "../depth/depth_samples.json"
+    },
+    "lifting": {
+      "command": "python3 research/a398769/five-seven/settlement/verify.py --output /tmp/fixed-depth-lifting.json",
+      "different_fields": [
+        "elapsed_seconds"
+      ],
+      "new_receipt_sha256": "5db7c115cb19d9457ff8914c67489a245208037be1363d0dcc8ca3afca23e5b6",
+      "retained_reference": "../depth/baseline_lifting_rerun.json",
+      "semantic_match_except_elapsed_time": true
+    }
+  },
+  "lean_build_performed": false,
+  "lean_formalization": false,
+  "limits": [
+    "The all-length five-seven subclass remains unresolved.",
+    "The full digit-1 conjecture remains unresolved.",
+    "A full witness needs valuation at least L-2 at the same length.",
+    "Draft for owner review; do not merge."
+  ],
+  "mathematical_repairs_required": false,
+  "mathematical_verdict": "verified as written",
+  "new_checks": [
+    {
+      "normal_and_optimized_outputs_match_saved_receipt": true,
+      "receipt_sha256": "eed221cf4d2170ebdb08364d3af0b3bd7d5c0e398c9fe942f0ecc28b1b8ce3d3",
+      "script": "checks.py"
+    },
+    {
+      "normal_and_optimized_outputs_match_saved_receipt": true,
+      "receipt_sha256": "327fd8ec656450eea54ba2caeb9d454f20c180fcbed83f500f59a01a17c5bef4",
+      "script": "independent_checks.py"
+    }
+  ],
+  "numerical_corrections_required": false,
+  "numerical_verdict": "all supplied numerical claims verified",
+  "pr12_merge_sha_matches_base": true,
+  "primary_control_counts": {
+    "adjacent_reductions": 4,
+    "appendix_examples": 2,
+    "finite_lift_depths_inclusive": [
+      1,
+      8
+    ],
+    "grid_points": 4,
+    "literal_modular_comparisons": 6240
+  },
+  "python_version": "3.14.4",
+  "repository": "lukeroyle-beep/Mathematics",
+  "review_independence_limit": "separate agent contexts within one audit, not external human review or kernel proof",
+  "source_sha256": {
+    "README.md": "2dc91cff9a262cb2c5acfd5369e95b772040ac2b0045a569ce852677e4700bb3",
+    "research/a398769/five-seven/fixed-depth/PROOF.md": "270d03d76a083c98e168a9f96db7507563eb5576e3ce2e13cfd8701a15b0bee8",
+    "research/a398769/five-seven/fixed-depth/README.md": "e89ae3aa7e2ac9a6d7ee0450352d1ab01f25b6358df3505bfd5693043d380146",
+    "research/a398769/five-seven/fixed-depth/REVIEW.md": "9a376b3fd95597e7fddd362bc3a6a5f0165b196a4f217fe684627efa45c8b877",
+    "research/a398769/five-seven/fixed-depth/SUBMISSION.txt": "7e77aef5b8b5b3e4b7fff5357c1ef035571e447147f6381082f44909cd9e85ca",
+    "research/a398769/five-seven/fixed-depth/checks.json": "eed221cf4d2170ebdb08364d3af0b3bd7d5c0e398c9fe942f0ecc28b1b8ce3d3",
+    "research/a398769/five-seven/fixed-depth/checks.py": "159e37bdbe39bba3e75d33c38098dc6154aefbc29623ad5cff5c09a8810127b9",
+    "research/a398769/five-seven/fixed-depth/independent_checks.json": "327fd8ec656450eea54ba2caeb9d454f20c180fcbed83f500f59a01a17c5bef4",
+    "research/a398769/five-seven/fixed-depth/independent_checks.py": "70f70ece4fc67059b72047f9e740440ab2fe2ffbfa4028529a49e321e8b9429b"
+  },
+  "submission_pages_sha256": "4ec28877d592aaad9745eaa6826b4cd3847d8e9ac8090da7ebbe9ee01f7cddc5",
+  "verification_method": "ordinary mathematical proof with published Furstenberg closed-set theorem; independent exact integer programs"
+}
