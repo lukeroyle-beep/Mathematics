@@ -1,0 +1,163 @@
+{
+  "coefficient63_verified": true,
+  "cutoff": [
+    {
+      "K": 9,
+      "dependent_margin": 9747988,
+      "hensel_margin": 9495997,
+      "least_odd_L": 10000001,
+      "target_margin": 1899999
+    },
+    {
+      "K": 10,
+      "dependent_margin": 34253381,
+      "hensel_margin": 33917979,
+      "least_odd_L": 34588807,
+      "target_margin": 24588805
+    }
+  ],
+  "examples": [
+    {
+      "L": 11,
+      "a": 7,
+      "b": 9,
+      "d": 3,
+      "i": 9,
+      "t": 1
+    },
+    {
+      "L": 15,
+      "a": 14,
+      "b": 15,
+      "d": 2,
+      "i": 3,
+      "t": 2
+    },
+    {
+      "L": 51,
+      "a": 49,
+      "b": 50,
+      "d": 1,
+      "i": 3,
+      "t": 2
+    },
+    {
+      "L": 23,
+      "a": 7,
+      "b": 12,
+      "d": 1,
+      "i": 15,
+      "t": 2
+    }
+  ],
+  "largest_derivative": 4,
+  "modular_newton_controls": [
+    {
+      "L": 23,
+      "a": 5,
+      "b": 12,
+      "d": 0,
+      "distance": 2,
+      "i": 15,
+      "iterations": 2,
+      "polynomial_precision": 7,
+      "root_precision": 7,
+      "t": 2
+    },
+    {
+      "L": 17,
+      "a": 7,
+      "b": 12,
+      "d": 1,
+      "distance": 2,
+      "i": 15,
+      "iterations": 2,
+      "polynomial_precision": 9,
+      "root_precision": 8,
+      "t": 3
+    },
+    {
+      "L": 233,
+      "a": 7,
+      "b": 9,
+      "d": 2,
+      "distance": 3,
+      "i": 183,
+      "iterations": 3,
+      "polynomial_precision": 12,
+      "root_precision": 10,
+      "t": 5
+    },
+    {
+      "L": 101,
+      "a": 49,
+      "b": 50,
+      "d": 1,
+      "distance": 2,
+      "i": 15,
+      "iterations": 2,
+      "polynomial_precision": 9,
+      "root_precision": 8,
+      "t": 3
+    }
+  ],
+  "negative_controls_rejected": 4,
+  "polynomial_controls": {
+    "cases": 476814,
+    "high_derivative": 1653,
+    "positive_t": 82331,
+    "singular": 9910,
+    "snegative": 193354,
+    "strong_hensel": 72590
+  },
+  "rational_coverage_controls": [
+    {
+      "L": 16031731,
+      "centres_checked": 139,
+      "denominators_through": 21,
+      "i": 6640575
+    },
+    {
+      "L": 32063461,
+      "centres_checked": 229,
+      "denominators_through": 27,
+      "i": 13281111
+    },
+    {
+      "L": 48095191,
+      "centres_checked": 307,
+      "denominators_through": 31,
+      "i": 19921689
+    },
+    {
+      "L": 160317301,
+      "centres_checked": 649,
+      "denominators_through": 46,
+      "i": 66405609
+    },
+    {
+      "L": 1603173001,
+      "centres_checked": 3043,
+      "denominators_through": 100,
+      "i": 664055991
+    }
+  ],
+  "source_sha256": "a09c26376bb21caea624f25ce62d904bd0bdf3393ed6e177f2ceab9c96a1f4ff",
+  "theorem4_envelope_lower_bound": 800,
+  "theorem4_table_floor": 465,
+  "zero_run": {
+    "F_mod_9S": 2218743,
+    "K": 6,
+    "L": 69489,
+    "digits_a6_through_a11": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      4
+    ],
+    "exact_depth": 11,
+    "i": 40323
+  }
+}

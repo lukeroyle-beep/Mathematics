@@ -1,0 +1,265 @@
+{
+  "LTE": {
+    "algebraic_LTE_controls": 20,
+    "degree_factors": [
+      1,
+      2,
+      7,
+      14,
+      49
+    ],
+    "scope": "LTE identity controls; not examples of degree-49 selected roots",
+    "signed_h": [
+      -7,
+      -1,
+      1,
+      7
+    ]
+  },
+  "cutoff": {
+    "all_K_argument": "algebraic induction in LIFTS.md and ANALYTIC.md",
+    "base_rows": [
+      {
+        "D_K": 252001,
+        "K": 9,
+        "dependent_margin": 9747988,
+        "minimum_remaining_odd_L": 10000001,
+        "quadratic_bound": 8100000,
+        "quadratic_margin": 1899999,
+        "strong_Hensel_margin": 9495997
+      },
+      {
+        "D_K": 335413,
+        "K": 10,
+        "dependent_margin": 34253381,
+        "minimum_remaining_odd_L": 34588807,
+        "quadratic_bound": 10000000,
+        "quadratic_margin": 24588805,
+        "strong_Hensel_margin": 33917979
+      }
+    ],
+    "coefficient_upper_less_than": 63,
+    "finite_induction_controls_K": [
+      9,
+      200
+    ],
+    "fixed_offset_threshold_examples": [
+      {
+        "Delta": 0,
+        "H0": "4",
+        "L_start_inclusive": 34588806,
+        "R_at_k0": "3628549",
+        "b": 3,
+        "earlier_finite_gap_discharged": false,
+        "first_k0": 10
+      },
+      {
+        "Delta": 1,
+        "H0": "157/12",
+        "L_start_inclusive": 1694851494,
+        "R_at_k0": "963383149",
+        "b": 12,
+        "earlier_finite_gap_discharged": false,
+        "first_k0": 12
+      },
+      {
+        "Delta": 0,
+        "H0": "102",
+        "L_start_inclusive": 28485369059658,
+        "R_at_k0": "8580447106561",
+        "b": 101,
+        "earlier_finite_gap_discharged": false,
+        "first_k0": 17
+      },
+      {
+        "Delta": 1000000000,
+        "H0": "250000039/3",
+        "L_start_inclusive": 68393371112238858,
+        "R_at_k0": "17563394742572449",
+        "b": 12,
+        "earlier_finite_gap_discharged": false,
+        "first_k0": 21
+      }
+    ],
+    "log_10_lower_greater_than": 2,
+    "log_7_upper_less_than": 2,
+    "log_series_terms": 60,
+    "size_base_L": 12,
+    "size_base_difference": 115445517975
+  },
+  "lifts": {
+    "depth44": {
+      "F_mod_9S": 220492367892872959611320275821615897912,
+      "K": 44,
+      "L": 3955567925893426973231046645818352161,
+      "a_44": 1,
+      "gcd_F_S": 1,
+      "i": 1648153302455594572179602769090980067,
+      "v7_F": 44
+    },
+    "digit_indices": [
+      1,
+      8
+    ],
+    "nonzero_digits": 1005,
+    "odd_L_domain": [
+      5,
+      301
+    ],
+    "ordered_sha256": "6f864a2e407621c7686fc0fcf3e16230af9a008c72ddb996730fb132b50b1d03",
+    "positive_full_sum_control": {
+      "K": 3,
+      "L": 61,
+      "S": 423,
+      "i": 57,
+      "v7_F": 1
+    },
+    "seven_lift_comparisons": 1192,
+    "zero_digits": 187,
+    "zero_run": {
+      "F_mod_9S": 2218743,
+      "K": 6,
+      "L": 69489,
+      "digits_a6_through_a11": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      "i": 40323,
+      "v7_F": 11
+    }
+  },
+  "negative_controls_rejected": [
+    "zero valuation",
+    "unreduced centre",
+    "strong Hensel equality t=2d",
+    "removable-assert substitute",
+    "factor-nine cancellation",
+    "depth44 falsely labelled E counterexample"
+  ],
+  "new_Lean_claim": false,
+  "new_position_theorems": "ANALYTIC (12), (13a)-(13c); no global cover",
+  "new_whole_length_coverage": [],
+  "orders": {
+    "five_free_lengths": 199,
+    "odd_L_domain": [
+      5,
+      501
+    ],
+    "sharp_controls": [
+      {
+        "K": 2,
+        "L": 13,
+        "S": 87,
+        "e": 1,
+        "equality_in_new_bound": true,
+        "order": 28
+      },
+      {
+        "K": 3,
+        "L": 85,
+        "S": 591,
+        "e": 2,
+        "equality_in_new_bound": true,
+        "order": 98
+      }
+    ]
+  },
+  "polynomials": {
+    "centre_domain": "all reduced 0<a<b<=min(L,16)",
+    "controls": [
+      {
+        "L": 11,
+        "a": 7,
+        "b": 9,
+        "d": 2,
+        "i": 3,
+        "q": 1,
+        "strong_Hensel": false,
+        "t": 1
+      },
+      {
+        "L": 11,
+        "a": 7,
+        "b": 9,
+        "d": 3,
+        "i": 9,
+        "q": 1,
+        "strong_Hensel": false,
+        "t": 1
+      },
+      {
+        "L": 15,
+        "a": 14,
+        "b": 15,
+        "d": 2,
+        "i": 3,
+        "q": 1,
+        "strong_Hensel": false,
+        "t": 2
+      },
+      {
+        "L": 53,
+        "a": 7,
+        "b": 12,
+        "d": 1,
+        "i": 45,
+        "q": 4,
+        "strong_Hensel": false,
+        "t": 1
+      },
+      {
+        "L": 101,
+        "a": 49,
+        "b": 50,
+        "d": 1,
+        "i": 15,
+        "q": 2,
+        "strong_Hensel": true,
+        "t": 3
+      }
+    ],
+    "degree50_singular_root_control": {
+      "d": 1,
+      "distance": 2,
+      "precision": 5,
+      "t": 3
+    },
+    "derivative_two_root_control": {
+      "L": 233,
+      "a": 7,
+      "b": 9,
+      "d": 2,
+      "distance": 3,
+      "i": 183,
+      "precision": 7,
+      "t": 5
+    },
+    "identities": 67410,
+    "odd_L_domain": [
+      5,
+      61
+    ],
+    "ordered_sha256": "8b1d6271e81ff9eb9005af1a3f3b97f066140a20ab1f166e3490d56f648b2b79",
+    "position_domain": "all 3<=i<L",
+    "positive_depth": 11925,
+    "q_zero_control": [
+      11,
+      3,
+      1,
+      12
+    ],
+    "s_signs": {
+      "negative": 25953,
+      "positive": 39585,
+      "zero": 1872
+    },
+    "singular_positive_depth": 1352,
+    "strong_root_checks": 1564
+  },
+  "source_sha256": "40d4c8a8d17cef5d4106141fa57ba4180e6146e1653fba7545da7f54be2338df",
+  "status": "PASS"
+}

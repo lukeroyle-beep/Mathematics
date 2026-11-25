@@ -1,6 +1,15 @@
 # Mathematics
 Repository for mathematical conjectures. Solutions are verified in Lean.
 
+The [uniform-bound investigation](research/a398769/five-seven/uniform-bound/README.md)
+proves the proposed quadratic valuation bound would close the `{5,7}`
+subclass, gives uniform derivative control and a general Hensel reduction,
+and quantifies why the available rational-centre estimates do not cover
+all remaining positions. General position thresholds retain their earlier
+finite obligations. The valuation target remains unproved; all conjecture
+statuses and whole-length coverage are unchanged. These are
+ordinary proofs and exact checks, not new Lean formalizations.
+
 The [three-deduction audit](research/a398769/five-seven/three-deductions-audit/README.md)
 certifies the first depth-44 exception and restricted minus-line (E) through
 `L<6*7^99`, excludes the closed strip `abs(12i-7L)<=L/10^9`, and excludes

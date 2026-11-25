@@ -1,0 +1,59 @@
+{
+  "all_length_five_seven": "OPEN",
+  "baseline_tracked_files": 284,
+  "baseline_tree_equals_audited_tree": true,
+  "broad_E_odd_length_coverage_unchanged": [
+    5,
+    9999999
+  ],
+  "broad_all_length_E": "OPEN",
+  "checks": {
+    "exact_checks.py": {
+      "byte_identical": true,
+      "normal": "PASS",
+      "optimized": "PASS",
+      "receipt_sha256": "09e61f1e50114ed4e021f7e99972ae016d4bdd4d52f1a169eee483b312deec87",
+      "source_sha256": "40d4c8a8d17cef5d4106141fa57ba4180e6146e1653fba7545da7f54be2338df"
+    },
+    "review_check.py": {
+      "byte_identical": true,
+      "normal": "PASS",
+      "optimized": "PASS",
+      "receipt_sha256": "7b6f68586eda919005570fc26665b229a70d8fedcbda14fa60810ea73b0656e8",
+      "source_sha256": "a09c26376bb21caea624f25ce62d904bd0bdf3393ed6e177f2ceab9c96a1f4ff"
+    }
+  },
+  "consecutive_whole_length_exclusion_unchanged": [
+    1,
+    10000000
+  ],
+  "independent_cutoff_rows_agree": 2,
+  "inherited_files_byte_identical": 283,
+  "inherited_integrity": {
+    "blocks_compared": 100,
+    "exception_modular_certificates_rechecked": [
+      44,
+      56,
+      85,
+      92
+    ],
+    "fresh_full_runs": [],
+    "large_searches_rerun": false,
+    "normal_and_optimized_identical": true,
+    "receipt_sha256": "eb4daaba25f0566846b1b52cb05c0cbcaa8c062cb29a289186ac866819ec8adc",
+    "retained_depth_rows_compared": 100
+  },
+  "new_Lean_theorem_or_build": false,
+  "new_position_theorems": "ANALYTIC (12), (13a)-(13c); earlier gaps not discharged",
+  "new_whole_length_coverage": [],
+  "only_inherited_edit": "README.md navigation",
+  "preserved_manifest_sha256": "08a874cd96e0e1a8e83fce6c29eb9ac7c848836e8508e7a95e90083829d0b252",
+  "proposed_quadratic_bound": "UNPROVED_UNREFUTED",
+  "required_audited_commit": "47f1939a4f14f774cfbc0daa1e1f8e33e9c402ea",
+  "required_commits_are_ancestors": true,
+  "restricted_minus_line_E_L_exclusive_unchanged": 2772408436821221135438269516371614409306174170489678915086195998335735536831652622858,
+  "source_sha256": "378f0565e40f6f8f746172a9c3bc9ce33cb269778ea44e3eef0ada99e206f0d5",
+  "starting_commit": "ecac4f73be7c19daff5ac931f0b7b9e2cd78b119",
+  "status": "PASS",
+  "wider_digit_1_conjecture": "OPEN"
+}
