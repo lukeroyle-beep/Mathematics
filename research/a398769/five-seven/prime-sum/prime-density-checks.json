@@ -1,0 +1,103 @@
+{
+  "D": 76250784375,
+  "controls": [
+    {
+      "A": 6,
+      "B": 23,
+      "D_mod_p": 24,
+      "H_roots": [],
+      "L": 5,
+      "p": 31,
+      "sixth_character": 30,
+      "sixth_roots": [],
+      "square_character": 30,
+      "y": 25
+    },
+    {
+      "A": 27,
+      "B": 28,
+      "D_mod_p": 50,
+      "H_roots": [
+        26,
+        33
+      ],
+      "L": 9,
+      "p": 59,
+      "sixth_character": 1,
+      "sixth_roots": [
+        9,
+        50
+      ],
+      "square_character": 1,
+      "y": 32
+    },
+    {
+      "A": 159,
+      "B": 119,
+      "D_mod_p": 145,
+      "H_roots": [],
+      "L": 29,
+      "p": 199,
+      "sixth_character": 107,
+      "sixth_roots": [],
+      "square_character": 198,
+      "y": 169
+    },
+    {
+      "A": 235,
+      "B": 158,
+      "D_mod_p": 175,
+      "H_roots": [
+        73,
+        210
+      ],
+      "L": 41,
+      "p": 283,
+      "sixth_character": 1,
+      "sixth_roots": [
+        15,
+        94,
+        109,
+        174,
+        189,
+        268
+      ],
+      "square_character": 1,
+      "y": 63
+    }
+  ],
+  "finite_counts": {
+    "good_primes_checked": 207,
+    "mod3_1_checked": 106,
+    "mod3_1_sixth_passes": 15,
+    "mod3_2_checked": 101,
+    "mod3_2_sixth_passes": 48,
+    "sixth_passes": 63,
+    "square_passes": 100
+  },
+  "group_controls": {
+    "affine_elements": 42,
+    "conjugation_checks": 343,
+    "sixth_fiber_fixed_point_counts": {
+      "-1": [
+        2,
+        0,
+        2,
+        0,
+        2,
+        0
+      ],
+      "1": [
+        6,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "prime_bound_inclusive": 10000,
+  "scope": "finite algebraic controls, not density proof",
+  "status": "PASS"
+}
