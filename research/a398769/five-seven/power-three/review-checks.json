@@ -1,0 +1,1166 @@
+{
+  "base_main": "0a47180b889b392c2323bc1614a473af51f38d78",
+  "baseline_review": {
+    "exact_git_archive_files": 1028,
+    "modified_inherited_files": [
+      "README.md"
+    ],
+    "unchanged_inherited_files": 1027
+  },
+  "individual_review": {
+    "a25_control": {
+      "n_mod_343": 294,
+      "n_mod_49": 0,
+      "sum_residue": 0
+    },
+    "a799": {
+      "a": 799,
+      "first_fail_depth": 2,
+      "first_fail_n_residue": 35,
+      "t": 1
+    },
+    "actual_candidates": 172,
+    "class_misses": 84,
+    "exponents": {
+      "count": 256,
+      "first": 31,
+      "last": 1561,
+      "next_unchecked": 1567,
+      "step": 6
+    },
+    "lost_nine_control": {
+      "L": 313,
+      "i": 51,
+      "n_mod_S": 1944
+    },
+    "old_prefix_rows_checked": 128,
+    "original_word_failures": [
+      {
+        "a": 31,
+        "failure_modulus": 49,
+        "n_residue": 35,
+        "t": 1
+      },
+      {
+        "a": 37,
+        "failure_modulus": 49,
+        "n_residue": 35,
+        "t": 1
+      },
+      {
+        "a": 49,
+        "failure_modulus": 49,
+        "n_residue": 21,
+        "t": 1
+      },
+      {
+        "a": 55,
+        "failure_modulus": 49,
+        "n_residue": 14,
+        "t": 1
+      },
+      {
+        "a": 73,
+        "failure_modulus": 49,
+        "n_residue": 42,
+        "t": 1
+      },
+      {
+        "a": 79,
+        "failure_modulus": 49,
+        "n_residue": 35,
+        "t": 1
+      },
+      {
+        "a": 85,
+        "failure_modulus": 49,
+        "n_residue": 21,
+        "t": 1
+      },
+      {
+        "a": 91,
+        "failure_modulus": 49,
+        "n_residue": 42,
+        "t": 1
+      },
+      {
+        "a": 97,
+        "failure_modulus": 2401,
+        "n_residue": 2058,
+        "t": 3
+      },
+      {
+        "a": 103,
+        "failure_modulus": 49,
+        "n_residue": 7,
+        "t": 1
+      },
+      {
+        "a": 109,
+        "failure_modulus": 49,
+        "n_residue": 21,
+        "t": 1
+      },
+      {
+        "a": 121,
+        "failure_modulus": 49,
+        "n_residue": 35,
+        "t": 1
+      },
+      {
+        "a": 127,
+        "failure_modulus": 49,
+        "n_residue": 21,
+        "t": 1
+      },
+      {
+        "a": 139,
+        "failure_modulus": 49,
+        "n_residue": 21,
+        "t": 1
+      },
+      {
+        "a": 145,
+        "failure_modulus": 49,
+        "n_residue": 42,
+        "t": 1
+      },
+      {
+        "a": 157,
+        "failure_modulus": 343,
+        "n_residue": 98,
+        "t": 2
+      },
+      {
+        "a": 181,
+        "failure_modulus": 49,
+        "n_residue": 28,
+        "t": 1
+      },
+      {
+        "a": 187,
+        "failure_modulus": 343,
+        "n_residue": 196,
+        "t": 2
+      },
+      {
+        "a": 193,
+        "failure_modulus": 49,
+        "n_residue": 7,
+        "t": 1
+      },
+      {
+        "a": 199,
+        "failure_modulus": 49,
+        "n_residue": 21,
+        "t": 1
+      },
+      {
+        "a": 205,
+        "failure_modulus": 49,
+        "n_residue": 14,
+        "t": 1
+      },
+      {
+        "a": 211,
+        "failure_modulus": 49,
+        "n_residue": 28,
+        "t": 1
+      },
+      {
+        "a": 217,
+        "failure_modulus": 49,
+        "n_residue": 14,
+        "t": 1
+      },
+      {
+        "a": 223,
+        "failure_modulus": 49,
+        "n_residue": 42,
+        "t": 1
+      },
+      {
+        "a": 229,
+        "failure_modulus": 49,
+        "n_residue": 35,
+        "t": 1
+      },
+      {
+        "a": 235,
+        "failure_modulus": 49,
+        "n_residue": 42,
+        "t": 1
+      },
+      {
+        "a": 253,
+        "failure_modulus": 49,
+        "n_residue": 35,
+        "t": 1
+      },
+      {
+        "a": 277,
+        "failure_modulus": 49,
+        "n_residue": 14,
+        "t": 1
+      },
+      {
+        "a": 295,
+        "failure_modulus": 49,
+        "n_residue": 7,
+        "t": 1
+      },
+      {
+        "a": 301,
+        "failure_modulus": 49,
+        "n_residue": 28,
+        "t": 1
+      },
+      {
+        "a": 313,
+        "failure_modulus": 49,
+        "n_residue": 14,
+        "t": 1
+      },
+      {
+        "a": 319,
+        "failure_modulus": 49,
+        "n_residue": 35,
+        "t": 1
+      },
+      {
+        "a": 325,
+        "failure_modulus": 49,
+        "n_residue": 21,
+        "t": 1
+      },
+      {
+        "a": 331,
+        "failure_modulus": 49,
+        "n_residue": 21,
+        "t": 1
+      },
+      {
+        "a": 343,
+        "failure_modulus": 49,
+        "n_residue": 7,
+        "t": 1
+      },
+      {
+        "a": 361,
+        "failure_modulus": 49,
+        "n_residue": 21,
+        "t": 1
+      },
+      {
+        "a": 367,
+        "failure_modulus": 49,
+        "n_residue": 35,
+        "t": 1
+      },
+      {
+        "a": 385,
+        "failure_modulus": 343,
+        "n_residue": 49,
+        "t": 2
+      },
+      {
+        "a": 391,
+        "failure_modulus": 343,
+        "n_residue": 147,
+        "t": 2
+      },
+      {
+        "a": 397,
+        "failure_modulus": 49,
+        "n_residue": 21,
+        "t": 1
+      },
+      {
+        "a": 403,
+        "failure_modulus": 49,
+        "n_residue": 28,
+        "t": 1
+      },
+      {
+        "a": 415,
+        "failure_modulus": 49,
+        "n_residue": 35,
+        "t": 1
+      },
+      {
+        "a": 445,
+        "failure_modulus": 49,
+        "n_residue": 28,
+        "t": 1
+      },
+      {
+        "a": 451,
+        "failure_modulus": 49,
+        "n_residue": 28,
+        "t": 1
+      },
+      {
+        "a": 457,
+        "failure_modulus": 49,
+        "n_residue": 21,
+        "t": 1
+      },
+      {
+        "a": 463,
+        "failure_modulus": 49,
+        "n_residue": 21,
+        "t": 1
+      },
+      {
+        "a": 469,
+        "failure_modulus": 49,
+        "n_residue": 35,
+        "t": 1
+      },
+      {
+        "a": 475,
+        "failure_modulus": 49,
+        "n_residue": 7,
+        "t": 1
+      },
+      {
+        "a": 481,
+        "failure_modulus": 49,
+        "n_residue": 28,
+        "t": 1
+      },
+      {
+        "a": 493,
+        "failure_modulus": 49,
+        "n_residue": 14,
+        "t": 1
+      },
+      {
+        "a": 511,
+        "failure_modulus": 49,
+        "n_residue": 28,
+        "t": 1
+      },
+      {
+        "a": 517,
+        "failure_modulus": 49,
+        "n_residue": 7,
+        "t": 1
+      },
+      {
+        "a": 529,
+        "failure_modulus": 49,
+        "n_residue": 7,
+        "t": 1
+      },
+      {
+        "a": 535,
+        "failure_modulus": 49,
+        "n_residue": 35,
+        "t": 1
+      },
+      {
+        "a": 541,
+        "failure_modulus": 49,
+        "n_residue": 42,
+        "t": 1
+      },
+      {
+        "a": 553,
+        "failure_modulus": 49,
+        "n_residue": 21,
+        "t": 1
+      },
+      {
+        "a": 559,
+        "failure_modulus": 49,
+        "n_residue": 42,
+        "t": 1
+      },
+      {
+        "a": 565,
+        "failure_modulus": 49,
+        "n_residue": 14,
+        "t": 1
+      },
+      {
+        "a": 571,
+        "failure_modulus": 343,
+        "n_residue": 245,
+        "t": 2
+      },
+      {
+        "a": 583,
+        "failure_modulus": 49,
+        "n_residue": 14,
+        "t": 1
+      },
+      {
+        "a": 589,
+        "failure_modulus": 49,
+        "n_residue": 42,
+        "t": 1
+      },
+      {
+        "a": 595,
+        "failure_modulus": 49,
+        "n_residue": 28,
+        "t": 1
+      },
+      {
+        "a": 601,
+        "failure_modulus": 49,
+        "n_residue": 42,
+        "t": 1
+      },
+      {
+        "a": 607,
+        "failure_modulus": 49,
+        "n_residue": 14,
+        "t": 1
+      },
+      {
+        "a": 613,
+        "failure_modulus": 49,
+        "n_residue": 7,
+        "t": 1
+      },
+      {
+        "a": 619,
+        "failure_modulus": 49,
+        "n_residue": 14,
+        "t": 1
+      },
+      {
+        "a": 625,
+        "failure_modulus": 49,
+        "n_residue": 14,
+        "t": 1
+      },
+      {
+        "a": 637,
+        "failure_modulus": 49,
+        "n_residue": 21,
+        "t": 1
+      },
+      {
+        "a": 643,
+        "failure_modulus": 343,
+        "n_residue": 98,
+        "t": 2
+      },
+      {
+        "a": 649,
+        "failure_modulus": 49,
+        "n_residue": 35,
+        "t": 1
+      },
+      {
+        "a": 661,
+        "failure_modulus": 49,
+        "n_residue": 21,
+        "t": 1
+      },
+      {
+        "a": 667,
+        "failure_modulus": 49,
+        "n_residue": 35,
+        "t": 1
+      },
+      {
+        "a": 673,
+        "failure_modulus": 49,
+        "n_residue": 14,
+        "t": 1
+      },
+      {
+        "a": 679,
+        "failure_modulus": 49,
+        "n_residue": 14,
+        "t": 1
+      },
+      {
+        "a": 697,
+        "failure_modulus": 49,
+        "n_residue": 21,
+        "t": 1
+      },
+      {
+        "a": 703,
+        "failure_modulus": 49,
+        "n_residue": 7,
+        "t": 1
+      },
+      {
+        "a": 715,
+        "failure_modulus": 49,
+        "n_residue": 7,
+        "t": 1
+      },
+      {
+        "a": 721,
+        "failure_modulus": 49,
+        "n_residue": 21,
+        "t": 1
+      },
+      {
+        "a": 733,
+        "failure_modulus": 343,
+        "n_residue": 196,
+        "t": 2
+      },
+      {
+        "a": 751,
+        "failure_modulus": 49,
+        "n_residue": 7,
+        "t": 1
+      },
+      {
+        "a": 757,
+        "failure_modulus": 2401,
+        "n_residue": 1372,
+        "t": 3
+      },
+      {
+        "a": 763,
+        "failure_modulus": 49,
+        "n_residue": 35,
+        "t": 1
+      },
+      {
+        "a": 769,
+        "failure_modulus": 49,
+        "n_residue": 28,
+        "t": 1
+      },
+      {
+        "a": 775,
+        "failure_modulus": 49,
+        "n_residue": 35,
+        "t": 1
+      },
+      {
+        "a": 781,
+        "failure_modulus": 343,
+        "n_residue": 196,
+        "t": 2
+      },
+      {
+        "a": 793,
+        "failure_modulus": 49,
+        "n_residue": 42,
+        "t": 1
+      },
+      {
+        "a": 799,
+        "failure_modulus": 49,
+        "n_residue": 35,
+        "t": 1
+      },
+      {
+        "a": 805,
+        "failure_modulus": 49,
+        "n_residue": 28,
+        "t": 1
+      },
+      {
+        "a": 811,
+        "failure_modulus": 49,
+        "n_residue": 35,
+        "t": 1
+      },
+      {
+        "a": 817,
+        "failure_modulus": 49,
+        "n_residue": 21,
+        "t": 1
+      },
+      {
+        "a": 823,
+        "failure_modulus": 49,
+        "n_residue": 42,
+        "t": 1
+      },
+      {
+        "a": 829,
+        "failure_modulus": 49,
+        "n_residue": 28,
+        "t": 1
+      },
+      {
+        "a": 835,
+        "failure_modulus": 49,
+        "n_residue": 14,
+        "t": 1
+      },
+      {
+        "a": 841,
+        "failure_modulus": 49,
+        "n_residue": 7,
+        "t": 1
+      },
+      {
+        "a": 853,
+        "failure_modulus": 49,
+        "n_residue": 28,
+        "t": 1
+      },
+      {
+        "a": 859,
+        "failure_modulus": 343,
+        "n_residue": 245,
+        "t": 2
+      },
+      {
+        "a": 865,
+        "failure_modulus": 49,
+        "n_residue": 14,
+        "t": 1
+      },
+      {
+        "a": 871,
+        "failure_modulus": 49,
+        "n_residue": 28,
+        "t": 1
+      },
+      {
+        "a": 883,
+        "failure_modulus": 49,
+        "n_residue": 35,
+        "t": 1
+      },
+      {
+        "a": 889,
+        "failure_modulus": 49,
+        "n_residue": 21,
+        "t": 1
+      },
+      {
+        "a": 895,
+        "failure_modulus": 343,
+        "n_residue": 98,
+        "t": 2
+      },
+      {
+        "a": 901,
+        "failure_modulus": 49,
+        "n_residue": 42,
+        "t": 1
+      },
+      {
+        "a": 907,
+        "failure_modulus": 49,
+        "n_residue": 14,
+        "t": 1
+      },
+      {
+        "a": 913,
+        "failure_modulus": 49,
+        "n_residue": 21,
+        "t": 1
+      },
+      {
+        "a": 937,
+        "failure_modulus": 343,
+        "n_residue": 49,
+        "t": 2
+      },
+      {
+        "a": 955,
+        "failure_modulus": 49,
+        "n_residue": 7,
+        "t": 1
+      },
+      {
+        "a": 961,
+        "failure_modulus": 49,
+        "n_residue": 14,
+        "t": 1
+      },
+      {
+        "a": 973,
+        "failure_modulus": 49,
+        "n_residue": 28,
+        "t": 1
+      },
+      {
+        "a": 985,
+        "failure_modulus": 49,
+        "n_residue": 42,
+        "t": 1
+      },
+      {
+        "a": 991,
+        "failure_modulus": 49,
+        "n_residue": 28,
+        "t": 1
+      },
+      {
+        "a": 1003,
+        "failure_modulus": 49,
+        "n_residue": 35,
+        "t": 1
+      },
+      {
+        "a": 1009,
+        "failure_modulus": 49,
+        "n_residue": 14,
+        "t": 1
+      },
+      {
+        "a": 1015,
+        "failure_modulus": 49,
+        "n_residue": 21,
+        "t": 1
+      },
+      {
+        "a": 1027,
+        "failure_modulus": 49,
+        "n_residue": 21,
+        "t": 1
+      },
+      {
+        "a": 1033,
+        "failure_modulus": 49,
+        "n_residue": 28,
+        "t": 1
+      },
+      {
+        "a": 1039,
+        "failure_modulus": 49,
+        "n_residue": 28,
+        "t": 1
+      },
+      {
+        "a": 1045,
+        "failure_modulus": 49,
+        "n_residue": 21,
+        "t": 1
+      },
+      {
+        "a": 1057,
+        "failure_modulus": 49,
+        "n_residue": 35,
+        "t": 1
+      },
+      {
+        "a": 1069,
+        "failure_modulus": 49,
+        "n_residue": 21,
+        "t": 1
+      },
+      {
+        "a": 1075,
+        "failure_modulus": 49,
+        "n_residue": 42,
+        "t": 1
+      },
+      {
+        "a": 1093,
+        "failure_modulus": 343,
+        "n_residue": 49,
+        "t": 2
+      },
+      {
+        "a": 1099,
+        "failure_modulus": 49,
+        "n_residue": 21,
+        "t": 1
+      },
+      {
+        "a": 1105,
+        "failure_modulus": 49,
+        "n_residue": 42,
+        "t": 1
+      },
+      {
+        "a": 1123,
+        "failure_modulus": 343,
+        "n_residue": 294,
+        "t": 2
+      },
+      {
+        "a": 1129,
+        "failure_modulus": 49,
+        "n_residue": 14,
+        "t": 1
+      },
+      {
+        "a": 1147,
+        "failure_modulus": 343,
+        "n_residue": 98,
+        "t": 2
+      },
+      {
+        "a": 1153,
+        "failure_modulus": 49,
+        "n_residue": 28,
+        "t": 1
+      },
+      {
+        "a": 1165,
+        "failure_modulus": 343,
+        "n_residue": 196,
+        "t": 2
+      },
+      {
+        "a": 1177,
+        "failure_modulus": 49,
+        "n_residue": 21,
+        "t": 1
+      },
+      {
+        "a": 1183,
+        "failure_modulus": 49,
+        "n_residue": 42,
+        "t": 1
+      },
+      {
+        "a": 1195,
+        "failure_modulus": 343,
+        "n_residue": 245,
+        "t": 2
+      },
+      {
+        "a": 1201,
+        "failure_modulus": 49,
+        "n_residue": 42,
+        "t": 1
+      },
+      {
+        "a": 1225,
+        "failure_modulus": 49,
+        "n_residue": 7,
+        "t": 1
+      },
+      {
+        "a": 1231,
+        "failure_modulus": 16807,
+        "n_residue": 14406,
+        "t": 4
+      },
+      {
+        "a": 1237,
+        "failure_modulus": 49,
+        "n_residue": 42,
+        "t": 1
+      },
+      {
+        "a": 1249,
+        "failure_modulus": 49,
+        "n_residue": 21,
+        "t": 1
+      },
+      {
+        "a": 1255,
+        "failure_modulus": 49,
+        "n_residue": 35,
+        "t": 1
+      },
+      {
+        "a": 1261,
+        "failure_modulus": 49,
+        "n_residue": 42,
+        "t": 1
+      },
+      {
+        "a": 1267,
+        "failure_modulus": 49,
+        "n_residue": 35,
+        "t": 1
+      },
+      {
+        "a": 1279,
+        "failure_modulus": 49,
+        "n_residue": 21,
+        "t": 1
+      },
+      {
+        "a": 1291,
+        "failure_modulus": 49,
+        "n_residue": 14,
+        "t": 1
+      },
+      {
+        "a": 1303,
+        "failure_modulus": 49,
+        "n_residue": 7,
+        "t": 1
+      },
+      {
+        "a": 1309,
+        "failure_modulus": 49,
+        "n_residue": 7,
+        "t": 1
+      },
+      {
+        "a": 1315,
+        "failure_modulus": 49,
+        "n_residue": 21,
+        "t": 1
+      },
+      {
+        "a": 1321,
+        "failure_modulus": 343,
+        "n_residue": 147,
+        "t": 2
+      },
+      {
+        "a": 1327,
+        "failure_modulus": 49,
+        "n_residue": 14,
+        "t": 1
+      },
+      {
+        "a": 1339,
+        "failure_modulus": 49,
+        "n_residue": 28,
+        "t": 1
+      },
+      {
+        "a": 1357,
+        "failure_modulus": 49,
+        "n_residue": 21,
+        "t": 1
+      },
+      {
+        "a": 1369,
+        "failure_modulus": 49,
+        "n_residue": 7,
+        "t": 1
+      },
+      {
+        "a": 1375,
+        "failure_modulus": 49,
+        "n_residue": 14,
+        "t": 1
+      },
+      {
+        "a": 1387,
+        "failure_modulus": 343,
+        "n_residue": 147,
+        "t": 2
+      },
+      {
+        "a": 1393,
+        "failure_modulus": 2401,
+        "n_residue": 343,
+        "t": 3
+      },
+      {
+        "a": 1399,
+        "failure_modulus": 49,
+        "n_residue": 14,
+        "t": 1
+      },
+      {
+        "a": 1405,
+        "failure_modulus": 49,
+        "n_residue": 28,
+        "t": 1
+      },
+      {
+        "a": 1411,
+        "failure_modulus": 49,
+        "n_residue": 14,
+        "t": 1
+      },
+      {
+        "a": 1417,
+        "failure_modulus": 49,
+        "n_residue": 21,
+        "t": 1
+      },
+      {
+        "a": 1435,
+        "failure_modulus": 49,
+        "n_residue": 7,
+        "t": 1
+      },
+      {
+        "a": 1441,
+        "failure_modulus": 49,
+        "n_residue": 35,
+        "t": 1
+      },
+      {
+        "a": 1459,
+        "failure_modulus": 49,
+        "n_residue": 35,
+        "t": 1
+      },
+      {
+        "a": 1465,
+        "failure_modulus": 49,
+        "n_residue": 14,
+        "t": 1
+      },
+      {
+        "a": 1471,
+        "failure_modulus": 49,
+        "n_residue": 28,
+        "t": 1
+      },
+      {
+        "a": 1483,
+        "failure_modulus": 49,
+        "n_residue": 28,
+        "t": 1
+      },
+      {
+        "a": 1489,
+        "failure_modulus": 49,
+        "n_residue": 28,
+        "t": 1
+      },
+      {
+        "a": 1495,
+        "failure_modulus": 49,
+        "n_residue": 21,
+        "t": 1
+      },
+      {
+        "a": 1501,
+        "failure_modulus": 49,
+        "n_residue": 14,
+        "t": 1
+      },
+      {
+        "a": 1507,
+        "failure_modulus": 49,
+        "n_residue": 7,
+        "t": 1
+      },
+      {
+        "a": 1513,
+        "failure_modulus": 49,
+        "n_residue": 14,
+        "t": 1
+      },
+      {
+        "a": 1525,
+        "failure_modulus": 49,
+        "n_residue": 7,
+        "t": 1
+      },
+      {
+        "a": 1531,
+        "failure_modulus": 49,
+        "n_residue": 28,
+        "t": 1
+      },
+      {
+        "a": 1543,
+        "failure_modulus": 49,
+        "n_residue": 21,
+        "t": 1
+      },
+      {
+        "a": 1549,
+        "failure_modulus": 49,
+        "n_residue": 28,
+        "t": 1
+      },
+      {
+        "a": 1561,
+        "failure_modulus": 49,
+        "n_residue": 28,
+        "t": 1
+      }
+    ],
+    "valuation_histogram": {
+      "1": 150,
+      "2": 18,
+      "3": 3,
+      "4": 1
+    }
+  },
+  "mathematical_constants": {
+    "BL_D": 7,
+    "BL_e": 1,
+    "BL_f": 1,
+    "BL_log_A1": 3,
+    "BL_log_A2": 4,
+    "BL_p": 3,
+    "BL_simplified_constant": 1037232,
+    "fresh_raw_source_hash_claimed": false,
+    "norm_C": "236879375/68024448",
+    "norm_valuations": {
+      "2": -7,
+      "5": 4
+    },
+    "primary_source_reopened": "https://irma.math.unistra.fr/~bugeaud/travaux/logpadicdef.pdf",
+    "primary_source_scope": "definitions pp.2-4 and Corollary 2 printed p.5"
+  },
+  "reviewed_implementation": "8d56670602fe57280b10ab7a5221941438f28f2c",
+  "reviewer": "/root/independent_transitions",
+  "schema": 1,
+  "source_sha256": {
+    "README.md": "de59a0c49b04a48f6611f90d7d9b7c875d8f23ac7efbe1dde6496e5c262d0cb9",
+    "research/a398769/five-seven/effective/QUALITATIVE.md": "879e6e0ed6ae8585b8f2c0b814d8995206a40ce27190dc9028c99f837eba2ca0",
+    "research/a398769/five-seven/effective/ROUTE_A.md": "98b0f8380911832b918ceea18221ead51b839a661bd105227d7a774f15d16d94",
+    "research/a398769/five-seven/fixed-depth/PROOF.md": "270d03d76a083c98e168a9f96db7507563eb5576e3ce2e13cfd8701a15b0bee8",
+    "research/a398769/five-seven/power-three/INDIVIDUAL.md": "1e73b779f962373edbc07b4c0bc6c05c0a9b0d4ad896f98d4c3ca5e97c56d8ce",
+    "research/a398769/five-seven/power-three/README.md": "dfffca7b5577a5f70d20f195a39442245579b044a74ca5f3e17eb9323767a123",
+    "research/a398769/five-seven/power-three/THREE_LENGTH.md": "e327a74848e21a5c338fa7bf8a90e001fb60f96d1a4149d4d1c7ecb9cd5c5ee1",
+    "research/a398769/five-seven/power-three/baseline.json": "80e6883e15738dc68a4b2b9a7d31e7d8fb6f8bd1722324373b0a23367004aab8",
+    "research/a398769/five-seven/power-three/individuals-independent.json": "0369324190c7fc2dc6a7df390a4c6d62783e56673c1940e5a122a2dd41ccc48c",
+    "research/a398769/five-seven/power-three/individuals.json": "2f4a35adfad0d5285402a31e6c65c71d35266a77cb97badef156ee72ed16ad71",
+    "research/a398769/five-seven/power-three/individuals.py": "9884e8915013ac6c42e3c9d1c3e814098ff7d93e27dae27ef256fe5ad03c2b4d",
+    "research/a398769/five-seven/power-three/individuals_independent.py": "3da9eee1f95bb64dda17d4e79633c78010171db12ba9cd5e68cd08cd5baa52d2",
+    "research/a398769/five-seven/power-three/review_checks.py": "12478ff8999a95caeeaf76b04c6b2c76d22750359244ac17e2103f28b828d1aa",
+    "research/a398769/five-seven/power-three/transitions-independent.json": "a280edc48a62917f237fe2985112135e9bf2552659b787a752cd91ab18b87d54",
+    "research/a398769/five-seven/power-three/transitions.json": "3ab66f251ded35f91982db18804eeeb35e82ce2c7dcbf4809c01d9923d139821",
+    "research/a398769/five-seven/power-three/transitions.py": "2e0d52a1f8ce8904dcddfb791a536f42ed4c59a7609b3c0bdeb97b5b6485a21f",
+    "research/a398769/five-seven/power-three/transitions_independent.py": "33c96ee6ea5c88124b92d173d708b8b81e515c2652961588c45c8e482f309568",
+    "research/a398769/five-seven/power-three/verification.json": "87ee22eee9a9e300fc99f49d9a029f000cb7109418751b0e2060dae4d7a4172c",
+    "research/a398769/five-seven/power-three/verify.py": "ebc8360f102935eb7005b233fe58989f3b0d2ce963ccb0cbc9bb54d43500e50c",
+    "research/a398769/five-seven/settlement/EDGE_BOUNDS.md": "890d6d1402c10f1e0f7dead42a86386287be61aeb5fc06210fe27af4ed12ec50",
+    "research/a398769/five-seven/sum-position-escape/MATH_REVIEW.md": "81e6a85b01b6d4b077ed0a59719ef1bbf7b1b1c56120b71223f412b53faae8cd",
+    "research/a398769/five-seven/sum-position-escape/README.md": "1bb6de397828922b8266f32d46fa0202eee3b979122ac41c24de0e0f8c8c5241",
+    "research/a398769/five-seven/sum-position-escape/independent.json": "afdf04beaa7bce74d1eda2e2f33245b637f2d93323c296c16a933826aec6dab5",
+    "research/a398769/five-seven/sum-position-escape/independent.py": "a84d1c5bfd09fde51541d6be127e64b6e54fbcd25233ab95eb9d2cf9203d442e",
+    "research/a398769/five-seven/uniform-bound/SOURCES.md": "c325a230651eff628cc6ee99d8c91c74623eae61dde30b0aea735f501bd68c07"
+  },
+  "transition_review": {
+    "all_start_and_increment_lists_agree": true,
+    "complete_periods": [
+      {
+        "count": 35,
+        "m": 5,
+        "period": 343
+      },
+      {
+        "count": 14,
+        "m": 6,
+        "period": 2401
+      },
+      {
+        "count": 14,
+        "m": 7,
+        "period": 16807
+      },
+      {
+        "count": 7,
+        "m": 8,
+        "period": 117649
+      },
+      {
+        "count": 0,
+        "m": 9,
+        "period": 823543
+      }
+    ],
+    "depth_eight_positive": {
+      "first_increments": [
+        189
+      ],
+      "second_increments": [
+        42
+      ],
+      "u": 14984
+    },
+    "direct_visited_starts": 960743
+  },
+  "verdict": "PASS"
+}
