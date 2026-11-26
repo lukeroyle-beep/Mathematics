@@ -6,6 +6,7 @@
     "GLOBAL.md": "8b86bf744b96d26c89b79c99933b5b1ea087dc4ac0558b21100cb62d76e557c2",
     "PRIME_DENSITY.md": "8f43a33f269ece7ef3ba27c35f43ab2bbce0b69ca8aa7a667695bfe565b30c3a",
     "README.md": "6304b963b94faaecaf61ba9dc1031e4e3962ed4c4d703c5180c56ece6c54784a",
+    "REVIEW.md": "8d75bb7e3ebc44398ae46952bbfa18872edecd790a6a4586e4e8cd5feded7f06",
     "archive_audit.py": "2336ae96af0b7005932ef4c020edfbcf531ccd8d1bdad4e91c9920e83a071f3e",
     "evidence/archive-audit.json": "67398573e35d597a66c540b6149faf777c680557d586e13816fc945fca782843",
     "evidence/enumeration-runs.json": "4ee1eb07ccdb9917e439c8964be97e058e0f9718c4a4bc21e868382b978f56ed",
@@ -54,6 +55,7 @@
     "full witness exponent arithmetic for a surviving candidate (none found)"
   ],
   "pr21_merge_is_ancestor": true,
+  "prepublication_main": "b991c97a3d3e91b8339e25c8932ae8072f8c4a09",
   "prime_density_theorems": {
     "denominator": "primes p=3 mod7",
     "sixth_exclusion": "2/3",
@@ -62,7 +64,13 @@
     "square_exclusion": "1/2"
   },
   "python": "3.14.4",
-  "review": "REVIEW.md will bind the reviewed implementation commit",
+  "review": {
+    "context": "/root/fresh_review",
+    "global_target_remains": "UNRESOLVED",
+    "must_fix_findings": [],
+    "record": "REVIEW.md",
+    "reviewed_implementation_commit": "99306e407dc0dee6bbbd8d883daf1c3594b93e05"
+  },
   "signed_bound": {
     "C": 25,
     "exponent": "1-1/(3*10^16)",
