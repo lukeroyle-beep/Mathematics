@@ -1,0 +1,56 @@
+{
+  "Lean_build_performed": false,
+  "artifact_sha256": {
+    "../../../../README.md": "8b689f5d1b4cf06775990052fbc28d3c2eb6cb4d54bcb31a6f8d6211b56959de",
+    "OBSTRUCTION.md": "175b3cd6e5752e7fea87681bb85fb45488de2f388f52cf096037d30c0b23695e",
+    "PROOF.md": "049365be0fddb55ca1a18aa87de8f5e2f1b4c47c8bd25e552c331712fa1a5f84",
+    "README.md": "803ac13f9adbddc506cb556c973bc946efb1528780532be6eb87940118c6709f",
+    "baseline.json": "b4b8bb0d074c6a06ecdeb87a2f9415e9b1f3041fc9fb99c7d993a41a7a877fff",
+    "checks.json": "4435d9f75f4e452ac9756a67a7916ab53fb3d254e4104cd1a1891e78ec4fc029",
+    "checks.py": "67e04df865dc514c2c5ea5ecab0cab6409944eb9a660d6b48085e0163e449990",
+    "independent-checks.json": "959e04d5b4ac8722c17e3b93094dc6f46fb6ec7731d3e150b14aa7d4dbd94c75",
+    "independent_checks.py": "c868a6de841d4fcf8cc949acd16bd0e8172c40b9405e93333bb11cb55ebd285d",
+    "obstruction-checks.json": "e75c9e300c20c2ae8508b5ac4c2c04f39cefd90c9f2bfa372f9738b8e831a657",
+    "obstruction_checks.py": "0d5e372b9b7998d3500fe53096469062e7774fe81c8ac90933ba5ab4dca953fb",
+    "verify.py": "8d3133e449bf541a7b1b1ffcc94525668252f0a6de07d9893b67b5c58e4426a8"
+  },
+  "base_main": "0e4dbdf9244c6b7f743d7e90ce04c91ea3d38675",
+  "baseline_bindings": 16,
+  "fresh_reproductions": [
+    {
+      "normal_and_optimized_match": true,
+      "program": "checks.py",
+      "receipt": "checks.json",
+      "receipt_sha256": "4435d9f75f4e452ac9756a67a7916ab53fb3d254e4104cd1a1891e78ec4fc029"
+    },
+    {
+      "normal_and_optimized_match": true,
+      "program": "independent_checks.py",
+      "receipt": "independent-checks.json",
+      "receipt_sha256": "959e04d5b4ac8722c17e3b93094dc6f46fb6ec7731d3e150b14aa7d4dbd94c75"
+    },
+    {
+      "normal_and_optimized_match": true,
+      "program": "obstruction_checks.py",
+      "receipt": "obstruction-checks.json",
+      "receipt_sha256": "e75c9e300c20c2ae8508b5ac4c2c04f39cefd90c9f2bfa372f9738b8e831a657"
+    }
+  ],
+  "full_witness_found": false,
+  "inherited_rational_centre_receipts": {
+    "large_enumerations_rerun": false,
+    "ordered_partition_pair_digest": "acc8b323b03462dba377b4c3606ad48c2ae900419706c781aa22c8f3c731dda9",
+    "partitions_checked_per_engine": 301
+  },
+  "inherited_receipt_bindings": {
+    "prime-sum": 19,
+    "trillion-witness": 35
+  },
+  "new_Lean_formalization": false,
+  "new_consecutive_lengths": 0,
+  "q0_at_most_L_pow_35_subfamily": "EXCLUDED_AT_EVERY_LENGTH",
+  "status": "PASS",
+  "unrestricted_five_seven": "OPEN",
+  "whole_length_endpoint_inclusive": 1000002000000,
+  "wider_digit_one_conjecture": "OPEN"
+}

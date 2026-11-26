@@ -1,6 +1,14 @@
 # Mathematics
 Repository for mathematical conjectures. Solutions are verified in Lean.
 
+The [five-adic quotient audit](research/a398769/five-seven/five-adic-quotient/README.md)
+excludes at every length all full `{5,7}` witnesses whose exact quotient's
+seven-free part satisfies `q0<=L^35`, without a position restriction.
+Above the inherited endpoint it proves `ln(9*(7L-4)*q0)>L/10^9`.
+The whole-length endpoint remains 1,000,002,000,000; the unrestricted
+subclass and wider digit-1 conjecture remain open. This is an ordinary
+proof with independent exact checks, with no new Lean formalization.
+
 The [rational-centre band exhaustion](research/a398769/five-seven/rational-centres/README.md)
 excludes at all lengths every residual two-five full witness admitting a
 reduced `0<a<b<=K(L)^2` with `|bi-aL|<=K(L)^2`. Two fresh exhaustive

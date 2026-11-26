@@ -1,0 +1,104 @@
+{
+  "coverage_limit": "regression checks only; no new whole-length endpoint or Lean proof",
+  "lifting": {
+    "actual_position_summary_sha256": "9d3af2897048d7c0c013d2a947426c058866424638e1cb193860c8a52c1d4919",
+    "actual_positions": 87,
+    "first_changes_later_than_K": 16,
+    "largest_observed_t": 5,
+    "synthetic_L_first_change_passes_seven_power": [
+      [
+        5,
+        2,
+        false
+      ],
+      [
+        5,
+        3,
+        true
+      ],
+      [
+        17,
+        14,
+        false
+      ],
+      [
+        17,
+        15,
+        true
+      ],
+      [
+        101,
+        98,
+        false
+      ],
+      [
+        101,
+        99,
+        true
+      ]
+    ],
+    "synthetic_scope": "valuation deadline arithmetic only; not decimal words"
+  },
+  "literal_words": {
+    "counts": {
+      "depth_at_least_2": 968,
+      "depth_at_least_3": 138,
+      "digit_sum_passes": 137,
+      "dropped_nine_false_positives": 126,
+      "five_free_digit_sum_passes": 53,
+      "five_free_digit_sum_passes_with_3_dividing_sum": 38,
+      "five_free_dropped_nine_false_positives": 44,
+      "full_residual_witnesses": 0,
+      "words": 39800
+    },
+    "coverage": "all odd 5<=L<=401, all integer 3<=i<L",
+    "examples_L_i_t_S": {
+      "five_free_dropped_nine_false_positive": [
+        151,
+        8,
+        0,
+        1053
+      ],
+      "five_free_sum_with_3_dividing_sum": [
+        13,
+        12,
+        0,
+        87
+      ],
+      "five_free_sum_with_depth_2": [
+        205,
+        165,
+        2,
+        1431
+      ]
+    },
+    "negative_general_full_predicate_control": 137,
+    "pair_summary_sha256": "01ba0c10ea5a0d79eef9ce6a2509172413201066ba2f21272977a73f50002347",
+    "positive_general_full_predicate_control": 135,
+    "quotient_test_scope": "rational extension on literal words; no residual full witness assumed"
+  },
+  "numerical": {
+    "coefficient_rational_upper": "9375/256",
+    "exp_degree_limits": {
+      "1": 32,
+      "2": 32,
+      "21/5": 40,
+      "22": 100,
+      "2303/1000": 40,
+      "8/5": 32
+    },
+    "first_maximum_branch_upper": "117/5",
+    "inherited_endpoint": 1000002000000,
+    "method": "positive exponential Taylor sums plus geometric upper tails",
+    "other_maximum_branch_upper": [
+      20,
+      10
+    ],
+    "polynomial_base_margin": "113/125",
+    "polynomial_derivative_lower_at_1e12": "241/250000000000",
+    "slope_gap": "193/15625000",
+    "slope_gap_at_1e12_minus_2": "12351998"
+  },
+  "source_sha256": "c868a6de841d4fcf8cc949acd16bd0e8172c40b9405e93333bb11cb55ebd285d",
+  "status": "PASS"
+}

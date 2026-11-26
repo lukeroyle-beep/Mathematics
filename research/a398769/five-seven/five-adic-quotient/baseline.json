@@ -1,0 +1,38 @@
+{
+  "branch": "research/a398769-five-adic-quotient",
+  "date": "2026-11-26",
+  "inherited_large_searches_rerun": false,
+  "inherited_sha256": {
+    "explicit-length/ROUTE1.md": "a175e80a3db6da1959d4337a468da08e38e1305e090bdc7747055dd8df8aae87",
+    "explicit-length/ROUTE2.md": "1cbf089a4a5755f72345edc5ab6a212f9cb1aa47af841d49c4b537a1755b6347",
+    "fixed-depth/PROOF.md": "270d03d76a083c98e168a9f96db7507563eb5576e3ce2e13cfd8701a15b0bee8",
+    "fixed-depth/checks.json": "eed221cf4d2170ebdb08364d3af0b3bd7d5c0e398c9fe942f0ecc28b1b8ce3d3",
+    "prime-sum/README.md": "6304b963b94faaecaf61ba9dc1031e4e3962ed4c4d703c5180c56ece6c54784a",
+    "prime-sum/verification.json": "a4bab1ad0a47b709d0fb7338c0ce35b3b8c6052e8e5f0e5ef98447de023596b2",
+    "proportional/AUDIT.md": "abbe55701616a1b981fef57e184ae4b40f3a69dded8b03566f2cca5d5eb52735",
+    "proportional/README.md": "cff0ae6796d2afc9b005cda1c6b7f10a25b81ba5bc17e86affc0450271ee6fa0",
+    "rational-centres/ANALYTIC.md": "11bd393afad213ee9f90839f965af046b0fb69cc0fd49a49447c6798ae447344",
+    "rational-centres/README.md": "42f1d19bc4c50e078e2a4035f96d42e1238f787dfaa516280816bd04068a4f40",
+    "rational-centres/baseline.json": "954614ec82cd7ec82dbcea662d8f3dfa66b2a62e24504ceec121f1631daa83bb",
+    "rational-centres/verification.json": "59a9ebbe2c3a59ed5aef3a9a7961452a653f557b532f7413c3b8f405045073fc",
+    "rational-centres/verify.py": "8b1427fb729d67054962cb24c16958724fd3a892c5e10978beba4990680c61f7",
+    "trillion-witness/README.md": "6862864f1394c4173e02798e338d1aa924d408a87a35d09a0451cfc84fc7242f",
+    "trillion-witness/verification.json": "fad5fe4fb49b7a707b1b50058bb2cb9bf173d9433ba6f703bda08b32ea19a38c",
+    "uniform-bound/SOURCES.md": "c325a230651eff628cc6ee99d8c91c74623eae61dde30b0aea735f501bd68c07"
+  },
+  "later_main_commits_at_prepublication": [],
+  "later_main_commits_at_start": [],
+  "new_Lean_formalization": false,
+  "prepublication_main": "0e4dbdf9244c6b7f743d7e90ce04c91ea3d38675",
+  "primary_source": {
+    "bytes": 271382,
+    "fresh_web_text_and_rendered_formula_inspection": true,
+    "printed_pages": "2-4; Corollary 1 on 4",
+    "sha256": "554bb384df62538fa11fcf6ab74976e772156c9d3ca4022e2128d48e3632128d",
+    "url": "https://irma.math.unistra.fr/~bugeaud/travaux/logpadicdef.pdf"
+  },
+  "repository": "https://github.com/lukeroyle-beep/Mathematics",
+  "requested_merge_is_ancestor": true,
+  "requested_pr25_merge": "0e4dbdf9244c6b7f743d7e90ce04c91ea3d38675",
+  "starting_main": "0e4dbdf9244c6b7f743d7e90ce04c91ea3d38675"
+}
