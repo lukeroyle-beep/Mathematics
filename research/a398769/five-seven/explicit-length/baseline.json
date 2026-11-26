@@ -1,0 +1,41 @@
+{
+  "PR23_files_present_on_starting_main": false,
+  "adjacent_million_odd_lengths_rerun": false,
+  "consecutive_endpoint_inclusive": 1000002000000,
+  "date": "2026-11-26",
+  "large_enumerations_rerun": false,
+  "required_inputs_and_review": [
+    {
+      "bytes": 5772,
+      "path": "research/a398769/five-seven/effective/QUALITATIVE.md",
+      "ref": "aab83fc4ed706cd4aca4d51dc6e533d60cb87477",
+      "sha256": "879e6e0ed6ae8585b8f2c0b814d8995206a40ce27190dc9028c99f837eba2ca0"
+    },
+    {
+      "bytes": 21158,
+      "path": "research/a398769/five-seven/uniform-bound/ANALYTIC.md",
+      "ref": "aab83fc4ed706cd4aca4d51dc6e533d60cb87477",
+      "sha256": "5e646e537972b6c917b6bbb802ef7ae3931e0a4f7221b79b304788f0fded59f0"
+    },
+    {
+      "bytes": 11111,
+      "path": "research/a398769/five-seven/prime-sum/ARCHIVE_AUDIT.md",
+      "ref": "aab83fc4ed706cd4aca4d51dc6e533d60cb87477",
+      "sha256": "1aab0b629025eeb1872529d4e7726ec968302c429256ca41033442393bafad3f"
+    },
+    {
+      "bytes": 13956,
+      "path": "research/a398769/five-seven/decimal-height/PROOF.md",
+      "ref": "c977422826ce674d4068c0517afb1f75fc368893",
+      "sha256": "bc2756f76b90acf461aa952ad3bf7d7b5be4c11f5852ca0f6204e086dede62a7"
+    },
+    {
+      "bytes": 7775,
+      "path": "research/a398769/five-seven/decimal-height/REVIEW.md",
+      "ref": "c977422826ce674d4068c0517afb1f75fc368893",
+      "sha256": "36b861bebad00f7f2bede9e707c1034c0397fef1d24637f9ee249dcecb0157ae"
+    }
+  ],
+  "reviewed_PR23": "c977422826ce674d4068c0517afb1f75fc368893",
+  "starting_main": "aab83fc4ed706cd4aca4d51dc6e533d60cb87477"
+}

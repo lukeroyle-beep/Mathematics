@@ -1,6 +1,14 @@
 # Mathematics
 Repository for mathematical conjectures. Solutions are verified in Lean.
 
+The [explicit length-bound investigation](research/a398769/five-seven/explicit-length/README.md)
+finds no global cutoff, but proves explicit bounds for moving rational-centre
+and seven-free-quotient subfamilies. One subfamily bound lies below the
+certified endpoint and closes that subfamily. Independent decimal arithmetic
+confirms zero digit-sum passes among all 74,601 retained high-valuation
+archive pairs. The complete `{5,7}` subclass and wider conjecture remain open;
+these are ordinary proofs and exact computations, not new Lean theorems.
+
 The [prime digit-sum audit](research/a398769/five-seven/prime-sum/README.md)
 proves exact half and two-thirds prime-sum exclusion densities, independently
 certifies the recovered trillion-length archive, and derives an explicit
