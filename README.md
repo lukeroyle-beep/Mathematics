@@ -1,6 +1,14 @@
 # Mathematics
 Repository for mathematical conjectures. Solutions are verified in Lean.
 
+The [prime digit-sum audit](research/a398769/five-seven/prime-sum/README.md)
+proves exact half and two-thirds prime-sum exclusion densities, independently
+certifies the recovered trillion-length archive, and derives an explicit
+signed power-saving bound with an insufficient exponent. With PR #21's
+adjacent interval, documented consecutive exclusion reaches
+1,000,002,000,000. The all-length `{5,7}` problem remains open. These are
+ordinary proofs and exact computations, with no new Lean formalization.
+
 The [trillion-length witness investigation](research/a398769/five-seven/trillion-witness/README.md)
 independently excludes the next million odd lengths above a trillion,
 checks 1,808 larger sampled lengths and all digit-sum-compatible positions

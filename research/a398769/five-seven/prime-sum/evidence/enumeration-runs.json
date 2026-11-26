@@ -1,0 +1,39 @@
+{
+  "base_commit": "b991c97a3d3e91b8339e25c8932ae8072f8c4a09",
+  "both_candidate_lists_compared_entry_for_entry": true,
+  "canonical_candidate_csv_sha256": "919c091c978ee1e6011f9239fadbba675985714f286d8dcffa1a29ed043cf8e4",
+  "comparison_mode": "provided_outputs_verified",
+  "comparison_receipt": "archive-audit.json",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2), arm64-apple-darwin25.6.0",
+  "elapsed_seconds": "not recorded; no timing claim",
+  "execution_mode": "individual freshly compiled binaries, sequential full runs; wrapper --rerun-enumerations not invoked",
+  "not_run": [
+    "archive_audit.py --rerun-enumerations",
+    "full early-rejection searches"
+  ],
+  "observation_date": "2026-11-26",
+  "runs": [
+    {
+      "candidate_file_sha256": "40e8d876966eaed0f8542d6bd60f69346b5382da63b5eb875bb41374096a59ad",
+      "command": "/private/tmp/a398769-prime-archive/lattice 10 1000000000000 /private/tmp/a398769-prime-archive/lattice-full.txt",
+      "compile_command": "g++ -O3 -std=c++17 -Wall -Wextra valuation/lattice/lattice.cpp -o /private/tmp/a398769-prime-archive/lattice",
+      "executable_sha256": "fdec0e870eb6818b9821a133dd659e26015de92e97fd102ff7a7b0589a4b54d9",
+      "exit_code": 0,
+      "name": "lattice",
+      "source_sha256": "17dcaa3f0235279daea46b44a13be56272850c1ed20c81315959b543913fb6da",
+      "stdout": "limit 1000000000000 base_depth 10 groups 17294403 depth_19 25586997 depth_20 3654595 depth_21 522020 depth_22 74601\n",
+      "stdout_sha256": "5e7f20349191cd2bd774cfa6b41e550d90d4a41e2d5845aae9c567df53fb08d8"
+    },
+    {
+      "command": "/private/tmp/a398769-prime-archive/floor11 1000000000000 > /private/tmp/a398769-prime-archive/floor-full.txt",
+      "compile_command": "g++ -O3 -std=c++17 -DDEPTH=11 valuation/floor-sum/scan.cpp -o /private/tmp/a398769-prime-archive/floor11",
+      "executable_sha256": "d9e86bce003bdd25399beec6f202745872f4391f07c122378182fcb8e28a48a3",
+      "exit_code": 0,
+      "name": "floor_sum",
+      "source_sha256": "7bea2299a8bd9d1051fca2ee4e0e8c9272336f3c07eef1b9c6999a5d52bf8a49",
+      "stdout_sha256": "bf4b0535e51fb4fa3a6c6f64637258d23374f33a915a6f1776a1cfe96fd6f916",
+      "stdout_summary": "B 1000000000000 seeds 121060821 rectangular 1044321 domainDepth 21 domainCount 522020 pass22 74601 sig 18130229677626043502"
+    }
+  ],
+  "working_directory": "/private/tmp/a398769-prime-archive/original/A398769-research"
+}
