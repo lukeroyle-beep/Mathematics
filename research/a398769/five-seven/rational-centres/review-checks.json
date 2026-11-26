@@ -1,0 +1,20 @@
+{
+  "control_pairs13": 562262,
+  "deliberate_corruptions_rejected": [
+    "missing_partition",
+    "duplicate_partition",
+    "b",
+    "lo",
+    "source_sha256",
+    "compatible_lines",
+    "pairs13_sha256",
+    "pairs13",
+    "survivors22"
+  ],
+  "implementation_artifact_bindings": 618,
+  "ordered_partition_pair_digest": "acc8b323b03462dba377b4c3606ad48c2ae900419706c781aa22c8f3c731dda9",
+  "partitions_per_engine": 300,
+  "reviewed_implementation_commit": "9eaa913f515e62667dbf706ec723043c5b0a193c",
+  "status": "PASS",
+  "verification_sha256": "59a9ebbe2c3a59ed5aef3a9a7961452a653f557b532f7413c3b8f405045073fc"
+}
