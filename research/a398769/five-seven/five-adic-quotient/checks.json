@@ -1,0 +1,71 @@
+{
+  "constants": {
+    "K_at_B_plus_1": 15,
+    "coefficient_rational_upper": "9375/256",
+    "contradiction_margin_at_10pow12": "12351998",
+    "contradiction_slope_gap": "193/15625000",
+    "gap_at_B_plus_1_open_enclosure": [
+      356675656291,
+      356675656292
+    ],
+    "gap_slope_open_enclosure": [
+      "0.3566749429",
+      "0.3566749430"
+    ],
+    "inherited_edge_margin_at_10pow7": "1574965/4",
+    "log_method": "100-term atanh series after binary reduction with positive tail bound",
+    "maximum_first_rational_upper": "22927/1000",
+    "polynomial_base_margin": "113/125",
+    "polynomial_derivative_lower": "241/250000000000",
+    "t_upper_slope_open_enclosure": [
+      "1.1832946619",
+      "1.1832946620"
+    ]
+  },
+  "literal_words": {
+    "counts": {
+      "factor_nine_negatives": 96,
+      "five_free_sum_passes": 34,
+      "full_witnesses": 0,
+      "seven_positive": 2625,
+      "sum_passes": 98,
+      "sum_passes_three_divides_S": 78,
+      "three_divides_S": 5084,
+      "words": 15500
+    },
+    "examples": {
+      "depth_positive": {
+        "L": 9,
+        "S": 59,
+        "i": 3,
+        "t": 2
+      },
+      "factor_nine_negative": {
+        "L": 97,
+        "S": 675,
+        "i": 4,
+        "t": 0
+      },
+      "sum_pass": {
+        "L": 13,
+        "S": 87,
+        "i": 12,
+        "t": 0
+      },
+      "sum_pass_three": {
+        "L": 13,
+        "S": 87,
+        "i": 12,
+        "t": 0
+      }
+    },
+    "odd_lengths_inclusive": [
+      5,
+      251
+    ],
+    "positions": "every 3 <= i < L",
+    "scope": "identity and predicate controls; no new consecutive endpoint credit",
+    "stream_sha256": "00db07746a2cad31dd8f116d9d7c85fb3cf68338f51581ef4053b0df6dbfe7b4"
+  },
+  "status": "PASS"
+}
