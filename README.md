@@ -1,6 +1,13 @@
 # Mathematics
 Repository for mathematical conjectures. Solutions are verified in Lean.
 
+The [decimal-height investigation](research/a398769/five-seven/decimal-height/README.md)
+audits `10^v7(F)<=10^12*F/(225S)`, proves its exact cutoff and effective
+position subdomains, and checks sparse decimal arithmetic and actual
+sum-compatible positions. The global inequality and both conjecture
+statuses remain open; the precise unresolved lift assertion is recorded.
+These are ordinary proofs and exact computations, with no new Lean theorem.
+
 The [prime digit-sum audit](research/a398769/five-seven/prime-sum/README.md)
 proves exact half and two-thirds prime-sum exclusion densities, independently
 certifies the recovered trillion-length archive, and derives an explicit

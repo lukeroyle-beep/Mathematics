@@ -1,0 +1,17 @@
+{
+  "BL_coefficient_less_than": 63,
+  "digit_control_lengths_inclusive": [
+    5,
+    301
+  ],
+  "digit_control_parity": "both",
+  "global_inequality": "UNRESOLVED",
+  "log_method": "80-term positive rational series with geometric tail and powers-of-two reduction",
+  "midpoint_maximum_less_than": "53/5",
+  "source_sha256": "31f611bb8d41c17a4f0af8de5adf8891a3ce09b8f7701905284c56235c6aba8d",
+  "status": "PASS: finite exact proof controls",
+  "strip_constant": "2831472/25",
+  "strip_margin_at_10000000": "8712828/25",
+  "strip_slope": "58989/62500",
+  "two_digit_candidate_controls": 44550
+}

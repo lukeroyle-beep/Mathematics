@@ -1,0 +1,82 @@
+{
+  "PR21_arithmetic_rerun": false,
+  "PR21_artifact_bindings_checked": 35,
+  "PR22_ancestor": true,
+  "PR22_live_github_merged": true,
+  "PR22_merge": "aab83fc4ed706cd4aca4d51dc6e533d60cb87477",
+  "date": "2026-11-26",
+  "density_audit_performed": false,
+  "fresh_archive_check": {
+    "archive_bytes": 920596,
+    "archive_members": 28,
+    "archive_sha256": "b657f158d6362c77c570b87c3c193fe54c6f3c385889379edf5bf79b71f05c0a",
+    "candidate_sha256": "919c091c978ee1e6011f9239fadbba675985714f286d8dcffa1a29ed043cf8e4",
+    "checker_sha256": "2336ae96af0b7005932ef4c020edfbcf531ccd8d1bdad4e91c9920e83a071f3e",
+    "decimal_verification": {
+      "candidate_count": 74601,
+      "exact_valuation_histogram": {
+        "22": 63974,
+        "23": 9161,
+        "24": 1272,
+        "25": 162,
+        "26": 29,
+        "27": 3
+      },
+      "full_witnesses": 0,
+      "literal_small_words": 182,
+      "maximum_pairs": [
+        {
+          "F_mod_9S": 3856899186774,
+          "F_over_7_27_mod_7": 5,
+          "L": 206013221471,
+          "i": 70699701213
+        },
+        {
+          "F_mod_9S": 26953514010765,
+          "F_over_7_27_mod_7": 4,
+          "L": 636442113223,
+          "i": 552133548915
+        },
+        {
+          "F_mod_9S": 41862190888350,
+          "F_over_7_27_mod_7": 1,
+          "L": 778826473305,
+          "i": 776307582249
+        }
+      ],
+      "positive_sum_only_control": [
+        61,
+        57
+      ]
+    },
+    "enumeration_source_sha256": {
+      "valuation/floor-sum/scan.cpp": "7bea2299a8bd9d1051fca2ee4e0e8c9272336f3c07eef1b9c6999a5d52bf8a49",
+      "valuation/lattice/lattice.cpp": "17dcaa3f0235279daea46b44a13be56272850c1ed20c81315959b543913fb6da"
+    },
+    "enumerations": {
+      "mode": "not_rerun",
+      "outputs": {}
+    },
+    "verified_member_hashes": 27
+  },
+  "inherited_consecutive_exclusion_inclusive": [
+    1,
+    1000002000000
+  ],
+  "large_enumerations_rerun": false,
+  "reference_sha256": {
+    "prime-sum/ARCHIVE_AUDIT.md": "1aab0b629025eeb1872529d4e7726ec968302c429256ca41033442393bafad3f",
+    "prime-sum/GLOBAL.md": "8b86bf744b96d26c89b79c99933b5b1ea087dc4ac0558b21100cb62d76e557c2",
+    "prime-sum/evidence/enumeration-runs.json": "4ee1eb07ccdb9917e439c8964be97e058e0f9718c4a4bc21e868382b978f56ed",
+    "prime-sum/evidence/trillion-evidence.zip": "b657f158d6362c77c570b87c3c193fe54c6f3c385889379edf5bf79b71f05c0a",
+    "trillion-witness/evidence/contiguous.json": "a9254f1f7ed7899f52b4547a590bdb517be657037aa4af6f4681bec54ae6984a",
+    "trillion-witness/verification.json": "fad5fe4fb49b7a707b1b50058bb2cb9bf173d9433ba6f703bda08b32ea19a38c",
+    "uniform-bound/LIFTS.md": "098e4b83080ee0d9813d157117d5d2f3734cf48076ce6f90b1b6b18fe841f32c"
+  },
+  "starting_commit_parents": [
+    "b991c97a3d3e91b8339e25c8932ae8072f8c4a09",
+    "8094e2cd1dd625f2998b3681e12cc81d0e844fde"
+  ],
+  "starting_commit_subject": "Merge pull request #22 from lukeroyle-beep/research/a398769-prime-sum-audit",
+  "starting_main": "aab83fc4ed706cd4aca4d51dc6e533d60cb87477"
+}
