@@ -1,0 +1,51 @@
+{
+  "K_values": [
+    15
+  ],
+  "all_greatest_depth_pairs": [
+    {
+      "F_mod_7_next": 1117091728166568014,
+      "F_mod_9S": 17261071696710,
+      "K": 15,
+      "L": 1000001665855,
+      "category": "sum_fail",
+      "depth": 21,
+      "next_lift": 3,
+      "r": 567539735319
+    }
+  ],
+  "categories": {
+    "five": 48801,
+    "joint": 0,
+    "outside": 753853,
+    "sum_fail": 197346
+  },
+  "compressed_bytes": 12978862,
+  "exact_depth_histogram_all_actual": {
+    "15": 210817,
+    "16": 30155,
+    "17": 4404,
+    "18": 660,
+    "19": 96,
+    "20": 14,
+    "21": 1
+  },
+  "first_odd": 1000000000001,
+  "greatest_exact_depth": 21,
+  "gzip_sha256": "c3a6fdf300f1c549c3ac2d7f0fe37c5d796f5ab0d584be8959c01580155554ff",
+  "last_odd": 1000001999999,
+  "odd_lengths": 1000000,
+  "source_sha256": "80cb80f3d4af1018cc4ee651934c4dcc5ec3cd766bc3b7cb600e64df85e8616b",
+  "status": "NO WITNESS IN THE STATED SEARCH",
+  "stream_sha256": "7cbc3e734b1123ad3cdfdeb28a40e1af2e86e0b370c9b0b94d0083858428652a",
+  "uncompressed_bytes": 53331890,
+  "zero_lift_histogram_all_actual": {
+    "0": 210817,
+    "1": 30155,
+    "2": 4404,
+    "3": 660,
+    "4": 96,
+    "5": 14,
+    "6": 1
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "binding_refresh": {
+    "changed_claim_sources_reviewed": [
+      "STRUCTURE.md"
+    ],
+    "large_computations_rerun": false,
+    "nested_three_adic_classes_freshly_compared": 31,
+    "new_material_verdict": "PASS",
+    "reasoning": [
+      "For a1<=a2, integral lengths of the specified form differ by a multiple of 3^a1. LTE gives equal ten powers modulo 3^(a1+2); integer division by nine preserves equality modulo 3^a1.",
+      "Inverting two gives the same target modulo 3^a1, and the exact order 3^(a1-2) makes exponent classes nested. This proves compatibility nesting only, not eventual lift failure.",
+      "The added independent family audit section agrees with review-family.json: 32 complete selected lengths, 479894 positions, exact depth histogram, K116..3791, and 31 adjacent nesting checks."
+    ]
+  },
+  "checked_claims": [
+    "gap-free one-million odd lengths and parity extension through 1000002000000",
+    "million-row category and exact-depth count tables",
+    "all displayed strongest-pair residues, digit sum, exact valuation and zero-lift indexing",
+    "1808 sampled bands, 1026 actual positions, greatest exact depth128 and explicit intervening gaps",
+    "32 selected family lengths, 479894 complete sum-compatible positions, histogram, K range, depth-eight parameter values",
+    "inherited versus fresh coverage; unavailable named archives are not certified or silently combined",
+    "exact full divisor retains factor nine; no global proof, witness or (E) refutation claimed",
+    "all remaining zero lifts K through L-3 inclusive are explicitly unproved"
+  ],
+  "clarifications_reviewed": [
+    "Inherited all-parameter count explicitly scoped to a=193+1470t.",
+    "Completed independent family proof checker and receipt linked.",
+    "Repository root navigation accurately distinguishes independent interval, sampled lengths, and unavailable prior archive.",
+    "Reproduction includes retained small stream with exact odd endpoints and the independent full-family checker plus receipt comparison."
+  ],
+  "fresh_pair_only_family_controls": {
+    "K_values": [
+      1657,
+      2961,
+      3198
+    ],
+    "exact_depths": [
+      8,
+      8,
+      8
+    ],
+    "full_digit_sum_pass": true,
+    "n_mod_7_to_9": [
+      5764801,
+      11529602,
+      23059204
+    ],
+    "pair_only_input_sha256": "56ccab71501b4961e10a7868597d6b3b5ad0be19a22e54c79533cb512a25cfb9",
+    "pairs": 3,
+    "parameters_t": [
+      13,
+      24,
+      26
+    ],
+    "receipt_sha256": "aef768302c26ec65d81d80ad1c35b061ffae0d787e0285b36dcf435fc805e2b4"
+  },
+  "large_computations_rerun_for_claim_review": false,
+  "must_fix_findings": [],
+  "repository_navigation_readme_sha256": "4f61d2377d29a052b49abedc0f41039ccf35ccc853a218a9f6ebcee18603f2c8",
+  "review_kind": "independent final claim review",
+  "reviewed_commit_before_metadata_update": "d1859f002e44d5a2043a2b4e99a7e135dda82b8e",
+  "reviewed_readme_sha256": "6862864f1394c4173e02798e338d1aa924d408a87a35d09a0451cfc84fc7242f",
+  "reviewer": "/root/independent",
+  "source_bytes": {
+    "README.md": "6862864f1394c4173e02798e338d1aa924d408a87a35d09a0451cfc84fc7242f",
+    "STRUCTURE.md": "d0dd22d120058452613ca90724764cdad871e6a5894f4bb489b9e40fbd35d181",
+    "archive-audit.json": "68ec061e94341c1803f128c51c7080d51b179ab5f607bc13864d8a17244075d7",
+    "evidence/bands.json": "458ab966d171dd231daf72e7461f1e521036a785a544fa4e3cbcdb2760c963a3",
+    "evidence/contiguous.json": "a9254f1f7ed7899f52b4547a590bdb517be657037aa4af6f4681bec54ae6984a",
+    "families/README.md": "79c28fd393558c22b2434d2d454b2ee41e420583cbcf4a71de2d929f854db277",
+    "families/results.json": "340cde06ae60df632af49536d263344924025894d2d5b7430b6790a134492721",
+    "families/validation.json": "6c6f0b48840545838642b6341900684644ba09ea359ea726ca2a8a4df9cfeae4",
+    "independent/bands_check.json": "88c1e650c2e774595326c7359977585796167ea2478c33ab435b7b32c48c555d",
+    "independent/contiguous_stream.json": "c0772e804362318770eb84a3db25621831c4fbf61790893307fcac96688dd85b",
+    "independent/strongest_contiguous.json": "486ea7df5210ff3b07001e153600545d008a4978173f12ca47cf6953aeb812c1",
+    "review-family.json": "ff761650eb1338583b6112eb931eee6e7ad29534331b5f2607cfac4ec64c17e5",
+    "scope.json": "489d0149b6e0e8d3c42ce34dc72cf098c48585f7fd7176a2e5c811c0afab95c8"
+  },
+  "status": "PASS"
+}

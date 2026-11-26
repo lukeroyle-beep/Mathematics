@@ -1,0 +1,58 @@
+{
+  "all_representative_congruences_independently_checked": 1000000,
+  "all_seven_lifts_checked_per_actual_pair": true,
+  "categories": {
+    "five": 48801,
+    "outside": 753853,
+    "sum_fail": 197346
+  },
+  "digit_sum_pass_including_five_rejections": 0,
+  "discovery_module_imported": false,
+  "exact_depth_histogram": {
+    "15": 210817,
+    "16": 30155,
+    "17": 4404,
+    "18": 660,
+    "19": 96,
+    "20": 14,
+    "21": 1
+  },
+  "exact_order_depths_checked": [
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+  ],
+  "first_nonzero_lift_histogram": {
+    "1": 41034,
+    "2": 40837,
+    "3": 41298,
+    "4": 40833,
+    "5": 41073,
+    "6": 41072
+  },
+  "length_step": 2,
+  "maximum_exact_depth_example": {
+    "L": 1000001665855,
+    "depth": 21,
+    "i": 567539735319,
+    "n_mod_7_next": 558545864083284007,
+    "n_mod_S": 1917896855190,
+    "next_lift": 3,
+    "nine_n_mod_7_next": 1117091728166568014
+  },
+  "original_digit_pairs_checked": 246147,
+  "original_digit_verifier_sha256": "6269dcd65a451de1a7ce39fe32e67375fc37ecd72681cbc1378a7309d5a91894",
+  "outside_representatives": 753853,
+  "rows_checked": 1000000,
+  "scope": "all odd lengths in the stated interval; even lengths excluded by parity",
+  "start_odd_inclusive": 1000000000001,
+  "status": "PASS",
+  "stop_odd_inclusive": 1000001999999,
+  "stream_verifier_sha256": "d581243551bbf20a40b6c24993b4d7abc738576350daf32a25e873bf419c5413",
+  "uncompressed_tsv_sha256": "7cbc3e734b1123ad3cdfdeb28a40e1af2e86e0b370c9b0b94d0083858428652a"
+}
