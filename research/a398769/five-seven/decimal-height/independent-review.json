@@ -1,0 +1,51 @@
+{
+  "audited_implementation_commit": "574cd7a28357e7d4e94f1f47aae749732eb51078",
+  "endpoints": {
+    "coincident_band_end": 3301587301587,
+    "full_witness_cutoff": 444444444445,
+    "midpoint_margin_at_10000000": "8712828/25"
+  },
+  "giant_positive_controls": {
+    "coverage": "individual positions only; all low-depth",
+    "distinct_lengths": 3,
+    "exact_depths": [
+      4,
+      7,
+      0,
+      6,
+      6,
+      6
+    ],
+    "positions": 6
+  },
+  "input_sha256": {
+    "README.md": "ffcd168a247d4882dd6c37f732d40434afd364f92d081909e0111a4467ebab80",
+    "research/a398769/five-seven/decimal-height/PROOF.md": "bc2756f76b90acf461aa952ad3bf7d7b5be4c11f5852ca0f6204e086dede62a7",
+    "research/a398769/five-seven/decimal-height/README.md": "fd20e5ede46eb639283f963ded92beeae48338aef3dfe4b87fad3f7b78e0d0d3",
+    "research/a398769/five-seven/decimal-height/checks.py": "269d499efcf1ab3a291291e62437a88b75a566cdea3d4d4ea0d1d6b7bdd62d77",
+    "research/a398769/five-seven/decimal-height/proof-checks.json": "b7edbfd5db974b4768e0e6f1b38d148d164f1b9d5dbef5f232f0804e2e7638ec",
+    "research/a398769/five-seven/decimal-height/proof_checks.py": "aa80d6572549ede5cdc50ffb0006c49801175e2491519dd4207ff9b15f783214",
+    "research/a398769/five-seven/decimal-height/verification.json": "8b40353099600302c7763f841cc456e5688c476bba91cabaa046c02aac5f113a"
+  },
+  "literal_words": {
+    "depth_histogram": {
+      "0": 35,
+      "1": 9,
+      "2": 2
+    },
+    "divisible_by_three": 34,
+    "pairs": 22350,
+    "sum_compatible": 46
+  },
+  "scattered_samples": {
+    "actual": 74,
+    "coverage": "all positions at the listed lengths using the proved low-depth bound",
+    "high_depth_sum_positive": 0,
+    "lengths": 201,
+    "maximum_depth": 64
+  },
+  "scope": "Finite review; no global inequality proof or refutation, large enumeration, density investigation, or Lean build.",
+  "signed_carry_controls": 5012,
+  "source_sha256": "fe5bfcfc007995fd5cda7dc568e5a30aa27899438d88d1b85ea47ac1cba8e4cc",
+  "status": "PASS: independent finite review controls"
+}

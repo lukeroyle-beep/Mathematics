@@ -9,6 +9,14 @@ confirms zero digit-sum passes among all 74,601 retained high-valuation
 archive pairs. The complete `{5,7}` subclass and wider conjecture remain open;
 these are ordinary proofs and exact computations, not new Lean theorems.
 
+The [decimal-height investigation](research/a398769/five-seven/decimal-height/README.md)
+audits `10^v7(F)<=10^12*F/(225S)`, derives the cutoff `L<=444,444,444,445`
+conditional on that open inequality, proves effective position subdomains,
+and checks sparse decimal arithmetic and actual
+sum-compatible positions. The global inequality and both conjecture
+statuses remain open; the precise unresolved lift assertion is recorded.
+These are ordinary proofs and exact computations, with no new Lean theorem.
+
 The [prime digit-sum audit](research/a398769/five-seven/prime-sum/README.md)
 proves exact half and two-thirds prime-sum exclusion densities, independently
 certifies the recovered trillion-length archive, and derives an explicit
