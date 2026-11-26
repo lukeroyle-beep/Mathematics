@@ -1,5 +1,9 @@
 {
   "BL_coefficient_less_than": 63,
+  "coincident_deadline_band_inclusive": [
+    1000002000001,
+    3301587301587
+  ],
   "digit_control_lengths_inclusive": [
     5,
     301
@@ -8,7 +12,7 @@
   "global_inequality": "UNRESOLVED",
   "log_method": "80-term positive rational series with geometric tail and powers-of-two reduction",
   "midpoint_maximum_less_than": "53/5",
-  "source_sha256": "31f611bb8d41c17a4f0af8de5adf8891a3ce09b8f7701905284c56235c6aba8d",
+  "source_sha256": "aa80d6572549ede5cdc50ffb0006c49801175e2491519dd4207ff9b15f783214",
   "status": "PASS: finite exact proof controls",
   "strip_constant": "2831472/25",
   "strip_margin_at_10000000": "8712828/25",

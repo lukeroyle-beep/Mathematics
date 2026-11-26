@@ -21,6 +21,9 @@ Proved results include:
 - `t<K` implies the stronger `10^t<H`; when `t>=K`, the actual position
   is `r_K`. The missing nonzero lift must occur in `[K,d+11]`, whose
   upper endpoint is at most `L-3` above B.
+- On `B<L<=3301587301587`, exactly `d=L-14`; inequality failure on
+  the sum-compatible domain is equivalent to a full witness. This does
+  not prove absence on that band.
 - The target holds in the closed strip `|L-2i|<=L/60000` for
   sum-compatible odd `L>=10000000`, with explicit constants and no gap.
   A separate exact integer criterion covers additional positions.

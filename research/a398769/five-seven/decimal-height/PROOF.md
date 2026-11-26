@@ -108,7 +108,22 @@ d<=L-14, hence d+11<=L-3.                              (5)
 
 The strict upper decimal bound is essential: it gives at most `L-14`
 digits, not `L-13`. At larger lengths the proposed deadline can be
-earlier still. The target is stronger than merely rejecting full witnesses.
+earlier still. The target can be stronger than merely rejecting full witnesses.
+
+There is an exact initial remaining band where the deadlines coincide.
+Set `M=3301587301587`, the largest integer with `1575M-900<52*10^14`.
+At M the difference `52*10^14-D` is 1375; at M+1 it is -200.
+For every `B<L<=M`, the lower bound in (1) gives
+
+```
+F-D*10^(L-15) >= (52*10^14-D)*10^(L-15)-25 > 0.
+```
+
+Together with (5), this proves `d=L-14` at every actual position in
+this band. Under the sum hypotheses, inequality failure is therefore
+exactly `t>=L-2`, the full-witness condition. This is an equivalence,
+not an exclusion of the band. At larger lengths failure need not reach
+the full-witness threshold, which must still be checked separately.
 
 ## Low valuation and the actual representative
 

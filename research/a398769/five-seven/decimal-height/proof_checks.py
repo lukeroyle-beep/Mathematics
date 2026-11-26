@@ -71,6 +71,12 @@ def main():
     alpha = 1-Q(1, 3*10**16)
     require(alpha > Q(9, 10) and 7**10 < 10**9,
             "PR22 effective exponent insufficient")
+    band_end = (52*10**14+899)//1575
+    require(band_end == 3301587301587 and band_end % 2 == 1,
+            "coincident-deadline band endpoint")
+    require(52*10**14-(1575*band_end-900) == 1375
+            and (1575*(band_end+1)-900)-52*10**14 == 200,
+            "coincident-deadline strict endpoint neighbors")
     print(json.dumps({
         "status": "PASS: finite exact proof controls",
         "source_sha256": sha256(Path(__file__).read_bytes()).hexdigest(),
@@ -83,6 +89,7 @@ def main():
         "two_digit_candidate_controls": digit_checks,
         "digit_control_lengths_inclusive": [5, 301],
         "digit_control_parity": "both",
+        "coincident_deadline_band_inclusive": [1000002000001, band_end],
         "global_inequality": "UNRESOLVED"
     }, indent=2, sort_keys=True))
 
