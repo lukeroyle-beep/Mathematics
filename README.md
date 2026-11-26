@@ -1,9 +1,18 @@
 # Mathematics
 Repository for mathematical conjectures. Solutions are verified in Lean.
 
+The [explicit length-bound investigation](research/a398769/five-seven/explicit-length/README.md)
+finds no global cutoff, but proves explicit bounds for moving rational-centre
+and seven-free-quotient subfamilies. One subfamily bound lies below the
+certified endpoint and closes that subfamily. Independent decimal arithmetic
+confirms zero digit-sum passes among all 74,601 retained high-valuation
+archive pairs. The complete `{5,7}` subclass and wider conjecture remain open;
+these are ordinary proofs and exact computations, not new Lean theorems.
+
 The [decimal-height investigation](research/a398769/five-seven/decimal-height/README.md)
-audits `10^v7(F)<=10^12*F/(225S)`, proves its exact cutoff and effective
-position subdomains, and checks sparse decimal arithmetic and actual
+audits `10^v7(F)<=10^12*F/(225S)`, derives the cutoff `L<=444,444,444,445`
+conditional on that open inequality, proves effective position subdomains,
+and checks sparse decimal arithmetic and actual
 sum-compatible positions. The global inequality and both conjecture
 statuses remain open; the precise unresolved lift assertion is recorded.
 These are ordinary proofs and exact computations, with no new Lean theorem.

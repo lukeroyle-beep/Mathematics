@@ -1,0 +1,98 @@
+{
+  "archive_bytes": 920596,
+  "archive_sha256": "b657f158d6362c77c570b87c3c193fe54c6f3c385889379edf5bf79b71f05c0a",
+  "arithmetic_rows_sha256": "51fcd6c2c3c4af80ab68c031b84d6c40654e90cc1584eda6a617325beed73625",
+  "candidate_csv_sha256": "919c091c978ee1e6011f9239fadbba675985714f286d8dcffa1a29ed043cf8e4",
+  "complete_enumerations_rerun": false,
+  "controls": {
+    "factor_nine_negative": {
+      "F_mod_9S": 17496,
+      "F_mod_S": 0,
+      "L": 313,
+      "S": 2187,
+      "i": 51,
+      "n_mod_S": 1944
+    },
+    "full_digit_sum_positives": [
+      {
+        "F_mod_9S": 0,
+        "L": 61,
+        "S": 423,
+        "i": 57,
+        "n_mod_S": 0
+      },
+      {
+        "F_mod_9S": 0,
+        "L": 165,
+        "S": 1151,
+        "i": 33,
+        "n_mod_S": 0
+      }
+    ],
+    "literal_modular_comparisons": 19600,
+    "original_PS_negative": 137,
+    "original_PS_positive": 135
+  },
+  "counts": {
+    "S_divisible_by_3": 24873,
+    "S_divisible_by_5": 14919,
+    "eligible_5_not_dividing_S": 59682,
+    "weaker_F_mod_S_zero": 0
+  },
+  "coverage_through_1000002000000": "INHERITED_PR22_PLUS_PR21",
+  "domain_max_L_inclusive": 1000000000000,
+  "exact_valuation_histogram": {
+    "22": 63974,
+    "23": 9161,
+    "24": 1272,
+    "25": 162,
+    "26": 29,
+    "27": 3
+  },
+  "full_digit_sum_pass_count": 0,
+  "full_digit_sum_passes": [],
+  "inherited_bindings": {
+    "prime-sum": {
+      "artifact_bindings_verified": 19,
+      "manifest_sha256": "a4bab1ad0a47b709d0fb7338c0ce35b3b8c6052e8e5f0e5ef98447de023596b2",
+      "underlying_search_rerun": false
+    },
+    "trillion-witness": {
+      "artifact_bindings_verified": 35,
+      "manifest_sha256": "fad5fe4fb49b7a707b1b50058bb2cb9bf173d9433ba6f703bda08b32ea19a38c",
+      "underlying_search_rerun": false
+    }
+  },
+  "manifest_members_verified": 27,
+  "new_global_bound": null,
+  "new_lengths_excluded": 0,
+  "omitted_pair_depth_below_22": "INHERITED_PR22",
+  "retained_pairs": 74601,
+  "status": "PASS",
+  "valuation_27_pairs": [
+    {
+      "F_div_7t_mod7": 5,
+      "F_mod_9S": 3856899186774,
+      "L": 206013221471,
+      "i": 70699701213,
+      "n_div_7t_mod7": 6,
+      "n_mod_S": 428544354086
+    },
+    {
+      "F_div_7t_mod7": 4,
+      "F_mod_9S": 26953514010765,
+      "L": 636442113223,
+      "i": 552133548915,
+      "n_div_7t_mod7": 2,
+      "n_mod_S": 2994834890085
+    },
+    {
+      "F_div_7t_mod7": 1,
+      "F_mod_9S": 41862190888350,
+      "L": 778826473305,
+      "i": 776307582249,
+      "n_div_7t_mod7": 4,
+      "n_mod_S": 4651354543150
+    }
+  ]
+}

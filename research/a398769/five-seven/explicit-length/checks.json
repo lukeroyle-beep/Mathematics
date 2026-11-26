@@ -1,0 +1,38 @@
+{
+  "B": 1000002000000,
+  "C0_less_than_63": true,
+  "actual_high_depth_positions": 45,
+  "calibration_controls": 1728,
+  "coefficient_controls": 338054,
+  "decimal_height": {
+    "conditional_U": 444444444445,
+    "equivalent_band_end": 3301587301587,
+    "proved_global": false
+  },
+  "global_U": null,
+  "literal_pairs": 9900,
+  "moving_centre": {
+    "R15": 902265864193,
+    "R16": 1317309441085,
+    "T15": 4069338437094,
+    "U": 902265864195,
+    "closed_by_inherited_B": true
+  },
+  "new_whole_lengths": 0,
+  "seven_free_quotient": {
+    "U0": 999999999999999999,
+    "U100": 10200999999999999999999
+  },
+  "square_centre": {
+    "R19": 1721427606158401,
+    "R20": 2859204098333773,
+    "T19": 9770481587462694,
+    "U": 1721427606158403,
+    "remaining_odd_L": [
+      1000002000001,
+      1721427606158403
+    ]
+  },
+  "status": "PASS",
+  "sum_positive_pairs": 27
+}

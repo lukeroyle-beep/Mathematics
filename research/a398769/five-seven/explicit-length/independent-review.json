@@ -1,0 +1,57 @@
+{
+  "archive": {
+    "arithmetic_rows_sha256": "51fcd6c2c3c4af80ab68c031b84d6c40654e90cc1584eda6a617325beed73625",
+    "complete_enumerations_rerun": false,
+    "exact_valuation_histogram": {
+      "22": 63974,
+      "23": 9161,
+      "24": 1272,
+      "25": 162,
+      "26": 29,
+      "27": 3
+    },
+    "pairs": 74601,
+    "sum_passes": 0,
+    "with_3_dividing_S": 24873,
+    "with_5_dividing_S": 14919
+  },
+  "arithmetic": {
+    "decimal_conditional_cutoff": 444444444445,
+    "decimal_equivalence_band_end": 3301587301587,
+    "moving_R15": 902265864193,
+    "moving_R16": 1317309441085,
+    "moving_U": 902265864195,
+    "q0_U0": 999999999999999999,
+    "q0_U100": 10200999999999999999999,
+    "rational_log_checks": "PASS",
+    "square_R19": 1721427606158401,
+    "square_R20": 2859204098333773,
+    "square_U": 1721427606158403
+  },
+  "artifact_sha256": {
+    "README.md": "209afb35573861b117b79b10f0e2b40597314bf13f7fac3acadb4d290241b769",
+    "research/a398769/five-seven/explicit-length/ARCHIVE.md": "81f8f027e9ed16d9eac73a0553b40cd2b872dba35d255a6ff3a776c6066dbaf5",
+    "research/a398769/five-seven/explicit-length/MOVING_CENTRES.md": "59fc20a37e2c38ea8d27640541c0328e06e84d54604c4084ab9cc6692c4bddf5",
+    "research/a398769/five-seven/explicit-length/README.md": "42a71ee3fe048ed75daceb7d37086d0a17424bbbb3caab9c4af5ba445c4796f6",
+    "research/a398769/five-seven/explicit-length/ROUTE1.md": "a175e80a3db6da1959d4337a468da08e38e1305e090bdc7747055dd8df8aae87",
+    "research/a398769/five-seven/explicit-length/ROUTE2.md": "1cbf089a4a5755f72345edc5ab6a212f9cb1aa47af841d49c4b537a1755b6347",
+    "research/a398769/five-seven/explicit-length/archive-control.json": "f81dc9db50ffcb892e5d8f5c1280df24b850605947cb19710cdbea96efaf329f",
+    "research/a398769/five-seven/explicit-length/archive_control.py": "379af8421783932b13498eff0f6153bf2951a2852fb7aaae9221ba061388c7ea",
+    "research/a398769/five-seven/explicit-length/baseline.json": "656cea8efb276abdd7b5acfb81203a0be49ac842a213bf62b419553b37594050",
+    "research/a398769/five-seven/explicit-length/checks.json": "dd518e1f617a2f25a7994b31fbc5d816b7f20cda1827c1beb227c623a74a9785",
+    "research/a398769/five-seven/explicit-length/checks.py": "04cec8103e104043df0b6ac455cdd9c88c590e33eced80c970e5559c68fd8bdd",
+    "research/a398769/five-seven/explicit-length/verify.py": "3cfdff73c5abe03e34121f3597129f41610d5eb06afb93927c168496897134ef"
+  },
+  "global_U": null,
+  "global_target": "UNRESOLVED",
+  "implementation_commit": "1c929356a00862a3ad8b6126b8279ad1428a95cf",
+  "literal_controls": {
+    "eligible_sum_passes": 27,
+    "eligible_sum_passes_with_3_dividing_S": 17,
+    "factor_nine_negative_n_mod_S": 1944,
+    "literal_pairs": 9900,
+    "original_PS_positive": 135
+  },
+  "new_whole_length_coverage": null,
+  "status": "PASS"
+}

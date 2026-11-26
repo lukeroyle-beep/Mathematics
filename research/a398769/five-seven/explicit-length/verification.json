@@ -1,0 +1,15 @@
+{
+  "adjacent_interval_rerun": false,
+  "archive_pairs_independently_checked": 74601,
+  "checker_runs": 6,
+  "complete_enumerations_rerun": false,
+  "full_sum_passes": 0,
+  "global_U": null,
+  "global_target": "UNRESOLVED",
+  "input_bindings": 5,
+  "new_whole_lengths": 0,
+  "reviewed_artifacts": 12,
+  "reviewed_implementation": "1c929356a00862a3ad8b6126b8279ad1428a95cf",
+  "starting_main": "aab83fc4ed706cd4aca4d51dc6e533d60cb87477",
+  "status": "PASS"
+}
