@@ -1,0 +1,87 @@
+{
+  "bounded_depth_control": {
+    "first_failed_exponent": null,
+    "greatest_certified_depth": 1,
+    "kind": "lower_bound",
+    "stages": [
+      {
+        "exponent": 1,
+        "n_residue": 0
+      }
+    ]
+  },
+  "factor_nine_negative_controls": [
+    {
+      "L": 313,
+      "S": 2187,
+      "i": 51,
+      "n_mod_S": 1944,
+      "nine_n_mod_S": 0,
+      "nine_n_mod_nine_S": 17496
+    }
+  ],
+  "invalid_inputs_rejected": 4,
+  "largest_literal_valuation": {
+    "L": 17,
+    "depth": 3,
+    "i": 15
+  },
+  "literal_length_step": 2,
+  "literal_lengths_inclusive": [
+    5,
+    65
+  ],
+  "literal_modulus_comparisons": 11904,
+  "positive_digit_sum_controls": [
+    {
+      "L": 7,
+      "S": 45,
+      "S_divisible_by_3": true,
+      "i": 3,
+      "n": 7775775,
+      "v7": 1
+    },
+    {
+      "L": 7,
+      "S": 45,
+      "S_divisible_by_3": true,
+      "i": 4,
+      "n": 7757775,
+      "v7": 0
+    },
+    {
+      "L": 7,
+      "S": 45,
+      "S_divisible_by_3": true,
+      "i": 5,
+      "n": 7577775,
+      "v7": 0
+    },
+    {
+      "L": 7,
+      "S": 45,
+      "S_divisible_by_3": true,
+      "i": 6,
+      "n": 5777775,
+      "v7": 0
+    },
+    {
+      "L": 13,
+      "S": 87,
+      "S_divisible_by_3": true,
+      "i": 12,
+      "n": 5777777777775,
+      "v7": 0
+    },
+    {
+      "L": 61,
+      "S": 423,
+      "S_divisible_by_3": true,
+      "five_not_dividing_sum": true,
+      "i": 57,
+      "v7": 1
+    }
+  ],
+  "source_sha256": "6269dcd65a451de1a7ce39fe32e67375fc37ecd72681cbc1378a7309d5a91894",
+  "status": "PASS"
+}

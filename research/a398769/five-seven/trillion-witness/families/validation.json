@@ -1,0 +1,17 @@
+{
+  "deepest_pairs": 64,
+  "independent_verification": "recorded separately by an independent agent",
+  "normal_scope": [
+    0,
+    31
+  ],
+  "optimized_rows_match_normal": true,
+  "optimized_scope": [
+    0,
+    1
+  ],
+  "receipt_sha256": "340cde06ae60df632af49536d263344924025894d2d5b7430b6790a134492721",
+  "source_sha256": "7dd1ba37e6a6c1985b1d3ab8e491a2062bc027f00983ef4d8150dd4026aad7cc",
+  "status": "PASS",
+  "sum_class_positions": 479894
+}

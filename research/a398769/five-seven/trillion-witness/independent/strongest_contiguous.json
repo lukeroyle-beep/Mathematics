@@ -1,0 +1,90 @@
+{
+  "max_depth": 256,
+  "pairs": [
+    {
+      "K": 15,
+      "above_trillion": true,
+      "decimal_runs_most_significant_first": [
+        {
+          "count": 432461930535,
+          "digit": 7
+        },
+        {
+          "count": 1,
+          "digit": 5
+        },
+        {
+          "count": 567539735318,
+          "digit": 7
+        },
+        {
+          "count": 1,
+          "digit": 5
+        }
+      ],
+      "digit_counts": {
+        "5": 2,
+        "7": 1000001665853
+      },
+      "digit_product": {
+        "base": 7,
+        "coefficient": 25,
+        "exponent": 1000001665853
+      },
+      "digit_sum": 7000011660981,
+      "digit_sum_pass": false,
+      "exact_v5": 2,
+      "five_not_dividing_sum": true,
+      "five_positions_from_units": [
+        0,
+        567539735319
+      ],
+      "full_seven_condition_proved": false,
+      "input_pair": [
+        1000001665855,
+        567539735319
+      ],
+      "length": 1000001665855,
+      "n_mod_125": 25,
+      "n_mod_digit_sum": 1917896855190,
+      "nine_n_mod_nine_digit_sum": 17261071696710,
+      "outstanding_seven_exponents": [],
+      "required_seven_depth": 1000001665853,
+      "seven": {
+        "first_failed_exponent": 22,
+        "greatest_certified_depth": 21,
+        "kind": "exact_valuation",
+        "n_mod_first_failed_power": 558545864083284007,
+        "stages": [
+          {
+            "exponent": 1,
+            "n_residue": 0
+          },
+          {
+            "exponent": 2,
+            "n_residue": 0
+          },
+          {
+            "exponent": 4,
+            "n_residue": 0
+          },
+          {
+            "exponent": 8,
+            "n_residue": 0
+          },
+          {
+            "exponent": 16,
+            "n_residue": 0
+          },
+          {
+            "exponent": 32,
+            "n_residue": 43925663183240111334396258
+          }
+        ]
+      },
+      "verdict": "REJECTED"
+    }
+  ],
+  "source_sha256": "6269dcd65a451de1a7ce39fe32e67375fc37ecd72681cbc1378a7309d5a91894",
+  "verification_method": "original_decimal_block_concatenation"
+}

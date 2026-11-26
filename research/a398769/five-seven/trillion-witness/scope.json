@@ -1,0 +1,12 @@
+{
+  "starting_main": "0c8a8f2dd1c8340cc6fb7c2485ad206cba72bdd7",
+  "starting_main_is_merge_of_PR": 20,
+  "date_UTC": "2026-11-26",
+  "branch": "research/a398769-trillion-witness",
+  "contiguous": {"first_odd": 1000000000001, "last_odd": 1000001999999, "step": 2, "count": 1000000, "maximum_exact_depth_supported": 21, "guard_behavior": "fail without exclusion if not rejected at exponent 22"},
+  "bands": {"K_first": 16, "K_last": 128, "j_first": 0, "j_last": 15, "L": "6*7**(K-2)+1+2*floor(j*(6*7**(K-1)-6*7**(K-2)-2)/30)", "guard_behavior": "fail if no nonzero seven residue before K+129"},
+  "sum_families": {"L": "(898129*3**(193+210*t)+4)/7", "t_first": 0, "t_last": 31, "positions": "every 3<=i<L satisfying full 9*(7L-4)|F", "guard_behavior": "fail if a joint position remains at depth 99"},
+  "reported_prior_coverage_not_certified_here": {"full_subclass_inclusive": 1000000000000, "broad_E_odd_inclusive": 1694851493},
+  "named_attachments": {"A398769-Trillion-Length-Investigation.md": "not found in repository, workspace, Downloads", "A398769-Trillion-Length-Evidence.zip": "not found in repository, workspace, Downloads"},
+  "merge_authorized": false
+}

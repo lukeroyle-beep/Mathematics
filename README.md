@@ -1,6 +1,14 @@
 # Mathematics
 Repository for mathematical conjectures. Solutions are verified in Lean.
 
+The [trillion-length witness investigation](research/a398769/five-seven/trillion-witness/README.md)
+independently excludes the next million odd lengths above a trillion,
+checks 1,808 larger sampled lengths and all digit-sum-compatible positions
+at 32 selected giant lengths. No witness or all-length proof was found.
+The reported earlier trillion-length archive was unavailable; the new
+interval is certified separately. These are exact computations and ordinary
+proofs, with no new Lean formalization.
+
 The [uniform-bound investigation](research/a398769/five-seven/uniform-bound/README.md)
 proves the proposed quadratic valuation bound would close the `{5,7}`
 subclass, gives uniform derivative control and a general Hensel reduction,

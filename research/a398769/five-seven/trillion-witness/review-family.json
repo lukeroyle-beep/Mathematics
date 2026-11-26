@@ -1,0 +1,558 @@
+{
+  "class_verification": "enumerate extensions of previous joint class, no CRT solver or logarithm imported",
+  "contiguous_length_interval": false,
+  "discovery_source_sha256": "7dd1ba37e6a6c1985b1d3ab8e491a2062bc027f00983ef4d8150dd4026aad7cc",
+  "exact_depth_histogram": {
+    "0": 239950,
+    "1": 0,
+    "2": 205666,
+    "3": 29382,
+    "4": 4198,
+    "5": 597,
+    "6": 85,
+    "7": 13,
+    "8": 3
+  },
+  "family_receipt_sha256": "340cde06ae60df632af49536d263344924025894d2d5b7430b6790a134492721",
+  "full_sum_verification": "original decimal blocks modulo S for all 32 least sum representatives",
+  "imports_discovery_code": false,
+  "literal_modular_checks": 4350,
+  "nested_three_adic_class_checks": 31,
+  "rows": [
+    {
+      "K": 116,
+      "a": 193,
+      "maximum_exact_depth": 6,
+      "sum_compatible_positions": 14997,
+      "survivors_by_depth": [
+        7498,
+        7498,
+        1071,
+        153,
+        22,
+        3,
+        0
+      ],
+      "t": 0
+    },
+    {
+      "K": 234,
+      "a": 403,
+      "maximum_exact_depth": 6,
+      "sum_compatible_positions": 14996,
+      "survivors_by_depth": [
+        7498,
+        7498,
+        1071,
+        153,
+        21,
+        3,
+        0
+      ],
+      "t": 1
+    },
+    {
+      "K": 353,
+      "a": 613,
+      "maximum_exact_depth": 7,
+      "sum_compatible_positions": 14997,
+      "survivors_by_depth": [
+        7498,
+        7498,
+        1071,
+        153,
+        22,
+        3,
+        1,
+        0
+      ],
+      "t": 2
+    },
+    {
+      "K": 471,
+      "a": 823,
+      "maximum_exact_depth": 7,
+      "sum_compatible_positions": 14997,
+      "survivors_by_depth": [
+        7499,
+        7499,
+        1072,
+        153,
+        22,
+        3,
+        1,
+        0
+      ],
+      "t": 3
+    },
+    {
+      "K": 590,
+      "a": 1033,
+      "maximum_exact_depth": 7,
+      "sum_compatible_positions": 14997,
+      "survivors_by_depth": [
+        7499,
+        7499,
+        1071,
+        153,
+        22,
+        3,
+        1,
+        0
+      ],
+      "t": 4
+    },
+    {
+      "K": 708,
+      "a": 1243,
+      "maximum_exact_depth": 6,
+      "sum_compatible_positions": 14996,
+      "survivors_by_depth": [
+        7498,
+        7498,
+        1072,
+        153,
+        22,
+        3,
+        0
+      ],
+      "t": 5
+    },
+    {
+      "K": 827,
+      "a": 1453,
+      "maximum_exact_depth": 7,
+      "sum_compatible_positions": 14996,
+      "survivors_by_depth": [
+        7498,
+        7498,
+        1071,
+        153,
+        22,
+        4,
+        1,
+        0
+      ],
+      "t": 6
+    },
+    {
+      "K": 946,
+      "a": 1663,
+      "maximum_exact_depth": 6,
+      "sum_compatible_positions": 14997,
+      "survivors_by_depth": [
+        7498,
+        7498,
+        1071,
+        153,
+        22,
+        3,
+        0
+      ],
+      "t": 7
+    },
+    {
+      "K": 1064,
+      "a": 1873,
+      "maximum_exact_depth": 7,
+      "sum_compatible_positions": 14996,
+      "survivors_by_depth": [
+        7498,
+        7498,
+        1071,
+        153,
+        22,
+        3,
+        1,
+        0
+      ],
+      "t": 8
+    },
+    {
+      "K": 1183,
+      "a": 2083,
+      "maximum_exact_depth": 6,
+      "sum_compatible_positions": 14997,
+      "survivors_by_depth": [
+        7498,
+        7498,
+        1071,
+        153,
+        22,
+        3,
+        0
+      ],
+      "t": 9
+    },
+    {
+      "K": 1301,
+      "a": 2293,
+      "maximum_exact_depth": 7,
+      "sum_compatible_positions": 14996,
+      "survivors_by_depth": [
+        7498,
+        7498,
+        1071,
+        153,
+        22,
+        4,
+        1,
+        0
+      ],
+      "t": 10
+    },
+    {
+      "K": 1420,
+      "a": 2503,
+      "maximum_exact_depth": 6,
+      "sum_compatible_positions": 14997,
+      "survivors_by_depth": [
+        7499,
+        7499,
+        1071,
+        153,
+        22,
+        3,
+        0
+      ],
+      "t": 11
+    },
+    {
+      "K": 1538,
+      "a": 2713,
+      "maximum_exact_depth": 7,
+      "sum_compatible_positions": 14996,
+      "survivors_by_depth": [
+        7498,
+        7498,
+        1072,
+        153,
+        21,
+        3,
+        1,
+        0
+      ],
+      "t": 12
+    },
+    {
+      "K": 1657,
+      "a": 2923,
+      "maximum_exact_depth": 8,
+      "sum_compatible_positions": 14996,
+      "survivors_by_depth": [
+        7498,
+        7498,
+        1071,
+        153,
+        22,
+        3,
+        1,
+        1,
+        0
+      ],
+      "t": 13
+    },
+    {
+      "K": 1775,
+      "a": 3133,
+      "maximum_exact_depth": 6,
+      "sum_compatible_positions": 14997,
+      "survivors_by_depth": [
+        7498,
+        7498,
+        1071,
+        153,
+        22,
+        3,
+        0
+      ],
+      "t": 14
+    },
+    {
+      "K": 1894,
+      "a": 3343,
+      "maximum_exact_depth": 6,
+      "sum_compatible_positions": 14997,
+      "survivors_by_depth": [
+        7499,
+        7499,
+        1071,
+        153,
+        22,
+        3,
+        0
+      ],
+      "t": 15
+    },
+    {
+      "K": 2013,
+      "a": 3553,
+      "maximum_exact_depth": 7,
+      "sum_compatible_positions": 14997,
+      "survivors_by_depth": [
+        7498,
+        7498,
+        1071,
+        153,
+        22,
+        4,
+        1,
+        0
+      ],
+      "t": 16
+    },
+    {
+      "K": 2131,
+      "a": 3763,
+      "maximum_exact_depth": 6,
+      "sum_compatible_positions": 14996,
+      "survivors_by_depth": [
+        7498,
+        7498,
+        1071,
+        153,
+        22,
+        3,
+        0
+      ],
+      "t": 17
+    },
+    {
+      "K": 2250,
+      "a": 3973,
+      "maximum_exact_depth": 6,
+      "sum_compatible_positions": 14997,
+      "survivors_by_depth": [
+        7498,
+        7498,
+        1071,
+        153,
+        22,
+        3,
+        0
+      ],
+      "t": 18
+    },
+    {
+      "K": 2368,
+      "a": 4183,
+      "maximum_exact_depth": 7,
+      "sum_compatible_positions": 14997,
+      "survivors_by_depth": [
+        7498,
+        7498,
+        1071,
+        153,
+        21,
+        3,
+        1,
+        0
+      ],
+      "t": 19
+    },
+    {
+      "K": 2487,
+      "a": 4393,
+      "maximum_exact_depth": 6,
+      "sum_compatible_positions": 14997,
+      "survivors_by_depth": [
+        7498,
+        7498,
+        1071,
+        153,
+        22,
+        3,
+        0
+      ],
+      "t": 20
+    },
+    {
+      "K": 2605,
+      "a": 4603,
+      "maximum_exact_depth": 6,
+      "sum_compatible_positions": 14997,
+      "survivors_by_depth": [
+        7499,
+        7499,
+        1071,
+        153,
+        22,
+        3,
+        0
+      ],
+      "t": 21
+    },
+    {
+      "K": 2724,
+      "a": 4813,
+      "maximum_exact_depth": 7,
+      "sum_compatible_positions": 14997,
+      "survivors_by_depth": [
+        7498,
+        7498,
+        1071,
+        153,
+        22,
+        3,
+        1,
+        0
+      ],
+      "t": 22
+    },
+    {
+      "K": 2842,
+      "a": 5023,
+      "maximum_exact_depth": 6,
+      "sum_compatible_positions": 14997,
+      "survivors_by_depth": [
+        7499,
+        7499,
+        1071,
+        153,
+        22,
+        3,
+        0
+      ],
+      "t": 23
+    },
+    {
+      "K": 2961,
+      "a": 5233,
+      "maximum_exact_depth": 8,
+      "sum_compatible_positions": 14997,
+      "survivors_by_depth": [
+        7498,
+        7498,
+        1072,
+        153,
+        22,
+        3,
+        1,
+        1,
+        0
+      ],
+      "t": 24
+    },
+    {
+      "K": 3080,
+      "a": 5443,
+      "maximum_exact_depth": 7,
+      "sum_compatible_positions": 14997,
+      "survivors_by_depth": [
+        7498,
+        7498,
+        1071,
+        153,
+        22,
+        4,
+        1,
+        0
+      ],
+      "t": 25
+    },
+    {
+      "K": 3198,
+      "a": 5653,
+      "maximum_exact_depth": 8,
+      "sum_compatible_positions": 14997,
+      "survivors_by_depth": [
+        7498,
+        7498,
+        1071,
+        153,
+        21,
+        3,
+        1,
+        1,
+        0
+      ],
+      "t": 26
+    },
+    {
+      "K": 3317,
+      "a": 5863,
+      "maximum_exact_depth": 6,
+      "sum_compatible_positions": 14996,
+      "survivors_by_depth": [
+        7498,
+        7498,
+        1071,
+        153,
+        22,
+        3,
+        0
+      ],
+      "t": 27
+    },
+    {
+      "K": 3435,
+      "a": 6073,
+      "maximum_exact_depth": 7,
+      "sum_compatible_positions": 14997,
+      "survivors_by_depth": [
+        7498,
+        7498,
+        1071,
+        153,
+        22,
+        3,
+        1,
+        0
+      ],
+      "t": 28
+    },
+    {
+      "K": 3554,
+      "a": 6283,
+      "maximum_exact_depth": 7,
+      "sum_compatible_positions": 14997,
+      "survivors_by_depth": [
+        7499,
+        7499,
+        1072,
+        153,
+        22,
+        4,
+        1,
+        0
+      ],
+      "t": 29
+    },
+    {
+      "K": 3672,
+      "a": 6493,
+      "maximum_exact_depth": 6,
+      "sum_compatible_positions": 14997,
+      "survivors_by_depth": [
+        7499,
+        7499,
+        1071,
+        153,
+        21,
+        3,
+        0
+      ],
+      "t": 30
+    },
+    {
+      "K": 3791,
+      "a": 6703,
+      "maximum_exact_depth": 6,
+      "sum_compatible_positions": 14996,
+      "survivors_by_depth": [
+        7498,
+        7498,
+        1072,
+        153,
+        21,
+        3,
+        0
+      ],
+      "t": 31
+    }
+  ],
+  "source_sha256": "2d7a8956078cf116f6a849db757086d243262114838f60cfa6c096c3826696b1",
+  "status": "PASS",
+  "total_sum_compatible_positions": 479894,
+  "whole_lengths_independently_excluded": 32
+}

@@ -1,0 +1,54 @@
+{
+  "mutations_rejected": 9,
+  "outcomes": [
+    {
+      "mutation": "gap_or_duplicate_length",
+      "reason": "gap, duplicate or extra length",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_representative",
+      "reason": "representative does not solve original-digit congruence",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_K",
+      "reason": "wrong K",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_sum_residue",
+      "reason": "sum residue differs from original number",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_seven_residue",
+      "reason": "next-power residue differs",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_exact_depth",
+      "reason": "incorrect exact seven valuation",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_lift_digit",
+      "reason": "wrong or nonunique nonzero lift",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_category",
+      "reason": "bad actual category",
+      "rejected": true
+    },
+    {
+      "mutation": "truncated_certificate",
+      "reason": "truncated certificate",
+      "rejected": true
+    }
+  ],
+  "source_sha256": "c2c4e133ab2539504b77170499e75758a666695475da809cf0167f6668849333",
+  "status": "PASS",
+  "stream_verifier_sha256": "d581243551bbf20a40b6c24993b4d7abc738576350daf32a25e873bf419c5413",
+  "undamaged_prefix_rows": 20
+}
