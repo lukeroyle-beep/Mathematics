@@ -1,0 +1,65 @@
+{
+  "Lean_build_performed": false,
+  "actual_valuation_histogram": {
+    "1": 76,
+    "2": 8,
+    "3": 2
+  },
+  "arithmetic_case_agreement": 128,
+  "artifact_sha256": {
+    "INHERITED.md": "69174522aeab08c81340ef8bda26ae90ebf3e13b29880463951c25cd44697bfc",
+    "MATH_REVIEW.md": "81e6a85b01b6d4b077ed0a59719ef1bbf7b1b1c56120b71223f412b53faae8cd",
+    "README.md": "1bb6de397828922b8266f32d46fa0202eee3b979122ac41c24de0e0f8c8c5241",
+    "baseline-inputs.json": "79ae49a236003180fcb8e049fc1f72080c87e376c318c81b5287dfdf7fe1898c",
+    "independent.json": "afdf04beaa7bce74d1eda2e2f33245b637f2d93323c296c16a933826aec6dab5",
+    "independent.py": "a84d1c5bfd09fde51541d6be127e64b6e54fbcd25233ab95eb9d2cf9203d442e",
+    "primary.json": "935332324642840f079172860af3d3210c731003b5ea31fde1a441e0d0c67641",
+    "primary.py": "586e593c6574b973af66f2179a2978a63eccd9d4027978ed5db955c84c22a085",
+    "verify.py": "35b6870b22c4c37cd7b2ceeb74fc82291f3ce82693e63d3dec64336eef7bc6f9"
+  },
+  "base_main": "9d958f86fc81188de68af97909614e23a186df9f",
+  "corruption_controls_rejected": [
+    "missing_case",
+    "duplicate_exponent",
+    "false_position",
+    "wrong_failure",
+    "bad_depth",
+    "wrong_control"
+  ],
+  "counts": {
+    "CLASS_MISSES_INTERVAL": 42,
+    "SEVEN_POWER_FAIL": 86
+  },
+  "effective_cutoff_obtained": false,
+  "family_exponents": {
+    "count": 128,
+    "first": 31,
+    "last": 793,
+    "next_unchecked": 799,
+    "step": 6
+  },
+  "fresh_reproductions": [
+    {
+      "normal_and_optimized_match": true,
+      "program": "primary.py",
+      "receipt": "primary.json"
+    },
+    {
+      "normal_and_optimized_match": true,
+      "program": "independent.py",
+      "receipt": "independent.json"
+    }
+  ],
+  "full_witness_found": false,
+  "global_escape_proved": false,
+  "historical_large_searches_rerun": false,
+  "infinite_power_of_three_family": "OPEN",
+  "inherited_files_bound": 706,
+  "new_Lean_formalization": false,
+  "new_consecutive_lengths": 0,
+  "recurrence_links": 128,
+  "status": "PASS",
+  "unrestricted_five_seven": "OPEN",
+  "whole_length_endpoint_inclusive": 1000002000000,
+  "wider_A398769": "OPEN"
+}
