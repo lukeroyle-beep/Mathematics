@@ -1,0 +1,34 @@
+{
+  "Lean_build_performed": false,
+  "historical_large_searches_rerun": false,
+  "independently_written_arithmetic": true,
+  "inherited_tracked_files_unchanged": 1016,
+  "later_main_commits": [],
+  "new_Lean_formalization": false,
+  "normal_and_optimized_checkers_match": true,
+  "normal_and_optimized_verifiers_match": true,
+  "publication": "draft PR, leave merging to Luke",
+  "refreshed_main": "9d958f86fc81188de68af97909614e23a186df9f",
+  "review_record_sha256": "f18fea25da9c9fb497c4fdcee97bb75a8fc92241943a83b8b443566976b37adb",
+  "reviewed_artifact_sha256": {
+    "INHERITED.md": "69174522aeab08c81340ef8bda26ae90ebf3e13b29880463951c25cd44697bfc",
+    "MATH_REVIEW.md": "81e6a85b01b6d4b077ed0a59719ef1bbf7b1b1c56120b71223f412b53faae8cd",
+    "README.md": "1bb6de397828922b8266f32d46fa0202eee3b979122ac41c24de0e0f8c8c5241",
+    "baseline-inputs.json": "79ae49a236003180fcb8e049fc1f72080c87e376c318c81b5287dfdf7fe1898c",
+    "independent.json": "afdf04beaa7bce74d1eda2e2f33245b637f2d93323c296c16a933826aec6dab5",
+    "independent.py": "a84d1c5bfd09fde51541d6be127e64b6e54fbcd25233ab95eb9d2cf9203d442e",
+    "primary.json": "935332324642840f079172860af3d3210c731003b5ea31fde1a441e0d0c67641",
+    "primary.py": "586e593c6574b973af66f2179a2978a63eccd9d4027978ed5db955c84c22a085",
+    "verify.py": "35b6870b22c4c37cd7b2ceeb74fc82291f3ce82693e63d3dec64336eef7bc6f9"
+  },
+  "reviewed_implementation": "d7bd64fa6220c4c0ee810ce49553b80a5b6a8222",
+  "reviewers": [
+    "independent mathematical derivation and final committed-source review",
+    "independent computational evidence and committed-source review"
+  ],
+  "scoped_implementation_additions": 10,
+  "starting_main": "9d958f86fc81188de68af97909614e23a186df9f",
+  "status": "PASS",
+  "unresolved_findings": [],
+  "verification_receipt_sha256": "e48a956a76cdedbe30146d7081b7b1055dd079ab1566fda8accf9f2971d1947e"
+}
