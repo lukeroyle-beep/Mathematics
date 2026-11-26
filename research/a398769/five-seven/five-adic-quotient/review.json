@@ -1,0 +1,30 @@
+{
+  "Lean_formalization_or_build": false,
+  "base_main": "0e4dbdf9244c6b7f743d7e90ce04c91ea3d38675",
+  "date": "2026-11-26",
+  "independent_computational_review": "PASS",
+  "independent_mathematical_review": "PASS",
+  "inherited_files_unchanged_except_root_README": 1001,
+  "large_historical_searches_rerun": false,
+  "primary_literal_stream_independently_reconstructed": true,
+  "reviewed_artifacts": {
+    "../../../../README.md": "8b689f5d1b4cf06775990052fbc28d3c2eb6cb4d54bcb31a6f8d6211b56959de",
+    "OBSTRUCTION.md": "175b3cd6e5752e7fea87681bb85fb45488de2f388f52cf096037d30c0b23695e",
+    "PROOF.md": "049365be0fddb55ca1a18aa87de8f5e2f1b4c47c8bd25e552c331712fa1a5f84",
+    "README.md": "803ac13f9adbddc506cb556c973bc946efb1528780532be6eb87940118c6709f",
+    "baseline.json": "b4b8bb0d074c6a06ecdeb87a2f9415e9b1f3041fc9fb99c7d993a41a7a877fff",
+    "checks.json": "4435d9f75f4e452ac9756a67a7916ab53fb3d254e4104cd1a1891e78ec4fc029",
+    "checks.py": "67e04df865dc514c2c5ea5ecab0cab6409944eb9a660d6b48085e0163e449990",
+    "independent-checks.json": "959e04d5b4ac8722c17e3b93094dc6f46fb6ec7731d3e150b14aa7d4dbd94c75",
+    "independent_checks.py": "c868a6de841d4fcf8cc949acd16bd0e8172c40b9405e93333bb11cb55ebd285d",
+    "obstruction-checks.json": "e75c9e300c20c2ae8508b5ac4c2c04f39cefd90c9f2bfa372f9738b8e831a657",
+    "obstruction_checks.py": "0d5e372b9b7998d3500fe53096469062e7774fe81c8ac90933ba5ab4dca953fb",
+    "verify.py": "8d3133e449bf541a7b1b1ffcc94525668252f0a6de07d9893b67b5c58e4426a8"
+  },
+  "reviewed_implementation_commit": "470eae67d493ec6d29bd5aff9085080d5c637c58",
+  "reviewed_verification_sha256": "33480973fa4b41ef784ee1c8a0c71c061da6af0518e01ab9ee5daa1f30a43419",
+  "status": "PASS",
+  "temporary_corruption_rejections": 7,
+  "unresolved_findings": [],
+  "verification_normal_and_optimized_identical": true
+}
