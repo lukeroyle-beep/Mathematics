@@ -1,0 +1,165 @@
+{
+  "artifact_sha256": {
+    ".gitignore": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793",
+    "README.md": "6862864f1394c4173e02798e338d1aa924d408a87a35d09a0451cfc84fc7242f",
+    "STRUCTURE.md": "d0dd22d120058452613ca90724764cdad871e6a5894f4bb489b9e40fbd35d181",
+    "archive-audit.json": "68ec061e94341c1803f128c51c7080d51b179ab5f607bc13864d8a17244075d7",
+    "archive-audit.py": "c060de966734fda279ce2e16828943c0d4d7c0cf2d87748120d2ab79b4a2abd1",
+    "bands.py": "404266e8cd4caa515631836c70cd744906412ae11845eb1831596192d42253c3",
+    "evidence/bands.json": "458ab966d171dd231daf72e7461f1e521036a785a544fa4e3cbcdb2760c963a3",
+    "evidence/contiguous.json": "a9254f1f7ed7899f52b4547a590bdb517be657037aa4af6f4681bec54ae6984a",
+    "evidence/contiguous.tsv.gz": "c3a6fdf300f1c549c3ac2d7f0fe37c5d796f5ab0d584be8959c01580155554ff",
+    "evidence/small.tsv.gz": "855da637b0e99d0281f91a1fc2a2efcf6645f5b2237c1e3934c27933f920f646",
+    "families/README.md": "79c28fd393558c22b2434d2d454b2ee41e420583cbcf4a71de2d929f854db277",
+    "families/parent_code_review.json": "f1a64717a72ff4fdda664ea78e9b49078f7eab6233ed3a6c4b7e5dde371c4159",
+    "families/results.json": "340cde06ae60df632af49536d263344924025894d2d5b7430b6790a134492721",
+    "families/search_families.py": "7dd1ba37e6a6c1985b1d3ab8e491a2062bc027f00983ef4d8150dd4026aad7cc",
+    "families/validation.json": "6c6f0b48840545838642b6341900684644ba09ea359ea726ca2a8a4df9cfeae4",
+    "independent/DESIGN.md": "e6cdcca5ec1b329e4d74d1e4a13647ead26349cf053cf20656acb77ea18bed6a",
+    "independent/README.md": "d1ba3e7ea0af3c096781d52029a35bb6cb4eb1f41863ca0a954b46ceee7a600a",
+    "independent/bands_check.json": "88c1e650c2e774595326c7359977585796167ea2478c33ab435b7b32c48c555d",
+    "independent/claim_review.json": "8ff721d9c26988c9dfe0974a8bb6ca8e0d3f3a586d136bdfab45538db8887150",
+    "independent/contiguous_stream.json": "c0772e804362318770eb84a3db25621831c4fbf61790893307fcac96688dd85b",
+    "independent/family_depth_eight.json": "aef768302c26ec65d81d80ad1c35b061ffae0d787e0285b36dcf435fc805e2b4",
+    "independent/family_depth_eight_pairs.json": "56ccab71501b4961e10a7868597d6b3b5ad0be19a22e54c79533cb512a25cfb9",
+    "independent/mutation_controls.json": "19f4d6a5d86ff7a1e38fb6bd67ce90cee7ef3a98bd8910317fd81e202404299d",
+    "independent/mutation_controls.py": "c2c4e133ab2539504b77170499e75758a666695475da809cf0167f6668849333",
+    "independent/self_test.json": "20371835cd2b5fbb3f7c37c29e8cfee26811959e414827109269396259edad4f",
+    "independent/small_stream.json": "c31e140efb63d3d072df5f46f251037125bf76ee8235d3eba68bc6bf5fd0fd7a",
+    "independent/strongest_contiguous.json": "486ea7df5210ff3b07001e153600545d008a4978173f12ca47cf6953aeb812c1",
+    "independent/verify_bands.py": "42f0138a5289e18cebf3ac2ba58ad53bba7dd8f743cf55e08cf6acab68e90756",
+    "independent/verify_digits.py": "6269dcd65a451de1a7ce39fe32e67375fc37ecd72681cbc1378a7309d5a91894",
+    "independent/verify_stream.py": "d581243551bbf20a40b6c24993b4d7abc738576350daf32a25e873bf419c5413",
+    "review-family.json": "ff761650eb1338583b6112eb931eee6e7ad29534331b5f2607cfac4ec64c17e5",
+    "review-family.py": "2d7a8956078cf116f6a849db757086d243262114838f60cfa6c096c3826696b1",
+    "scan.cpp": "80cb80f3d4af1018cc4ee651934c4dcc5ec3cd766bc3b7cb600e64df85e8616b",
+    "scope.json": "489d0149b6e0e8d3c42ce34dc72cf098c48585f7fd7176a2e5c811c0afab95c8",
+    "summarize.py": "8e819eaf5f463aafaca821edc2979f7b95aa85ae272ebb12b299a879d9fed858"
+  },
+  "broad_all_length_E": "OPEN",
+  "coverage": {
+    "contiguous_full_subclass_interval_inclusive": [
+      1000000000001,
+      1000002000000
+    ],
+    "other_lengths_omitted": true,
+    "parity_accounts_for_even_lengths": true,
+    "sampled_bands": 1808,
+    "selected_family_lengths": 32
+  },
+  "environment": {
+    "compiler": "Apple clang 21.0.0 (clang-2100.3.34.2)",
+    "python": "3.14.4",
+    "target": "arm64-apple-darwin25.6.0"
+  },
+  "existence_above_trillion": "OPEN",
+  "fresh_runs": [
+    {
+      "all_records_independently_checked": true,
+      "arguments": [
+        1000000000001,
+        1000000
+      ],
+      "completed_odd_lengths": 1000000,
+      "program": "scan.cpp"
+    },
+    {
+      "gzip_content_matches_checked_uncompressed_stream": true,
+      "input": "evidence/contiguous.tsv.gz",
+      "normal": true,
+      "optimized": false,
+      "program": "independent/verify_stream.py",
+      "rows_checked": 1000000
+    },
+    {
+      "independent_normal_and_optimized": true,
+      "lengths": 1808,
+      "primary_normal": true,
+      "program": "bands.py and independent/verify_bands.py"
+    },
+    {
+      "complete_sum_positions": 479894,
+      "normal_t_range": [
+        0,
+        31
+      ],
+      "optimized_t_range": [
+        0,
+        1
+      ],
+      "program": "families/search_families.py"
+    },
+    {
+      "literal_checks": 4350,
+      "normal_and_optimized_byte_identical": true,
+      "program": "review-family.py",
+      "t_range": [
+        0,
+        31
+      ]
+    },
+    {
+      "literal_checks": 14700,
+      "normal_and_optimized_byte_identical": true,
+      "program": "archive-audit.py"
+    },
+    {
+      "literal_checks": 11904,
+      "normal_and_optimized_byte_identical": true,
+      "program": "independent/verify_digits.py --self-test"
+    },
+    {
+      "normal_and_optimized_byte_identical": true,
+      "program": "independent/verify_stream.py",
+      "small_odd_range": [
+        5,
+        5003
+      ]
+    },
+    {
+      "corruptions_rejected": 9,
+      "normal_and_optimized_byte_identical": true,
+      "program": "independent/mutation_controls.py"
+    },
+    {
+      "normal": true,
+      "program": "independent/verify_digits.py",
+      "standalone_pair_only_controls": "one deepest contiguous pair and three depth-eight family pairs"
+    },
+    {
+      "independently_checked": true,
+      "invalid_ranges_rejected": 3,
+      "odd_range": [
+        3999999999981,
+        3999999999999
+      ],
+      "program": "scanner resource-edge review",
+      "rows": 10
+    }
+  ],
+  "hashes_are_provenance_not_substitutes_for_arithmetic": true,
+  "main_refreshed_before_publication": "0c8a8f2dd1c8340cc6fb7c2485ad206cba72bdd7",
+  "not_run": [
+    "unavailable trillion archive",
+    "previous complete trillion-length search",
+    "previous broad E search to 1694851493",
+    "inherited ten-million searches",
+    "Lean build",
+    "full 7^(L-2) arithmetic"
+  ],
+  "preservation": {
+    "existing_checkouts": "untouched separate clone",
+    "inherited_edit": "root README navigation only",
+    "inherited_files_byte_identical_except_root_readme": 296
+  },
+  "proof_review": {
+    "claim_review": "independent/claim_review.json",
+    "code_review": "families/parent_code_review.json",
+    "family_proof_and_complete_count_review": "review-family.json",
+    "must_fix_findings": []
+  },
+  "starting_main": "0c8a8f2dd1c8340cc6fb7c2485ad206cba72bdd7",
+  "status": "PASS_FINITE_INVESTIGATION",
+  "verdict": "NO WITNESS IN THE STATED SEARCH",
+  "wider_digit_1_conjecture": "OPEN"
+}

@@ -1,4 +1,17 @@
 {
+  "binding_refresh": {
+    "changed_claim_sources_reviewed": [
+      "STRUCTURE.md"
+    ],
+    "large_computations_rerun": false,
+    "nested_three_adic_classes_freshly_compared": 31,
+    "new_material_verdict": "PASS",
+    "reasoning": [
+      "For a1<=a2, integral lengths of the specified form differ by a multiple of 3^a1. LTE gives equal ten powers modulo 3^(a1+2); integer division by nine preserves equality modulo 3^a1.",
+      "Inverting two gives the same target modulo 3^a1, and the exact order 3^(a1-2) makes exponent classes nested. This proves compatibility nesting only, not eventual lift failure.",
+      "The added independent family audit section agrees with review-family.json: 32 complete selected lengths, 479894 positions, exact depth histogram, K116..3791, and 31 adjacent nesting checks."
+    ]
+  },
   "checked_claims": [
     "gap-free one-million odd lengths and parity extension through 1000002000000",
     "million-row category and exact-depth count tables",
@@ -45,11 +58,12 @@
   "must_fix_findings": [],
   "repository_navigation_readme_sha256": "4f61d2377d29a052b49abedc0f41039ccf35ccc853a218a9f6ebcee18603f2c8",
   "review_kind": "independent final claim review",
+  "reviewed_commit_before_metadata_update": "d1859f002e44d5a2043a2b4e99a7e135dda82b8e",
   "reviewed_readme_sha256": "6862864f1394c4173e02798e338d1aa924d408a87a35d09a0451cfc84fc7242f",
   "reviewer": "/root/independent",
   "source_bytes": {
     "README.md": "6862864f1394c4173e02798e338d1aa924d408a87a35d09a0451cfc84fc7242f",
-    "STRUCTURE.md": "4a00d7e2008c3156c8e5205e0db59d5fc72ba7e60c51c8b37aab3e074c3252f0",
+    "STRUCTURE.md": "d0dd22d120058452613ca90724764cdad871e6a5894f4bb489b9e40fbd35d181",
     "archive-audit.json": "68ec061e94341c1803f128c51c7080d51b179ab5f607bc13864d8a17244075d7",
     "evidence/bands.json": "458ab966d171dd231daf72e7461f1e521036a785a544fa4e3cbcdb2760c963a3",
     "evidence/contiguous.json": "a9254f1f7ed7899f52b4547a590bdb517be657037aa4af6f4681bec54ae6984a",
