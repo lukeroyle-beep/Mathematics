@@ -1,0 +1,29 @@
+{
+  "giant_endpoint_intervals": {
+    "cases": 48,
+    "pairs": 7292,
+    "sha256": "3ff9ca52076d5d6fdadd11feb3ef6cad95ebc23b3ccc25a472c63e7bc1b7f69c",
+    "singular": 783,
+    "status": "PASS",
+    "sum_passes": 0
+  },
+  "reviewed_implementation_commit": "9eaa913f515e62667dbf706ec723043c5b0a193c",
+  "small_intervals": {
+    "cases": 234,
+    "even_endpoint_cases": 159,
+    "h_lower": 80,
+    "h_upper": 76,
+    "h_zero": 103,
+    "pair_occurrences": 7547,
+    "sha256": "9dfbac9bb43ff964cc20a5b11d932373cd3e763e8225771d873f98226ca74ecd",
+    "singletons": 97,
+    "singular49_occurrences": 59,
+    "singular7_occurrences": 788,
+    "status": "PASS"
+  },
+  "source_sha256": {
+    "independent.cpp": "01df856047ba73f5c279f8b0ca8e203c9443242f9f24a7c8d1b2ebb0e652772c",
+    "primary.cpp": "df836b0630320b9607047d3d06222eef85eeb8eab7559cd37f4d0fa6da6303c4"
+  },
+  "status": "PASS"
+}

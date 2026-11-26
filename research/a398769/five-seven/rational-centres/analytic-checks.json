@@ -1,0 +1,112 @@
+{
+  "b289_original_odd_interval": [
+    28485369059659,
+    199397583417605
+  ],
+  "bands": [
+    [
+      15,
+      102,
+      225,
+      1000002000001,
+      4069338437093
+    ],
+    [
+      16,
+      143,
+      256,
+      4069338437095,
+      28485369059657
+    ],
+    [
+      17,
+      227,
+      288,
+      28485369059659,
+      78999999999999
+    ]
+  ],
+  "controls": {
+    "negative_nearest_remainder": 29566,
+    "polynomial_identities": 60786,
+    "rounding_ties": 2626,
+    "singular_derivative": 1129
+  },
+  "new_Lean_formalization": false,
+  "reference_sha256": {
+    "explicit-length/MOVING_CENTRES.md": "59fc20a37e2c38ea8d27640541c0328e06e84d54604c4084ab9cc6692c4bddf5",
+    "explicit-length/README.md": "42a71ee3fe048ed75daceb7d37086d0a17424bbbb3caab9c4af5ba445c4796f6",
+    "explicit-length/ROUTE2.md": "1cbf089a4a5755f72345edc5ab6a212f9cb1aa47af841d49c4b537a1755b6347",
+    "uniform-bound/ANALYTIC.md": "5e646e537972b6c917b6bbb802ef7ae3931e0a4f7221b79b304788f0fded59f0",
+    "uniform-bound/SOURCES.md": "c325a230651eff628cc6ee99d8c91c74623eae61dde30b0aea735f501bd68c07"
+  },
+  "rows": [
+    {
+      "E": "158784594410271/160",
+      "H": "11055/202",
+      "K": 15,
+      "X": 1000002000001,
+      "X_minus_E": "1215725589889/160",
+      "c": 101,
+      "exp_lower_minus_rhs_floor": 6719307,
+      "exponential_terms": 91,
+      "m": "193/10"
+    },
+    {
+      "E": "2540155963277253/625",
+      "H": "5311/71",
+      "K": 16,
+      "X": 4069338437095,
+      "X_minus_E": "3180559907122/625",
+      "c": 142,
+      "exp_lower_minus_rhs_floor": 10162533,
+      "exponential_terms": 91,
+      "m": "501/25"
+    },
+    {
+      "E": "2823530343103119/100",
+      "H": "26279/226",
+      "K": 17,
+      "X": 28485369059659,
+      "X_minus_E": "25006562862781/100",
+      "c": 226,
+      "exp_lower_minus_rhs_floor": 51155821,
+      "exponential_terms": 91,
+      "m": "211/10"
+    },
+    {
+      "E": "140273768647911",
+      "H": "165",
+      "K": 18,
+      "X": 199397583417607,
+      "X_minus_E": "59123814769696",
+      "c": 324,
+      "exp_lower_minus_rhs_floor": 3859414249,
+      "exponential_terms": 91,
+      "m": "23"
+    },
+    {
+      "E": "2039527168504899/8",
+      "H": "367/2",
+      "K": 19,
+      "X": 1395783083923243,
+      "X_minus_E": "9126737502881045/8",
+      "c": 361,
+      "exp_lower_minus_rhs_floor": 35006980786,
+      "exponential_terms": 91,
+      "m": "25"
+    },
+    {
+      "E": "392432417886237/5",
+      "H": "295/2",
+      "K": 17,
+      "X": 79000000000000,
+      "X_minus_E": "2567582113763/5",
+      "c": 289,
+      "exp_lower_minus_rhs_floor": 18224872,
+      "exponential_terms": 91,
+      "m": "108/5"
+    }
+  ],
+  "status": "PASS"
+}
