@@ -1,6 +1,16 @@
 # Mathematics
 Repository for mathematical conjectures. Solutions are verified in Lean.
 
+The [power-of-three family audit](research/a398769/five-seven/power-three/README.md)
+proves that among every three successive admissible pure-power digit sums
+above the inherited endpoint, at least one length has no actual full-sum
+position surviving depth nine.
+Independent computations also exclude all 256 specified family lengths
+with exponents 31 through 1561 in steps of six. The individual infinite
+family remains open, with no effective cutoff; consecutive coverage stays
+1–1,000,002,000,000. These are ordinary proofs and exact computations,
+with no new Lean formalization or build.
+
 The [five-adic quotient audit](research/a398769/five-seven/five-adic-quotient/README.md)
 excludes at every length all full `{5,7}` witnesses whose exact quotient's
 seven-free part satisfies `q0<=L^35`, without a position restriction.

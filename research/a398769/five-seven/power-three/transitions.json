@@ -1,0 +1,842 @@
+{
+  "depth_nine_has_no_projected_starts": true,
+  "increment_domain": [
+    0,
+    728
+  ],
+  "inherited_inputs_sha256": {
+    "effective/QUALITATIVE.md": "879e6e0ed6ae8585b8f2c0b814d8995206a40ce27190dc9028c99f837eba2ca0",
+    "fixed-depth/PROOF.md": "270d03d76a083c98e168a9f96db7507563eb5576e3ce2e13cfd8701a15b0bee8",
+    "sum-position-escape/MATH_REVIEW.md": "81e6a85b01b6d4b077ed0a59719ef1bbf7b1b1c56120b71223f412b53faae8cd",
+    "sum-position-escape/README.md": "1bb6de397828922b8266f32d46fa0202eee3b979122ac41c24de0e0f8c8c5241"
+  },
+  "levels": [
+    {
+      "all_edges_sha256": "32d0b138035bc2415a2702eeb80754c81cdbf6eb8c9a65766589683c43d1ba88",
+      "edge_count": 105,
+      "increment_count": 105,
+      "m": 5,
+      "period": 343,
+      "starts": [
+        {
+          "first_increments": [
+            532
+          ],
+          "second_increments": [
+            385
+          ],
+          "u": 4
+        },
+        {
+          "first_increments": [
+            385
+          ],
+          "second_increments": [
+            581
+          ],
+          "u": 5
+        },
+        {
+          "first_increments": [
+            679
+          ],
+          "second_increments": [
+            189
+          ],
+          "u": 38
+        },
+        {
+          "first_increments": [
+            189
+          ],
+          "second_increments": [
+            42
+          ],
+          "u": 39
+        },
+        {
+          "first_increments": [
+            42
+          ],
+          "second_increments": [
+            238
+          ],
+          "u": 40
+        },
+        {
+          "first_increments": [
+            532
+          ],
+          "second_increments": [
+            385
+          ],
+          "u": 53
+        },
+        {
+          "first_increments": [
+            385
+          ],
+          "second_increments": [
+            581
+          ],
+          "u": 54
+        },
+        {
+          "first_increments": [
+            679
+          ],
+          "second_increments": [
+            189
+          ],
+          "u": 87
+        },
+        {
+          "first_increments": [
+            189
+          ],
+          "second_increments": [
+            42
+          ],
+          "u": 88
+        },
+        {
+          "first_increments": [
+            42
+          ],
+          "second_increments": [
+            238
+          ],
+          "u": 89
+        },
+        {
+          "first_increments": [
+            532
+          ],
+          "second_increments": [
+            385
+          ],
+          "u": 102
+        },
+        {
+          "first_increments": [
+            385
+          ],
+          "second_increments": [
+            581
+          ],
+          "u": 103
+        },
+        {
+          "first_increments": [
+            679
+          ],
+          "second_increments": [
+            189
+          ],
+          "u": 136
+        },
+        {
+          "first_increments": [
+            189
+          ],
+          "second_increments": [
+            42
+          ],
+          "u": 137
+        },
+        {
+          "first_increments": [
+            42
+          ],
+          "second_increments": [
+            238
+          ],
+          "u": 138
+        },
+        {
+          "first_increments": [
+            532
+          ],
+          "second_increments": [
+            385
+          ],
+          "u": 151
+        },
+        {
+          "first_increments": [
+            385
+          ],
+          "second_increments": [
+            581
+          ],
+          "u": 152
+        },
+        {
+          "first_increments": [
+            679
+          ],
+          "second_increments": [
+            189
+          ],
+          "u": 185
+        },
+        {
+          "first_increments": [
+            189
+          ],
+          "second_increments": [
+            42
+          ],
+          "u": 186
+        },
+        {
+          "first_increments": [
+            42
+          ],
+          "second_increments": [
+            238
+          ],
+          "u": 187
+        },
+        {
+          "first_increments": [
+            532
+          ],
+          "second_increments": [
+            385
+          ],
+          "u": 200
+        },
+        {
+          "first_increments": [
+            385
+          ],
+          "second_increments": [
+            581
+          ],
+          "u": 201
+        },
+        {
+          "first_increments": [
+            679
+          ],
+          "second_increments": [
+            189
+          ],
+          "u": 234
+        },
+        {
+          "first_increments": [
+            189
+          ],
+          "second_increments": [
+            42
+          ],
+          "u": 235
+        },
+        {
+          "first_increments": [
+            42
+          ],
+          "second_increments": [
+            238
+          ],
+          "u": 236
+        },
+        {
+          "first_increments": [
+            532
+          ],
+          "second_increments": [
+            385
+          ],
+          "u": 249
+        },
+        {
+          "first_increments": [
+            385
+          ],
+          "second_increments": [
+            581
+          ],
+          "u": 250
+        },
+        {
+          "first_increments": [
+            679
+          ],
+          "second_increments": [
+            189
+          ],
+          "u": 283
+        },
+        {
+          "first_increments": [
+            189
+          ],
+          "second_increments": [
+            42
+          ],
+          "u": 284
+        },
+        {
+          "first_increments": [
+            42
+          ],
+          "second_increments": [
+            238
+          ],
+          "u": 285
+        },
+        {
+          "first_increments": [
+            532
+          ],
+          "second_increments": [
+            385
+          ],
+          "u": 298
+        },
+        {
+          "first_increments": [
+            385
+          ],
+          "second_increments": [
+            581
+          ],
+          "u": 299
+        },
+        {
+          "first_increments": [
+            679
+          ],
+          "second_increments": [
+            189
+          ],
+          "u": 332
+        },
+        {
+          "first_increments": [
+            189
+          ],
+          "second_increments": [
+            42
+          ],
+          "u": 333
+        },
+        {
+          "first_increments": [
+            42
+          ],
+          "second_increments": [
+            238
+          ],
+          "u": 334
+        }
+      ],
+      "two_transition_start_count": 35,
+      "visited_starts": 343
+    },
+    {
+      "all_edges_sha256": "f6988eb861f793f5bbc9dcd367ae0a7ee3b8df102b60161c12d6fcbce715ce72",
+      "edge_count": 105,
+      "increment_count": 105,
+      "m": 6,
+      "period": 2401,
+      "starts": [
+        {
+          "first_increments": [
+            189
+          ],
+          "second_increments": [
+            42
+          ],
+          "u": 235
+        },
+        {
+          "first_increments": [
+            42
+          ],
+          "second_increments": [
+            238
+          ],
+          "u": 236
+        },
+        {
+          "first_increments": [
+            189
+          ],
+          "second_increments": [
+            42
+          ],
+          "u": 578
+        },
+        {
+          "first_increments": [
+            42
+          ],
+          "second_increments": [
+            238
+          ],
+          "u": 579
+        },
+        {
+          "first_increments": [
+            189
+          ],
+          "second_increments": [
+            42
+          ],
+          "u": 921
+        },
+        {
+          "first_increments": [
+            42
+          ],
+          "second_increments": [
+            238
+          ],
+          "u": 922
+        },
+        {
+          "first_increments": [
+            189
+          ],
+          "second_increments": [
+            42
+          ],
+          "u": 1264
+        },
+        {
+          "first_increments": [
+            42
+          ],
+          "second_increments": [
+            238
+          ],
+          "u": 1265
+        },
+        {
+          "first_increments": [
+            189
+          ],
+          "second_increments": [
+            42
+          ],
+          "u": 1607
+        },
+        {
+          "first_increments": [
+            42
+          ],
+          "second_increments": [
+            238
+          ],
+          "u": 1608
+        },
+        {
+          "first_increments": [
+            189
+          ],
+          "second_increments": [
+            42
+          ],
+          "u": 1950
+        },
+        {
+          "first_increments": [
+            42
+          ],
+          "second_increments": [
+            238
+          ],
+          "u": 1951
+        },
+        {
+          "first_increments": [
+            189
+          ],
+          "second_increments": [
+            42
+          ],
+          "u": 2293
+        },
+        {
+          "first_increments": [
+            42
+          ],
+          "second_increments": [
+            238
+          ],
+          "u": 2294
+        }
+      ],
+      "two_transition_start_count": 14,
+      "visited_starts": 2401
+    },
+    {
+      "all_edges_sha256": "a0de55bb1a6ffc82f40e1741eb8fb9c9709ed09b6cbb2df78c29490b354dc19f",
+      "edge_count": 105,
+      "increment_count": 105,
+      "m": 7,
+      "period": 16807,
+      "starts": [
+        {
+          "first_increments": [
+            189
+          ],
+          "second_increments": [
+            42
+          ],
+          "u": 578
+        },
+        {
+          "first_increments": [
+            42
+          ],
+          "second_increments": [
+            238
+          ],
+          "u": 579
+        },
+        {
+          "first_increments": [
+            189
+          ],
+          "second_increments": [
+            42
+          ],
+          "u": 2979
+        },
+        {
+          "first_increments": [
+            42
+          ],
+          "second_increments": [
+            238
+          ],
+          "u": 2980
+        },
+        {
+          "first_increments": [
+            189
+          ],
+          "second_increments": [
+            42
+          ],
+          "u": 5380
+        },
+        {
+          "first_increments": [
+            42
+          ],
+          "second_increments": [
+            238
+          ],
+          "u": 5381
+        },
+        {
+          "first_increments": [
+            189
+          ],
+          "second_increments": [
+            42
+          ],
+          "u": 7781
+        },
+        {
+          "first_increments": [
+            42
+          ],
+          "second_increments": [
+            238
+          ],
+          "u": 7782
+        },
+        {
+          "first_increments": [
+            189
+          ],
+          "second_increments": [
+            42
+          ],
+          "u": 10182
+        },
+        {
+          "first_increments": [
+            42
+          ],
+          "second_increments": [
+            238
+          ],
+          "u": 10183
+        },
+        {
+          "first_increments": [
+            189
+          ],
+          "second_increments": [
+            42
+          ],
+          "u": 12583
+        },
+        {
+          "first_increments": [
+            42
+          ],
+          "second_increments": [
+            238
+          ],
+          "u": 12584
+        },
+        {
+          "first_increments": [
+            189
+          ],
+          "second_increments": [
+            42
+          ],
+          "u": 14984
+        },
+        {
+          "first_increments": [
+            42
+          ],
+          "second_increments": [
+            238
+          ],
+          "u": 14985
+        }
+      ],
+      "two_transition_start_count": 14,
+      "visited_starts": 16807
+    },
+    {
+      "all_edges_sha256": "fcf3f60660e2a5d9f6115082e6f5bef214801a2b0bad71f0358203b5389b5985",
+      "edge_count": 105,
+      "increment_count": 105,
+      "m": 8,
+      "period": 117649,
+      "starts": [
+        {
+          "first_increments": [
+            189
+          ],
+          "second_increments": [
+            42
+          ],
+          "u": 14984
+        },
+        {
+          "first_increments": [
+            189
+          ],
+          "second_increments": [
+            42
+          ],
+          "u": 31791
+        },
+        {
+          "first_increments": [
+            189
+          ],
+          "second_increments": [
+            42
+          ],
+          "u": 48598
+        },
+        {
+          "first_increments": [
+            189
+          ],
+          "second_increments": [
+            42
+          ],
+          "u": 65405
+        },
+        {
+          "first_increments": [
+            189
+          ],
+          "second_increments": [
+            42
+          ],
+          "u": 82212
+        },
+        {
+          "first_increments": [
+            189
+          ],
+          "second_increments": [
+            42
+          ],
+          "u": 99019
+        },
+        {
+          "first_increments": [
+            189
+          ],
+          "second_increments": [
+            42
+          ],
+          "u": 115826
+        }
+      ],
+      "two_transition_start_count": 7,
+      "visited_starts": 117649
+    },
+    {
+      "all_edges_sha256": "0628693b16b162ad3bd1827250e2bc3c4388584ab3ef4f9bd39c77b56c70c4c2",
+      "edge_count": 105,
+      "increment_count": 105,
+      "m": 9,
+      "period": 823543,
+      "starts": [],
+      "two_transition_start_count": 0,
+      "visited_starts": 823543
+    }
+  ],
+  "low_depth_prefilter": [
+    [
+      42,
+      91,
+      140,
+      189,
+      238,
+      287,
+      336,
+      385,
+      434,
+      483,
+      532,
+      581,
+      630,
+      679,
+      728
+    ],
+    [
+      42,
+      91,
+      140,
+      189,
+      238,
+      287,
+      336,
+      385,
+      434,
+      483,
+      532,
+      581,
+      630,
+      679,
+      728
+    ],
+    [
+      42,
+      91,
+      140,
+      189,
+      238,
+      287,
+      336,
+      385,
+      434,
+      483,
+      532,
+      581,
+      630,
+      679,
+      728
+    ],
+    [
+      42,
+      91,
+      140,
+      189,
+      238,
+      287,
+      336,
+      385,
+      434,
+      483,
+      532,
+      581,
+      630,
+      679,
+      728
+    ],
+    [
+      42,
+      91,
+      140,
+      189,
+      238,
+      287,
+      336,
+      385,
+      434,
+      483,
+      532,
+      581,
+      630,
+      679,
+      728
+    ],
+    [
+      42,
+      91,
+      140,
+      189,
+      238,
+      287,
+      336,
+      385,
+      434,
+      483,
+      532,
+      581,
+      630,
+      679,
+      728
+    ],
+    [
+      42,
+      91,
+      140,
+      189,
+      238,
+      287,
+      336,
+      385,
+      434,
+      483,
+      532,
+      581,
+      630,
+      679,
+      728
+    ]
+  ],
+  "method": "direct enumeration of every u in each full period; complete depth-three increment prefilter",
+  "positive_control": {
+    "G": [
+      5422712,
+      3001965
+    ],
+    "U": [
+      4532643,
+      1079760,
+      627098
+    ],
+    "first_increment": 189,
+    "first_residual": 0,
+    "m": 8,
+    "second_increment": 42,
+    "second_residual": 0,
+    "u": 14984
+  },
+  "schema": 1,
+  "scope": "projected necessary transitions; no actual sum-position or single-member exclusion inferred",
+  "source_sha256": "2e0d52a1f8ce8904dcddfb791a536f42ed4c59a7609b3c0bdeb97b5b6485a21f",
+  "wraparound_included": true
+}
