@@ -1,0 +1,32 @@
+{
+  "compiled_original_decimal_comparisons": [
+    {
+      "comparisons": 16,
+      "source": "primary.cpp"
+    },
+    {
+      "comparisons": 16,
+      "source": "independent.cpp"
+    }
+  ],
+  "depth22_positive": [
+    2016691727,
+    428102277
+  ],
+  "direct_pair_occurrences": 15716,
+  "direct_partitions": 68,
+  "offset_endpoints_and_zero": [
+    -16,
+    0,
+    16
+  ],
+  "original_PS_positive": 135,
+  "positive_sum_occurrences": 28,
+  "singular_positive_occurrences": 228,
+  "source_sha256": {
+    "independent.cpp": "01df856047ba73f5c279f8b0ca8e203c9443242f9f24a7c8d1b2ebb0e652772c",
+    "primary.cpp": "df836b0630320b9607047d3d06222eef85eeb8eab7559cd37f4d0fa6da6303c4"
+  },
+  "status": "PASS",
+  "stream_sha256": "bc9f7960bf4a3df21f532e246d9ebd217e272d128e61745d0ff86d906e7b27c1"
+}

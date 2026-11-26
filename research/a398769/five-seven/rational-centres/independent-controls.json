@@ -1,0 +1,16 @@
+{
+  "deep_control": [
+    1,
+    -288,
+    40932783702951,
+    141635929767
+  ],
+  "direct_pair_occurrences": 14058,
+  "direct_partitions": 60,
+  "direct_stream_sha256": "cea74180785cb30746a2376513085be9bdf07e76abcec7722e02d0a4c0d7d290",
+  "lost_nine_negative_occurrences": 4,
+  "positive_sum_occurrences": 25,
+  "singular_positive_occurrences": 192,
+  "source_sha256": "01df856047ba73f5c279f8b0ca8e203c9443242f9f24a7c8d1b2ebb0e652772c",
+  "status": "PASS"
+}

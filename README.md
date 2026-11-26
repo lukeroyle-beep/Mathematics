@@ -1,6 +1,15 @@
 # Mathematics
 Repository for mathematical conjectures. Solutions are verified in Lean.
 
+The [rational-centre band exhaustion](research/a398769/five-seven/rational-centres/README.md)
+excludes at all lengths every residual two-five full witness admitting a
+reduced `0<a<b<=K(L)^2` with `|bi-aL|<=K(L)^2`. Two fresh exhaustive
+enumerations agree on all 300 remaining denominator partitions and the
+original b=289 control, with zero depth-22 survivors. The whole-length
+endpoint remains 1,000,002,000,000; the unrestricted `{5,7}` subclass and
+wider digit-1 conjecture remain open. This is an ordinary proof and exact
+computation, with no new Lean theorem.
+
 The [explicit length-bound investigation](research/a398769/five-seven/explicit-length/README.md)
 finds no global cutoff, but proves explicit bounds for moving rational-centre
 and seven-free-quotient subfamilies. One subfamily bound lies below the

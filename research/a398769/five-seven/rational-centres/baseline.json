@@ -1,0 +1,27 @@
+{
+  "audit_zip": {
+    "available": false,
+    "expected_sha256": "26e0d6914adfa64213df918fee935aa0ac935592917c723930547758c940e0d0",
+    "name": "A398769-Reduced-Centres-Audit.zip",
+    "treatment": "Reconstructed from explicit prompt and merged sources; no unmerged evidence credited."
+  },
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)",
+  "inherited_whole_length_endpoint": 1000002000000,
+  "integration_is_ancestor": true,
+  "isolated_branch": "research/a398769-rational-centre-bands",
+  "later_commits_at_start": [],
+  "new_Lean_formalization": false,
+  "pr24_final_merge": "81dce203b1eecc61ec9fda36bc812095e2c89724",
+  "pr24_integration": "d56df00ef26e24b0e3f1c7e2200b9885adf949e6",
+  "python": "Python 3.14.4",
+  "reference_sha256": {
+    "explicit-length/MOVING_CENTRES.md": "59fc20a37e2c38ea8d27640541c0328e06e84d54604c4084ab9cc6692c4bddf5",
+    "explicit-length/README.md": "42a71ee3fe048ed75daceb7d37086d0a17424bbbb3caab9c4af5ba445c4796f6",
+    "explicit-length/ROUTE2.md": "1cbf089a4a5755f72345edc5ab6a212f9cb1aa47af841d49c4b537a1755b6347",
+    "prime-sum/verification.json": "a4bab1ad0a47b709d0fb7338c0ce35b3b8c6052e8e5f0e5ef98447de023596b2",
+    "trillion-witness/verification.json": "fad5fe4fb49b7a707b1b50058bb2cb9bf173d9433ba6f703bda08b32ea19a38c",
+    "uniform-bound/ANALYTIC.md": "5e646e537972b6c917b6bbb802ef7ae3931e0a4f7221b79b304788f0fded59f0",
+    "uniform-bound/SOURCES.md": "c325a230651eff628cc6ee99d8c91c74623eae61dde30b0aea735f501bd68c07"
+  },
+  "starting_main": "81dce203b1eecc61ec9fda36bc812095e2c89724"
+}
