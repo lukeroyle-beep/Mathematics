@@ -1,6 +1,16 @@
 # Mathematics
 Repository for mathematical conjectures. Solutions are verified in Lean.
 
+The [adjacent power-of-three pair theorem](research/a398769/five-seven/power-three-pair/README.md)
+proves that for every `a=31+6u`, `u>=0`, the members at a and a+6 cannot
+both contain a full witness. An effective eliminant bound handles a>=100;
+individual certificates cover every smaller start. The next individual,
+a=1567, also fails, with exact valuation one and original-word residue
+`n mod49=7`. Isolated witnesses remain unexcluded in general; the individual
+family, unrestricted `{5,7}` subclass and wider digit-1 conjecture remain
+open. Consecutive coverage stays 1–1,000,002,000,000 inclusive. These are
+ordinary proofs and exact computations, with no new Lean verification.
+
 The [power-of-three family audit](research/a398769/five-seven/power-three/README.md)
 proves that among every three successive admissible pure-power digit sums
 above the inherited endpoint, at least one length has no actual full-sum
