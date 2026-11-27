@@ -1,0 +1,78 @@
+{
+  "Lean_build_performed": false,
+  "actual_candidates": 172,
+  "artifact_sha256": {
+    "INDIVIDUAL.md": "1e73b779f962373edbc07b4c0bc6c05c0a9b0d4ad896f98d4c3ca5e97c56d8ce",
+    "README.md": "dfffca7b5577a5f70d20f195a39442245579b044a74ca5f3e17eb9323767a123",
+    "THREE_LENGTH.md": "e327a74848e21a5c338fa7bf8a90e001fb60f96d1a4149d4d1c7ecb9cd5c5ee1",
+    "baseline.json": "80e6883e15738dc68a4b2b9a7d31e7d8fb6f8bd1722324373b0a23367004aab8",
+    "individuals-independent.json": "0369324190c7fc2dc6a7df390a4c6d62783e56673c1940e5a122a2dd41ccc48c",
+    "individuals.json": "2f4a35adfad0d5285402a31e6c65c71d35266a77cb97badef156ee72ed16ad71",
+    "individuals.py": "9884e8915013ac6c42e3c9d1c3e814098ff7d93e27dae27ef256fe5ad03c2b4d",
+    "individuals_independent.py": "3da9eee1f95bb64dda17d4e79633c78010171db12ba9cd5e68cd08cd5baa52d2",
+    "transitions-independent.json": "a280edc48a62917f237fe2985112135e9bf2552659b787a752cd91ab18b87d54",
+    "transitions.json": "3ab66f251ded35f91982db18804eeeb35e82ce2c7dcbf4809c01d9923d139821",
+    "transitions.py": "2e0d52a1f8ce8904dcddfb791a536f42ed4c59a7609b3c0bdeb97b5b6485a21f",
+    "transitions_independent.py": "33c96ee6ea5c88124b92d173d708b8b81e515c2652961588c45c8e482f309568",
+    "verify.py": "ebc8360f102935eb7005b233fe58989f3b0d2ce963ccb0cbc9bb54d43500e50c"
+  },
+  "base_main": "0a47180b889b392c2323bc1614a473af51f38d78",
+  "class_misses": 84,
+  "corruption_controls_rejected": [
+    "missing_member",
+    "false_actual",
+    "wrong_nine",
+    "wrong_residue",
+    "wrong_histogram",
+    "missing_projected_control",
+    "wrong_period",
+    "excluded_increment",
+    "false_depth_nine"
+  ],
+  "effective_cutoff": null,
+  "exact_valuation_histogram": {
+    "1": 150,
+    "2": 18,
+    "3": 3,
+    "4": 1
+  },
+  "full_witness_found": false,
+  "historical_large_enumerations_rerun": false,
+  "individual_exponents": {
+    "count": 256,
+    "first": 31,
+    "last": 1561,
+    "next": 1567,
+    "step": 6
+  },
+  "individual_family": "OPEN",
+  "inherited_files_bound": 1028,
+  "new_Lean_formalization": false,
+  "new_consecutive_lengths": 0,
+  "positive_control": {
+    "j": 42,
+    "k": 189,
+    "m": 8,
+    "u": 14984
+  },
+  "projected_periods": [
+    343,
+    2401,
+    16807,
+    117649,
+    823543
+  ],
+  "projected_start_counts": [
+    35,
+    14,
+    14,
+    7,
+    0
+  ],
+  "root_README_sha256": "de59a0c49b04a48f6611f90d7d9b7c875d8f23ac7efbe1dde6496e5c262d0cb9",
+  "status": "PASS",
+  "three_length_theorem_proved": true,
+  "unrestricted_five_seven": "OPEN",
+  "whole_length_endpoint_inclusive": 1000002000000,
+  "wider_digit_one": "OPEN"
+}
