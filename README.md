@@ -1,6 +1,16 @@
 # Mathematics
 Repository for mathematical conjectures. Solutions are verified in Lean.
 
+The [one-step power-of-three carry audit](research/a398769/five-seven/power-three-carry/README.md)
+proves an exact individual increment test and the stronger necessary
+condition `q^61>L^20`, a corollary of PR #30's bound and finite certificates.
+The moving-position family remains open: no universal carry deadline is
+proved for the remaining positions, including gcd one with failing neighbours.
+Two reconstruction methods exclude a=1585,1591,1597, bringing the named
+family count to 262 through a=1597, with a=1603 next. Consecutive coverage
+remains 1–1,000,002,000,000 inclusive; the unrestricted `{5,7}` subclass
+and wider digit-1 assertion remain open. No new Lean verification was performed.
+
 The [isolated power-of-three audit](research/a398769/five-seven/power-three-individual/README.md)
 proves that every full witness in the S=3^a family must have
 `q^4>L`, where `q=L/gcd(L,s_a)`, regardless of either neighbour.

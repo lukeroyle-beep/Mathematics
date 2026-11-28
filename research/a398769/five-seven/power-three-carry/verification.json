@@ -1,0 +1,30 @@
+{
+  "Lean_verification_performed": false,
+  "artifact_sha256": {
+    "COROLLARY.md": "7c817365605dc82311ccd9befe0ca09280ff83d1d8c37b4fcb735b688a68cbeb",
+    "EXACT_CERTIFICATES.md": "b0c69d72476bb5d27b3c4fb97dcc24e5f624842d9108a13400ca927f7bbedc8c",
+    "MOVING_BOUND.md": "b0cf0b95ef35ac0619d8e2ceb67644f262e08035f5666523bf6960dbc95b5a91",
+    "ONE_STEP.md": "f29d06108f6ffb4ed760ff580d1894cf371edc8f390fd68b9ea34e7aeea5837c",
+    "README.md": "ee3fb13616384e6695859ccef03d57bf925961ad7ee3326ed11fcb957de2b467",
+    "SOURCES.md": "b93511e222261763b1603c66dc980fe06090224bc0bd7fef10652d21c97ebafc",
+    "certificates.json": "68c5aecbd071f38ff96286f7fbbc7e4ccb831d4ec51ae568ad1932b789dbdaa8",
+    "certificates.py": "7270b5906076cff40439a80a23b4b899162cff38023c0fe38e0f7c4c112d6f03",
+    "corollary-checks.json": "fe70e7a5aaf2730977c5acb876f0d456a96402867b651e934083f46abd4881dd",
+    "corollary_checks.py": "171be802977f19a1fcc8e18f464ebedd32a2d6ebaa00d253de5d087d4cccdd43",
+    "one-step-checks.json": "d6bf07b6ce5f2b343ef2304f2b97db65d8f5a85cd7ce72703f036e50d6040c01",
+    "one_step_checks.py": "5b5835093ce801216a44aba7dec63b7014ee1a5e64f28877be3d5ba7ab7641c8",
+    "verify.py": "ae2723af65ee0cde178f4582378ad695903b14445822b72642f4ebc0bbe5882b"
+  },
+  "base_main": "61a6fdfd7f4093b77be36ed0a55fbd3ebf798b7c",
+  "inherited_exception": "additive root README entry only",
+  "inherited_tracked_files": 1087,
+  "last_family_exponent": 1597,
+  "moving_position_verdict": "OPEN",
+  "named_family_count": 262,
+  "next_family_exponent": 1603,
+  "rejected_corruptions": 9,
+  "root_readme_sha256": "04970f312ba92d182b9d6055ecca0bfcaf8c3c9a7ab153f136ca7c9fb97d214d",
+  "schema": 1,
+  "status": "PASS",
+  "whole_length_endpoint_inclusive": 1000002000000
+}
