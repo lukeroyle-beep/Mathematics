@@ -1,6 +1,16 @@
 # Mathematics
 Repository for mathematical conjectures. Solutions are verified in Lean.
 
+The [isolated power-of-three audit](research/a398769/five-seven/power-three-individual/README.md)
+proves that every full witness in the S=3^a family must have
+`q^4>L`, where `q=L/gcd(L,s_a)`, regardless of either neighbour.
+The unique fixed-position index classes do not yet force the moving ternary
+position to escape. Independent decimal checks exclude a=1573 and a=1579;
+259 named family lengths are now excluded through a=1579, with a=1585 next.
+The remaining individual family and both wider conjectures remain open.
+Consecutive coverage stays 1–1,000,002,000,000 inclusive; no new Lean
+verification was performed.
+
 The [adjacent power-of-three pair theorem](research/a398769/five-seven/power-three-pair/README.md)
 proves that for every `a=31+6u`, `u>=0`, the members at a and a+6 cannot
 both contain a full witness. An effective eliminant bound handles a>=100;

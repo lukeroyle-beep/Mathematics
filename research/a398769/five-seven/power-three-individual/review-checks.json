@@ -1,0 +1,264 @@
+{
+  "Lean_verification_performed": false,
+  "base_main": "a9edeb0a96bd56d55f3c96767f5154e69cb8ceda",
+  "builder_context": "/root",
+  "common_factor_theorem": "separate independent mathematical review",
+  "corruption_controls_rejected": [
+    "missing_new_member",
+    "false_range",
+    "lost_nine",
+    "false_residue",
+    "missing_small_exponent",
+    "false_cutoff",
+    "wrong_digit",
+    "missing_permutation",
+    "false_depth_four_control",
+    "coordinated_zero_residue",
+    "coordinated_false_range"
+  ],
+  "implementation_sha256": {
+    "README.md": "5989a262093f4401cc3ae8df0b01538f371d978fd0d9f72707b160082bf150b8",
+    "research/a398769/five-seven/power-three-individual/COMMON_FACTOR.md": "37749cc0fed948368b3f4b8465ee9fe32527ee8df4ec1a07832f5ffb26332c33",
+    "research/a398769/five-seven/power-three-individual/INDIVIDUAL.md": "22270ceccccefc77205535cb81c8360053dd46d1f244ea9a33bb0d4defa4dbe7",
+    "research/a398769/five-seven/power-three-individual/MOVING_POSITION.md": "1548856b0370fa18f6e3c5a502a5aaa19dacb30647d6f9e74589be7704676c38",
+    "research/a398769/five-seven/power-three-individual/README.md": "f6025c9fde84deaed8fcdd0434e1a66c98482f7311c1c6bb2ab86439e5d03522",
+    "research/a398769/five-seven/power-three-individual/SOURCES.md": "cb995ef4108630b3214387db26f441b338e4c02e06aa285035b0b477ad6b0ed6",
+    "research/a398769/five-seven/power-three-individual/baseline.json": "639f4906768ccbda13f8145b800f8e93ed70d60904b92244da96788b5b751960",
+    "research/a398769/five-seven/power-three-individual/independent_decimal.json": "8a601cf0162b14e414f0995e1c8f061ed0f0e24f92e021979404e8df1039ce9a",
+    "research/a398769/five-seven/power-three-individual/independent_decimal.py": "55cabc30274aa749b33a4302ea49e7f9f0cd4a9db7c8f9de6b46e21b86645597",
+    "research/a398769/five-seven/power-three-individual/index_lift.json": "99ee00d98a82035e4a9a2fe842c37577ffaa9565a5aabf33aac05d310d82e27c",
+    "research/a398769/five-seven/power-three-individual/index_lift.py": "72c42208ada1d44a534d13e0f5dbced81b9a11ad4d2a8bc7eeb5d48e32c4160c",
+    "research/a398769/five-seven/power-three-individual/math-checks.json": "30099a0d032f0c69c120cc7108bbc704e02ac0541d0c378bb25a0caee9d930ba",
+    "research/a398769/five-seven/power-three-individual/math_checks.py": "e0018109471f3a6f6dcce7c49e832458059552537b0995013f0e3b2098072c51",
+    "research/a398769/five-seven/power-three-individual/root_log.json": "8a47a5d5aa8530ef8e1cd53e13b96dbc457b6a9f0a680c0fef6fe707567d623a",
+    "research/a398769/five-seven/power-three-individual/root_log.py": "ef361039f4da1cc242270fcca1919e0b3874f53610f9b413794cb3bacd7b667e",
+    "research/a398769/five-seven/power-three-individual/verification.json": "c245f87aac65ca115eed95fc1d7386089840c8618698cb08e432c48a06cd0856",
+    "research/a398769/five-seven/power-three-individual/verify.py": "5d2c50f415ec43981f549dfa6e0084a647f694a0e7f7233ba7cc03c3bc7e7a7c"
+  },
+  "independent_depth_six_permutations": [
+    {
+      "depth": 6,
+      "indices": 2401,
+      "root": 1530,
+      "s": 39
+    },
+    {
+      "depth": 6,
+      "indices": 2401,
+      "root": 954,
+      "s": 81
+    },
+    {
+      "depth": 6,
+      "indices": 2401,
+      "root": 2380,
+      "s": 123
+    },
+    {
+      "depth": 6,
+      "indices": 2401,
+      "root": 1839,
+      "s": 165
+    },
+    {
+      "depth": 6,
+      "indices": 2401,
+      "root": 1193,
+      "s": 207
+    },
+    {
+      "depth": 6,
+      "indices": 2401,
+      "root": 932,
+      "s": 249
+    },
+    {
+      "depth": 6,
+      "indices": 2401,
+      "root": 174,
+      "s": 291
+    }
+  ],
+  "independent_repunit_rows": [
+    {
+      "a": 25,
+      "actual": true,
+      "g": 1,
+      "n_mod_25S": 0,
+      "original_residues": [
+        0,
+        0,
+        294
+      ],
+      "t": 2
+    },
+    {
+      "a": 31,
+      "actual": true,
+      "g": 1,
+      "n_mod_25S": 0,
+      "original_residues": [
+        0,
+        35
+      ],
+      "t": 1
+    },
+    {
+      "a": 37,
+      "actual": true,
+      "g": 1,
+      "n_mod_25S": 0,
+      "original_residues": [
+        0,
+        35
+      ],
+      "t": 1
+    },
+    {
+      "a": 43,
+      "actual": false
+    },
+    {
+      "a": 49,
+      "actual": true,
+      "g": 1,
+      "n_mod_25S": 0,
+      "original_residues": [
+        0,
+        21
+      ],
+      "t": 1
+    },
+    {
+      "a": 55,
+      "actual": true,
+      "g": 1,
+      "n_mod_25S": 0,
+      "original_residues": [
+        0,
+        14
+      ],
+      "t": 1
+    },
+    {
+      "a": 61,
+      "actual": false
+    },
+    {
+      "a": 67,
+      "actual": false
+    },
+    {
+      "a": 73,
+      "actual": true,
+      "g": 1,
+      "n_mod_25S": 0,
+      "original_residues": [
+        0,
+        42
+      ],
+      "t": 1
+    },
+    {
+      "a": 79,
+      "actual": true,
+      "g": 1,
+      "n_mod_25S": 0,
+      "original_residues": [
+        0,
+        35
+      ],
+      "t": 1
+    },
+    {
+      "a": 85,
+      "actual": true,
+      "g": 1,
+      "n_mod_25S": 0,
+      "original_residues": [
+        0,
+        21
+      ],
+      "t": 1
+    },
+    {
+      "a": 91,
+      "actual": true,
+      "g": 1,
+      "n_mod_25S": 0,
+      "original_residues": [
+        0,
+        42
+      ],
+      "t": 1
+    },
+    {
+      "a": 97,
+      "actual": true,
+      "g": 1,
+      "n_mod_25S": 0,
+      "original_residues": [
+        0,
+        0,
+        0,
+        2058
+      ],
+      "t": 3
+    },
+    {
+      "a": 1231,
+      "actual": true,
+      "g": 1,
+      "n_mod_25S": 0,
+      "original_residues": [
+        0,
+        0,
+        0,
+        0,
+        14406
+      ],
+      "t": 4
+    },
+    {
+      "a": 1567,
+      "actual": true,
+      "g": 1,
+      "n_mod_25S": 0,
+      "original_residues": [
+        0,
+        7
+      ],
+      "t": 1
+    },
+    {
+      "a": 1573,
+      "actual": false
+    },
+    {
+      "a": 1579,
+      "actual": true,
+      "g": 1,
+      "n_mod_25S": 0,
+      "original_residues": [
+        0,
+        14
+      ],
+      "t": 1
+    }
+  ],
+  "individual_family": "OPEN",
+  "named_excluded_family_lengths": 259,
+  "next_individual_exponent": 1585,
+  "review_only_sha256": {
+    "COMPUTATIONAL_REVIEW.md": "04070184cb2af305e98c97d9db7201bbccbff1b1cb90703920c7adef40f0343f",
+    "MATH_REVIEW.md": "54a2856fe8466467f93f2b42603ce10de97e658f68e5a94c9d09ad143dc9cc8c",
+    "review_check.py": "40469f0e3022ca230c6910b8622a8d894fe7b3b4718d4b9ac3b1f22e9ff2efe1"
+  },
+  "reviewed_implementation_commit": "561cd96effccc9362255ac6c766445fafaec3145",
+  "reviewer_context": "/root/final_computational_review",
+  "schema": "a398769-individual-final-review-v1",
+  "status": "PASS",
+  "unrestricted_five_seven": "OPEN",
+  "whole_length_endpoint_inclusive": 1000002000000,
+  "wider_digit_one": "OPEN"
+}
