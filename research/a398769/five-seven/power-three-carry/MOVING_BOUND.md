@@ -180,8 +180,8 @@ divide `18*10^s+25=7*10^L mod7^m` by the unit 18 and use
 its root exponent is `3 mod6`. Its congruence with the ternary class
 modulo `d=3^(a-2)` is compatible modulo their gcd three, since
 `kappa=0 mod3`. The generalized Chinese remainder theorem therefore
-has an integer solution modulo `2d*7^(m-1)`. Such a solution usually
-lies outside `[3,L)`; that is why the actual least representative,
+has an integer solution modulo `2d*7^(m-1)`. Such a solution may
+lie outside `[3,L)`; that is why the actual least representative,
 not mere solvability of both congruences, matters. This observation
 does not show that the actual representative survives, nor disprove
 the possibility of a future effective bound.
